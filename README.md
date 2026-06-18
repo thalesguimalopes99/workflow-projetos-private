@@ -8,6 +8,7 @@ sem symlink, sem caminho fixo de máquina, sem instalar nada global.
 
 - [Claude Code](https://claude.com/claude-code) instalado (`npm i -g @anthropic-ai/claude-code` ou app desktop).
 - `git`.
+- (Opcional) [`git-lfs`](https://git-lfs.com) — só pra baixar 6 PNGs de teste do skill `hyperframes`. Sem ele tudo funciona; esses assets vêm como ponteiro.
 - (Opcional) Node.js — só se for usar o `remotion-video/`.
 
 ## Como usar (qualquer SO)
