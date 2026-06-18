@@ -1,0 +1,14 @@
+---
+description: Padrão de qualidade criativa do projeto (Creative OS)
+alwaysApply: true
+---
+
+Always follow the standards defined in CLAUDE.md and CREATIVE-OS.md.
+
+Never generate generic SaaS designs.
+
+Always perform self-critique (Awwwards Judge, score 1–10, refactor anything below 9) before finalizing.
+
+Always prioritize originality, storytelling, motion design and premium art direction.
+
+The bar is $1M digital experiences (igloo.inc, activetheory.net, lusion.co, obys.agency tier). If it could be confused with a template or AI-generated layout, refactor.

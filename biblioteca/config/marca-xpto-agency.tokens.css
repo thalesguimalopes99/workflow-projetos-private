@@ -1,0 +1,339 @@
+/* ============================================================
+   XPTO AGENCY — DESIGN TOKENS
+   Sistema de 3 camadas: primitive → semantic → component
+   Modo escuro como BASE. Tema claro derivado por override.
+   Estratégia: Mago + Sábio · "Padrão mundial. Em dias."
+   Regra-mãe: ousado na ideia, contido na execução (restraint = sinal de preço).
+   v1.0 · 2026-06-03
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   CAMADA 1 — PRIMITIVE (valores crus, sem significado de uso)
+   Nunca usar diretamente em componentes. Só referência interna.
+   ------------------------------------------------------------ */
+:root {
+  /* — Tinta / Ink (escala fria-neutra, base do dark) — */
+  --xpto-ink-950: #0A0B0D;  /* quase-preto azulado: fundo-mãe */
+  --xpto-ink-900: #101218;
+  --xpto-ink-850: #16181F;
+  --xpto-ink-800: #1C1F27;  /* superfícies elevadas */
+  --xpto-ink-700: #262A34;  /* bordas/hairlines no dark */
+  --xpto-ink-600: #353A47;
+  --xpto-ink-500: #4B5160;
+  --xpto-ink-400: #6B7280;  /* texto terciário */
+  --xpto-ink-300: #9AA1AE;  /* texto secundário no dark */
+  --xpto-ink-200: #C4C9D2;
+  --xpto-ink-100: #E5E8EC;
+  --xpto-ink-050: #F4F5F7;
+
+  /* — Bone / Off-white editorial (papel, nunca branco puro) — */
+  --xpto-bone-100: #F7F6F2;  /* "papel": fundo do tema claro */
+  --xpto-bone-200: #EDEBE4;
+  --xpto-bone-300: #DCD9CF;
+
+  /* — Latão / Brass (acento único — luxo editorial, não dourado óbvio) — */
+  --xpto-brass-700: #8A6A2F;
+  --xpto-brass-500: #B08D4A;  /* acento-mãe: latão fosco */
+  --xpto-brass-400: #C7A463;
+  --xpto-brass-300: #D9BD86;
+  --xpto-brass-100: #ECE0C8;
+
+  /* — Sinais funcionais (dessaturados p/ não quebrar o restraint) — */
+  --xpto-signal-positive: #5E8A6A;  /* verde-sálvia, sóbrio */
+  --xpto-signal-caution:  #B8893E;  /* âmbar próximo do latão */
+  --xpto-signal-critical: #A8504A;  /* terracota, não vermelho-alarme */
+  --xpto-signal-info:     #5E7C8A;  /* azul-ardósia */
+
+  --xpto-pure-white: #FFFFFF;
+  --xpto-pure-black: #000000;
+
+  /* — Tipografia primitiva — */
+  --xpto-font-display: "Fraunces", "Times New Roman", Georgia, serif;
+  --xpto-font-sans: "Geist", "Inter", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --xpto-font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Escala de peso */
+  --xpto-weight-light: 300;
+  --xpto-weight-regular: 400;
+  --xpto-weight-medium: 500;
+  --xpto-weight-semibold: 600;
+  --xpto-weight-black: 900;  /* só display, momento de ousadia */
+
+  /* Escala tipográfica — razão ~1.25 (major third), ancorada em 16px */
+  --xpto-size-3xs: 0.694rem;  /* 11.1px — overline/legenda */
+  --xpto-size-2xs: 0.8rem;    /* 12.8px */
+  --xpto-size-xs:  0.875rem;  /* 14px */
+  --xpto-size-sm:  1rem;      /* 16px — corpo base */
+  --xpto-size-md:  1.25rem;   /* 20px */
+  --xpto-size-lg:  1.563rem;  /* 25px */
+  --xpto-size-xl:  1.953rem;  /* 31px */
+  --xpto-size-2xl: 2.441rem;  /* 39px */
+  --xpto-size-3xl: 3.052rem;  /* 49px */
+  --xpto-size-4xl: 3.815rem;  /* 61px */
+  --xpto-size-5xl: 4.768rem;  /* 76px — display hero */
+  --xpto-size-6xl: 6.5rem;    /* 104px — manchete editorial */
+
+  /* Altura de linha */
+  --xpto-leading-none: 1;
+  --xpto-leading-tight: 1.08;   /* display */
+  --xpto-leading-snug: 1.25;
+  --xpto-leading-normal: 1.55;  /* corpo */
+  --xpto-leading-relaxed: 1.7;
+
+  /* Tracking / letter-spacing */
+  --xpto-tracking-tight: -0.03em;   /* display grande */
+  --xpto-tracking-snug: -0.01em;
+  --xpto-tracking-normal: 0;
+  --xpto-tracking-wide: 0.08em;
+  --xpto-tracking-overline: 0.22em; /* overlines em caixa-alta */
+
+  /* — Espaçamento — base 4px, ritmo 8px (grid de 8) — */
+  --xpto-space-0: 0;
+  --xpto-space-1: 0.25rem;  /* 4 */
+  --xpto-space-2: 0.5rem;   /* 8 */
+  --xpto-space-3: 0.75rem;  /* 12 */
+  --xpto-space-4: 1rem;     /* 16 */
+  --xpto-space-5: 1.5rem;   /* 24 */
+  --xpto-space-6: 2rem;     /* 32 */
+  --xpto-space-7: 3rem;     /* 48 */
+  --xpto-space-8: 4rem;     /* 64 */
+  --xpto-space-9: 6rem;     /* 96 */
+  --xpto-space-10: 8rem;    /* 128 */
+  --xpto-space-11: 12rem;   /* 192 — respiro editorial */
+
+  /* — Raios — quase-reto (precisão, não SaaS bolha) — */
+  --xpto-radius-none: 0;
+  --xpto-radius-xs: 2px;
+  --xpto-radius-sm: 4px;
+  --xpto-radius-md: 6px;
+  --xpto-radius-lg: 10px;
+  --xpto-radius-pill: 999px;  /* só para tags/selo, uso restrito */
+
+  /* — Bordas / hairline — */
+  --xpto-border-width-hair: 1px;
+  --xpto-border-width-thick: 1.5px;
+
+  /* — Sombras — quase ausentes no dark; luz, não drop-shadow pesado — */
+  --xpto-shadow-none: none;
+  --xpto-shadow-sm: 0 1px 2px rgba(0,0,0,0.40);
+  --xpto-shadow-md: 0 8px 24px -8px rgba(0,0,0,0.55);
+  --xpto-shadow-glow-brass: 0 0 0 1px rgba(176,141,74,0.25), 0 0 32px -8px rgba(176,141,74,0.30);
+
+  /* — Motion — preciso, "operário de luxo": entra rápido, assenta lento — */
+  --xpto-ease-standard: cubic-bezier(0.22, 1, 0.36, 1);   /* easeOutExpo-ish */
+  --xpto-ease-entrance: cubic-bezier(0.16, 1, 0.3, 1);
+  --xpto-ease-exit: cubic-bezier(0.7, 0, 0.84, 0);
+  --xpto-duration-instant: 80ms;
+  --xpto-duration-fast: 180ms;
+  --xpto-duration-base: 320ms;
+  --xpto-duration-slow: 560ms;
+  --xpto-duration-reveal: 900ms;  /* revelações editoriais awwwards */
+
+  /* — Layout — */
+  --xpto-container-max: 1280px;
+  --xpto-container-prose: 68ch;
+  --xpto-grid-columns: 12;
+  --xpto-grid-gutter: var(--xpto-space-5);
+  --xpto-grid-margin: var(--xpto-space-7);
+}
+
+/* ------------------------------------------------------------
+   CAMADA 2 — SEMANTIC (significado de uso) · BASE = DARK
+   Componentes e skills consomem ESTES tokens, nunca os primitivos.
+   ------------------------------------------------------------ */
+:root {
+  /* Superfícies */
+  --color-bg: var(--xpto-ink-950);            /* fundo-mãe */
+  --color-bg-subtle: var(--xpto-ink-900);
+  --color-surface: var(--xpto-ink-850);
+  --color-surface-raised: var(--xpto-ink-800);
+  --color-surface-inverse: var(--xpto-bone-100);
+
+  /* Texto */
+  --color-text: var(--xpto-ink-050);          /* títulos/corpo principal */
+  --color-text-secondary: var(--xpto-ink-300);
+  --color-text-muted: var(--xpto-ink-400);
+  --color-text-inverse: var(--xpto-ink-950);
+  --color-text-on-accent: var(--xpto-ink-950);
+
+  /* Acento (latão — uso cirúrgico, < 10% da tela) */
+  --color-accent: var(--xpto-brass-500);
+  --color-accent-hover: var(--xpto-brass-400);
+  --color-accent-pressed: var(--xpto-brass-700);
+  --color-accent-subtle: rgba(176,141,74,0.12);
+
+  /* Bordas / linhas */
+  --color-border: var(--xpto-ink-700);
+  --color-border-strong: var(--xpto-ink-600);
+  --color-border-accent: var(--xpto-brass-500);
+  --color-hairline: rgba(229,232,236,0.10);   /* régua editorial sutil */
+
+  /* Foco / seleção */
+  --color-focus-ring: var(--xpto-brass-400);
+  --color-selection-bg: rgba(176,141,74,0.28);
+
+  /* Sinais */
+  --color-positive: var(--xpto-signal-positive);
+  --color-caution: var(--xpto-signal-caution);
+  --color-critical: var(--xpto-signal-critical);
+  --color-info: var(--xpto-signal-info);
+
+  /* Tipografia semântica */
+  --font-display: var(--xpto-font-display);
+  --font-body: var(--xpto-font-sans);
+  --font-ui: var(--xpto-font-sans);
+  --font-code: var(--xpto-font-mono);
+
+  --text-overline: var(--xpto-size-3xs);
+  --text-caption: var(--xpto-size-xs);
+  --text-body: var(--xpto-size-sm);
+  --text-body-lg: var(--xpto-size-md);
+  --text-h6: var(--xpto-size-md);
+  --text-h5: var(--xpto-size-lg);
+  --text-h4: var(--xpto-size-xl);
+  --text-h3: var(--xpto-size-2xl);
+  --text-h2: var(--xpto-size-3xl);
+  --text-h1: var(--xpto-size-4xl);
+  --text-display: var(--xpto-size-5xl);
+  --text-hero: var(--xpto-size-6xl);
+
+  --leading-display: var(--xpto-leading-tight);
+  --leading-heading: var(--xpto-leading-snug);
+  --leading-body: var(--xpto-leading-normal);
+
+  --tracking-display: var(--xpto-tracking-tight);
+  --tracking-overline: var(--xpto-tracking-overline);
+
+  /* Espaço semântico */
+  --space-inset-xs: var(--xpto-space-2);
+  --space-inset-sm: var(--xpto-space-4);
+  --space-inset-md: var(--xpto-space-5);
+  --space-inset-lg: var(--xpto-space-7);
+  --space-stack-sm: var(--xpto-space-3);
+  --space-stack-md: var(--xpto-space-5);
+  --space-stack-lg: var(--xpto-space-7);
+  --space-section: var(--xpto-space-10);
+
+  /* Raio semântico */
+  --radius-control: var(--xpto-radius-sm);   /* botões, inputs */
+  --radius-card: var(--xpto-radius-lg);
+  --radius-tag: var(--xpto-radius-pill);
+
+  /* Sombra/elevação semântica */
+  --elevation-flat: var(--xpto-shadow-none);
+  --elevation-raised: var(--xpto-shadow-md);
+  --elevation-accent: var(--xpto-shadow-glow-brass);
+
+  /* Motion semântico */
+  --motion-ease: var(--xpto-ease-standard);
+  --motion-fast: var(--xpto-duration-fast);
+  --motion-base: var(--xpto-duration-base);
+  --motion-reveal: var(--xpto-duration-reveal);
+}
+
+/* — Override TEMA CLARO (editorial "papel"): aplicar em [data-theme="light"] — */
+[data-theme="light"] {
+  --color-bg: var(--xpto-bone-100);
+  --color-bg-subtle: var(--xpto-bone-200);
+  --color-surface: var(--xpto-pure-white);
+  --color-surface-raised: var(--xpto-pure-white);
+  --color-surface-inverse: var(--xpto-ink-950);
+
+  --color-text: var(--xpto-ink-950);
+  --color-text-secondary: var(--xpto-ink-600);
+  --color-text-muted: var(--xpto-ink-500);
+  --color-text-inverse: var(--xpto-bone-100);
+
+  --color-accent: var(--xpto-brass-700);      /* latão mais escuro p/ contraste em papel */
+  --color-accent-hover: var(--xpto-brass-500);
+  --color-accent-pressed: var(--xpto-brass-700);
+  --color-accent-subtle: rgba(138,106,47,0.10);
+
+  --color-border: var(--xpto-bone-300);
+  --color-border-strong: var(--xpto-ink-300);
+  --color-hairline: rgba(16,18,24,0.12);
+}
+
+/* ------------------------------------------------------------
+   CAMADA 3 — COMPONENT (contratos por componente)
+   ------------------------------------------------------------ */
+:root {
+  /* Botão primário (CTA — latão sobre tinta) */
+  --button-primary-bg: var(--color-accent);
+  --button-primary-text: var(--color-text-on-accent);
+  --button-primary-bg-hover: var(--color-accent-hover);
+  --button-primary-bg-active: var(--color-accent-pressed);
+  --button-primary-radius: var(--radius-control);
+  --button-primary-padding-y: var(--xpto-space-3);
+  --button-primary-padding-x: var(--xpto-space-5);
+  --button-primary-font: var(--font-ui);
+  --button-primary-weight: var(--xpto-weight-medium);
+  --button-primary-tracking: var(--xpto-tracking-snug);
+
+  /* Botão secundário (contorno hairline — restraint) */
+  --button-secondary-bg: transparent;
+  --button-secondary-text: var(--color-text);
+  --button-secondary-border: var(--color-border-strong);
+  --button-secondary-bg-hover: var(--color-accent-subtle);
+  --button-secondary-border-hover: var(--color-border-accent);
+
+  /* Card / superfície */
+  --card-bg: var(--color-surface);
+  --card-border: var(--color-border);
+  --card-radius: var(--radius-card);
+  --card-padding: var(--space-inset-lg);
+  --card-shadow: var(--elevation-raised);
+
+  /* Input */
+  --input-bg: var(--color-bg-subtle);
+  --input-text: var(--color-text);
+  --input-placeholder: var(--color-text-muted);
+  --input-border: var(--color-border);
+  --input-border-focus: var(--color-focus-ring);
+  --input-radius: var(--radius-control);
+  --input-padding-y: var(--xpto-space-3);
+  --input-padding-x: var(--xpto-space-4);
+
+  /* Overline / kicker (assinatura editorial da marca) */
+  --overline-color: var(--color-accent);
+  --overline-size: var(--text-overline);
+  --overline-tracking: var(--tracking-overline);
+  --overline-transform: uppercase;
+  --overline-font: var(--font-ui);
+  --overline-weight: var(--xpto-weight-semibold);
+
+  /* Heading display (Fraunces) */
+  --heading-font: var(--font-display);
+  --heading-color: var(--color-text);
+  --heading-tracking: var(--tracking-display);
+  --heading-leading: var(--leading-display);
+  --heading-weight: var(--xpto-weight-semibold);
+
+  /* Corpo */
+  --body-font: var(--font-body);
+  --body-color: var(--color-text-secondary);
+  --body-size: var(--text-body);
+  --body-leading: var(--leading-body);
+
+  /* Régua / divisor editorial */
+  --rule-color: var(--color-hairline);
+  --rule-width: var(--xpto-border-width-hair);
+
+  /* Selo "Squad-Grade" / tag */
+  --tag-bg: var(--color-accent-subtle);
+  --tag-text: var(--color-accent);
+  --tag-border: var(--color-border-accent);
+  --tag-radius: var(--radius-tag);
+  --tag-font: var(--font-code);
+  --tag-tracking: var(--xpto-tracking-wide);
+
+  /* Link */
+  --link-color: var(--color-text);
+  --link-underline: var(--color-accent);
+  --link-color-hover: var(--color-accent);
+
+  /* Foco global (acessibilidade) */
+  --focus-ring-color: var(--color-focus-ring);
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+}
