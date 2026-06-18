@@ -1,0 +1,19 @@
+# Normaliza fim de linha entre Windows/Mac/Linux.
+# Texto = LF no repositório; cada SO checa out no formato nativo.
+* text=auto eol=lf
+
+# Binários: nunca alterar.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.mp4 binary
+*.mov binary
+*.zip binary

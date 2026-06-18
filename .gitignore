@@ -2,3 +2,9 @@
 node_modules/
 out/
 *.log
+
+# Config pessoal por-máquina (paths/permissões locais). Não distribuir.
+.claude/settings.local.json
+
+# Temporários de verificação
+.tmp/
