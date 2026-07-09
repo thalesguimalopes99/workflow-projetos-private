@@ -62,6 +62,23 @@ copiar_bloco "$BIB/skills" "$DESTINO/.claude/skills"   "skills"
 copiar_bloco "$BIB/squads" "$DESTINO/.claude/commands" "squads (commands)"
 copiar_bloco "$BIB/agents" "$DESTINO/.claude/agents"   "agents"
 
+# --- 3b) Hook anti-segredo ---------------------------------------------------
+# Projetos semeados herdam skills que leem .env. Leve o guarda-corpo junto.
+HOOK="$RAIZ/.githooks/pre-commit"
+if [ -f "$HOOK" ]; then
+  mkdir -p "$DESTINO/.githooks"
+  cp -a "$HOOK" "$DESTINO/.githooks/pre-commit"
+  chmod +x "$DESTINO/.githooks/pre-commit"
+  echo "  [copiar] hook pre-commit -> $DESTINO/.githooks/"
+  if git -C "$DESTINO" rev-parse --git-dir >/dev/null 2>&1; then
+    git -C "$DESTINO" config core.hooksPath .githooks
+    echo "  [ativar] core.hooksPath=.githooks no repo destino"
+  else
+    echo "  [nota] destino nao e repo git; apos 'git init' rode:"
+    echo "         git config core.hooksPath .githooks"
+  fi
+fi
+
 # --- 4) Resumo ---------------------------------------------------------------
 echo ""
 echo "==> Concluido. Resumo:"

@@ -16,9 +16,13 @@ sem symlink, sem caminho fixo de máquina, sem instalar nada global.
 ```bash
 git clone https://github.com/<seu-usuario>/workflow-projetos.git
 cd workflow-projetos
-cp .env.example .env        # preencha as chaves se for usar (ex.: GAMMA_API_KEY)
-claude                      # abre o Claude Code nesta pasta
+git config core.hooksPath .githooks   # ativa o hook que barra commit de segredo
+cp .env.example .env                  # preencha as chaves se for usar (ex.: GAMMA_API_KEY)
+claude                                # abre o Claude Code nesta pasta
 ```
+
+O `git config core.hooksPath` é **por clone** — o git não ativa hooks sozinho ao clonar.
+Sem esse comando, nada impede um `git add -A` de commitar seu `.env`.
 
 Dentro do Claude Code, rode:
 
@@ -52,7 +56,13 @@ Veja `INVENTARIO.md` pra lista detalhada.
 ## Variáveis de ambiente
 
 Copie `.env.example` → `.env`. Só `GAMMA_API_KEY` (geração de slides) é usada, e é **opcional**.
-O `.env` real **nunca** vai pro git.
+O `.env` real **nunca** vai pro git: está no `.gitignore` e o hook `pre-commit` o barra.
+
+> `.gitignore` não protege arquivo **já rastreado**. Se algum segredo entrar no índice,
+> `git rm --cached <arquivo>` — só ignorar depois não adianta.
+
+Reforço opcional: instale [`gitleaks`](https://github.com/gitleaks/gitleaks) e o hook passa
+a usá-lo no lugar da varredura por regex, que é mais rasa.
 
 ## Semear `.claude/` em OUTRO projeto
 
