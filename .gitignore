@@ -25,5 +25,27 @@ node_modules/
 out/
 *.log
 
+# Lixo de SO / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# Bytecode Python
+__pycache__/
+*.pyc
+
+# Output de build
+.next/
+dist/
+build/
+.cache/
+coverage/
+
+# Projetos independentes hospedados nesta pasta (têm repo/destino próprio).
+# Esta biblioteca é só de skills/squads/agents — output de projeto não entra aqui.
+aiox/
+ai-website-cloner/
+
 # Temporários de verificação
 .tmp/
