@@ -1,0 +1,23 @@
+# Config do gitleaks para este repo. Estende o ruleset padrão e adiciona
+# allowlist para achados conhecidos e benignos, para o hook não gritar lobo.
+#
+# Rodar scan completo:   gitleaks git --config .gitleaks.toml .
+# O hook pre-commit usa este arquivo automaticamente (fica na raiz do repo).
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Falsos positivos e chaves públicas por design (upstream, não são segredos nossos)"
+regexes = [
+  # PostHog project API key (prefixo phc_): chave de client-side, write-only,
+  # embutida em browser de propósito. Pertence ao autor do skill hyperframes.
+  '''phc_zjjbX0PnWxERXrMHhkEJWj9A9BhGVLRReICgsfTMmpx''',
+  # Nome de variável de teste do hyperframes — heurística de entropia disparou.
+  '''scrubLatencyP95IsolatedMs''',
+]
+# Caminhos de skills de terceiros: telemetria/testes que embutem as strings acima.
+paths = [
+  '''.*/hyperframes/packages/cli/src/telemetry/client\.ts''',
+  '''.*/hyperframes/packages/player/tests/perf/scenarios/04-scrub\.ts''',
+]

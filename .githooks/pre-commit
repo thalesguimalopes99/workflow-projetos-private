@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Bloqueia commit de segredos. Usa gitleaks se instalado; senão, varredura por regex.
+# Bloqueia commit de segredos. Defesa em camadas: regex de formatos conhecidos
+# SEMPRE + gitleaks (largura) quando instalado. Ambos precisam passar.
 # Ativar neste clone:  git config core.hooksPath .githooks
 set -uo pipefail
 
@@ -21,20 +22,25 @@ while IFS= read -r f; do
   esac
 done <<< "$staged"
 
-# 2) Conteúdo staged com formato de credencial.
+# 2) Regex de formatos conhecidos — SEMPRE roda (não depende do gitleaks).
+#    Pega exatamente os prefixos que nos importam, sem heurística de entropia
+#    (por isso não ignora sequências óbvias como o gitleaks faz).
+pattern='sk-[A-Za-z0-9_-]{16,}|fc-[a-f0-9]{24,}|ghp_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9_]{50,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
+hits=$(git diff --cached -U0 \
+         | grep -E '^\+' | grep -vE '^\+\+\+' \
+         | grep -EI "$pattern" \
+         | grep -viE 'example|placeholder|your_|xxxx|<[a-z_-]+>' || true)
+if [ -n "$hits" ]; then
+  red "BLOQUEADO: credencial detectada no diff staged:"
+  printf '%s\n' "$hits" | sed -E 's/(.{0,14}).*/\1…[redigido]/' >&2
+  fail=1
+fi
+
+# 3) gitleaks — cobertura ampla (700+ regras), quando instalado.
+#    'git --staged' (>=8.19) substitui o antigo 'protect --staged'.
+#    Usa .gitleaks.toml da raiz automaticamente (allowlist de falsos positivos).
 if command -v gitleaks >/dev/null 2>&1; then
-  gitleaks protect --staged --redact --no-banner || fail=1
-else
-  pattern='sk-[A-Za-z0-9_-]{16,}|fc-[a-f0-9]{24,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{50,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
-  hits=$(git diff --cached -U0 \
-           | grep -E '^\+' | grep -vE '^\+\+\+' \
-           | grep -EI "$pattern" \
-           | grep -viE 'example|placeholder|your_|xxxx|<[a-z_-]+>' || true)
-  if [ -n "$hits" ]; then
-    red "BLOQUEADO: credencial detectada no diff staged:"
-    printf '%s\n' "$hits" | sed -E 's/(.{0,14}).*/\1…[redigido]/' >&2
-    fail=1
-  fi
+  gitleaks git --staged --redact --no-banner . || fail=1
 fi
 
 if [ "$fail" -ne 0 ]; then
