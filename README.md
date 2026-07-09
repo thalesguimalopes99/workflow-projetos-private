@@ -61,8 +61,17 @@ O `.env` real **nunca** vai pro git: está no `.gitignore` e o hook `pre-commit`
 > `.gitignore` não protege arquivo **já rastreado**. Se algum segredo entrar no índice,
 > `git rm --cached <arquivo>` — só ignorar depois não adianta.
 
-Reforço opcional: instale [`gitleaks`](https://github.com/gitleaks/gitleaks) e o hook passa
-a usá-lo no lugar da varredura por regex, que é mais rasa.
+O hook usa **defesa em camadas**: uma regex de formatos conhecidos (roda sempre) mais o
+[`gitleaks`](https://github.com/gitleaks/gitleaks) (700+ regras) quando instalado — ambos
+precisam passar. Instalar o gitleaks amplia a cobertura:
+
+```bash
+winget install Gitleaks.Gitleaks   # Windows
+brew install gitleaks              # macOS
+```
+
+A config fica em `.gitleaks.toml` (allowlist de falsos positivos conhecidos). Scan manual do
+histórico inteiro: `gitleaks git .`
 
 ## Semear `.claude/` em OUTRO projeto
 
