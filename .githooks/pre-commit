@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Bloqueia commit de segredos. Usa gitleaks se instalado; senão, varredura por regex.
+# Ativar neste clone:  git config core.hooksPath .githooks
+set -uo pipefail
+
+fail=0
+red() { printf '\033[31m%s\033[0m\n' "$*" >&2; }
+
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$staged" ] && exit 0
+
+# 1) Caminhos que nunca devem ser commitados (independente do conteúdo).
+while IFS= read -r f; do
+  [ -z "$f" ] && continue
+  case "$f" in
+    .env|.env.local|.env.*.local|.env.development|.env.production| \
+    *.pem|*.key|*.p12|*.pfx|.claude.json|.mcp.json|.claude/settings.local.json)
+      red "BLOQUEADO: $f nunca deve ser commitado."
+      fail=1
+      ;;
+  esac
+done <<< "$staged"
+
+# 2) Conteúdo staged com formato de credencial.
+if command -v gitleaks >/dev/null 2>&1; then
+  gitleaks protect --staged --redact --no-banner || fail=1
+else
+  pattern='sk-[A-Za-z0-9_-]{16,}|fc-[a-f0-9]{24,}|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{50,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|AIza[0-9A-Za-z_-]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
+  hits=$(git diff --cached -U0 \
+           | grep -E '^\+' | grep -vE '^\+\+\+' \
+           | grep -EI "$pattern" \
+           | grep -viE 'example|placeholder|your_|xxxx|<[a-z_-]+>' || true)
+  if [ -n "$hits" ]; then
+    red "BLOQUEADO: credencial detectada no diff staged:"
+    printf '%s\n' "$hits" | sed -E 's/(.{0,14}).*/\1…[redigido]/' >&2
+    fail=1
+  fi
+fi
+
+if [ "$fail" -ne 0 ]; then
+  red ""
+  red "Commit abortado. Remova o segredo do stage (git restore --staged <arquivo>)."
+  red "Se for falso positivo: git commit --no-verify"
+  exit 1
+fi
+exit 0
