@@ -44,8 +44,9 @@ coverage/
 
 # Projetos independentes hospedados nesta pasta (têm repo/destino próprio).
 # Esta biblioteca é só de skills/squads/agents — output de projeto não entra aqui.
-aiox/
-ai-website-cloner/
+# Ancorados na raiz (/) — senão `aiox/` casaria o squad versionado AIOX (core.ignorecase=true).
+/aiox/
+/ai-website-cloner/
 
 # Temporários de verificação
 .tmp/
