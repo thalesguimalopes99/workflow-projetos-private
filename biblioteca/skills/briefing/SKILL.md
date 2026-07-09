@@ -104,7 +104,7 @@ Detecte onde você está rodando:
 
 Em ambos: termine oferecendo o próximo passo ("quer que eu já comece a produzir a partir desse brief, ou prefere revisar primeiro?").
 
-**Handoff pro especialista certo.** Quando o brief for de domínio (marca, copy, tráfego, narrativa, design, etc.) e o Thales topar produzir, consulte `ROUTING-MAP.md` na raiz da biblioteca (`C:\Users\Thales Lopes\Desktop\No Code Start-up\Workflow Projetos\ROUTING-MAP.md`) pra escolher **qual especialista DENTRO do squad** e **a sequência multi-agent** (ex: rebrand = kapferer→ries→neumeier→miller→wheeler→naming). Leia o mapa só na hora do handoff (lazy); invoque o agent nativo via `Skill` → `<squad-slug>:agents:<id>`. Não despeje as personas pesadas de `squad-prompts/` no contexto.
+**Handoff pro especialista certo.** Quando o brief for de domínio (marca, copy, tráfego, narrativa, design, etc.) e o Thales topar produzir, consulte `ROUTING-MAP.md` na raiz da biblioteca pra escolher **qual especialista DENTRO do squad** e **a sequência multi-agent** (ex: rebrand = kapferer→ries→neumeier→miller→wheeler→naming). Leia o mapa só na hora do handoff (lazy); invoque o agent nativo via `Skill` → `<squad-slug>:agents:<id>`. Não despeje as personas pesadas de `squad-prompts/` no contexto.
 
 ## Anti-padrões
 
