@@ -1,0 +1,26 @@
+{
+  "skill_name": "instagram-creative-director",
+  "evals": [
+    {
+      "id": 0,
+      "name": "carrossel-nutri-menopausa",
+      "prompt": "Preciso de um carrossel pro Instagram da minha cliente, uma nutricionista que atende mulheres na menopausa. O objetivo é gerar agendamento de consulta. A marca é séria mas acolhedora, paleta em tons terrosos. Me entrega o conceito, a copy de cada card e a direção de arte.",
+      "expected_output": "Estudo/insight estratégico (dor real da menopausa na voz da cliente), big idea, copy card-a-card com hook no card 1 e CTA de agendamento no último, direção de arte premium e específica (não template), rationale. Em PT-BR.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "story-lancamento-mentoria",
+      "prompt": "Cria um story 9:16 pra anunciar a abertura de vagas da minha mentoria de tráfego pago. Quero CTA de swipe pro link. Pode ser a peça já ou o brief detalhado, do seu jeito.",
+      "expected_output": "Story vertical 9:16 respeitando safe zones, hook forte, copy de urgência/escassez de lançamento, CTA de swipe específico, direção de arte. Em PT-BR.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "feed-coffee-en",
+      "prompt": "I run a specialty coffee roastery in Lisbon. I need an Instagram feed post announcing our new single-origin Ethiopian beans (washed Yirgacheffe, floral and citrus notes). Make it feel premium, not like every other coffee shop post.",
+      "expected_output": "Feed post (1:1 or 4:5), market-aware angle that differentiates from generic coffee posts, premium copy with hook + CTA, art direction that avoids template/stock look, rationale. In English (detected from brief).",
+      "files": []
+    }
+  ]
+}
