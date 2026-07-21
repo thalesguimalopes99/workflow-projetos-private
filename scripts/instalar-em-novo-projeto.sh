@@ -79,6 +79,18 @@ if [ -f "$HOOK" ]; then
   fi
 fi
 
+# --- 3c) Hook de roteamento (regra "melhor ferramenta") ----------------------
+# Leva settings.json (registra o hook) + o payload .claude/hooks/.
+if [ -f "$RAIZ/.claude/settings.json" ]; then
+  cp -a "$RAIZ/.claude/settings.json" "$DESTINO/.claude/settings.json"
+  echo "  [copiar] settings.json (hook UserPromptSubmit) -> $DESTINO/.claude/"
+fi
+if [ -d "$RAIZ/.claude/hooks" ]; then
+  mkdir -p "$DESTINO/.claude/hooks"
+  cp -a "$RAIZ/.claude/hooks/." "$DESTINO/.claude/hooks/"
+  echo "  [copiar] .claude/hooks/ -> $DESTINO/.claude/hooks/"
+fi
+
 # --- 4) Resumo ---------------------------------------------------------------
 echo ""
 echo "==> Concluido. Resumo:"
