@@ -7,7 +7,7 @@
 
 | Bloco | Global (~/.claude) | Biblioteca (versionada) |
 |---|---|---|
-| skills | 108 | 136 |
+| skills | 135 | 136 |
 | squads (commands) | 14 | - |
 | agents (.md) | 33 | - |
 | das quais GSD | 67 | - |

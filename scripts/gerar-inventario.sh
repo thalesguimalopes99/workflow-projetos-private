@@ -20,10 +20,10 @@ REL="$RAIZ/docs/superpowers/relatorio-descriptions.md"
 WEAK_MIN=40   # description < WEAK_MIN chars (ou ausente) = fraca
 
 # --- contagens ---
-n_global=$(find "$GLOBAL_SKILLS" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
-n_bib=$(find "$BIB_SKILLS" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
-n_squads=$(find "$GLOBAL_CMDS" -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
-n_agents=$(find "$GLOBAL_AGENTS" -maxdepth 1 -name '*.md' 2>/dev/null | wc -l | tr -d ' ')
+n_global=$(ls -1 "$GLOBAL_SKILLS" 2>/dev/null | wc -l | tr -d ' ')
+n_bib=$(ls -1 "$BIB_SKILLS" 2>/dev/null | wc -l | tr -d ' ')
+n_squads=$(ls -1 "$GLOBAL_CMDS" 2>/dev/null | wc -l | tr -d ' ')
+n_agents=$(ls -1 "$GLOBAL_AGENTS" 2>/dev/null | grep -c '\.md$' || true)
 n_gsd=$(ls "$GLOBAL_SKILLS" | grep -c '^gsd-' || true)
 
 # --- listas ---
