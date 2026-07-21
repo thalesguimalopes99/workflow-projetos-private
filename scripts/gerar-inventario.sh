@@ -65,12 +65,12 @@ origem_tag () {
   echo ""
   echo "### Track principal"
   echo ""
-  ls "$GLOBAL_SKILLS" | grep '^gsd-' | grep -v '^gsd-ns-' | sort | awk '{printf "%s, ", $0}' | sed 's/, $//'
+  ls "$GLOBAL_SKILLS" | grep '^gsd-' | grep -v '^gsd-ns-' | sort | awk '{printf "%s, ", $0}' | sed 's/, $//' || true
   echo ""
   echo ""
   echo "### Track leve \`gsd-ns-*\`"
   echo ""
-  ls "$GLOBAL_SKILLS" | grep '^gsd-ns-' | sort | awk '{printf "%s, ", $0}' | sed 's/, $//'
+  ls "$GLOBAL_SKILLS" | grep '^gsd-ns-' | sort | awk '{printf "%s, ", $0}' | sed 's/, $//' || true
   echo ""
   echo ""
 
