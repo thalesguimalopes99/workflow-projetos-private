@@ -100,6 +100,7 @@ Não são entregáveis de marca, mas o intake deve lembrar delas:
 - **Mídia:** `video-extract`, `yt-dlp`, `slack-gif-creator`, `curso-ripper`
 - **Dev-infra:** `claude-api`, `mcp-builder`, `supabase`, `supabase-postgres-best-practices`, `webapp-testing`, `web-artifacts-builder`, `remotion-best-practices`, `distinctive-frontend`
 - **Criativo extra:** `algorithmic-art`, `canvas-design`, `theme-factory`, `criativo-cliente`, `instagram-creative-director`, `brand-guidelines`
+- **Growth:** `ranquear` (rankear no Google + citação por IA + crescer no Instagram — filtro cético de táticas SEO/GEO)
 - **Meta/infra:** `skill-creator`, `template-skill`, `find-skills`
 
 > Índice exaustivo de TODAS as skills: `INVENTARIO.md` (gerado). GSD: ver `ROUTING-MAP.md`.
