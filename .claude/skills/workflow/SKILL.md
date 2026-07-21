@@ -80,7 +80,30 @@ Com tipo + brief + nível, invoque o **chief do squad** ou a **skill de execuç�
 | **Estratégia executiva / GTM / fundraise** | projeto | squad `c-level-squad` (`vision-chief`) | Diagnóstico · Plano · Operação |
 | **Decisão difícil / sparring estratégico** | projeto | squad `advisory-board` (`board-chair`) | — (conselho de mentores) |
 | **Software (analyst→dev→qa→devops)** | projeto | squad `AIOX` (`aiox-master`) + processo `superpowers` | Spike · MVP · Produção |
+| **Projeto de software multi-fase / autônomo (ciclo com artefatos)** | projeto | framework **GSD** (`/gsd-new-project` → `/gsd-plan-phase` → `/gsd-execute-phase` → `/gsd-verify-work` → `/gsd-code-review` → `/gsd-ship`). Ver desempate GSD↔AIOX abaixo. | Sketch/Spike · MVP (`/gsd-mvp-phase`) · Produção (ciclo completo + secure/ui/eval-review) |
 | **Outro / não sei ainda** | genérico | `briefing` (lente genérica) pra clarear, depois re-rotear | — |
+
+### Desempate GSD ↔ AIOX (ambos fazem software)
+
+| Use **GSD** quando | Use **AIOX** quando |
+|---|---|
+| Projeto real multi-fase; quer ciclo disciplinado com artefatos (`.planning/`, PLAN/RESEARCH/VERIFICATION); execução autônoma/checkpointada; commits atômicos | Quer personas de time sob demanda (analyst/architect/dev/qa/devops) pra consultar/decidir, sem o overhead do ciclo de fases |
+| Invoca skills `gsd-*` via `/gsd-new-project`, `/gsd-plan-phase`... | Invoca o chief `AIOX:agents:aiox-master` (roteia os agentes internos) |
+
+> GSD é instalado como **skills** (`gsd-*`), não command namespace. `/gsd-new-project` (hífen).
+
+### Clusters de skills utilitárias (fora da tabela principal, mas disponíveis)
+
+Não são entregáveis de marca, mas o intake deve lembrar delas:
+
+- **Docs/Office:** `docx`, `pdf`, `pptx`, `xlsx`, `doc-coauthoring`, `internal-comms`
+- **Mídia:** `video-extract`, `yt-dlp`, `slack-gif-creator`, `curso-ripper`
+- **Dev-infra:** `claude-api`, `mcp-builder`, `supabase`, `supabase-postgres-best-practices`, `webapp-testing`, `web-artifacts-builder`, `remotion-best-practices`, `distinctive-frontend`
+- **Criativo extra:** `algorithmic-art`, `canvas-design`, `theme-factory`, `criativo-cliente`, `instagram-creative-director`, `brand-guidelines`
+- **Growth:** `ranquear` (rankear no Google + citação por IA + crescer no Instagram — filtro cético de táticas SEO/GEO)
+- **Meta/infra:** `skill-creator`, `template-skill`, `find-skills`
+
+> Índice exaustivo de TODAS as skills: `INVENTARIO.md` (gerado). GSD: ver `ROUTING-MAP.md`.
 
 ## Regras de processo (sempre)
 

@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eval Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" integrity="sha384-EnyY0/GSHQGSxSgMwaIPzSESbqoOLSexfnSMN2AP+39Ckmn92stwABZynq1JyzdT" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --bg: #faf9f5;
+      --surface: #ffffff;
+      --border: #e8e6dc;
+      --text: #141413;
+      --text-muted: #b0aea5;
+      --accent: #d97757;
+      --accent-hover: #c4613f;
+      --green: #788c5d;
+      --green-bg: #eef2e8;
+      --red: #c44;
+      --red-bg: #fceaea;
+      --header-bg: #141413;
+      --header-text: #faf9f5;
+      --radius: 6px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ---- Header ---- */
+    .header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .header .instructions {
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 0.25rem;
+    }
+    .header .progress {
+      font-size: 0.875rem;
+      opacity: 0.8;
+      text-align: right;
+    }
+
+    /* ---- Main content ---- */
+    .main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    /* ---- Sections ---- */
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      flex-shrink: 0;
+    }
+    .section-header {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+    }
+    .section-body {
+      padding: 1rem;
+    }
+
+    /* ---- Config badge ---- */
+    .config-badge {
+      display: inline-block;
+      padding: 0.2rem 0.625rem;
+      border-radius: 9999px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-left: 0.75rem;
+      vertical-align: middle;
+    }
+    .config-badge.config-primary {
+      background: rgba(33, 150, 243, 0.12);
+      color: #1976d2;
+    }
+    .config-badge.config-baseline {
+      background: rgba(255, 193, 7, 0.15);
+      color: #f57f17;
+    }
+
+    /* ---- Prompt ---- */
+    .prompt-text {
+      white-space: pre-wrap;
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+
+    /* ---- Outputs ---- */
+    .output-file {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .output-file + .output-file {
+      margin-top: 1rem;
+    }
+    .output-file-header {
+      padding: 0.5rem 0.75rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .output-file-header .dl-btn {
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-decoration: none;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .output-file-header .dl-btn:hover {
+      opacity: 1;
+      text-decoration: underline;
+    }
+    .output-file-content {
+      padding: 0.75rem;
+      overflow-x: auto;
+    }
+    .output-file-content pre {
+      font-size: 0.8125rem;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+    .output-file-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .output-file-content iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .output-file-content table {
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+      width: 100%;
+    }
+    .output-file-content table td,
+    .output-file-content table th {
+      border: 1px solid var(--border);
+      padding: 0.375rem 0.5rem;
+      text-align: left;
+    }
+    .output-file-content table th {
+      background: var(--bg);
+      font-weight: 600;
+    }
+    .output-file-content .download-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.875rem;
+      cursor: pointer;
+    }
+    .output-file-content .download-link:hover {
+      background: var(--border);
+    }
+    .empty-state {
+      color: var(--text-muted);
+      font-style: italic;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    /* ---- Feedback ---- */
+    .prev-feedback {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.625rem 0.75rem;
+      margin-top: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .prev-feedback-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.25rem;
+      color: var(--text-muted);
+    }
+    .feedback-textarea {
+      width: 100%;
+      min-height: 100px;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      resize: vertical;
+      color: var(--text);
+    }
+    .feedback-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+    .feedback-status {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+      min-height: 1.1em;
+    }
+
+    /* ---- Grades (collapsible) ---- */
+    .grades-toggle {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .grades-toggle:hover {
+      color: var(--accent);
+    }
+    .grades-toggle .arrow {
+      margin-right: 0.5rem;
+      transition: transform 0.15s;
+      font-size: 0.75rem;
+    }
+    .grades-toggle .arrow.open {
+      transform: rotate(90deg);
+    }
+    .grades-content {
+      display: none;
+      margin-top: 0.75rem;
+    }
+    .grades-content.open {
+      display: block;
+    }
+    .grades-summary {
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .grade-badge {
+      display: inline-block;
+      padding: 0.125rem 0.5rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .grade-pass { background: var(--green-bg); color: var(--green); }
+    .grade-fail { background: var(--red-bg); color: var(--red); }
+    .assertion-list {
+      list-style: none;
+    }
+    .assertion-item {
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8125rem;
+    }
+    .assertion-item:last-child { border-bottom: none; }
+    .assertion-status {
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+    .assertion-status.pass { color: var(--green); }
+    .assertion-status.fail { color: var(--red); }
+    .assertion-evidence {
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      padding-left: 1.5rem;
+    }
+
+    /* ---- View tabs ---- */
+    .view-tabs {
+      display: flex;
+      gap: 0;
+      padding: 0 2rem;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .view-tab {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.625rem 1.25rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .view-tab:hover { color: var(--text); }
+    .view-tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+    .view-panel { display: none; }
+    .view-panel.active { display: flex; flex-direction: column; flex: 1; overflow: hidden; }
+
+    /* ---- Benchmark view ---- */
+    .benchmark-view {
+      padding: 1.5rem 2rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .benchmark-table {
+      border-collapse: collapse;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.8125rem;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+    .benchmark-table th, .benchmark-table td {
+      padding: 0.625rem 0.75rem;
+      text-align: left;
+      border: 1px solid var(--border);
+    }
+    .benchmark-table th {
+      font-family: 'Poppins', sans-serif;
+      background: var(--header-bg);
+      color: var(--header-text);
+      font-weight: 500;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .benchmark-table tr:hover { background: var(--bg); }
+    .benchmark-table tr.benchmark-row-with { background: rgba(33, 150, 243, 0.06); }
+    .benchmark-table tr.benchmark-row-without { background: rgba(255, 193, 7, 0.06); }
+    .benchmark-table tr.benchmark-row-with:hover { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-without:hover { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-table tr.benchmark-row-avg { font-weight: 600; border-top: 2px solid var(--border); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-with { background: rgba(33, 150, 243, 0.12); }
+    .benchmark-table tr.benchmark-row-avg.benchmark-row-without { background: rgba(255, 193, 7, 0.12); }
+    .benchmark-delta-positive { color: var(--green); font-weight: 600; }
+    .benchmark-delta-negative { color: var(--red); font-weight: 600; }
+    .benchmark-notes {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+    }
+    .benchmark-notes h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.875rem;
+      margin-bottom: 0.75rem;
+    }
+    .benchmark-notes ul {
+      list-style: disc;
+      padding-left: 1.25rem;
+    }
+    .benchmark-notes li {
+      font-size: 0.8125rem;
+      line-height: 1.6;
+      margin-bottom: 0.375rem;
+    }
+    .benchmark-empty {
+      color: var(--text-muted);
+      font-style: italic;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    /* ---- Navigation ---- */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+      flex-shrink: 0;
+    }
+    .nav-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      transition: all 0.15s;
+    }
+    .nav-btn:hover:not(:disabled) {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .done-btn {
+      font-family: 'Poppins', sans-serif;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .done-btn:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+    .done-btn.ready {
+      border: none;
+      background: var(--accent);
+      color: white;
+      font-weight: 600;
+    }
+    .done-btn.ready:hover {
+      background: var(--accent-hover);
+    }
+    /* ---- Done overlay ---- */
+    .done-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+    }
+    .done-overlay.visible {
+      display: flex;
+    }
+    .done-card {
+      background: var(--surface);
+      border-radius: 12px;
+      padding: 2rem 3rem;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+    }
+    .done-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .done-card p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+    .done-card .btn-row {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+    }
+    .done-card button {
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--surface);
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+    .done-card button:hover {
+      background: var(--bg);
+    }
+    /* ---- Toast ---- */
+    .toast {
+      position: fixed;
+      bottom: 5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 0.625rem 1.25rem;
+      border-radius: var(--radius);
+      font-size: 0.875rem;
+      opacity: 0;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      z-index: 200;
+    }
+    .toast.visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" style="height:100vh; display:flex; flex-direction:column;">
+    <div class="header">
+      <div>
+        <h1>Eval Review: <span id="skill-name"></span></h1>
+        <div class="instructions">Review each output and leave feedback below. Navigate with arrow keys or buttons. When done, copy feedback and paste into Claude Code.</div>
+      </div>
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <!-- View tabs (only shown when benchmark data exists) -->
+    <div class="view-tabs" id="view-tabs" style="display:none;">
+      <button class="view-tab active" onclick="switchView('outputs')">Outputs</button>
+      <button class="view-tab" onclick="switchView('benchmark')">Benchmark</button>
+    </div>
+
+    <!-- Outputs panel (qualitative review) -->
+    <div class="view-panel active" id="panel-outputs">
+    <div class="main">
+      <!-- Prompt -->
+      <div class="section">
+        <div class="section-header">Prompt <span class="config-badge" id="config-badge" style="display:none;"></span></div>
+        <div class="section-body">
+          <div class="prompt-text" id="prompt-text"></div>
+        </div>
+      </div>
+
+      <!-- Outputs -->
+      <div class="section">
+        <div class="section-header">Output</div>
+        <div class="section-body" id="outputs-body">
+          <div class="empty-state">No output files found</div>
+        </div>
+      </div>
+
+      <!-- Previous Output (collapsible) -->
+      <div class="section" id="prev-outputs-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="togglePrevOutputs()">
+            <span class="arrow" id="prev-outputs-arrow">&#9654;</span>
+            Previous Output
+          </div>
+        </div>
+        <div class="grades-content" id="prev-outputs-content"></div>
+      </div>
+
+      <!-- Grades (collapsible) -->
+      <div class="section" id="grades-section" style="display:none;">
+        <div class="section-header">
+          <div class="grades-toggle" onclick="toggleGrades()">
+            <span class="arrow" id="grades-arrow">&#9654;</span>
+            Formal Grades
+          </div>
+        </div>
+        <div class="grades-content" id="grades-content"></div>
+      </div>
+
+      <!-- Feedback -->
+      <div class="section">
+        <div class="section-header">Your Feedback</div>
+        <div class="section-body">
+          <textarea
+            class="feedback-textarea"
+            id="feedback"
+            placeholder="What do you think of this output? Any issues, suggestions, or things that look great?"
+          ></textarea>
+          <div class="feedback-status" id="feedback-status"></div>
+          <div class="prev-feedback" id="prev-feedback" style="display:none;">
+            <div class="prev-feedback-label">Previous feedback</div>
+            <div id="prev-feedback-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav" id="outputs-nav">
+      <button class="nav-btn" id="prev-btn" onclick="navigate(-1)">&#8592; Previous</button>
+      <button class="done-btn" id="done-btn" onclick="showDoneDialog()">Submit All Reviews</button>
+      <button class="nav-btn" id="next-btn" onclick="navigate(1)">Next &#8594;</button>
+    </div>
+    </div><!-- end panel-outputs -->
+
+    <!-- Benchmark panel (quantitative stats) -->
+    <div class="view-panel" id="panel-benchmark">
+      <div class="benchmark-view" id="benchmark-content">
+        <div class="benchmark-empty">No benchmark data available. Run a benchmark to see quantitative results here.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Done overlay -->
+  <div class="done-overlay" id="done-overlay">
+    <div class="done-card">
+      <h2>Review Complete</h2>
+      <p>Your feedback has been saved. Go back to your Claude Code session and tell Claude you're done reviewing.</p>
+      <div class="btn-row">
+        <button onclick="closeDoneDialog()">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ---- Embedded data (injected by generate_review.py) ----
+    const EMBEDDED_DATA = {"skill_name": "instagram-creative-director", "runs": [{"id": "carrossel-nutri-menopausa-with_skill", "prompt": "Preciso de um carrossel pro Instagram da minha cliente, uma nutricionista que atende mulheres na menopausa. O objetivo \u00e9 gerar agendamento de consulta. A marca \u00e9 s\u00e9ria mas acolhedora, paleta em tons terrosos.", "eval_id": 0, "outputs": [{"name": "brief.md", "type": "text", "content": "# Criativo: \"As Regras Mudaram\" \u2014 Carrossel Instagram (8 cards \u00b7 1080\u00d71350 \u00b7 4:5)\n\nCliente: [Nutricionista] \u2014 nutri\u00e7\u00e3o para mulheres na menopausa\nObjetivo da pe\u00e7a: **convers\u00e3o / lead** \u2192 agendamento de consulta\nIdioma: PT-BR \u00b7 Tom de marca: s\u00e9rio, t\u00e9cnico, mas acolhedor \u00b7 Paleta: terrosa\n\n---\n\n## 1. Estudo de mercado (h\u00edbrido \u2014 ancorado em pesquisa web)\n\nPesquisei o feed real do nicho (Instagram, blogs de nutri/ginecologia, v\u00eddeos). Dois sinais decidiram a estrat\u00e9gia:\n\n**O que o p\u00fablico sente (voz real, palavras delas):**\n- \"Por que fica t\u00e3o mais dif\u00edcil emagrecer na menopausa?\" \u2014 a d\u00favida que mais aparece.\n- \"Fiz tudo que sempre funcionou e, pela primeira vez, n\u00e3o funcionou.\"\n- \"O corpo mudou\" / \"n\u00e3o reconhe\u00e7o meu corpo\" / \"a barriga que n\u00e3o estava a\u00ed\".\n- Termos cl\u00ednicos recorrentes que validam a dor: queda do estrog\u00eanio \u2192 gordura visceral, perda de massa muscular \u2192 metabolismo lento, insulina/sono/cortisol desregulados (\"triplo golpe da menopausa\").\n- Carga emocional: o ganho de peso **n\u00e3o \u00e9 s\u00f3 est\u00e9tico** \u2014 \u00e9 sensa\u00e7\u00e3o de trai\u00e7\u00e3o do pr\u00f3prio corpo e de fracasso pessoal.\n\n**O que o campo concorrente posta (\u00e2ngulos saturados \u2014 N\u00c3O repetir):**\n- \"4 dicas de alimenta\u00e7\u00e3o para a menopausa\" / \"X alimentos que ajudam\"\n- \"A menopausa come\u00e7a no prato\" / \"pequenas mudan\u00e7as, grandes resultados\"\n- \"Transforme a menopausa numa fase de ouro\" + lista de h\u00e1bitos (hidrata\u00e7\u00e3o, sono, exerc\u00edcio)\n- Praticamente todo o nicho \u00e9 **listicle de dica gen\u00e9rica** com tom motivacional. Conte\u00fado educativo raso, sem virada, sem ponto de vista, sem dor nomeada com precis\u00e3o.\n\n**Espa\u00e7o branco (onde ningu\u00e9m ataca):** o **reframe que tira a culpa da mulher**. Ningu\u00e9m est\u00e1 dizendo \"voc\u00ea n\u00e3o falhou \u2014 o manual ficou obsoleto\". O nicho ensina *o que comer*; ningu\u00e9m ataca *por que o que sempre funcionou parou de funcionar* e transforma isso na raz\u00e3o para buscar acompanhamento individual (em vez de mais uma dieta de internet).\n\n### Insight estrat\u00e9gico\n\n```\nDOR:           \"Fiz tudo que sempre funcionou \u2014 cortei o p\u00e3o, treinei \u2014 e pela\n               primeira vez na vida n\u00e3o funcionou. E ainda me sinto culpada por isso.\"\nDESEJO:        Voltar a reconhecer o pr\u00f3prio corpo, ter energia e a barriga no lugar \u2014\n               sem dieta de sofrimento \u2014 e parar de se sentir uma fracassada.\n\u00c2NGULO:        Voc\u00ea n\u00e3o falhou. As regras do jogo mudaram de biologia no meio do\n               caminho e ningu\u00e9m te entregou o manual novo. (Tira a culpa, devolve\n               ag\u00eancia \u2014 contra a culpa que o nicho refor\u00e7a com listicle motivacional.)\nPROMESSA:      Uma estrat\u00e9gia escrita para o corpo que voc\u00ea tem AGORA \u2014 n\u00e3o para o\n               de 30 anos. Reconstru\u00e7\u00e3o, n\u00e3o subtra\u00e7\u00e3o.\nPOSICIONAMENTO: Enquanto o feed inteiro d\u00e1 \"4 dicas de alimenta\u00e7\u00e3o\", esta pe\u00e7a d\u00e1 a\n               VIRADA que explica por que as dicas n\u00e3o bastam \u2014 e por que o caminho\n               \u00e9 um plano individual, n\u00e3o mais uma regra geral.\n```\n\n---\n\n## 2. Big idea / Conceito\n\n**\"O corpo mudou as regras. Ningu\u00e9m te avisou.\"**\n\nO carrossel \u00e9 um *reframe libertador*, n\u00e3o uma lista de dicas. A jornada da leitora: do **autojulgamento** (\"eu fracassei\") para a **compreens\u00e3o** (\"a biologia mudou\") para a **ag\u00eancia** (\"existe um plano feito pra mim agora\"). A consulta deixa de ser \"mais uma tentativa\" e vira \"a tradu\u00e7\u00e3o das novas regras pro meu corpo\". \u00c9 copy de resposta direta vestida de acolhimento cl\u00ednico \u2014 exatamente a personalidade de marca pedida (s\u00e9ria + acolhedora).\n\nN\u00edvel de consci\u00eancia (Schwartz): **consciente do problema \u2192 consciente da solu\u00e7\u00e3o**. Ela sente a dor e j\u00e1 tentou solu\u00e7\u00f5es antigas que falharam \u2014 ent\u00e3o a copy nomeia a dor com as palavras dela e **diferencia o mecanismo** (reconstru\u00e7\u00e3o individual vs. dieta gen\u00e9rica) para justificar a consulta.\n\nArco distribu\u00eddo nos 8 cards: Hook \u2192 Espelho da dor \u2192 Reframe (tira a culpa) \u2192 Mecanismo (o que mudou) \u2192 Diferencia\u00e7\u00e3o (por que dieta n\u00e3o basta) \u2192 Autoridade acolhedora \u2192 Qualifica\u00e7\u00e3o \u2192 CTA.\n\n---\n\n## 3. Copy \u2014 card a card (texto exato)\n\n> Conven\u00e7\u00e3o: **T\u00cdTULO** = manchete grande do card \u00b7 *(corpo)* = texto de apoio \u00b7 `\u2192 rodap\u00e9` = micro-hook que obriga o pr\u00f3ximo arrasto.\n\n### CARD 1 \u2014 Capa / Hook\n- Kicker (topo, pequeno, tracking aberto): `MENOPAUSA`\n- **O corpo mudou as regras.**\n  **Ningu\u00e9m te avisou.**\n- `\u2192 arrasta. isso explica muita coisa.`\n\n### CARD 2 \u2014 O espelho da dor (agita\u00e7\u00e3o)\n- **Voc\u00ea cortou o p\u00e3o. Treinou. E mesmo assim apareceu uma barriga que n\u00e3o existia aos 35.**\n- *(A balan\u00e7a parou de te ouvir. O jeans parou de fechar. E ningu\u00e9m soube te explicar o porqu\u00ea.)*\n- `\u2192 n\u00e3o, voc\u00ea n\u00e3o est\u00e1 fazendo nada de errado.`\n\n### CARD 3 \u2014 A virada / reframe (libera a culpa)\n- **O problema nunca foi disciplina. Foram as instru\u00e7\u00f5es.**\n- *(A dieta que funcionou a vida inteira foi escrita pra um corpo com estrog\u00eanio em alta. Esse corpo se aposentou \u2014 e levou o manual antigo junto.)*\n- `\u2192 ent\u00e3o o que mudou de verdade?`\n\n### CARD 4 \u2014 Mecanismo (educa, d\u00e1 a prova t\u00e9cnica)\n- **Tr\u00eas coisas mudaram de lugar. Ao mesmo tempo.**\n- *(\u2022 O estrog\u00eanio caiu \u2192 a gordura migrou pra barriga.*\n  *\u2022 A massa muscular caiu \u2192 o metabolismo desacelerou.*\n  *\u2022 Sono e cortisol desregularam \u2192 mais fome, menos saciedade.)*\n- `\u2192 por isso \"comer menos\" parou de bastar.`\n\n### CARD 5 \u2014 Diferencia\u00e7\u00e3o (anti-dieta gen\u00e9rica)\n- **Comer menos ataca o sintoma errado.**\n- *(O caminho n\u00e3o \u00e9 subtrair comida \u2014 \u00e9 reconstruir: m\u00fasculo, prote\u00edna, ritmo e horm\u00f4nio, na ordem certa, pro corpo que voc\u00ea tem hoje. Isso n\u00e3o cabe num card\u00e1pio de revista.)*\n- `\u2192 e n\u00e3o existe protocolo de internet pra isso.`\n\n### CARD 6 \u2014 Autoridade acolhedora (prova + empatia)\n- **Cada mulher chega na menopausa com uma hist\u00f3ria metab\u00f3lica diferente.**\n- *(Voc\u00ea n\u00e3o precisa de mais uma regra geral. Precisa de um plano lido sobre VOC\u00ca \u2014 seus exames, sua rotina, seu sono, sua hist\u00f3ria. \u00c9 exatamente isso que eu fa\u00e7o no consult\u00f3rio.)*\n- `\u2192 e talvez seja a hora.`\n\n### CARD 7 \u2014 Qualifica\u00e7\u00e3o (faz a leitora se reconhecer)\n- **Isto \u00e9 pra voc\u00ea se\u2026**\n- *(\u2026voc\u00ea sente que \"fez tudo certo\" e o corpo n\u00e3o respondeu.*\n  *\u2026voc\u00ea est\u00e1 cansada de dieta de sofrimento que n\u00e3o dura.*\n  *\u2026voc\u00ea quer entender seu corpo de hoje, n\u00e3o brigar com ele.)*\n- `\u2192 se voc\u00ea assentiu, o pr\u00f3ximo passo \u00e9 simples.`\n\n### CARD 8 \u2014 CTA (converter / agendar)\n- **Vamos reescrever as suas regras.**\n- *(Uma consulta pra ler o seu corpo de agora e montar a estrat\u00e9gia que devolve energia, for\u00e7a e a barriga no lugar \u2014 com m\u00e9todo, sem sofrimento.)*\n- CTA prim\u00e1rio: **Toca no link da bio e agenda sua avalia\u00e7\u00e3o.** *(As vagas de [m\u00eas] s\u00e3o limitadas.)*\n- CTA secund\u00e1rio (engajamento/lead): *Ou comenta* **\"REGRAS\"** *que eu te explico como funciona.*\n- Rodap\u00e9: `salve este post pra reler num dia dif\u00edcil \u00b7 compartilhe com uma amiga que precisa ler isso`\n\n---\n\n### Legenda (caption)\n\n> Primeira linha (antes do \"...mais\" \u2014 decide a abertura):\n\n**Se voc\u00ea \"fez tudo que sempre funcionou\" e o corpo n\u00e3o respondeu, leia at\u00e9 o fim. A culpa n\u00e3o \u00e9 sua.** \ud83d\udc47\n\nA gente passa a vida inteira aprendendo um conjunto de regras: comer menos, mexer mais, cortar carboidrato. E elas funcionam \u2014 at\u00e9 o estrog\u00eanio come\u00e7ar a cair.\n\nA\u00ed o corpo muda as regras no meio do jogo. A gordura migra pra barriga, o m\u00fasculo (e o metabolismo) cai, o sono desregula a fome. E a mulher acha que fracassou \u2014 quando na verdade ela s\u00f3 est\u00e1 jogando com o manual errado.\n\nMenopausa n\u00e3o se resolve com mais uma dieta de internet. Se resolve com um plano escrito sobre VOC\u00ca.\n\nSe isso fez sentido:\n\ud83d\udd16 Salve pra reler num dia dif\u00edcil.\n\ud83d\udcac Comenta **\"REGRAS\"** que eu te explico como funciona o acompanhamento.\n\ud83d\udd17 Ou agenda sua avalia\u00e7\u00e3o no link da bio \u2014 vagas limitadas este m\u00eas.\n\n**Hashtags** (mix volume / m\u00e9dio / nicho):\n`#menopausa #climaterio #saudedamulher #nutricaofeminina #emagrecimentonamenopausa #menopausasemmedo #nutricaoclinica #saudehormonal #mulheres40mais #qualidadedevida`\n\n---\n\n## 4. Dire\u00e7\u00e3o de arte\n\n### Conceito visual\n**\"Manual reescrito \u00e0 m\u00e3o.\"** A pe\u00e7a parece um documento editorial s\u00e9rio (autoridade cl\u00ednica) que foi *anotado e corrigido \u00e0 m\u00e3o* (o acolhimento, o humano, a \"nova regra\"). A tens\u00e3o visual \u00e9 entre a **regra antiga riscada** e a **nova regra escrita por cima**. Editorial de revista feminina premium (mood Kinfolk / Cereal magazine), n\u00e3o card de Canva.\n\n### Layout / composi\u00e7\u00e3o\n- **Grid editorial assim\u00e9trico**, margem generosa (n\u00e3o centralizar tudo). Manchete ancorada em baixo-\u00e0-esquerda ou alto-\u00e0-esquerda, alinhada \u00e0 esquerda \u2014 nunca tudo centralizado.\n- **Ponto focal \u00fanico por card**: a manchete (tipo grande) \u00e9 a estrela; corpo \u00e9 subordinado e menor. Hierarquia brutal: manchete domina ~60\u201370% do peso visual.\n- **Elemento-assinatura (recorrente, d\u00e1 unidade ao carrossel):** uma palavra-chave da regra antiga **riscada** com um tra\u00e7o org\u00e2nico de caneta (terracota) e a virada manuscrita ao lado. Ex.: Card 3 \u2192 ~~disciplina~~ *instru\u00e7\u00f5es*. Usar com parcim\u00f4nia (1 por card no m\u00e1ximo).\n- **Numera\u00e7\u00e3o discreta** dos cards (01\u201308) no canto, em fonte mono pequena \u2014 vibe de dossi\u00ea/protocolo.\n- **Continuidade entre cards:** a barra de kicker no topo e um filete fino que \"sangra\" pra borda direita sinalizam \"tem mais \u2192\". Card 1 traz um `\u2192` sutil no canto inferior.\n- **Espa\u00e7o negativo \u00e9 regra**: pelo menos 40% de cada card respira. Nada de encher.\n- Card 4 (mecanismo): as 3 linhas viram uma **lista vertical com filetes**, cada item com um pequeno marcador terroso \u2014 visual de \"diagrama cl\u00ednico\", refor\u00e7a autoridade.\n- Card 8 (CTA): inverter o fundo (usar o terracota cheio ou o oliva profundo) pra criar **quebra visual** e marcar \"aqui \u00e9 a a\u00e7\u00e3o\". CTA com peso, link/seta evidente.\n\n### Tipografia\n- **Manchetes \u2014 serif editorial com personalidade:** *Canela*, *Reckless* ou *Fraunces* (alternativa gratuita: **Fraunces** ou **Playfair Display** com optical size alta). Peso Medium/SemiBold. Transmite seriedade + feminino sofisticado (n\u00e3o corporativo, n\u00e3o fofo).\n- **Corpo / kicker \u2014 humanist sans limpa:** **Inter**, *S\u00f6hne* ou **Familjen Grotesk**. Regular para corpo, Medium para o kicker (com `letter-spacing` ~0.15em, caixa alta).\n- **Manuscrito (a \"corre\u00e7\u00e3o \u00e0 m\u00e3o\"):** uma script casual com pegada de caneta \u2014 *Caveat* ou *Shantell Sans* \u2014 s\u00f3 na palavra-virada. Usar pouqu\u00edssimo: \u00e9 o tempero, n\u00e3o o prato.\n- **Escala tipogr\u00e1fica** (raz\u00e3o ~1.333, base 21px em 1080\u00d71350):\n  - Manchete: 84\u2013104px \u00b7 Subhead/corpo destacado: 34\u201340px \u00b7 Corpo: 26\u201330px \u00b7 Kicker/numera\u00e7\u00e3o: 18\u201320px (caixa alta, tracking aberto).\n- Cuidado tipogr\u00e1fico: leading apertado na manchete (~0.95\u20131.0), alinhamento \u00e0 esquerda, vi\u00favas controladas (quebrar a manchete em pontos que criam ritmo, como no card 1).\n\n### Paleta (terrosa, intencional)\n| Cor | Hex | Uso | Raz\u00e3o |\n|---|---|---|---|\n| Areia / off-white | `#F2E8DC` | Fundo principal | Base calma, \"papel\" \u2014 acolhe, d\u00e1 ar de editorial impresso |\n| Tinta terrosa (marrom escuro) | `#2E2620` | Texto principal | Contraste alto e quente (n\u00e3o preto puro frio) \u2014 leg\u00edvel e s\u00e9rio |\n| Terracota | `#B5683E` | Acento, tra\u00e7o manuscrito, fundo do CTA | A cor-assinatura: quente, humana, feminina sem ser clich\u00ea rosa |\n| Argila profunda / telha | `#8C4A2F` | Acento secund\u00e1rio, fundo alternado | Profundidade, seriedade |\n| Verde-oliva / s\u00e1lvia | `#5C6149` | Marcadores, filetes, fundo do card de mecanismo | Equil\u00edbrio, \"sa\u00fade\" sem cair no verde-cl\u00ednico \u00f3bvio |\n| Ocre suave | `#D89A4E` | Destaque pontual (palavra-chave, n\u00famero) | Calor, chama o olho sem gritar |\n\nRegra: **2 cores + neutros por card**. Fundo majoritariamente areia; terracota/oliva entram como acento e nos cards de quebra (4 e 8). Nada de gradiente arco-\u00edris, nada de rosa \"porque \u00e9 mulher\".\n\n### Imagem / elementos\n- **Sem stock gen\u00e9rico.** Nada de mulher sorrindo de bra\u00e7os abertos no campo. Se usar foto: **fotografia editorial quente, granulada, real** \u2014 m\u00e3os maduras (50+) sobre uma mesa, um caderno com anota\u00e7\u00f5es, ch\u00e1, luz natural lateral suave \u2014 recorte como detalhe, nunca o rosto sorridente clich\u00ea.\n  - Prompt de gera\u00e7\u00e3o (se for renderizar): *\"editorial film photograph, warm natural side light, mature woman's hands (50s) writing in a linen notebook on a clay-toned table, shallow depth of field, 50mm, Kodak Portra grain, muted terracotta and sand palette, calm and dignified, no faces, no smiles\"*.\n- Prefer\u00eancia: **pe\u00e7a type-driven** (tipografia faz o trabalho pesado) com textura sutil de papel no fundo + o tra\u00e7o manuscrito. Foto entra no m\u00e1ximo em 1\u20132 cards (capa e/ou CTA) como apoio, n\u00e3o como protagonista.\n- Textura: leve gr\u00e3o/papel no fundo areia para fugir do \"flat digital\" e refor\u00e7ar o editorial impresso.\n\n### Refer\u00eancia de mood\nEditorial de revista feminina premium + dossi\u00ea cl\u00ednico anotado \u00e0 m\u00e3o: *Kinfolk*, *Cereal*, branding de marcas wellness premium (ex.: est\u00e9tica de Mecca / Aesop em conte\u00fado). S\u00e9rio, quente, espa\u00e7ado, adulto.\n\n---\n\n## 5. Specs\n\n- **Formato:** Carrossel \u00b7 **8 cards** \u00b7 **1080\u00d71350 px (4:5)** \u2014 ocupa mais tela no feed que 1:1.\n- **Thumbnail do grid:** garantir que a manchete do Card 1 sobreviva ao recorte ~1:1 central \u2014 manter \"O corpo mudou as regras.\" dentro da faixa central segura, n\u00e3o nas bordas verticais.\n- **Margens de seguran\u00e7a:** ~80px de margem interna; nenhum texto cr\u00edtico a menos de 64px da borda.\n- **Indicador de \"arrasta\":** seta `\u2192` / filete sangrando \u00e0 direita nos cards 1\u20137.\n- **Legibilidade no thumbnail pequeno:** manchete do Card 1 tem que ser lida com o feed reduzido \u2014 por isso 84px+ e alto contraste.\n- **Exportar:** PNG por card, nomeados `01`\u2013`08`, em caminho absoluto dentro da pasta do projeto ativo (nunca o cwd da biblioteca).\n\n---\n\n## 6. Rationale (a decis\u00e3o estrat\u00e9gica)\n\n- **Por que essa dor:** a pesquisa mostrou que o ponto mais repetido (e mais carregado de emo\u00e7\u00e3o) n\u00e3o \u00e9 \"o que comer\" \u2014 \u00e9 \"fiz tudo certo e n\u00e3o funcionou, e me sinto culpada\". Atacar a *culpa* \u00e9 mais conversor que ensinar mais uma dica, porque \u00e9 a barreira emocional que impede o agendamento.\n- **Por que esse hook:** \"O corpo mudou as regras. Ningu\u00e9m te avisou.\" \u00e9 contraste + tens\u00e3o + curiosidade, e promete al\u00edvio (n\u00e3o \u00e9 voc\u00ea). Para o scroll porque contradiz a narrativa de autojulgamento que ela carrega \u2014 e o nicho inteiro est\u00e1 em tom morno de \"dicas\".\n- **Por que essa dire\u00e7\u00e3o de arte:** o nicho \u00e9 visualmente gen\u00e9rico (card claro + emoji + listinha). Indo editorial-terroso-manuscrito, a pe\u00e7a se destaca por *contraste de qualidade* e materializa o conceito \u2014 a \"regra antiga riscada, a nova escrita \u00e0 m\u00e3o\" \u00e9 o insight virando imagem. A paleta terrosa pedida vira significado (calor humano + seriedade cl\u00ednica), n\u00e3o decora\u00e7\u00e3o.\n- **Por que esse CTA:** alinhado ao objetivo (agendar). CTA prim\u00e1rio direto (link/agenda + escassez real de vagas) + CTA secund\u00e1rio de coment\u00e1rio (\"REGRAS\") que captura lead morno e alimenta o alcance. Os pedidos de salvar/compartilhar no rodap\u00e9 ampliam distribui\u00e7\u00e3o sem competir com a a\u00e7\u00e3o principal.\n\n---\n\n## 7. Autocr\u00edtica \u2014 Jurado de Awwwards (nota 1\u201310)\n\n**Rodada 1 (rascunho mental, antes de refinar):**\n- *Estrat\u00e9gia/copy:* **8** \u2014 hook forte e dor certa, mas o primeiro rascunho terminava o arco no \"comer menos n\u00e3o basta\" e ia direto pro CTA, sem **qualificar** a leitora nem dar um mecanismo de prova concreto. Risco de soar \"bl\u00e1-bl\u00e1 motivacional\".\n- *Dire\u00e7\u00e3o de arte:* **7** \u2014 paleta terrosa e serif resolviam o \"n\u00e3o-gen\u00e9rico\", mas faltava um **elemento-assinatura** que amarrasse o carrossel e materializasse o conceito; sem ele, eram s\u00f3 \"cards bonitos com fundo bege\".\n\n**O que refatorei (e por qu\u00ea):**\n1. Inseri o **Card 4 (mecanismo das 3 mudan\u00e7as)** com dado cl\u00ednico real da pesquisa (\"triplo golpe\") \u2192 d\u00e1 prova e autoridade, ancora a copy em biologia e n\u00e3o em motiva\u00e7\u00e3o.\n2. Inseri o **Card 7 (qualifica\u00e7\u00e3o \"isto \u00e9 pra voc\u00ea se\u2026\")** \u2192 faz a leitora se auto-selecionar e esquenta o lead antes do CTA, elevando a inten\u00e7\u00e3o de agendamento.\n3. Criei o **elemento-assinatura visual** (regra antiga riscada + virada manuscrita) \u2192 o conceito \"as regras mudaram\" vira imagem recorrente e d\u00e1 unidade ao carrossel; tira a pe\u00e7a do territ\u00f3rio \"template bege\".\n4. Reforcei a **hierarquia tipogr\u00e1fica** (manchete 84px+ dominando, corpo subordinado) e a **quebra de fundo nos cards 4 e 8** \u2192 ritmo visual e marca\u00e7\u00e3o clara da zona de a\u00e7\u00e3o.\n\n**Rodada 2 (final):**\n- *Estrat\u00e9gia/copy:* **9** \u2014 arco completo (culpa \u2192 entendimento \u2192 ag\u00eancia \u2192 a\u00e7\u00e3o), dor na voz real do p\u00fablico, mecanismo diferenciado que justifica a consulta, CTA espec\u00edfico com escassez e captura de lead. N\u00e3o \u00e9 \"conte\u00fado de valor\" gen\u00e9rico; \u00e9 resposta direta.\n- *Dire\u00e7\u00e3o de arte:* **9** \u2014 conceito vis\u00edvel s\u00f3 de olhar, elemento-assinatura \u00fanico do nicho, paleta terrosa com significado, hierarquia e respiro de n\u00edvel editorial, anti-template/anti-IA. Eu mostraria num portf\u00f3lio de ag\u00eancia.\n\n**Veredito:** ambas as dimens\u00f5es \u2265 9 \u2192 aprovado para entrega. A \u00fanica ressalva honesta para o cliente: o impacto do elemento manuscrito depende de execu\u00e7\u00e3o com m\u00e3o leve (1 por card, tra\u00e7o org\u00e2nico de verdade) \u2014 se virar \"fonte cursiva digital espalhada\", cai para 7. Manter a disciplina do espa\u00e7o negativo \u00e9 o que segura o n\u00edvel premium.\n"}], "grading": null}, {"id": "carrossel-nutri-menopausa-without_skill", "prompt": "Preciso de um carrossel pro Instagram da minha cliente, uma nutricionista que atende mulheres na menopausa. O objetivo \u00e9 gerar agendamento de consulta. A marca \u00e9 s\u00e9ria mas acolhedora, paleta em tons terrosos.", "eval_id": 0, "outputs": [{"name": "brief.md", "type": "text", "content": "# Carrossel Instagram \u2014 Nutricionista para Mulheres na Menopausa\n\n**Objetivo:** gerar agendamento de consulta\n**Marca:** s\u00e9ria, mas acolhedora \u00b7 paleta em tons terrosos\n**Formato:** carrossel 1080\u00d71350 (4:5), 8 cards\n**P\u00fablico:** mulheres ~45\u201358 anos vivendo a perimenopausa/menopausa, cansadas de respostas gen\u00e9ricas (\"\u00e9 da idade\", \"vai passar\")\n\n---\n\n## 1. Conceito\n\n### Plataforma criativa: \"O corpo n\u00e3o traiu voc\u00ea. Ningu\u00e9m te explicou.\"\n\nA grande dor dessa mulher n\u00e3o \u00e9 s\u00f3 o sintoma f\u00edsico \u2014 \u00e9 a sensa\u00e7\u00e3o de ter perdido o controle do pr\u00f3prio corpo e de n\u00e3o ser levada a s\u00e9rio. O conceito reposiciona a menopausa: n\u00e3o \u00e9 o fim de nada, \u00e9 uma fase que tem m\u00e9todo. A nutri\u00e7\u00e3o entra como a ferramenta concreta de retomada de controle, e a nutricionista como a profissional que finalmente escuta e personaliza.\n\n**Promessa central:** \"Voc\u00ea n\u00e3o precisa s\u00f3 aguentar. D\u00e1 pra viver bem essa fase \u2014 com um plano feito pra voc\u00ea.\"\n\n**Tom de voz:** acolhedor e adulto. Nada de infantilizar, nada de alarmismo, nada de \"milagre\". Fala de igual pra igual, com autoridade calma. Valida o sentimento antes de oferecer a solu\u00e7\u00e3o.\n\n**Arco narrativo do carrossel (jornada de convers\u00e3o):**\n1. Capa \u2014 gancho de reconhecimento (parar o scroll)\n2. Valida\u00e7\u00e3o \u2014 \"n\u00e3o \u00e9 da sua cabe\u00e7a\"\n3. Verdade inc\u00f4moda \u2014 por que dieta gen\u00e9rica falha\n4. Virada de chave \u2014 existe outro caminho\n5. Prova/m\u00e9todo \u2014 o que a nutri\u00e7\u00e3o resolve de fato\n6. Diferencial \u2014 como \u00e9 o atendimento (humano, individual)\n7. Quebra de obje\u00e7\u00e3o \u2014 \"\u00e9 pra mim?\"\n8. CTA \u2014 agendar consulta\n\n---\n\n## 2. Copy de cada card\n\n### Card 1 \u2014 Capa (gancho)\n**T\u00edtulo:** \"N\u00e3o \u00e9 frescura. N\u00e3o \u00e9 s\u00f3 'da idade'.\"\n**Apoio:** Calor\u00e3o, ins\u00f4nia, ganho de peso que n\u00e3o cede, irrita\u00e7\u00e3o. Seu corpo est\u00e1 pedindo outra coisa \u2014 e quase ningu\u00e9m te explicou o qu\u00ea.\n**Selo de canto:** Menopausa com m\u00e9todo \u2192\n*(microcopy: \"arraste\")*\n\n### Card 2 \u2014 Valida\u00e7\u00e3o\n**T\u00edtulo:** Se voc\u00ea se sente assim, voc\u00ea n\u00e3o est\u00e1 exagerando.\n**Corpo:** A queda hormonal muda metabolismo, sono, humor e a forma como seu corpo lida com a comida. \u00c9 real, tem explica\u00e7\u00e3o \u2014 e tem manejo. O problema nunca foi for\u00e7a de vontade.\n\n### Card 3 \u2014 Verdade inc\u00f4moda\n**T\u00edtulo:** Por que a dieta que sempre funcionou parou de funcionar?\n**Corpo:** Porque ela foi feita pra outra fase da sua vida. Cortar calorias na menopausa, sem olhar horm\u00f4nios, massa muscular e sono, costuma piorar o cansa\u00e7o e travar o emagrecimento.\n\n### Card 4 \u2014 Virada de chave\n**T\u00edtulo:** A comida certa vira sua aliada nessa fase.\n**Corpo:** N\u00e3o \u00e9 comer menos. \u00c9 comer estrategicamente: prote\u00edna pra proteger seu m\u00fasculo, nutrientes que acalmam os sintomas, e uma rotina que voc\u00ea consegue manter de verdade.\n\n### Card 5 \u2014 M\u00e9todo / o que muda\n**T\u00edtulo:** O que muda quando a nutri\u00e7\u00e3o \u00e9 feita pra menopausa:\n**Lista:**\n- Menos calor\u00f5es e noites melhores de sono\n- Energia e disposi\u00e7\u00e3o de volta no dia a dia\n- Peso que responde de novo \u2014 sem dieta de sofrimento\n- Mais for\u00e7a, ossos protegidos e humor mais est\u00e1vel\n\n### Card 6 \u2014 Diferencial / como \u00e9 o atendimento\n**T\u00edtulo:** Aqui ningu\u00e9m te entrega uma dieta de gaveta.\n**Corpo:** Eu escuto sua hist\u00f3ria, seus exames e sua rotina. Montamos juntas um plano poss\u00edvel para o SEU corpo nesta fase \u2014 com acompanhamento, ajustes e algu\u00e9m pra te apoiar no caminho.\n\n### Card 7 \u2014 Quebra de obje\u00e7\u00e3o\n**T\u00edtulo:** \"Ser\u00e1 que \u00e9 pra mim?\"\n**Corpo:** Se voc\u00ea est\u00e1 na perimenopausa ou menopausa e sente que seu corpo mudou as regras do jogo, \u00e9 exatamente pra voc\u00ea. N\u00e3o importa h\u00e1 quanto tempo \u2014 d\u00e1 pra come\u00e7ar agora.\n\n### Card 8 \u2014 CTA (agendamento)\n**T\u00edtulo:** Sua pr\u00f3xima fase pode ser a mais leve.\n**Corpo:** Vamos construir um plano feito pra voc\u00ea viver bem a menopausa.\n**Bot\u00e3o/Chamada:** Agende sua consulta \u2192 toque no bot\u00e3o do perfil ou me mande **\"MENOPAUSA\"** no direct.\n**Assinatura:** [Nome] \u00b7 Nutricionista \u00b7 CRN [n\u00famero]\n\n**Legenda do post (sugest\u00e3o):**\n> \"\u00c9 da idade.\" Quantas vezes voc\u00ea j\u00e1 ouviu isso e foi pra casa sem solu\u00e7\u00e3o? \ud83c\udf3f A menopausa muda o jogo do seu corpo \u2014 mas existe um caminho com m\u00e9todo, e ele come\u00e7a pelo prato. Arrasta pra entender o que ningu\u00e9m te contou. Pronta pra come\u00e7ar? Comenta **MENOPAUSA** ou agenda pelo link da bio. #menopausa #nutricaofeminina #saudedamulher #climaterio\n\n---\n\n## 3. Dire\u00e7\u00e3o de arte\n\n### Paleta (tons terrosos, s\u00e9ria-acolhedora)\n- **Base/fundo:** Areia / off-white quente `#EFE7DB`\n- **Terracota (destaque/CTA):** `#B5613F`\n- **Argila escura (texto principal):** `#3E2F26`\n- **Verde-s\u00e1lvia (apoio/calma):** `#8A9A7B`\n- **Ocre/mostarda suave (acento pontual):** `#C8954B`\n- **Regra:** fundos claros e quentes; texto em argila escura para legibilidade; terracota reservada para t\u00edtulos-chave e CTA. Verde-s\u00e1lvia s\u00f3 em detalhes (linhas, \u00edcones), nunca dominando \u2014 mant\u00e9m o ar s\u00e9rio.\n\n### Tipografia\n- **T\u00edtulos:** serifada elegante e humanista (ex.: Fraunces, Canela, Playfair Display). Transmite seriedade e maturidade sem ser fria.\n- **Corpo/lista:** sans-serif limpa e leg\u00edvel (ex.: Inter, S\u00f6hne, Work Sans). Pesos regular/medium.\n- **Hierarquia:** t\u00edtulo grande (capa ~64\u201380pt), corpo confort\u00e1vel (~30\u201336pt), nunca lotar o card. Bastante respiro (margens generosas).\n\n### Sistema visual\n- **Grid consistente:** mesma margem e mesmo ponto de t\u00edtulo em todos os cards \u2014 sensa\u00e7\u00e3o de cuidado e profissionalismo.\n- **Elemento de continuidade:** uma fina linha/arco terracota que atravessa os cards (ou n\u00famero do card em ocre no canto), refor\u00e7ando o \"arraste\" e a jornada.\n- **Imagens:** fotografia natural, luz quente e suave, com mulheres reais maduras (45\u201360) \u2014 sorrindo de forma genu\u00edna, cozinhando, em momentos de calma. Evitar banco de imagem clich\u00ea/jovem demais. Texturas org\u00e2nicas de apoio: linho, madeira, folhas de ervas, cer\u00e2mica.\n- **Tratamento:** se usar foto na capa, aplicar leve overlay terroso para unidade e garantir contraste do texto.\n- **\u00cdcones:** linha fina, estilo org\u00e2nico/desenhado, na cor s\u00e1lvia ou argila \u2014 usados s\u00f3 no card 5 (lista de benef\u00edcios).\n\n### Layout por tipo de card\n- **Capa (1):** t\u00edtulo serifado grande dominando o ter\u00e7o superior/central, fundo areia ou foto com overlay; selo \"arraste\" discreto no rodap\u00e9.\n- **Texto (2,3,4,6,7):** fundo s\u00f3lido areia, t\u00edtulo serifado terracota no topo, corpo em argila abaixo, muito espa\u00e7o negativo. Alternar sutilmente o card de \"virada\" (4) com fundo levemente mais escuro/terracota e texto claro, para marcar o ponto de mudan\u00e7a.\n- **Lista (5):** \u00edcones + bullets curtos, bastante alinhamento e respiro.\n- **CTA (8):** fundo terracota cheio (ou areia com bloco terracota), texto claro, bot\u00e3o/chamada em destaque, assinatura com CRN para credibilidade.\n\n### O que evitar\n- Est\u00e9tica \"fitness/detox\" (verde-lim\u00e3o neon, antes-e-depois, corpo idealizado).\n- Excesso de texto por card e emojis em excesso.\n- Promessas de milagre ou linguagem alarmista.\n- Stock fotos de mulher jovem fingindo ter calor \u2014 quebra a confian\u00e7a do p\u00fablico real.\n\n---\n\n## 4. Notas de produ\u00e7\u00e3o / pr\u00f3ximos passos\n- Confirmar nome, CRN e CTA real (link de agendamento, WhatsApp ou palavra-chave no direct).\n- Definir 1 a 2 fotos reais da profissional (humaniza e aumenta convers\u00e3o no card 6 e/ou 8).\n- Vers\u00e3o complementar: transformar o card 5 em Reels curto reaproveitando a mesma copy.\n- M\u00e9trica de sucesso: salvamentos + cliques no link/direct com a palavra \"MENOPAUSA\".\n"}], "grading": null}, {"id": "story-lancamento-mentoria-with_skill", "prompt": "Cria um story 9:16 pra anunciar a abertura de vagas da minha mentoria de tr\u00e1fego pago. Quero CTA de swipe pro link.", "eval_id": 1, "outputs": [{"name": "brief.md", "type": "text", "content": "# Criativo: \"TRAVOU NA HORA DE ESCALAR\" \u2014 Story 9:16 (1080\u00d71920) \u00b7 Lan\u00e7amento / abertura de vagas\n\n> Modo de entrega: **brief criativo execut\u00e1vel** (sem render \u2014 qualquer designer ou\n> ferramenta produz a pe\u00e7a a partir daqui).\n> Idioma do brief: **PT-BR** \u2192 toda a copy sai em PT-BR.\n> Objetivo da pe\u00e7a: **CONVERTER** (swipe \u2192 link de inscri\u00e7\u00e3o). N\u00e3o \u00e9 autoridade nem alcance.\n\n---\n\n## 0. Nota de m\u00e9todo (transpar\u00eancia)\n\nA pesquisa de web foi rasa para este nicho (resultados gen\u00e9ricos: \"aprenda tr\u00e1fego do\nzero\", \"mais clientes\", \"transforme em resultados\", reels de gestor com print de\ndashboard). Por isso a **dor e o \u00e2ngulo abaixo foram ancorados em racioc\u00ednio + swipe\ninterno do nicho** (gestores de tr\u00e1fego BR e o ecossistema de mentorias tipo \"MTC /\ngestor 4.0\"), n\u00e3o em dado coletado ao vivo \u2014 declarado aqui conforme o protocolo. O que\na pesquisa **confirmou** foi o campo concorrente: os \u00e2ngulos est\u00e3o saturados, o que abre\no espa\u00e7o branco que esta pe\u00e7a ataca.\n\n---\n\n## 1. Insight estrat\u00e9gico\n\n```\nDOR:           \"Eu sei SUBIR campanha. Mas quando ela cai, ou quando o cliente pede\n                pra escalar, eu travo \u2014 fico apertando bot\u00e3o no escuro torcendo pra\n                voltar a vender.\" (gestor preso no operacional, ref\u00e9m do criativo que\n                funcionou uma vez, sem previsibilidade)\n\nDESEJO:        Previsibilidade e m\u00e9todo. Saber EXATAMENTE o que fazer em qualquer\n                cen\u00e1rio da conta \u2014 escalar sem quebrar o ROI, reter cliente, cobrar\n                mais e parar de viver no susto do \"por que caiu hoje?\".\n\n\u00c2NGULO:        O gargalo nunca foi falta de mais um hack / mais uma aula / o \"bot\u00e3o\n                m\u00e1gico\". \u00c9 falta de M\u00c9TODO. Voc\u00ea n\u00e3o precisa aprender a subir campanha\n                de novo \u2014 precisa parar de ser apertador de bot\u00e3o e virar estrategista.\n                (contra-intuitivo: a pe\u00e7a NEGA o que o nicho promete)\n\nPROMESSA:      Um m\u00e9todo pra ter previsibilidade e escalar com crit\u00e9rio \u2014 e as vagas\n                da turma est\u00e3o abertas, por tempo real e limitado.\n\nPOSICIONAMENTO: Contra um feed inteiro de \"aprenda tr\u00e1fego do zero e fature 10k\", de\n                neon-verde-dinheiro e print de gerenciador. Esta pe\u00e7a fala com quem J\u00c1\n                est\u00e1 no jogo e est\u00e1 TRAVADO \u2014 e usa dire\u00e7\u00e3o de arte editorial/anti-neon\n                pra destacar pelo contraste. \u00c9 anti-hack, pro-m\u00e9todo.\n```\n\n**N\u00edvel de consci\u00eancia (Schwartz):** p\u00fablico majoritariamente **consciente do problema /\nconsciente da solu\u00e7\u00e3o** \u2014 j\u00e1 faz tr\u00e1fego, j\u00e1 tentou cursos, sabe que mentoria existe.\nLogo a copy **n\u00e3o** come\u00e7a explicando o que \u00e9 tr\u00e1fego; come\u00e7a nomeando a dor exata\n(travar na escala) e diferenciando o mecanismo (m\u00e9todo, n\u00e3o hack).\n\n---\n\n## 2. Copy (PT-BR) \u2014 pe\u00e7a \u00fanica, arco comprimido: hook (tens\u00e3o) \u2192 payoff (not\u00edcia/promessa) \u2192 CTA (swipe)\n\n### Texto exato na arte\n\n**Eyebrow / tag (topo da zona segura):**\n> \u25cf VAGAS ABERTAS\n\n**Hook \u2014 bloco tipogr\u00e1fico dominante (a tens\u00e3o; \u00e9 o que para o scroll):**\n> Voc\u00ea sabe subir campanha.\n> **Travou na hora de ESCALAR.**\n\n(linha 1 = peso m\u00e9dio; linha 2 = display gigante, \"ESCALAR\" no acento \u2014 ver hierarquia)\n\n**Ponte (1 linha, menor, conecta dor \u2192 m\u00e9todo):**\n> O gargalo nunca foi mais um hack. \u00c9 **m\u00e9todo** \u2014 saber o que fazer em qualquer\n> cen\u00e1rio da conta.\n\n**Payoff / a not\u00edcia (o an\u00fancio, m\u00f3dulo destacado por filete):**\n> Minha mentoria de tr\u00e1fego pago abriu vagas.\n\n**CTA (m\u00f3dulo inferior, na zona segura, colado ao link sticker):**\n> \u2191 ARRASTA PRA CIMA\n> garanta sua vaga antes de fechar a turma\n\n> **Importante (honestidade da oferta):** s\u00f3 use \"antes de fechar a turma\" / \"vagas\n> limitadas\" se for **verdade** (turma com n\u00ba real de vagas ou data real de\n> fechamento). Urg\u00eancia falsa queima a pe\u00e7a e a marca. Se n\u00e3o houver limite real,\n> troque por: \"as inscri\u00e7\u00f5es est\u00e3o abertas \u2014 entra agora\".\n\n### Hook alternativo (A/B \u2014 mesmo conceito, outra entrada)\n> **Op\u00e7\u00e3o B (acusa\u00e7\u00e3o/erro):** \"Voc\u00ea n\u00e3o \u00e9 um gestor ruim. Voc\u00ea s\u00f3 nunca teve m\u00e9todo.\"\n> \u2192 mesma estrutura de hierarquia, mesma ponte e CTA. Rodar A/B entre as duas entradas.\n\n### Legenda (caption) \u2014 caso publique tamb\u00e9m como post/destaque\n\n> Linha 1 (hook, aparece antes do \"...mais\"):\n> **Voc\u00ea sabe subir campanha \u2014 mas trava na hora de escalar. O problema n\u00e3o \u00e9 voc\u00ea.**\n>\n> Todo gestor que me procura chega igual: sabe montar a campanha, sabe escolher\n> p\u00fablico, sabe subir criativo. Mas quando a conta cai, ou quando o cliente pede o\n> dobro de resultado, vira aposta no escuro.\n>\n> N\u00e3o \u00e9 falta de mais um curso de \"como subir campanha\". \u00c9 falta de **m\u00e9todo** \u2014 um\n> jeito de saber o que fazer em QUALQUER cen\u00e1rio, escalar sem quebrar o ROI e cobrar\n> pelo resultado, n\u00e3o pela hora.\n>\n> \u00c9 exatamente isso que eu ensino na mentoria. E as vagas desta turma acabam de abrir.\n>\n> \u2192 Toca no link do story (ou na bio) e garante a sua antes de fechar.\n>\n> #trafegopago #gestordetrafego #marketingdigital #gestaodetrafego #mentoriadetrafego\n> #anunciosonline #metaads #googleads\n\n(mix de hashtag: alto volume + nicho m\u00e9dio + cauda espec\u00edfica \u2014 n\u00e3o 30 aleat\u00f3rias)\n\n---\n\n## 3. Dire\u00e7\u00e3o de arte \u2014 editorial, anti-neon, anti-template\n\n### Conceito visual (a big idea em 1 frase)\n**\"O SINAL ABRIU.\"** \u2014 a pe\u00e7a \u00e9 uma transmiss\u00e3o tipogr\u00e1fica brutal num fundo quase-preto\nde \"mesa de opera\u00e7\u00e3o\", com um \u00fanico acento de cor que funciona como **indicador de \"no\nar / aberto\"** (estilo luz de grava\u00e7\u00e3o). Tudo \u00e9 tipo + tens\u00e3o + um filete vivo. Zero\nprint de dashboard, zero verde-dinheiro, zero foto de gestor de bra\u00e7os cruzados.\n\n### Por que quebra o c\u00f3digo do nicho (decis\u00e3o consciente)\nO nicho fala em **neon-verde, cifr\u00e3o, screenshot de ROAS, fundo claro estourado, \"do\nzero a 10k\"**. Esta pe\u00e7a **quebra o c\u00f3digo de prop\u00f3sito**: fundo escuro editorial,\npaleta restrita, tipografia de revista. No feed saturado, o contraste \u00c9 o stop. Pertencer\nao c\u00f3digo aqui seria desaparecer.\n\n### Layout (composi\u00e7\u00e3o, ponto focal, hierarquia \u2014 o que vai onde)\nGrid de baseline, alinhamento **\u00e0 esquerda** (assimetria intencional \u2014 nada centralizado\ne chapado). Coluna de texto recuada ~96px da borda esquerda, margem direita generosa\n(espa\u00e7o negativo proposital). De cima pra baixo, dentro da faixa segura:\n\n1. **Tag \"\u25cf VAGAS ABERTAS\"** \u2014 pequena, caixa-alta, tracking aberto, com o ponto \u25cf no\n   acento (signal). Topo da zona segura (~y=300px). \u00c9 a \"luz de grava\u00e7\u00e3o\".\n2. **Hook (ponto focal absoluto)** \u2014 ocupa o ter\u00e7o central, o maior peso visual da pe\u00e7a:\n   - \"Voc\u00ea sabe subir campanha.\" \u2192 grotesk peso m\u00e9dio, off-white, ~64px.\n   - \"Travou na hora de **ESCALAR.**\" \u2192 display expandida, ~150\u2013180px, line-height\n     apertado (0.92). \"ESCALAR\" recebe o **acento de cor** + um **filete/strike vivo**\n     por baixo (sublinhado bruto, n\u00e3o decorativo). Aqui o olho bate primeiro.\n3. **Ponte** \u2014 2 linhas, grotesk regular ~40px, off-white 80% opacidade (recua na\n   hierarquia). \"m\u00e9todo\" em peso bold.\n4. **Filete divisor** (1px, signal, largura ~40% da coluna) \u2192 separa argumento da not\u00edcia.\n5. **Payoff / not\u00edcia** \u2014 \"Minha mentoria de tr\u00e1fego pago abriu vagas.\" grotesk medium\n   ~46px, off-white cheio. Curto e seco.\n6. **CTA module** (base da zona segura, ~y=1480\u20131560): chevron(s) **\u2191** no acento +\n   \"ARRASTA PRA CIMA\" caixa-alta bold + linha de apoio fina. Posicionado **logo acima**\n   de onde entra o **link sticker** do Instagram (que fica ~y=1560\u20131620). O chevron\n   aponta pro sticker \u2014 o olho liga o cue ao bot\u00e3o real.\n\nRegra de tens\u00e3o: **um** ponto focal (o hook), tudo o mais serve e recua. Nada compete.\n\n### Tipografia\n- **Display (hook):** grotesk **expandida/condensada com atitude editorial**.\n  - 1\u00aa op\u00e7\u00e3o (paga): *S\u00f6hne Breit* ou *Neue Haas Grotesk Display Pro*.\n  - Fallback livre (Google Fonts): **Archivo Expanded** (Black) ou **Anton** (se quiser\n    condensada mais agressiva). Evitar Bebas/Montserrat (cara de template).\n- **Texto/UI (tag, ponte, payoff, CTA):** grotesk neutra de alta legibilidade.\n  - 1\u00aa op\u00e7\u00e3o: *S\u00f6hne* / *Inter Display*. Fallback livre: **Inter** ou **Geist**.\n- Escala tipogr\u00e1fica em raz\u00e3o ~1.5 (40 \u2192 64 \u2192 150). Cuidar **tracking** (tag e CTA com\n  tracking +8 a +12; display com tracking levemente negativo). Leading do display 0.92.\n  Alinhamento \u00f3ptico \u00e0 esquerda.\n\n### Paleta (hex + raz\u00e3o)\n| Cor | Hex | Uso | Raz\u00e3o |\n|---|---|---|---|\n| Ink (fundo) | `#0B0E0C` | fundo pleno | quase-preto com leve vi\u00e9s frio = \"mesa de opera\u00e7\u00e3o\", premium, anti-feed-claro do nicho |\n| Off-white | `#F4F1EA` | texto principal | branco-papel (n\u00e3o #FFF puro) = editorial, menos digital-gen\u00e9rico |\n| Signal | `#FF3B2E` | acento: \u25cf, \"ESCALAR\", filete, chevron | vermelho-sinal de \"no ar / aberto / urgente real\" \u2014 substitui o verde-dinheiro clich\u00ea e carrega o conceito |\n| Off-white 60% | `rgba(244,241,234,.6)` | textos de apoio/ponte | cria a hierarquia por opacidade |\n\nAcento usado com **parcim\u00f4nia** (\u226410% da \u00e1rea) \u2014 \u00e9 o que d\u00e1 sofistica\u00e7\u00e3o. Nada de\ngradiente arco-\u00edris, glow, blob 3D ou sombra suave de card.\n\n### Imagem / elementos\n- **Sem foto de stock, sem print de dashboard.** A pe\u00e7a \u00e9 type-driven.\n- Textura opcional sutil pra fugir do \"PowerPoint preto\": gr\u00e3o de filme leve (~3\u20134%\n  opacidade) sobre o fundo, OU uma faixa de **ru\u00eddo/scanline** discret\u00edssima no topo\n  evocando \"transmiss\u00e3o\". Opcional \u2014 s\u00f3 se n\u00e3o sujar a leitura.\n- Se for animar como story (recomendado, story \u00e9 movimento): o \u25cf da tag **pulsa**\n  (loop lento, como luz de REC); \"ESCALAR\" entra com um **wipe** do filete; o chevron \u2191\n  do CTA tem **bounce sutil** ascendente chamando o swipe. Movimento com prop\u00f3sito, n\u00e3o\n  enfeite.\n\n### Refer\u00eancia de mood\nEditorial esportivo/transmiss\u00e3o ao vivo + capa de manifesto: pense em p\u00f4ster tipogr\u00e1fico\nde ag\u00eancia (estilo *Gretel / Collins*), t\u00edtulo de transmiss\u00e3o de luta, capa de zine \u2014\n**n\u00e3o** \"template de lan\u00e7amento de infoproduto\".\n\n---\n\n## 4. Specs\n\n- **Dimens\u00e3o:** 1080\u00d71920px (9:16), fundo pleno at\u00e9 a borda.\n- **Safe zones (story):** manter todo conte\u00fado essencial fora dos **~250px do topo**\n  (avatar/nome/\u201c\u00d7\u201d) e dos **~320px da base** (barra de resposta, a\u00e7\u00f5es do sistema).\n  \u2192 faixa segura \u00fatil \u2248 **y 250 \u2192 1600**.\n- **Link / swipe:** o \"swipe up\" hoje no Instagram \u00e9 o **link sticker** (conta precisa\n  ter o sticker dispon\u00edvel). Posicionar o sticker no **centro-baixo**, ~y 1560\u20131620,\n  logo abaixo do m\u00f3dulo de CTA, **dentro da zona segura** e alinhado ao chevron \u2191.\n  O texto \"ARRASTA PRA CIMA\" \u00e9 o refor\u00e7o cultural do gesto; o clique real acontece no\n  sticker. Cor do sticker: tema escuro / acento, coerente com a paleta.\n- **Pe\u00e7a \u00fanica** (n\u00e3o \u00e9 carrossel). Vers\u00e3o est\u00e1tica + vers\u00e3o animada (mesma arte).\n- **Exportar** (quando produzir): caminho **ABSOLUTO dentro da pasta do projeto ativo do\n  cliente** (ex.: `C:\\...\\Projeto Mentoria Tr\u00e1fego\\entregaveis\\story-vagas.png`).\n  Nunca salvar no cwd da biblioteca. Tempor\u00e1rios em `<projeto>\\.tmp\\` e apagar ao fim.\n\n---\n\n## 5. Rationale (a decis\u00e3o estrat\u00e9gica)\n\n- **Por que essa dor:** o p\u00fablico de uma mentoria de tr\u00e1fego pago n\u00e3o \u00e9 o curioso que\n  nunca subiu campanha \u2014 \u00e9 o gestor que J\u00c1 opera e est\u00e1 travado na escala/previsibilidade.\n  Falar com ele na dor real (\"travou na hora de escalar\") qualifica o lead e afasta\n  curioso, o que \u00e9 exatamente o que uma pe\u00e7a de **convers\u00e3o** precisa.\n- **Por que esse hook:** \u00e9 **contra-intuitivo** e **tenso** \u2014 valida (\"voc\u00ea sabe subir\n  campanha\") pra baixar a guarda e depois acusa a dor (\"travou na hora de escalar\").\n  Para o scroll porque reconhece o cara em vez de vender. \"ESCALAR\" gigante carrega a\n  leitura em <1s mesmo no thumbnail.\n- **Por que esse \u00e2ngulo (m\u00e9todo > hack):** todo concorrente promete o atalho. Negar o\n  atalho e vender m\u00e9todo **diferencia o mecanismo** (n\u00edvel solu\u00e7\u00e3o-consciente) e\n  posiciona a mentoria como o n\u00edvel adulto do mercado. \u00c9 o espa\u00e7o branco.\n- **Por que essa dire\u00e7\u00e3o de arte:** o nicho \u00e9 visualmente previs\u00edvel (neon, cifr\u00e3o,\n  print). Quebrar o c\u00f3digo com editorial escuro + acento de sinal **destaca pelo\n  contraste** e empresta autoridade \u2014 parece marca, n\u00e3o infoproduto. O acento vermelho\n  ainda trabalha duplamente: \"abriu / no ar / urg\u00eancia real\", refor\u00e7ando a not\u00edcia.\n- **Por que esse CTA:** alinhado ao objetivo (converter). Diz a **a\u00e7\u00e3o exata** (arrasta /\n  link sticker) + a **recompensa exata** (garante sua vaga antes de fechar). Sem \"saiba\n  mais\". O chevron f\u00edsico liga o cue ao bot\u00e3o.\n\n---\n\n## 6. Autocr\u00edtica \u2014 Awwwards Judge (nota 1\u201310, refatora < 9)\n\n### Primeira passada (rascunho mental antes do que est\u00e1 acima)\n\n**Estrat\u00e9gia/copy \u2014 nota 7,5.**\n- Hook bom e contra-intuitivo, mas a vers\u00e3o inicial tinha **ponte longa demais** (3\n  linhas explicando \"m\u00e9todo\") \u2192 competia com o hook e dilu\u00eda a tens\u00e3o da pe\u00e7a \u00fanica.\n- A not\u00edcia (abertura de vagas) estava **misturada** ao argumento, sem respiro pr\u00f3prio \u2014\n  o an\u00fancio, que \u00e9 o motivo da pe\u00e7a, ficava abafado.\n- CTA inicial era \"arrasta pra cima e saiba mais\" \u2192 gen\u00e9rico, sem recompensa espec\u00edfica.\n\n**Dire\u00e7\u00e3o de arte \u2014 nota 7.**\n- Risco real de **excesso de texto** num story (6 blocos) \u2192 mancha cinza, sem ponto focal\n  inequ\u00edvoco, justamente o pecado que o checklist condena.\n- Tenta\u00e7\u00e3o de cair no verde-neon do nicho \"porque \u00e9 o c\u00f3digo\" \u2192 seria desaparecer no feed.\n- CTA sem \u00e2ncora visual ao link sticker \u2192 o cue n\u00e3o levava a lugar nenhum.\n\n### O que refatorei (e por qu\u00ea)\n1. **Comprimi a ponte** para 1\u20132 linhas com \"m\u00e9todo\" em bold e recuei na opacidade \u2192\n   o hook volta a ser o \u00fanico ponto focal; a pe\u00e7a respira.\n2. **Isolei a not\u00edcia** com um filete divisor e linha pr\u00f3pria (\"abriu vagas\") \u2192 o an\u00fancio\n   ganha o respiro que o objetivo da pe\u00e7a exige.\n3. **CTA espec\u00edfico** com a\u00e7\u00e3o + recompensa + chevron ancorado ao link sticker, na zona\n   segura \u2192 o cue agora converte.\n4. **Travei a paleta anti-neon** (ink + off-white + 1 acento de sinal usado em \u226410%) e\n   defini hierarquia tipogr\u00e1fica brutal (40 \u2192 64 \u2192 150) \u2192 contraste no feed + leitura em\n   1s no thumbnail.\n5. Adicionei **honestidade de urg\u00eancia** (s\u00f3 usar \"fecha a turma\" se for real) \u2192 protege\n   convers\u00e3o e marca; urg\u00eancia falsa derruba a nota de qualquer ag\u00eancia s\u00e9ria.\n\n### Segunda passada (pe\u00e7a acima)\n\n**Estrat\u00e9gia/copy \u2014 nota 9,2.**\nHook para o scroll, fala a dor exata do lead certo (qualifica), nega o clich\u00ea do nicho\n(diferencia\u00e7\u00e3o), not\u00edcia com respiro, CTA espec\u00edfico e ancorado. A entrada A/B d\u00e1 teste\nreal. Tira 0,8 porque convers\u00e3o de story depende de prova (sem depoimento/n\u00ba de alunos na\npe\u00e7a) \u2014 coberto pelo destino do link, mas um selo de prova discreto subiria mais.\n\n**Dire\u00e7\u00e3o de arte \u2014 nota 9,1.**\nPonto focal inequ\u00edvoco, hierarquia que conduz o olho na ordem certa (tag \u2192 hook \u2192 ponte \u2192\nnot\u00edcia \u2192 CTA), paleta intencional e do conceito (n\u00e3o default, n\u00e3o neon-nicho), espa\u00e7o pra\nrespirar, zero cara de template/IA/stock, conceito vis\u00edvel (\"o sinal abriu\"). Funciona no\ntamanho real e iria num portf\u00f3lio de ag\u00eancia. Tira 0,9 porque \u00e9 type-only \u2014 depende de\nexecu\u00e7\u00e3o tipogr\u00e1fica impec\u00e1vel (tracking/leading) pra n\u00e3o virar \"p\u00f4ster preto qualquer\";\no gr\u00e3o/scanline sutil e a anima\u00e7\u00e3o do \u25cf mitigam.\n\n**Veredito:** ambas as dimens\u00f5es \u2265 9 \u2192 **aprovado para entrega.** Pr\u00f3ximo ganho marginal\n(se o cliente quiser v2): inserir 1 prova social discreta (ex.: \"+X gestores formados\")\nno rodap\u00e9 do bloco-not\u00edcia sem sujar a hierarquia.\n"}], "grading": null}, {"id": "story-lancamento-mentoria-without_skill", "prompt": "Cria um story 9:16 pra anunciar a abertura de vagas da minha mentoria de tr\u00e1fego pago. Quero CTA de swipe pro link.", "eval_id": 1, "outputs": [{"name": "brief.md", "type": "text", "content": "# Story 9:16 \u2014 Abertura de Vagas: Mentoria de Tr\u00e1fego Pago\n\n**Tipo de entrega:** Brief detalhado + pe\u00e7a pronta para produ\u00e7\u00e3o (texto, layout e specs)\n**Formato:** Instagram/Facebook Story \u2014 1080 x 1920 px (9:16)\n**Objetivo \u00fanico:** levar o espectador a fazer swipe-up no link de inscri\u00e7\u00e3o da mentoria\n**CTA principal:** swipe pro link\n**Data:** 2026-06-16\n\n> Nota r\u00e1pida: o \"arrasta pra cima\" cl\u00e1ssico s\u00f3 aparece nativo pra contas com link sticker liberado. Hoje o padr\u00e3o do Instagram \u00e9 o **sticker de link** (o \"Link\" com setinha). Por isso o brief entrega as duas leituras: a copy diz \"ARRASTA PRA CIMA / TOCA NO LINK\" e o layout posiciona o sticker de link nativo no ponto certo. Use o que sua conta tiver.\n\n---\n\n## 1. Contexto e premissas\n\nComo n\u00e3o recebi os dados espec\u00edficos, assumi premissas de mercado para destravar a pe\u00e7a. **Confirme ou ajuste os campos em [colchetes]** antes de publicar \u2014 eles mudam a copy final.\n\n- **Produto:** mentoria de tr\u00e1fego pago (gest\u00e3o de Meta Ads / Google Ads).\n- **Promessa central assumida:** sair do \"queimar dinheiro em an\u00fancio\" para \"campanha que vende com previsibilidade\".\n- **P\u00fablico:** dono de neg\u00f3cio / infoprodutor / prestador de servi\u00e7o que j\u00e1 tentou anunciar e n\u00e3o teve retorno, OU gestor iniciante que quer profissionalizar.\n- **Mecanismo de urg\u00eancia:** vagas limitadas + janela de inscri\u00e7\u00e3o curta (gatilho real de lan\u00e7amento).\n- **Campos a preencher:** [NOME DA MENTORIA], [N\u00ba DE VAGAS], [PRAZO/DEADLINE], [PRE\u00c7O ou \"condi\u00e7\u00e3o de lan\u00e7amento\"], [B\u00d4NUS], [SEU @], [PROVA: resultado/n\u00famero].\n\n---\n\n## 2. Estrat\u00e9gia criativa (o porqu\u00ea de cada decis\u00e3o)\n\n- **Story vende com 1 ideia por tela.** Um story tem ~5\u20137s de aten\u00e7\u00e3o. A pe\u00e7a \u00e9 montada para o olho bater na ordem: **TENS\u00c3O \u2192 SOLU\u00c7\u00c3O \u2192 URG\u00caNCIA \u2192 A\u00c7\u00c3O**.\n- **CTA n\u00e3o \u00e9 enfeite, \u00e9 o cl\u00edmax.** Tudo na arte aponta (seta, movimento, cor) para o ponto de swipe na base.\n- **Urg\u00eancia precisa ser verdadeira.** \"Vagas abertas\" sem escassez real n\u00e3o converte. Por isso o brief exige n\u00ba de vagas e deadline \u2014 escassez sem n\u00famero \u00e9 s\u00f3 barulho.\n- **Prova antes de pedir clique.** Um n\u00famero concreto ([ex.: \"R$ 38 mil em vendas no 1\u00ba m\u00eas de um aluno\"]) derruba a obje\u00e7\u00e3o \"ser\u00e1 que funciona pra mim?\".\n\n---\n\n## 3. A PE\u00c7A \u2014 Conte\u00fado pronto (3 varia\u00e7\u00f5es de copy)\n\n### Varia\u00e7\u00e3o A \u2014 \"Dor \u2192 Virada\" (recomendada como principal)\n\n```\nLINHA DE TOPO (pr\u00e9-cabe\u00e7a, pequena):\n   VAGAS ABERTAS \u00b7 POR TEMPO LIMITADO\n\nHEADLINE (grande, domina o ter\u00e7o superior):\n   PAROU DE QUEIMAR\n   DINHEIRO EM\n   AN\u00daNCIO?\n\nSUBHEAD (m\u00e9dio):\n   A [NOME DA MENTORIA] te mostra como transformar\n   tr\u00e1fego pago em vendas previs\u00edveis \u2014 do zero\n   ou destravando o que j\u00e1 n\u00e3o funciona.\n\nPROVA (bloco de destaque):\n   \"[Aluno X fez R$ ___ em ___ dias aplicando o m\u00e9todo]\"\n\nESCASSEZ (p\u00edlula/badge):\n   APENAS [N\u00ba] VAGAS \u00b7 FECHA [DIA/M\u00caS]\n\nCTA (base, com seta animada apontando pra cima):\n   \ud83d\udc46 ARRASTA PRA CIMA E GARANTE A SUA\n   (ou: TOCA NO LINK \ud83d\udc46)\n```\n\n### Varia\u00e7\u00e3o B \u2014 \"Direta / Oferta\"\n\n```\nTOPO:        INSCRI\u00c7\u00d5ES ABERTAS\n\nHEADLINE:    DOMINE O\n             TR\u00c1FEGO PAGO\n             EM [X] SEMANAS\n\nSUBHEAD:     Mentoria pr\u00e1tica, ao vivo, com [SEU NOME].\n             Voc\u00ea sai sabendo subir, escalar e\n             otimizar campanha que d\u00e1 lucro.\n\nB\u00d4NUS:       + [B\u00d4NUS: ex. templates de campanha + grupo de suporte]\n\nESCASSEZ:    [N\u00ba] VAGAS \u00b7 CONDI\u00c7\u00c3O DE LAN\u00c7AMENTO\n\nCTA:         \ud83d\udc46 ARRASTA PRA CIMA \u2014 VAGAS VOANDO\n```\n\n### Varia\u00e7\u00e3o C \u2014 \"Pergunta de qualifica\u00e7\u00e3o\" (bom para retargeting)\n\n```\nTOPO:        PRA QUEM VIVE DE AN\u00daNCIO\n\nHEADLINE:    SEU ADS N\u00c3O\n             ESCALA?\n\nSUBHEAD:     Existe um motivo \u2014 e n\u00e3o \u00e9 o algoritmo.\n             Na [NOME DA MENTORIA] eu te mostro\n             exatamente o que ajustar.\n\nESCASSEZ:    TURMA NOVA \u00b7 [N\u00ba] VAGAS \u00b7 AT\u00c9 [DIA]\n\nCTA:         \ud83d\udc46 ARRASTA E ENTRA PRA TURMA\n```\n\n---\n\n## 4. Layout e composi\u00e7\u00e3o (grid de seguran\u00e7a 9:16)\n\nCanvas: **1080 x 1920 px**. Respeite as zonas \u2014 a UI do Instagram cobre topo e base.\n\n```\n\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510  0px\n\u2502  \u26a0 ZONA MORTA (UI topo)     \u2502  ~250px  \u2192 nada importante aqui\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502  [BADGE] VAGAS ABERTAS      \u2502  ~320px\n\u2502                             \u2502\n\u2502  HEADLINE                   \u2502  ~480\u2013820px  (peso visual m\u00e1ximo)\n\u2502  EM 2\u20133 LINHAS              \u2502\n\u2502                             \u2502\n\u2502  Subhead curta              \u2502  ~900px\n\u2502                             \u2502\n\u2502  \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u2502\n\u2502  \u2502 PROVA / n\u00famero forte  \u2502 \u2502  ~1150px  (card destacado)\n\u2502  \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2502\n\u2502                             \u2502\n\u2502  [ APENAS X VAGAS \u00b7 DIA ]   \u2502  ~1380px  (p\u00edlula de escassez)\n\u2502                             \u2502\n\u2502         \u2191 \u2191 \u2191               \u2502  ~1550px  (setas animadas subindo)\n\u2502   ARRASTA PRA CIMA          \u2502  ~1620px  (CTA)\n\u2502  [ sticker de LINK nativo ] \u2502  ~1700px  \u2190 posicione o link aqui\n\u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524\n\u2502  \u26a0 ZONA MORTA (UI base)     \u2502  ~1750\u20131920px \u2192 \"Enviar mensagem\"\n\u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518  1920px\n```\n\n**Regras de ouro do layout:**\n- Mantenha tudo que \u00e9 cr\u00edtico entre **250px e 1750px**.\n- O sticker de link nativo deve ficar **logo acima da copy de CTA**, ~1650\u20131720px, para a seta apontar direto pra ele.\n- Headline ocupa o maior peso visual da tela. Se n\u00e3o der pra ler em 1 segundo, est\u00e1 grande demais ou comprido demais.\n\n---\n\n## 5. Dire\u00e7\u00e3o de arte\n\n- **Mood:** performance / dinheiro / movimento. Tom confiante, n\u00e3o \"fofo\".\n- **Paleta sugerida** (ajuste \u00e0 identidade do cliente):\n  - Fundo escuro grafite/preto (`#0E0E12`) \u2192 faz n\u00famero e CTA saltarem.\n  - Acento de destaque verde-lucro (`#1FE07A`) ou \u00e2mbar/ouro (`#FFB020`) para CTA, setas e badge de escassez.\n  - Texto branco (`#FFFFFF`) e cinza-claro (`#B8B8C0`) para subhead.\n  - **Vermelho/laranja s\u00f3 na escassez** (\"fecha dia X\") \u2014 cria alerta sem poluir.\n- **Tipografia:** sans-serif pesada e condensada na headline (ex.: Anton, Archivo Black, Druk). Subhead em peso regular leg\u00edvel (Inter, S\u00f6hne, Helvetica).\n- **Fundo:** op\u00e7\u00f5es, em ordem de impacto:\n  1. Gradiente escuro + textura sutil de \"gr\u00e1fico subindo\" / linhas de curva ascendente ao fundo (refor\u00e7a crescimento).\n  2. Foto do mentor (voc\u00ea) com overlay escuro 60% e a copy por cima \u2014 mais conex\u00e3o, \u00f3timo para tr\u00e1fego frio.\n  3. Mockup de dashboard de Ads desfocado ao fundo.\n- **Hierarquia de cor no CTA:** o bot\u00e3o/p\u00edlula de \"ARRASTA\" \u00e9 o elemento mais saturado da tela. Nada compete com ele embaixo.\n\n---\n\n## 6. Movimento (se for story em v\u00eddeo/animado \u2014 recomendado)\n\nDura\u00e7\u00e3o ideal: **6\u20138 segundos**, em loop.\n\n| Tempo | Elemento | Anima\u00e7\u00e3o |\n|---|---|---|\n| 0,0\u20130,5s | Badge \"VAGAS ABERTAS\" | fade-in + leve scale |\n| 0,3\u20131,2s | Headline | entra palavra por palavra (stagger), peso de impacto |\n| 1,2\u20132,0s | Subhead | fade-in subindo 20px |\n| 2,0\u20132,8s | Card de prova | \"pop\" com leve overshoot |\n| 2,8\u20133,5s | P\u00edlula de escassez | pulso sutil (chama aten\u00e7\u00e3o sem piscar) |\n| 3,5s \u2192 loop | Setas do CTA | sobem em loop cont\u00ednuo (a \u00e2ncora visual do swipe) |\n\nSom (opcional): batida curta/whoosh no momento da headline. A maioria assiste sem som \u2014 **a pe\u00e7a tem que funcionar 100% mudo**.\n\n---\n\n## 7. Varia\u00e7\u00f5es de entrega (kit de story)\n\nRecomendo produzir o lan\u00e7amento como **sequ\u00eancia de 3 stories**, n\u00e3o 1 isolado:\n\n1. **Story 1 \u2014 Tens\u00e3o/curiosidade:** \"Voc\u00ea anuncia e n\u00e3o vende? Tem motivo.\" (sem oferta ainda, gera abertura)\n2. **Story 2 \u2014 A pe\u00e7a principal** (Varia\u00e7\u00e3o A acima): oferta + escassez + CTA swipe.\n3. **Story 3 \u2014 Prova social/urg\u00eancia final:** print de resultado de aluno OU \"restam [X] vagas\" \u2192 CTA repetido.\n\nPara o dia do fechamento: republicar o Story 2 com o badge trocado para **\"\u00daLTIMAS HORAS\"** em vermelho.\n\n---\n\n## 8. Checklist antes de publicar\n\n- [ ] Link de inscri\u00e7\u00e3o testado (abre? carrega no mobile? pixel disparando?).\n- [ ] N\u00ba de vagas e deadline s\u00e3o **reais** e batem com a landing page.\n- [ ] Headline leg\u00edvel em 1 segundo, sem texto na zona morta.\n- [ ] Sticker de link posicionado logo acima do CTA escrito.\n- [ ] Pe\u00e7a funciona sem som e sem swipe (caso a conta n\u00e3o tenha link sticker \u2192 usar \"link na bio\" / \"me chama no direct\").\n- [ ] UTM no link (`utm_source=instagram&utm_medium=story&utm_campaign=lancamento_mentoria`) para o tr\u00e1fego rastrear a convers\u00e3o.\n- [ ] Vers\u00e3o \"\u00faltimas horas\" agendada para o \u00faltimo dia.\n\n---\n\n## 9. O que eu preciso de voc\u00ea para fechar a vers\u00e3o final\n\n1. Nome da mentoria + seu @.\n2. N\u00famero de vagas e data/hora de fechamento.\n3. Um resultado concreto (seu ou de aluno) para o card de prova.\n4. Pre\u00e7o ou condi\u00e7\u00e3o de lan\u00e7amento + b\u00f4nus, se houver.\n5. Identidade visual (cores/fonte/logo) ou autoriza\u00e7\u00e3o para eu seguir a paleta sugerida.\n6. V\u00eddeo ou foto sua, se quiser o fundo com sua imagem.\n\nCom isso eu fecho a arte final (ou o arquivo edit\u00e1vel) em uma rodada.\n"}], "grading": null}, {"id": "feed-coffee-en-with_skill", "prompt": "I run a specialty coffee roastery in Lisbon. I need an Instagram feed post announcing our new single-origin Ethiopian beans (washed Yirgacheffe, floral and citrus notes). Make it feel premium, not like every other coffee shop post.", "eval_id": 2, "outputs": [{"name": "brief.md", "type": "text", "content": "# Creative: \"It's Coffee. It Drinks Like a Flower.\" \u2014 Instagram Feed Post (4:5, 1080\u00d71350)\n\nClient: Specialty coffee roastery, Lisbon\nDeliverable: Single feed post announcing a new single-origin \u2014 washed Ethiopian Yirgacheffe (floral / citrus)\nMode: Executable creative brief (no render) \u2014 any designer or image tool can produce this without asking a single follow-up question.\nOutput language: English (detected from the brief)\n\n---\n\n## 1. Market research \u2192 Strategic insight\n\nGrounded in live research (Reddit r/Coffee, r/pourover, roaster blogs, specialty marketing sources), two truths matter:\n\n**Truth A \u2014 the product is counter-intuitive.** Washed Yirgacheffe is described by drinkers and roasters in almost identical words: *\"floral, tea-like, jasmine, bergamot, shimmery citrus, clean, light body.\"* The natural process tastes like blueberry jam; the *washed* one is the elegant, tea-like, perfume-y one. Crucially: this is **not what most people think \"coffee\" tastes like.** The mass mental model of coffee is dark, bitter, roasty, chocolatey. Washed Yirgacheffe breaks that category expectation \u2014 it's closer to a fragrance or a fine white wine than to a burnt espresso. That gap *is* the story.\n\n**Truth B \u2014 the category's content is a sea of sameness.** Specialty roasteries on Instagram nearly all post the same thing: an overhead flatlay of a cup with latte art, beans scattered on a board, and a caption that reads \"New beans in! \ud83c\udf31 Ethiopia Yirgacheffe now available.\" Marketing sources confirm \"special release\" / \"limited drop\" framing drives retail sales and saves \u2014 but almost nobody *art-directs* the announcement. The white space is obvious: **stop photographing the cup. Treat the bean drop like a fragrance launch or a wine vintage release.**\n\n```\nDOR (pain):        \"Every coffee post looks the same, and 'fruity coffee' sounds\n                    like a gimmick \u2014 I expect coffee to taste like coffee.\"\nDESEJO (desire):    To feel like an insider in a refined ritual; to be surprised;\n                    to drink something that signals taste, not just caffeine.\n\u00c2NGULO (angle):     Don't sell 'new beans.' Reveal that this doesn't taste like\n                    coffee at all \u2014 bergamot, jasmine, lemon zest \u2014 and frame the\n                    release like a perfume's note pyramid, not a caf\u00e9 flatlay.\nPROMESSA (promise): A cup that drinks like a flower. Proof that 'washed Ethiopian'\n                    is the most elegant thing you'll taste this season.\nPOSICIONAMENTO:     In a feed of brown flatlays and latte-art selfies, this is a\n                    typographic fragrance launch \u2014 editorial, restrained, unmistakably\n                    not a template. It belongs in a magazine, not a caf\u00e9 story.\n```\n\nIf this paragraph weren't convincing, I'd research more. It is the foundation \u2014 every copy and art decision below derives from it.\n\n---\n\n## 2. Big idea\n\n**\"The Note Pyramid.\"** Borrow the structure the fragrance world uses to communicate a scent \u2014 top / heart / base notes \u2014 and apply it to the cup. The hero of the post is not a photo of coffee; it is the *tasting notes themselves*, set as a high-contrast editorial typographic stack, the way a perfume house announces a launch. One line reframes the whole thing: *it's coffee.* The surprise is the payoff.\n\nConceptual one-liner the whole piece has to earn: **\"It's coffee. It drinks like a flower.\"**\n\n---\n\n## 3. Copy (English)\n\nConsciousness level: bridging *problem-aware* (the curious drinker who assumes \"fruity coffee\" is a gimmick) and *product-aware* (the third-wave regular who already knows single origins). The hook confronts the category expectation so both stop scrolling.\n\n**Hook (the hero, the first thing the eye reads):**\n> BERGAMOT.\n> JASMINE.\n> LEMON ZEST.\n>\n> *(it's coffee.)*\n\nThe three notes are set huge; \"(it's coffee.)\" is small and dry underneath \u2014 the punchline that recontextualises everything above it. That tension *is* the scroll-stopper.\n\n**Supporting / origin line (small caps label, secondary tier):**\n> ETHIOPIA \u00b7 YIRGACHEFFE \u00b7 WASHED PROCESS \u2014 single-origin, limited release\n\n**Body micro-copy (one line, third tier):**\n> Not roasted dark to hide it. Roasted light to let it bloom.\n\n(This is the mechanism / differentiator line \u2014 it answers *why* it tastes like this and quietly positions against over-roasted commodity coffee, without naming a competitor.)\n\n**CTA (specific action + specific reward \u2014 tied to the goal: drive footfall + saves):**\n> Brewing it at the bar from Saturday. Come taste it before the lot sells out \u2014 or reserve a bag through the link in bio.\n\n**Micro-CTA (engagement / reach), placed bottom corner:**\n> Save this for your next slow morning.\n\n**Caption (first line is the real hook \u2014 it has to survive before the \"\u2026more\" cut):**\n\n> Most coffee is roasted dark to taste like \"coffee.\" This one isn't.\n>\n> Our new single origin is a washed Yirgacheffe from the Gedeo zone of Ethiopia \u2014 the same terroir that put Ethiopian coffee on the map. Washed (not natural), so instead of jammy blueberry it lands clean and tea-like: bergamot on the nose, jasmine in the middle, a twist of lemon zest on the finish.\n>\n> We roast it light on purpose. Dark roasting would burn off everything that makes it special. This is coffee that behaves like a fragrance \u2014 and it's the most elegant cup we've put on the bar this season.\n>\n> \ud83c\udf3c Brewing as filter at the bar from Saturday morning.\n> \ud83d\udecd\ufe0f Limited lot \u2014 reserve a 250g bag via the link in bio.\n> \ud83d\udccc Save this for your next slow morning, or send it to the friend who still thinks they don't like \"fruity coffee.\"\n>\n> #specialtycoffee #yirgacheffe #ethiopiancoffee #singleorigin #washedprocess #filtercoffee #lisboncoffee #lisboncafe #thirdwavecoffee #slowmorning #coffeelovers #pourover #specialtycoffeelisbon\n\n(Hashtag mix: high-volume + mid + Lisbon-local niche \u2014 not 30 random tags.)\n\n---\n\n## 4. Art direction (premium, anti-template)\n\n**Visual concept (one sentence):** A fragrance-launch poster for a coffee \u2014 restrained editorial typography on washed parchment, where the tasting notes *are* the image, deliberately refusing every coffee-shop visual clich\u00e9.\n\n**Strategic decision \u2014 break the niche's visual code on purpose.** The niche code is brown tones + cup flatlay + latte art. We abandon all three. No cup. No beans scattered on wood. No brown. The piece earns attention precisely *because* it looks like it wandered in from a perfume campaign. (Reference: Aesop / Le Labo product cards, Kinfolk editorial spreads, a fine-wine vintage announcement.)\n\n**Layout (4:5 portrait, asymmetric, one unmistakable focal point):**\n- Generous top margin \u2014 the piece breathes; ~18% of the canvas is empty at the top. Space is the luxury signal.\n- **Tier 1 (hero, top-third dominant):** the three notes \u2014 `BERGAMOT.` / `JASMINE.` / `LEMON ZEST.` \u2014 left-aligned, stacked, set in a high-contrast display serif at a commanding size. Strong size step-down is *not* used between the three notes; they read as one block (the \"accord\"). Left-aligned, not centered \u2014 centering would kill the editorial tension.\n- Directly beneath, small and quiet: `(it's coffee.)` in the grotesque, lowercase, in the citrus accent or muted ink. This is the focal twist \u2014 small type after huge type creates the punch.\n- **Tier 2 (mid):** a thin hairline rule, then the origin label in tracked-out small caps: `ETHIOPIA \u00b7 YIRGACHEFFE \u00b7 WASHED`. Spacing wide, weight light \u2014 feels like a luxury product spec line.\n- **Tier 3 (lower):** the mechanism line `Not roasted dark to hide it. Roasted light to let it bloom.` in a refined italic of the serif \u2014 one elegant line, intentionally the only italic in the piece.\n- **Bottom band:** the CTA in the grotesque (small, confident, single line) on the left; the roastery wordmark / small monogram bottom-left or bottom-right. Keep the very bottom calm \u2014 it reads cleanly as a grid thumbnail.\n- **One \u2014 and only one \u2014 graphic gesture:** a single fine line-art botanical mark (a jasmine sprig or a bergamot leaf) rendered as a delicate single-weight line drawing (engraving / botanical-plate style), placed off-center in the negative space (e.g. lower-right, partially bleeding off the edge). It is the lone ornament and it reinforces the \"drinks like a flower\" idea. No glow, no blur, no 3D blob, no gradient.\n\n**Typography:**\n- Display serif (the hero + italic line): a high-contrast modern/Didone or refined editorial serif \u2014 **Canela, GT Sectra, Reckless, or Ogg** (premium). Accessible substitutes: **Fraunces** (high optical contrast settings) or **Playfair Display**. Tighten tracking slightly on the large notes; optical-align the periods.\n- Grotesque (labels, CTA, \"(it's coffee.)\", spec line): a clean neutral sans \u2014 **S\u00f6hne, Neue Haas Grotesk, or Suisse Int'l** (premium). Accessible substitutes: **Inter** or **Archivo**. Use wide letter-spacing (tracking ~120\u2013200) only on the small-caps origin label.\n- Type scale ratio ~1.5 (major third / perfect fifth feel): notes \u2248 150\u2013185px cap height; origin label \u2248 24px tracked; mechanism italic \u2248 40px; CTA \u2248 28px. Brutal hierarchy: the eye hits the notes, then the twist, then the label, then the CTA.\n\n**Palette (intentional, niche-aware, anti-brown \u2014 each color has a reason):**\n- `#ECE6D8` \u2014 *Washed Ecru.* Background. Unbleached-paper tone; a literal nod to the **washed** process and to editorial print stock. (Replaces the default coffee-brown.)\n- `#1C1815` \u2014 *Espresso Ink.* Primary type. Near-black with a warm bias for brutal contrast and a premium print feel.\n- `#B6C24E` \u2014 *Bergamot Zest.* Single accent \u2014 a muted citrus-chartreuse for `(it's coffee.)` and the botanical line mark. Unexpected for coffee, which is the point; it codes \"citrus/floral,\" not \"roast.\"\n- `#9A8F7C` \u2014 *Parchment Grey.* For the hairline rule and the tracked origin label \u2014 recessive, structural, never competes.\n\nNo more than these. The restraint is the sophistication.\n\n**Texture (optional, subtle):** a barely-there uncoated-paper grain on the background (5\u20138% opacity) to feel like printed editorial stock, not a flat digital fill. Nothing more.\n\n**If generating the botanical mark via an image tool, prompt direction:**\n> \"Single-line botanical engraving of a jasmine sprig with two open flowers and one bud, fine uniform line weight, vintage scientific-plate style, no shading, no fill, transparent background, deep espresso-ink color (#1C1815), elegant and minimal.\" Then place at low-right bleeding off the edge. No photographic coffee imagery anywhere in the piece.\n\n---\n\n## 5. Specs\n\n- **Format:** Instagram feed post, portrait **4:5 \u2014 1080 \u00d7 1350 px** (preferred over 1:1: occupies more screen on scroll).\n- **Cards:** 1 (single image).\n- **Safe considerations:** keep the hero notes and the twist line inside the central 80% so the piece reads cleanly as a small grid thumbnail; keep the CTA and wordmark off the very edges. Hero must be legible at thumbnail size \u2014 the three notes carry it.\n- **Export:** PNG or high-quality JPG, sRGB. If produced, save to the **active project folder** with an absolute path (never the library cwd), per project CLAUDE.md.\n- **Grid check:** when cropped to ~1:1 in the profile grid, \"BERGAMOT / JASMINE / LEMON ZEST\" must still dominate and read.\n\n---\n\n## 6. Rationale (what a premium client is paying for)\n\n- **The pain attacked:** not \"we have new beans\" (nobody cares), but the *category disbelief* \u2014 \"fruity coffee is a gimmick / coffee should taste like coffee.\" We weaponize the surprise instead of apologizing for it.\n- **Why this hook:** leading with three concrete sensory nouns (bergamot, jasmine, lemon zest) and only *then* revealing \"(it's coffee.)\" creates a sub-second tension \u2014 the reader's expectation is set, then snapped. Concrete > abstract; specificity is what stops the scroll.\n- **Why this art direction:** the fastest way to look premium in a niche is to refuse the niche's clich\u00e9s with intent. Every other roastery posts a brown flatlay; an ecru fragrance-launch poster is pattern-interrupt by construction. Negative space + brutal type hierarchy + a single botanical gesture = \"agency campaign,\" not \"Canva template.\"\n- **Why this CTA:** it's specific (taste it at the bar Saturday / reserve a bag via link) and scarcity-framed (\"before the lot sells out\"), driving both footfall and retail \u2014 plus a save trigger (\"for your next slow morning\") to extend organic reach. Reward is explicit, not \"learn more.\"\n\n---\n\n## 7. Awwwards-judge self-critique (1\u201310) \u2014 critique \u2192 refactor \u2192 final\n\nI scored the first pass honestly, found it short of 9 on both axes, and rebuilt it. Showing the work, per the skill.\n\n**First pass \u2014 what I rejected:**\n- *Strategy/copy: 7.5.* The original hook was \"New single origin: Ethiopian Yirgacheffe \u2014 floral & citrus notes.\" Technically accurate, completely inert. It announces; it doesn't confront. It assumes the reader already values fruity coffee. **Fix:** invert to the note-first / \"(it's coffee.)\" reveal so the piece *creates* the surprise instead of stating a fact, and add the \"roasted light to let it bloom\" mechanism line so there's a reason-to-believe.\n- *Art direction: 6.5.* The original instinct was a warm cup photo, brown palette, centered text \u2014 i.e. the exact niche clich\u00e9 the strategy says to break. It would have vanished in the feed. **Fix:** kill the photo and the brown; commit to the fragrance-poster concept, washed-ecru palette, asymmetric left-aligned brutal hierarchy, and a single botanical line mark as the only ornament.\n\n**Final pass scores:**\n\n*Strategy / copy: **9.3 / 10.*** The hook stops the scroll through genuine tension, the pain is the real one (category disbelief, not \"no beans\"), the mechanism line earns the claim, and the CTA is specific with a reward and scarcity. (Held just under perfect: the caption is a touch long \u2014 a tighter edit could lift it further.)\n\n*Art direction: **9.2 / 10.*** Unmistakable focal point, brutal hierarchy, a restrained intentional palette that's niche-aware *by opposition*, real breathing room, one purposeful ornament, and a concept legible at a glance. Passes the Awwwards checklist: focal point \u2713, hierarchy \u2713, type with character \u2713, intentional palette \u2713, negative space \u2713, not template/AI/stock \u2713, concept visible \u2713, works at thumbnail \u2713, portfolio-worthy \u2713. (Held just under perfect: execution quality of the botanical engraving and the optical alignment of the large type will decide whether it lands at 9 or 10 in render.)\n\nBoth axes clear the 9 bar \u2014 cleared to deliver. The single biggest lever in production is restraint: do not add a cup, a second accent color, or a gradient. The emptiness is the budget.\n"}], "grading": null}, {"id": "feed-coffee-en-without_skill", "prompt": "I run a specialty coffee roastery in Lisbon. I need an Instagram feed post announcing our new single-origin Ethiopian beans (washed Yirgacheffe, floral and citrus notes). Make it feel premium, not like every other coffee shop post.", "eval_id": 2, "outputs": [{"name": "brief.md", "type": "text", "content": "# Instagram Feed Post \u2014 New Single-Origin Ethiopian (Washed Yirgacheffe)\n\n**Client:** Specialty coffee roastery, Lisbon\n**Deliverable:** One Instagram feed post (1080\u00d71350, 4:5 portrait \u2014 the most real estate the feed allows)\n**Goal:** Announce a new single-origin Ethiopian bean and make it feel *premium and editorial*, not like a generic coffee-shop flatlay.\n\n---\n\n## 1. Strategy & Positioning\n\n**The trap to avoid:** Most coffee-shop posts look identical \u2014 overhead latte art on a wooden table, a kraft bag with a stamped logo, warm-and-cozy filter, caption full of emojis and \"perfect morning \u2615\" energy. That reads as *caf\u00e9*, not *roaster*. Specialty buyers want provenance, craft, and restraint.\n\n**The angle we'll own:** Treat the bean like a *vintage* \u2014 origin, process, and tasting notes presented like a sommelier card. The post should feel closer to a perfume launch or a natural-wine label than a caf\u00e9 menu. Premium = white space, confidence, fewer words, one strong image, typography doing the heavy lifting.\n\n**One-line creative idea:**\n> *\"A washed Yirgacheffe that tastes like jasmine and lemon peel \u2014 presented with the calm of a gallery label.\"*\n\n**Tone:** Quiet confidence. Sensory, specific, sparse. Portuguese-Lisbon roastery sophistication \u2014 European, not American-cozy.\n\n---\n\n## 2. The Visual (art direction for the photographer / designer)\n\n**Format:** 4:5 portrait, 1080\u00d71350.\n\n**Composition \u2014 pick ONE, do not crowd:**\n\n- **Option A (recommended) \u2014 The Spill.**\n  A small, precise scatter of *raw green + roasted* beans on a seamless, cool-toned backdrop (bone, stone-grey, or deep espresso-black \u2014 NOT warm wood). Shot from a slight 3/4 angle, hard directional light from one side casting long, sculptural shadows. Beans occupy the lower third; the upper two-thirds is breathing room for type. Macro sharpness on a few beans, the rest falling soft.\n\n- **Option B \u2014 The Pour, abstracted.**\n  Extreme close-up of a single drip/pour-over, backlit so the coffee glows amber-garnet. Almost abstract. Floral element (a single jasmine sprig or lemon twist) resting at the edge \u2014 a literal nod to the tasting notes, used sparingly.\n\n- **Option C \u2014 The Label.**\n  The new bag photographed like a product hero on a plinth of stone, single softbox, deep shadow, minimal. Lets the packaging design carry the premium feel.\n\n**Art-direction rules (the things that make it NOT generic):**\n- No warm \"cozy caf\u00e9\" filter. Go cool and editorial, or rich and moody. Pick a clear direction.\n- One light source, intentional shadow. Flat even lighting = amateur.\n- Negative space is the luxury signal. Resist filling the frame.\n- A single botanical prop (jasmine OR lemon peel) max \u2014 it earns its place by mirroring the tasting notes. Don't stage a whole still-life.\n- No latte art. No hands holding a mug. No laptop-and-coffee desk scene.\n\n**Color palette:**\n- Base: bone white `#F4F1EC` or near-black espresso `#1C1816`\n- Accent 1 (floral): muted jasmine cream / pale ivory\n- Accent 2 (citrus): a restrained warm yellow `#D9A441` used in TINY doses (a line, a dot, the notes)\n- Avoid: saturated browns, orange \"coffee\" clich\u00e9s, multiple competing colors.\n\n---\n\n## 3. On-Image Typography (the layout)\n\nTreat it like a tasting card / gallery label. Suggested stack, top to bottom:\n\n```\nSINGLE ORIGIN \u00b7 ETHIOPIA            \u2190 small caps, letter-spaced, quiet (eyebrow)\n\nYirgacheffe                          \u2190 large serif display, the hero word\n\nwashed \u00b7 floral \u00b7 citrus             \u2190 thin caps, the notes\n\n\u2014\n\n[ now roasting ]                     \u2190 tiny tag, lower corner\n```\n\n**Type direction:**\n- Display: an elegant serif with character (e.g. Canela, GT Sectra, Reckless, or a clean Didone) \u2014 this single choice does most of the \"premium\" work.\n- Supporting: a fine, wide-tracked sans (e.g. a light grotesque) in ALL CAPS for the eyebrow and notes.\n- Strict hierarchy: one hero word, everything else whispers. Generous tracking on the small text.\n- Left-aligned or centered \u2014 commit to one. No drop shadows, no gradients on text.\n\n---\n\n## 4. The Caption\n\nKeep it short, confident, sensory. No emoji clutter (one, max, or none). Lead with the experience, not the announcement.\n\n**Primary caption:**\n\n> Jasmine on the nose. Lemon peel on the finish.\n>\n> Our new single-origin lands this week: a washed **Yirgacheffe** from the highlands of southern Ethiopia \u2014 bright, floral, and clean enough to drink black and slow.\n>\n> Picked ripe, washed, sun-dried. Roasted light, here in Lisbon, to keep every note intact.\n>\n> Limited first roast. In the shop and online now.\n>\n> \u2014\n> #Yirgacheffe #SingleOrigin #SpecialtyCoffee #EthiopianCoffee #LisbonCoffee #CafeLisboa #WashedProcess #LightRoast #ThirdWaveCoffee #CoffeeRoastery\n\n**Alt caption (shorter / more editorial):**\n\n> Yirgacheffe.\n> Washed. Floral. Citrus.\n> A single-origin from southern Ethiopia, roasted light in Lisbon this week.\n> Drink it black. Take your time.\n\n**Hashtag note:** mix 3\u20134 high-intent niche tags (#Yirgacheffe, #WashedProcess) with 3\u20134 local (#LisbonCoffee, #CafeLisboa) and a couple broad-reach (#SpecialtyCoffee). Put them on a separate line or first comment to keep the caption clean.\n\n---\n\n## 5. Optional Carousel Extension (recommended)\n\nA single post works, but for a launch a 3-slide carousel deepens the premium \"story\" feel:\n\n1. **Slide 1 \u2014 Hero:** the visual + \"Yirgacheffe\" type card (above). The scroll-stopper.\n2. **Slide 2 \u2014 Provenance:** a clean map dot / single line of text \u2014 *\"Yirgacheffe, Gedeo Zone \u00b7 ~1,900m \u00b7 washed process.\"* White space heavy.\n3. **Slide 3 \u2014 Tasting:** the notes as a sommelier card \u2014 *\"Jasmine \u00b7 Lemon peel \u00b7 Black tea \u00b7 Silky body\"* + a one-line brew tip (*\"Best as pour-over or black filter. 1:16, just off the boil.\"*) and the CTA.\n\n---\n\n## 6. Production Checklist\n\n- [ ] Shoot/select ONE strong image, cool or moody \u2014 no warm caf\u00e9 filter.\n- [ ] One intentional light source + real shadow.\n- [ ] Negative space preserved (type lives in the breathing room).\n- [ ] Max one botanical prop (jasmine or lemon), mirroring the notes.\n- [ ] Serif hero word + tracked sans supporting type, strict hierarchy.\n- [ ] Caption: sensory-first, \u22644 short lines, emoji restraint.\n- [ ] CTA present (in shop + online, \"limited first roast\").\n- [ ] Hashtags: niche + local + reach, kept out of the main caption body.\n- [ ] First comment: brew recommendation (pour-over, 1:16) for the specialty crowd.\n\n**Best posting window (Lisbon, specialty audience):** weekday morning, ~08:00\u201310:00, or Saturday morning before the shop fills.\n\n---\n\n## 7. Why this is premium, not generic (rationale)\n\n- **Provenance over product:** we sell the *story of the bean* (altitude, process, region), which is what specialty buyers actually pay for.\n- **Restraint as a luxury cue:** white space, one image, one hero word \u2014 the opposite of the cluttered caf\u00e9 feed.\n- **Sensory specificity:** \"jasmine, lemon peel, black tea\" beats \"delicious aromatic coffee.\" Specific = credible = premium.\n- **Art direction discipline:** cool/moody light + editorial typography is the single biggest visual differentiator from the warm-flatlay default everyone else posts.\n"}], "grading": null}], "previous_feedback": {}, "previous_outputs": {}};
+
+    // ---- State ----
+    let feedbackMap = {};  // run_id -> feedback text
+    let currentIndex = 0;
+    let visitedRuns = new Set();
+
+    // ---- Init ----
+    async function init() {
+      // Load saved feedback from server — but only if this isn't a fresh
+      // iteration (indicated by previous_feedback being present). When
+      // previous feedback exists, the feedback.json on disk is stale from
+      // the prior iteration and should not pre-fill the textareas.
+      const hasPrevious = Object.keys(EMBEDDED_DATA.previous_feedback || {}).length > 0
+        || Object.keys(EMBEDDED_DATA.previous_outputs || {}).length > 0;
+      if (!hasPrevious) {
+        try {
+          const resp = await fetch("/api/feedback");
+          const data = await resp.json();
+          if (data.reviews) {
+            for (const r of data.reviews) feedbackMap[r.run_id] = r.feedback;
+          }
+        } catch { /* first run, no feedback yet */ }
+      }
+
+      document.getElementById("skill-name").textContent = EMBEDDED_DATA.skill_name;
+      showRun(0);
+
+      // Wire up feedback auto-save
+      const textarea = document.getElementById("feedback");
+      let saveTimeout = null;
+      textarea.addEventListener("input", () => {
+        clearTimeout(saveTimeout);
+        document.getElementById("feedback-status").textContent = "";
+        saveTimeout = setTimeout(() => saveCurrentFeedback(), 800);
+      });
+    }
+
+    // ---- Navigation ----
+    function navigate(delta) {
+      const newIndex = currentIndex + delta;
+      if (newIndex >= 0 && newIndex < EMBEDDED_DATA.runs.length) {
+        saveCurrentFeedback();
+        showRun(newIndex);
+      }
+    }
+
+    function updateNavButtons() {
+      document.getElementById("prev-btn").disabled = currentIndex === 0;
+      document.getElementById("next-btn").disabled =
+        currentIndex === EMBEDDED_DATA.runs.length - 1;
+    }
+
+    // ---- Show a run ----
+    function showRun(index) {
+      currentIndex = index;
+      const run = EMBEDDED_DATA.runs[index];
+
+      // Progress
+      document.getElementById("progress").textContent =
+        `${index + 1} of ${EMBEDDED_DATA.runs.length}`;
+
+      // Prompt
+      document.getElementById("prompt-text").textContent = run.prompt;
+
+      // Config badge
+      const badge = document.getElementById("config-badge");
+      const configMatch = run.id.match(/(with_skill|without_skill|new_skill|old_skill)/);
+      if (configMatch) {
+        const config = configMatch[1];
+        const isBaseline = config === "without_skill" || config === "old_skill";
+        badge.textContent = config.replace(/_/g, " ");
+        badge.className = "config-badge " + (isBaseline ? "config-baseline" : "config-primary");
+        badge.style.display = "inline-block";
+      } else {
+        badge.style.display = "none";
+      }
+
+      // Outputs
+      renderOutputs(run);
+
+      // Previous outputs
+      renderPrevOutputs(run);
+
+      // Grades
+      renderGrades(run);
+
+      // Previous feedback
+      const prevFb = (EMBEDDED_DATA.previous_feedback || {})[run.id];
+      const prevEl = document.getElementById("prev-feedback");
+      if (prevFb) {
+        document.getElementById("prev-feedback-text").textContent = prevFb;
+        prevEl.style.display = "block";
+      } else {
+        prevEl.style.display = "none";
+      }
+
+      // Feedback
+      document.getElementById("feedback").value = feedbackMap[run.id] || "";
+      document.getElementById("feedback-status").textContent = "";
+
+      updateNavButtons();
+
+      // Track visited runs and promote done button when all visited
+      visitedRuns.add(index);
+      const doneBtn = document.getElementById("done-btn");
+      if (visitedRuns.size >= EMBEDDED_DATA.runs.length) {
+        doneBtn.classList.add("ready");
+      }
+
+      // Scroll main content to top
+      document.querySelector(".main").scrollTop = 0;
+    }
+
+    // ---- Render outputs ----
+    function renderOutputs(run) {
+      const container = document.getElementById("outputs-body");
+      container.innerHTML = "";
+
+      const outputs = run.outputs || [];
+      if (outputs.length === 0) {
+        container.innerHTML = '<div class="empty-state">No output files</div>';
+        return;
+      }
+
+      for (const file of outputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        // Always show file header with download link
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const content = document.createElement("div");
+        content.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          content.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          content.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          content.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(content, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          content.appendChild(a);
+        } else if (file.type === "error") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          pre.style.color = "var(--red)";
+          content.appendChild(pre);
+        }
+
+        fileDiv.appendChild(content);
+        container.appendChild(fileDiv);
+      }
+    }
+
+    // ---- XLSX rendering via SheetJS ----
+    function renderXlsx(container, b64Data) {
+      try {
+        const raw = Uint8Array.from(atob(b64Data), c => c.charCodeAt(0));
+        const wb = XLSX.read(raw, { type: "array" });
+
+        for (let i = 0; i < wb.SheetNames.length; i++) {
+          const sheetName = wb.SheetNames[i];
+          const ws = wb.Sheets[sheetName];
+
+          if (wb.SheetNames.length > 1) {
+            const sheetLabel = document.createElement("div");
+            sheetLabel.style.cssText =
+              "font-weight:600; font-size:0.8rem; color:#b0aea5; margin-top:0.5rem; margin-bottom:0.25rem;";
+            sheetLabel.textContent = "Sheet: " + sheetName;
+            container.appendChild(sheetLabel);
+          }
+
+          const htmlStr = XLSX.utils.sheet_to_html(ws, { editable: false });
+          const wrapper = document.createElement("div");
+          wrapper.innerHTML = htmlStr;
+          container.appendChild(wrapper);
+        }
+      } catch (err) {
+        container.textContent = "Error rendering spreadsheet: " + err.message;
+      }
+    }
+
+    // ---- Grades ----
+    function renderGrades(run) {
+      const section = document.getElementById("grades-section");
+      const content = document.getElementById("grades-content");
+
+      if (!run.grading) {
+        section.style.display = "none";
+        return;
+      }
+
+      const grading = run.grading;
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("grades-arrow").classList.remove("open");
+
+      const summary = grading.summary || {};
+      const expectations = grading.expectations || [];
+
+      let html = '<div style="padding: 1rem;">';
+
+      // Summary line
+      const passRate = summary.pass_rate != null
+        ? Math.round(summary.pass_rate * 100) + "%"
+        : "?";
+      const badgeClass = summary.pass_rate >= 0.8 ? "grade-pass" : summary.pass_rate >= 0.5 ? "" : "grade-fail";
+      html += '<div class="grades-summary">';
+      html += '<span class="grade-badge ' + badgeClass + '">' + passRate + '</span>';
+      html += '<span>' + (summary.passed || 0) + ' passed, ' + (summary.failed || 0) + ' failed of ' + (summary.total || 0) + '</span>';
+      html += '</div>';
+
+      // Assertions list
+      html += '<ul class="assertion-list">';
+      for (const exp of expectations) {
+        const statusClass = exp.passed ? "pass" : "fail";
+        const statusIcon = exp.passed ? "\u2713" : "\u2717";
+        html += '<li class="assertion-item">';
+        html += '<span class="assertion-status ' + statusClass + '">' + statusIcon + '</span>';
+        html += '<span>' + escapeHtml(exp.text) + '</span>';
+        if (exp.evidence) {
+          html += '<div class="assertion-evidence">' + escapeHtml(exp.evidence) + '</div>';
+        }
+        html += '</li>';
+      }
+      html += '</ul>';
+
+      html += '</div>';
+      content.innerHTML = html;
+    }
+
+    function toggleGrades() {
+      const content = document.getElementById("grades-content");
+      const arrow = document.getElementById("grades-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Previous outputs (collapsible) ----
+    function renderPrevOutputs(run) {
+      const section = document.getElementById("prev-outputs-section");
+      const content = document.getElementById("prev-outputs-content");
+      const prevOutputs = (EMBEDDED_DATA.previous_outputs || {})[run.id];
+
+      if (!prevOutputs || prevOutputs.length === 0) {
+        section.style.display = "none";
+        return;
+      }
+
+      section.style.display = "block";
+      // Reset to collapsed
+      content.classList.remove("open");
+      document.getElementById("prev-outputs-arrow").classList.remove("open");
+
+      // Render the files into the content area
+      content.innerHTML = "";
+      const wrapper = document.createElement("div");
+      wrapper.style.padding = "1rem";
+
+      for (const file of prevOutputs) {
+        const fileDiv = document.createElement("div");
+        fileDiv.className = "output-file";
+
+        const header = document.createElement("div");
+        header.className = "output-file-header";
+        const nameSpan = document.createElement("span");
+        nameSpan.textContent = file.name;
+        header.appendChild(nameSpan);
+        const dlBtn = document.createElement("a");
+        dlBtn.className = "dl-btn";
+        dlBtn.textContent = "Download";
+        dlBtn.download = file.name;
+        dlBtn.href = getDownloadUri(file);
+        header.appendChild(dlBtn);
+        fileDiv.appendChild(header);
+
+        const fc = document.createElement("div");
+        fc.className = "output-file-content";
+
+        if (file.type === "text") {
+          const pre = document.createElement("pre");
+          pre.textContent = file.content;
+          fc.appendChild(pre);
+        } else if (file.type === "image") {
+          const img = document.createElement("img");
+          img.src = file.data_uri;
+          img.alt = file.name;
+          fc.appendChild(img);
+        } else if (file.type === "pdf") {
+          const iframe = document.createElement("iframe");
+          iframe.src = file.data_uri;
+          fc.appendChild(iframe);
+        } else if (file.type === "xlsx") {
+          renderXlsx(fc, file.data_b64);
+        } else if (file.type === "binary") {
+          const a = document.createElement("a");
+          a.className = "download-link";
+          a.href = file.data_uri;
+          a.download = file.name;
+          a.textContent = "Download " + file.name;
+          fc.appendChild(a);
+        }
+
+        fileDiv.appendChild(fc);
+        wrapper.appendChild(fileDiv);
+      }
+
+      content.appendChild(wrapper);
+    }
+
+    function togglePrevOutputs() {
+      const content = document.getElementById("prev-outputs-content");
+      const arrow = document.getElementById("prev-outputs-arrow");
+      content.classList.toggle("open");
+      arrow.classList.toggle("open");
+    }
+
+    // ---- Feedback (saved to server -> feedback.json) ----
+    function saveCurrentFeedback() {
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // Build reviews array from map
+      const reviews = [];
+      for (const [run_id, feedback] of Object.entries(feedbackMap)) {
+        if (feedback.trim()) {
+          reviews.push({ run_id, feedback, timestamp: new Date().toISOString() });
+        }
+      }
+
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviews, status: "in_progress" }),
+      }).then(() => {
+        document.getElementById("feedback-status").textContent = "Saved";
+      }).catch(() => {
+        // Static mode or server unavailable — no-op on auto-save,
+        // feedback will be downloaded on final submit
+        document.getElementById("feedback-status").textContent = "Will download on submit";
+      });
+    }
+
+    // ---- Done ----
+    function showDoneDialog() {
+      // Save current textarea to feedbackMap (but don't POST yet)
+      const run = EMBEDDED_DATA.runs[currentIndex];
+      const text = document.getElementById("feedback").value;
+      if (text.trim() === "") {
+        delete feedbackMap[run.id];
+      } else {
+        feedbackMap[run.id] = text;
+      }
+
+      // POST once with status: complete — include ALL runs so the model
+      // can distinguish "no feedback" (looks good) from "not reviewed"
+      const reviews = [];
+      const ts = new Date().toISOString();
+      for (const r of EMBEDDED_DATA.runs) {
+        reviews.push({ run_id: r.id, feedback: feedbackMap[r.id] || "", timestamp: ts });
+      }
+      const payload = JSON.stringify({ reviews, status: "complete" }, null, 2);
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload,
+      }).then(() => {
+        document.getElementById("done-overlay").classList.add("visible");
+      }).catch(() => {
+        // Server not available (static mode) — download as file
+        const blob = new Blob([payload], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "feedback.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        document.getElementById("done-overlay").classList.add("visible");
+      });
+    }
+
+    function closeDoneDialog() {
+      // Reset status back to in_progress
+      saveCurrentFeedback();
+      document.getElementById("done-overlay").classList.remove("visible");
+    }
+
+    // ---- Toast ----
+    function showToast(message) {
+      const toast = document.getElementById("toast");
+      toast.textContent = message;
+      toast.classList.add("visible");
+      setTimeout(() => toast.classList.remove("visible"), 2000);
+    }
+
+    // ---- Keyboard nav ----
+    document.addEventListener("keydown", (e) => {
+      // Don't capture when typing in textarea
+      if (e.target.tagName === "TEXTAREA") return;
+
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        navigate(-1);
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        navigate(1);
+      }
+    });
+
+    // ---- Util ----
+    function getDownloadUri(file) {
+      if (file.data_uri) return file.data_uri;
+      if (file.data_b64) return "data:application/octet-stream;base64," + file.data_b64;
+      if (file.type === "text") return "data:text/plain;charset=utf-8," + encodeURIComponent(file.content);
+      return "#";
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // ---- View switching ----
+    function switchView(view) {
+      document.querySelectorAll(".view-tab").forEach(t => t.classList.remove("active"));
+      document.querySelectorAll(".view-panel").forEach(p => p.classList.remove("active"));
+      document.querySelector(`[onclick="switchView('${view}')"]`).classList.add("active");
+      document.getElementById("panel-" + view).classList.add("active");
+    }
+
+    // ---- Benchmark rendering ----
+    function renderBenchmark() {
+      const data = EMBEDDED_DATA.benchmark;
+      if (!data) return;
+
+      // Show the tabs
+      document.getElementById("view-tabs").style.display = "flex";
+
+      const container = document.getElementById("benchmark-content");
+      const summary = data.run_summary || {};
+      const metadata = data.metadata || {};
+      const notes = data.notes || [];
+
+      let html = "";
+
+      // Header
+      html += "<h2 style='font-family: Poppins, sans-serif; margin-bottom: 0.5rem;'>Benchmark Results</h2>";
+      html += "<p style='color: var(--text-muted); font-size: 0.875rem; margin-bottom: 1.25rem;'>";
+      if (metadata.skill_name) html += "<strong>" + escapeHtml(metadata.skill_name) + "</strong> &mdash; ";
+      if (metadata.timestamp) html += metadata.timestamp + " &mdash; ";
+      if (metadata.evals_run) html += "Evals: " + metadata.evals_run.join(", ") + " &mdash; ";
+      html += (metadata.runs_per_configuration || "?") + " runs per configuration";
+      html += "</p>";
+
+      // Summary table
+      html += '<table class="benchmark-table">';
+
+      function fmtStat(stat, pct) {
+        if (!stat) return "—";
+        const suffix = pct ? "%" : "";
+        const m = pct ? (stat.mean * 100).toFixed(0) : stat.mean.toFixed(1);
+        const s = pct ? (stat.stddev * 100).toFixed(0) : stat.stddev.toFixed(1);
+        return m + suffix + " ± " + s + suffix;
+      }
+
+      function deltaClass(val) {
+        if (!val) return "";
+        const n = parseFloat(val);
+        if (n > 0) return "benchmark-delta-positive";
+        if (n < 0) return "benchmark-delta-negative";
+        return "";
+      }
+
+      // Discover config names dynamically (everything except "delta")
+      const configs = Object.keys(summary).filter(k => k !== "delta");
+      const configA = configs[0] || "config_a";
+      const configB = configs[1] || "config_b";
+      const labelA = configA.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const labelB = configB.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+      const a = summary[configA] || {};
+      const b = summary[configB] || {};
+      const delta = summary.delta || {};
+
+      html += "<thead><tr><th>Metric</th><th>" + escapeHtml(labelA) + "</th><th>" + escapeHtml(labelB) + "</th><th>Delta</th></tr></thead>";
+      html += "<tbody>";
+
+      html += "<tr><td><strong>Pass Rate</strong></td>";
+      html += "<td>" + fmtStat(a.pass_rate, true) + "</td>";
+      html += "<td>" + fmtStat(b.pass_rate, true) + "</td>";
+      html += '<td class="' + deltaClass(delta.pass_rate) + '">' + (delta.pass_rate || "—") + "</td></tr>";
+
+      // Time (only show row if data exists)
+      if (a.time_seconds || b.time_seconds) {
+        html += "<tr><td><strong>Time (s)</strong></td>";
+        html += "<td>" + fmtStat(a.time_seconds, false) + "</td>";
+        html += "<td>" + fmtStat(b.time_seconds, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.time_seconds) + '">' + (delta.time_seconds ? delta.time_seconds + "s" : "—") + "</td></tr>";
+      }
+
+      // Tokens (only show row if data exists)
+      if (a.tokens || b.tokens) {
+        html += "<tr><td><strong>Tokens</strong></td>";
+        html += "<td>" + fmtStat(a.tokens, false) + "</td>";
+        html += "<td>" + fmtStat(b.tokens, false) + "</td>";
+        html += '<td class="' + deltaClass(delta.tokens) + '">' + (delta.tokens || "—") + "</td></tr>";
+      }
+
+      html += "</tbody></table>";
+
+      // Per-eval breakdown (if runs data available)
+      const runs = data.runs || [];
+      if (runs.length > 0) {
+        const evalIds = [...new Set(runs.map(r => r.eval_id))].sort((a, b) => a - b);
+
+        html += "<h3 style='font-family: Poppins, sans-serif; margin-bottom: 0.75rem;'>Per-Eval Breakdown</h3>";
+
+        const hasTime = runs.some(r => r.result && r.result.time_seconds != null);
+        const hasErrors = runs.some(r => r.result && r.result.errors > 0);
+
+        for (const evalId of evalIds) {
+          const evalRuns = runs.filter(r => r.eval_id === evalId);
+          const evalName = evalRuns[0] && evalRuns[0].eval_name ? evalRuns[0].eval_name : "Eval " + evalId;
+
+          html += "<h4 style='font-family: Poppins, sans-serif; margin: 1rem 0 0.5rem; color: var(--text);'>" + escapeHtml(evalName) + "</h4>";
+          html += '<table class="benchmark-table">';
+          html += "<thead><tr><th>Config</th><th>Run</th><th>Pass Rate</th>";
+          if (hasTime) html += "<th>Time (s)</th>";
+          if (hasErrors) html += "<th>Crashes During Execution</th>";
+          html += "</tr></thead>";
+          html += "<tbody>";
+
+          // Group by config and render with average rows
+          const configGroups = [...new Set(evalRuns.map(r => r.configuration))];
+          for (let ci = 0; ci < configGroups.length; ci++) {
+            const config = configGroups[ci];
+            const configRuns = evalRuns.filter(r => r.configuration === config);
+            if (configRuns.length === 0) continue;
+
+            const rowClass = ci === 0 ? "benchmark-row-with" : "benchmark-row-without";
+            const configLabel = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+            for (const run of configRuns) {
+              const r = run.result || {};
+              const prClass = r.pass_rate >= 0.8 ? "benchmark-delta-positive" : r.pass_rate < 0.5 ? "benchmark-delta-negative" : "";
+              html += '<tr class="' + rowClass + '">';
+              html += "<td>" + configLabel + "</td>";
+              html += "<td>" + run.run_number + "</td>";
+              html += '<td class="' + prClass + '">' + ((r.pass_rate || 0) * 100).toFixed(0) + "% (" + (r.passed || 0) + "/" + (r.total || 0) + ")</td>";
+              if (hasTime) html += "<td>" + (r.time_seconds != null ? r.time_seconds.toFixed(1) : "—") + "</td>";
+              if (hasErrors) html += "<td>" + (r.errors || 0) + "</td>";
+              html += "</tr>";
+            }
+
+            // Average row
+            const rates = configRuns.map(r => (r.result || {}).pass_rate || 0);
+            const avgRate = rates.reduce((a, b) => a + b, 0) / rates.length;
+            const avgPrClass = avgRate >= 0.8 ? "benchmark-delta-positive" : avgRate < 0.5 ? "benchmark-delta-negative" : "";
+            html += '<tr class="benchmark-row-avg ' + rowClass + '">';
+            html += "<td>" + configLabel + "</td>";
+            html += "<td>Avg</td>";
+            html += '<td class="' + avgPrClass + '">' + (avgRate * 100).toFixed(0) + "%</td>";
+            if (hasTime) {
+              const times = configRuns.map(r => (r.result || {}).time_seconds).filter(t => t != null);
+              html += "<td>" + (times.length ? (times.reduce((a, b) => a + b, 0) / times.length).toFixed(1) : "—") + "</td>";
+            }
+            if (hasErrors) html += "<td></td>";
+            html += "</tr>";
+          }
+          html += "</tbody></table>";
+
+          // Per-assertion detail for this eval
+          const runsWithExpectations = {};
+          for (const config of configGroups) {
+            runsWithExpectations[config] = evalRuns.filter(r => r.configuration === config && r.expectations && r.expectations.length > 0);
+          }
+          const hasAnyExpectations = Object.values(runsWithExpectations).some(runs => runs.length > 0);
+          if (hasAnyExpectations) {
+            // Collect all unique assertion texts across all configs
+            const allAssertions = [];
+            const seen = new Set();
+            for (const config of configGroups) {
+              for (const run of runsWithExpectations[config]) {
+                for (const exp of (run.expectations || [])) {
+                  if (!seen.has(exp.text)) {
+                    seen.add(exp.text);
+                    allAssertions.push(exp.text);
+                  }
+                }
+              }
+            }
+
+            html += '<table class="benchmark-table" style="margin-top: 0.5rem;">';
+            html += "<thead><tr><th>Assertion</th>";
+            for (const config of configGroups) {
+              const label = config.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+              html += "<th>" + escapeHtml(label) + "</th>";
+            }
+            html += "</tr></thead><tbody>";
+
+            for (const assertionText of allAssertions) {
+              html += "<tr><td>" + escapeHtml(assertionText) + "</td>";
+
+              for (const config of configGroups) {
+                html += "<td>";
+                for (const run of runsWithExpectations[config]) {
+                  const exp = (run.expectations || []).find(e => e.text === assertionText);
+                  if (exp) {
+                    const cls = exp.passed ? "benchmark-delta-positive" : "benchmark-delta-negative";
+                    const icon = exp.passed ? "\u2713" : "\u2717";
+                    html += '<span class="' + cls + '" title="Run ' + run.run_number + ': ' + escapeHtml(exp.evidence || "") + '">' + icon + "</span> ";
+                  } else {
+                    html += "— ";
+                  }
+                }
+                html += "</td>";
+              }
+              html += "</tr>";
+            }
+            html += "</tbody></table>";
+          }
+        }
+      }
+
+      // Notes
+      if (notes.length > 0) {
+        html += '<div class="benchmark-notes">';
+        html += "<h3>Analysis Notes</h3>";
+        html += "<ul>";
+        for (const note of notes) {
+          html += "<li>" + escapeHtml(note) + "</li>";
+        }
+        html += "</ul></div>";
+      }
+
+      container.innerHTML = html;
+    }
+
+    // ---- Start ----
+    init();
+    renderBenchmark();
+  </script>
+</body>
+</html>
