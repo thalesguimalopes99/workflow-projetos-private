@@ -18,6 +18,7 @@ BIB_SKILLS="$RAIZ/biblioteca/skills"
 OUT="$RAIZ/INVENTARIO.md"
 REL="$RAIZ/docs/superpowers/relatorio-descriptions.md"
 WEAK_MIN=40   # description < WEAK_MIN chars (ou ausente) = fraca
+trap 'rm -f /tmp/inv_global.txt /tmp/inv_bib.txt' EXIT
 
 # --- contagens ---
 n_global=$(ls -1 "$GLOBAL_SKILLS" 2>/dev/null | wc -l | tr -d ' ')
@@ -103,6 +104,10 @@ origem_tag () {
     # extrai a linha 'description:' do frontmatter (primeira ocorrencia)
     desc=$(awk -F'description:' '/^description:/{print $2; exit}' "$f" | sed 's/^[[:space:]]*//')
     len=${#desc}
+    # bloco escalar YAML (> ou |) = description longa proposital, não é fraca
+    case "$desc" in
+      ''|'>'|'|'|'>-'|'|-'|'>+'|'|+') continue ;;
+    esac
     if [ "$len" -lt "$WEAK_MIN" ]; then
       echo "| \`$s\` | $len | ${desc:0:60} |"
     fi

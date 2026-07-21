@@ -5,9 +5,3 @@
 
 | Skill | Chars | Description (inicio) |
 |---|---|---|
-| `brand-landingpage` | 1 | > |
-| `criativo-cliente` | 2 | >- |
-| `humanizer` | 1 | | |
-| `instagram-creative-director` | 2 | >- |
-| `motion-design` | 1 | > |
-| `video-extract` | 2 | >- |
