@@ -2,7 +2,7 @@
 
 Este projeto é a **biblioteca central** de skills, squads e agents do Thales. Tudo
 está instalado **global** (`~/.claude/`) E **local** (`.claude/` deste projeto):
-107 skills · 14 squads (commands) · 33 agents.
+135 skills (das quais 67 GSD) · 14 squads · 33 agents. Índice exaustivo: INVENTARIO.md (gerado).
 
 ## ⛔ REGRA CRÍTICA — arquivos vão na pasta do PROJETO ATIVO, nunca nesta biblioteca
 
@@ -88,6 +88,7 @@ dedicado. Processo primeiro (superpowers/briefing), depois o especialista de dom
 | Pentest, auditoria de segurança, recon, resposta a incidente | squad **cybersecurity** (`cyber-chief`) |
 | Config do Claude Code, hooks, MCP, agentes, otimizar setup | squad **claude-code-mastery** (`claude-mastery-chief`) |
 | Desenvolvimento de software (analyst→architect→dev→qa→devops) | squad **AIOX** (`aiox-master`) |
+| Projeto de software multi-fase / autônomo (ciclo com artefatos `.planning/`) | framework **GSD** (skills `/gsd-*`) — ver desempate GSD↔AIOX abaixo |
 | Site/landing premium nível awwwards | skill `criar-site-premium` (+ `firecrawl` p/ minerar refs; usa canvas Stitch 2.0 na direção) |
 | Clonar/desconstruir ref de site p/ aprender (pegar HTML+CSS+JS, não screenshot) | skill `site-teardown` (+ `firecrawl` rawHtml) |
 | SEO/GEO: rankear no Google + ser citado por IA | **Ver roteamento SEO abaixo** ⬇️ |
@@ -112,6 +113,14 @@ Stack SEO tem redundância de propósito. Regra de desempate:
 - **Achável + citável no `criar-site-premium`** → é a **Barra 4** do gate (rankear no Google + citação por IA antes do ship).
 - **Dado real (keyword/SERP/volume/backlink)** → **pago, só quando cliente banca**. Padrão recomendado: **DataForSEO** (extensão nativa do `claude-seo`, mais barato) em vez do plugin `seo-skills` (SE Ranking). `backlink-analyzer`/`seo-geo` scripts = pagos.
 - **Dado de busca REAL grátis (maior alavanca p/ rankear rápido)** → **Google Search Console + GA4 + PageSpeed/CrUX**. Scripts já existem (`seo-skills/scripts/`, `claude-seo:seo-google`); falta só fazer OAuth + key. Conectar quando der.
+
+## Roteamento de dev — GSD vs AIOX (evita sobreposição)
+
+Ambos cobrem software. Regra de desempate:
+
+- **Ciclo de projeto multi-fase, autônomo, com artefatos** (`.planning/`, PLAN/RESEARCH/VERIFICATION), commits atômicos e checkpoints → framework **GSD**. Skills `gsd-*`, invocadas via `/gsd-new-project` → `/gsd-plan-phase` → `/gsd-execute-phase` → `/gsd-verify-work` → `/gsd-code-review` → `/gsd-ship`. Track leve: `gsd-ns-*`.
+- **Personas de time sob demanda** (analyst/architect/dev/qa/devops) pra consultar/decidir, sem o overhead do ciclo → squad **AIOX** (`aiox-master`), que roteia os agentes internos.
+- **Correção:** GSD é instalado como **skills** (`gsd-*`), não command namespace `/gsd:`. Invocação: `/gsd-new-project` (hífen).
 
 ## Plugins ativos
 
