@@ -1,0 +1,12 @@
+﻿# Cancelar Assinatura
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinatura
+- Duração: 00:02:11
+- Aula: https://flix.nocodestartup.io/m/lessons/2537
+- Vídeo: 164c1dbf-073e-4acf-b361-340e5d09253c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+O nosso cancelamento. A gente pode fazer um teste disso que a gente fez agora. Certo? A gente vai fazer o cancelamento da nossa assinatura. E depois a gente vai partir para a troca de cartão. E para a troca de plano também. Que faltou só o botãozinho aqui. Mas a gente já adiciona. Não tem problema. Vamos vir no nosso botão de cancelar aqui. O nosso assinatura. Ok. Botão de cancelar a assinatura. Vem aqui. E vem pagamentos. E... cancele o T-Corent User Plan, ou seja, cancele o plano do usuário atual. Aqui se você fez aquela questão de ser para um outro usuário, a mesma coisa, desmarca aqui essa opção e busca o usuário que você está cancelando o plano. Aqui a gente vai querer que se aplique ao usuário atual, certo? Nesse caso aqui embaixo também, nesse checkbox, a gente vai cancelar, se a gente deixar marcado, a gente vai cancelar todas as assinaturas daquele usuário, seja um usuário dinâmico ou usuário atual, vai cancelar todas as assinaturas do Stripe. Então se você tiver mais de um tipo de plano, A pessoa pode comprar vários planos por assinatura. Planos extras, planos adicionais e etc. Você vai desmarcar aqui para ele cancelar somente o plano que ele quer. Ou cancelar todos também. Vai do seu fluxo aí. No caso aqui, se você quiser que ele cancele somente um plano, você vai desmarcar e vai selecionar o ID daquele plano que você quer cancelar. Nesse caso aqui, a gente quer cancelar o do nosso corrente user aqui, que é o ID Assinatura. Em vez de buscar no ID Assinatura, a gente pode vir aqui em Stripe Subscription. ID da assinatura que vai funcionar também. Bom, nesse caso aqui. Aqui a gente tem a questão da mensagenzinha também para não mostrar. E precisamos aqui fazer o que? Alterar o usuário de user. Vamos tirar o ID da assinatura. E vamos fazer também aquele refresh. Prontinho. Mesma questão. Os próximos steps só funcionam se o anterior for sucesso. Então, se a gente vir aqui no nosso preview e atualizar. Prontinho, ele atualizou. A gente ainda está com o plano ativo. Se eu vir aqui em cancelar, ele já começou a carregar aqui para mim. Já cancelou, deu o refresh na página e a gente já não tem mais uma assinatura feita. Ok?

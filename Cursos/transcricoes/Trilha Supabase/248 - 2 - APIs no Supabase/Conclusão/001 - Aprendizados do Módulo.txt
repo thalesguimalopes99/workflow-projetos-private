@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: 2 - APIs no Supabase
+- Trilha: Trilha Supabase
+- Módulo: Conclusão
+- Duração: 00:01:23
+- Aula: https://flix.nocodestartup.io/m/lessons/2649
+- Vídeo: e833fe88-a373-4311-b808-8860013653bc
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E finalizamos esse módulo e teve muito aprendizado envolvido aí. Você viu todo o poder das APIs do Superbase e como utilizar elas. A gente entendeu como utilizar JSON Path. Também entendeu como mexer agora na ferramenta do Postman. Estou bem claro aí para você. E usou bastante, que é uma ferramenta bastante útil para testar suas APIs. Além disso, a gente fez nossas APIs crude aí. Fizemos o Post, o Ult, o Patch, o Delete e o Get lá dentro do nosso Postman. Então pode replicar isso para qualquer outro front-end. E além disso, a gente fez a parte das notificações com APIs. Então a gente consegue fazer cadastro, login e também ver aquela tabela pura ou não. Também conseguir deixar alguma tabela com segurança para ter só usuários autenticados conseguirem editar ou visualizar aquela tabela. Foi demais. Espero que vocês tenham gostado desse módulo e foi preparado com muito carinho e atenção. Tudo bem estruturado e bem organizado. a gente vai organizar o Backend pronto para deixar tudo bem estruturado. Aí sim a gente conectar com o Frontend com o nosso Backend Superbase pronto. Então a partir do Superbase pronto, você vai poder conectar qualquer outro Frontend. Seja ele o Fronterflow, seja o Bubble, ou o Web, ou qualquer outro tipo de NoCodeBuilder. Beleza? Então bora lá que eu estou muito animado com essas aulas, ó, tão iradas.

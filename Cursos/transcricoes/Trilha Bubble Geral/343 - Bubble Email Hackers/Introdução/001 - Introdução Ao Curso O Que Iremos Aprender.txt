@@ -1,0 +1,12 @@
+﻿# Introdução Ao Curso O Que Iremos Aprender
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:00:42
+- Aula: https://flix.nocodestartup.io/m/lessons/3704
+- Vídeo: 29f7c63a-e68d-428a-9e67-0070db719755
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais uma aula e nessa nova trilha a gente vai estar aprendendo sobre e-mails, tá? Vai ser uma trilha bem curtinha, mas uma trilha muito necessária. Então nessa trilha a gente vai estar aprendendo sobre e-mails hackers, tá? Aqui no Bumbo a gente vai estar aprendendo como colocar e-mails profissionais para enviar suas alertas aí para os seus usuários, seja alerta de assinatura, seja alerta de novas filters ou até mesmo newsletter, tá? Diretamente pelo e-mail. Então a gente vai mostrar para vocês como fazer essa integração. utilizando plataformas de e-mail, deixar esse e-mail mais profissionais e não depender dos servidores do Bubble, não depender do envio de e-mails que o Bubble oferece para a gente, porque eles não são muito funcionais. Eu vou estar explicando isso para vocês na próxima aula.

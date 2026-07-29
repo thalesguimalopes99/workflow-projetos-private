@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F3.1 -Introdução da Trilha - MasterClass NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:34
+- Aula: https://flix.nocodestartup.io/m/lessons/3068
+- Vídeo: 124d8049-743a-4abd-8014-8b55208b1463
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos no final dessa trilha. Eu espero que agora tenha aberto sua cabeça em relação às categorias de projetos de tecnologia, quais são as melhores ferramentas no Code... por categoria, muita gente fica perdida em qual usar e aí não sabe para onde correr, então o objetivo aqui foi te deixar um pouco mais a par desse guia aí das melhores ferramentas no Code e agora a gente vai entrar em cada módulo, em cada aula, a gente vai focar especificamente em uma ferramenta e um tipo de projeto, tá? Então as aulas estão bem legais, estão práticas e bora continuar que você vai aprender muito. Bora lá!

@@ -1,0 +1,12 @@
+﻿# 1.6 - Chamada API - DELETE para Excluir Dados
+
+- Curso: APIs e RLS Segurança | Supabase Intermediário
+- Trilha: Trilha Supabase Completo 
+- Módulo: 1 - API
+- Duração: 00:02:22
+- Aula: https://flix.nocodestartup.io/m/lessons/5170
+- Vídeo: 93401015-1705-4bd0-b99c-fc9840ce20af
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, agora nós vamos excluir dados no Supabase através do método delete. Sem mais delongas, aqui para o nosso projeto aulas, vamos acessar aqui API Docs, vamos em clientes e vamos lá procurar o método delete, delete rows. E aí eu vou revelar o bash, delete rows, e aqui eu vou... copiar esse código, estou copiando ele, e vou aqui no meu postman, e vou colocar mais uma chamada aqui. Aqui, ele já trouxe o método delete, e ele está selecionando aqui, ele está esperando que eu indique qual coluna eu vou dizer, qual registro que eu quero filtrar para excluir. Então eu vou fazer a exclusão aqui do cliente 2, se não tiver nenhum registro relacionado, ou melhor, eu vou pegar o ID do cliente 7 ou 8 que a gente fez nas últimas aulas, que não tem mais nenhum registro de tabelas auxiliares para eles. Então eu vou pegar aqui o ID 8, não tem nenhum body, nada, aqui estão todas as credenciais e... E basicamente esse método o que ele faz? Ele filtra e executa o método delete. Então antes vamos só conferir aqui no Supabase aquela checada tradicional. Então aqui olha clientes, o cliente com ID 8 ele está aqui ainda. Aí eu vou lá para o meu postman e vou mandar executar. E 204 significa que teve sucesso na chamada. Vamos ali para o Supabase, vamos dar aqui um refresh e bingo, deletou aquela linha que a gente filtrou e executou o método delete. Um abraço, até a próxima aula.

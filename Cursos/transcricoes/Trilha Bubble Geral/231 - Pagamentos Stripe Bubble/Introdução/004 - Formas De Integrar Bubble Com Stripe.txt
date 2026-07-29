@@ -1,0 +1,12 @@
+﻿# Formas De Integrar Bubble Com Stripe
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:14
+- Aula: https://flix.nocodestartup.io/m/lessons/2529
+- Vídeo: b01eb658-538e-4e59-85c1-ce5e589584ce
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora falando das formas de integrar o Bubble com o Stripe, vou falar duas formas principais de a gente fazer essa integração, que é utilizando o plugin ou utilizando a API através do API Connector. No API Connector você pode pegar a documentação do Stripe e colocar dentro do API Connector e realizar essa integração mais manual ali, você montando todas as chamadas necessárias que você precisa. A gente também tem os plugins, que é uma forma mais prática de você realizar essas integrações, porque você adicionando o plugin ali ao seu aplicativo, ele automaticamente... aciona todas as chamadas dependendo do plugin. No caso do Bubble, a gente tem plugins de terceiros e tem o plugin do próprio Bubble. O plugin do Bubble já vai te atender 99% das opções que você precisa de pagamento. Eu tenho certeza que você está se perguntando porque a gente vai estar utilizando o plugin ao invés de utilizar o API Connector e realizar a conexão utilizando a documentação do Stripe. Bom, todas as chamadas necessárias a gente encontra no plugin do próprio Bubble ali. Ele fornece para a gente as chamadas de cobrança avulso, assinatura... atualização de dados do usuário, que é o que a gente precisa para realizar as primeiras cobranças. Então caso você precise de algo mais completo, aí você vai partir para o API Connector. Mas não é um caso que a gente vai estar utilizando agora. A gente vai estar utilizando o plugin, que é uma forma mais prática, algo mais simples e rápido que você vai estar realizando.

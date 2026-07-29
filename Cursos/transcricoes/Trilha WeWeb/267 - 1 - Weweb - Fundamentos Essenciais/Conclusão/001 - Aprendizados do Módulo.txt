@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: 1 - Weweb | Fundamentos Essenciais
+- Trilha: Trilha WeWeb
+- Módulo: Conclusão
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/2710
+- Vídeo: f5963044-8b8f-41c5-8dbe-ef054293d617
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? A gente está finalizando o módulo 1, muito feliz, esse projeto está bem bacana. E aí eu quero mostrar, fazer uma apresentação para vocês, resumir o que a gente aprendeu nesse módulo 1. Então começando ali, a gente aprendeu a interface do Uweb, então a gente conheceu por completo a interface, fizemos o overview da ferramenta completo. Depois a gente foi ali para o design, a parte da teoria, então a gente aprendeu todos os fundamentos de um layout de um aplicativo. coluna, linha, container, div e outros elementos. A gente também passou um pouquinho pelo back-end, o que é um banco de dados, quais seus benefícios diferenciais. A gente aprendeu o que faz um back-end, qual parte que cuida o back-end. A gente também foi para a parte do design, só que a parte prática, então a gente colocou a mão na massa e construiu a tela, a primeira tela nossa em web, e conhecemos os elementos. A gente também conheceu o poder do iWeb, então quais tipos de aplicativo a gente pode construir, quais benefícios tem que construir com o iWeb. E passamos ali também pelo Copilot do iWeb, então o que é, como utilizar, como utilizar de maneira assertiva. Então a gente passou por todos esses tópicos. Então pessoal, muito feliz de fazer parte desse projeto. O módulo 2 está vindo aí com muita novidade, a gente vai dar vida ao nosso aplicativo e te espero aí nas próximas aulas. Tamo junto!

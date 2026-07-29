@@ -1,0 +1,12 @@
+﻿# O que você irá aprender
+
+- Curso: F5.1 - Planejando seu Micro-SaaS
+- Trilha: Trilha Nocode IA
+- Módulo: Introdução
+- Duração: 00:02:03
+- Aula: https://flix.nocodestartup.io/m/lessons/3348
+- Vídeo: 80b7ef41-3d5d-49f7-9dd5-87d80a46eb09
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo à fase 5, onde a gente vai construir um microSaaS do zero integrado com inteligência artificial. Essas aulas aqui são muito importantes porque a gente vai juntar tudo o que a gente aprendeu até agora e vamos fazer do zero um projeto bem completo usando todos os nossos conhecimentos de no-code com IA. Então, bora ver o que a gente vai construir. Durante essas aulas, a gente vai construir um microSaaS de finanças, tá? Vai ser o aplicativo de finanças, onde o usuário vai poder interagir e conseguir fazer a gestão das suas finanças pessoais. E aí, a gente vai integrar com uma tecnologia de inteligência artificial para dar IA para o nosso app. A gente vai passar aqui por todos os caminhos, não só por parte do desenvolvimento, mas também do planejamento do nosso app e de todas as funcionalidades, beleza? Então, está muito bem completo para a gente conseguir aprender aqui passo a passo. Eu peço que você siga aí os módulos na ordem. Para conseguir aprender de uma forma fluida. E dentro dessas aulas aqui. Em específico. Você vai aprender um pouco mais. Sobre a tríade de no-code com A. Que a gente conversou lá na nossa fase 1. Agora a gente vai fazer na prática. Para planejar nosso app. Vamos pegar toda aquela teoria. E fazer aqui na prática. Passo a passo. Para planejar o nosso aplicativo. E aí você vai entender. Como planejar etapa por etapa. Do seu micro SaaS. Então as aulas estão bem legais. E bem completinhas. E aqui também. A gente vai ver. toda a tríade do NoCodeA, que é o produto, SaaS NoCode e A. Então, a gente vai planejar essas três partes do nosso MicroSaaS para ficar bem claro como que a gente vai seguir. E depois dessas aulas aqui, você vai entender como planejar o seu MicroSaaS de uma forma completa. Então, se você já tiver alguma ideia e quiser colocar ela e tirar do papel e transformar num app, numa plataforma, no MicroSaaS, para ter seus primeiros clientes, é só seguir aqui essa metodologia, essas aulas, fazer junto comigo. Que você já vai conseguir ter um avanço muito bom. Então agora sem mais enrolação. Espero que você esteja tão ansioso para aprender quanto eu. E bora lá começar o planejamento do nosso MicroSaaS.

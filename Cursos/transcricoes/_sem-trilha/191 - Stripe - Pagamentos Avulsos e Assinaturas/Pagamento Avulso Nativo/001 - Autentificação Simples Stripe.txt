@@ -1,0 +1,12 @@
+﻿# Autentificação Simples Stripe
+
+- Curso: Stripe | Pagamentos Avulsos e Assinaturas
+- Trilha: (sem trilha)
+- Módulo: Pagamento Avulso Nativo
+- Duração: 00:01:50
+- Aula: https://flix.nocodestartup.io/m/lessons/2300
+- Vídeo: cb840868-b99b-4ac4-b1d5-594505e251af
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então vamos lá galera, a primeira coisa que a gente tem que fazer é criar uma conta dentro do Stripe. Então, se você ainda não tem uma conta no Stripe, basta entrar no Stripe.com e criar aqui ó, não tem uma conta? Registre-se. É muito rápido, muito fácil, vou chegar o link no seu e-mail e você vai poder cadastrar. Quando vocês realizarem o cadastro, vocês vão ver que esse modo de produção não vai estar funcionando, tá? Vai ser só o modo de teste, mas é isso aí que a gente quer. Pra você ativar esse modo de produção real, onde você vai realmente receber dinheiro, é só quando o seu aplicativo for lançado para o público, beleza? Enquanto você está realizando os testes para o pagamento, cadastro de produtos e assim por diante, deixa esse módulo laranjinha de teste ativado. Sabendo disso, a gente tem aqui todo o nosso dashboard do Stripe, mas o importante mesmo é a área de desenvolvedores. Então, aqui dentro de desenvolvedores, você vai procurar aqui, chaves da API. A gente tem a nossa chave publicável e a chave secreta. Então, essas duas chaves são muito importantes. Essa chave secreta você não deve revelar para ninguém. principalmente no seu modo de produção. O modo de teste não tem tanta importância. Então, a partir do momento que você tem acesso ao Stripe, você vem aqui e faz aqui no Stripe a conexão. Então, você vai ativar aqui o Enable Stripe Payment, e aí você vai colocar aqui a sua chave de publicação e a sua chave secreta. Só isso. Colocou essas duas informações, você vai dar um nome, coloquei aqui a informação Flutter Flow, e aqui é muito importante qual vai ser a moeda que você vai estar trabalhando. Então aqui, BRL, moeda do Brasil, beleza? Aqui o processo é um pouco demorado, então eu já adiantei isso, já deixei isso pronto, que aí você vai ter o deploy, e aqui vai demorar uns 10 minutinhos para ficar pronto, mas é normal, tá? Então, a partir do momento que tudo funcionou, deu o deploy, você já pode começar a fazer o nosso pagamento via Stripe de forma 100% avulsa dentro do Flutter Flow, sem precisar sair.

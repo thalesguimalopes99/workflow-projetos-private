@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: 4 - Supabase e FlutterFlow | App de Cursos EAD 2.0
+- Trilha: Trilha Supabase
+- Módulo: Conclusão
+- Duração: 00:01:13
+- Aula: https://flix.nocodestartup.io/m/lessons/2684
+- Vídeo: 6861b655-0a77-4623-a46a-bfa4a7d182c2
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim dessas aulas. Eu espero que você tenha aprendido muito. A gente fez um aplicativo bem completo. E com todos os fundamentos. Você aprendeu como fazer toda a integração do Supabase com o Flutter Flow. Fazendo um app um pouco mais elaborado. Fizemos toda a parte de CRUD. Com a interação entre o banco de dados do professor. Do aluno. Também as aulas. As matrículas. Colocamos as funções administrativas para o professor. Então a gente conseguiu bloquear para determinado tipo de usuário. Que no caso é o professor. Conseguimos colocar mídia, trabalhar com fotos, fazer filtros de busca. Foi um aplicativo bem completo. E aí, a gente termina por aqui essas nossas aulas iniciais no nosso app. Mas eu estou muito feliz e espero que você tenha aprendido bastante. Claro que tem novas funcionalidades infinitas, né? Que a gente pode colocar no nosso app. Por exemplo, funcionalidades de negócio. Ah, o professor vai poder fazer isso. O aluno vai poder fazer isso. E aí você pode ir melhorando o seu app de acordo com o que está fazendo. Mas o core mesmo, os fundamentos, você já tem. E aí pode praticar para criar o seu próprio app com o Supabase e o Flutter Flow. Então fica ligado nessa trilha que ao longo dos tempos vamos publicar aplicativos mais avançados com o Supabase. Não vai pensar que parou por aqui não. A gente vai estar sempre publicando aula nova, novos modos para a gente fazer apps cada vez mais avançados. E te vejo na próxima aula. Até mais.

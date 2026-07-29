@@ -1,0 +1,12 @@
+﻿# 2.4 - Savepoint 02: Próximas instalações
+
+- Curso: Infraestrutura - Coolify
+- Trilha: (sem trilha)
+- Módulo: 2 - Instalação VPS
+- Duração: 00:01:29
+- Aula: https://flix.nocodestartup.io/m/lessons/5681
+- Vídeo: 8308ed42-7a58-4940-8626-1b6da23aecf4
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Galerinha, passando aqui para parabenizar você que chegou até essa aula. Como eu falei desde o início, sei que não é um conteúdo tão simples, é um conteúdo um pouco mais denso, mas eu te garanto que a partir de agora só fica legal. A gente já instalou no nosso VPS o Coolify, então como vai funcionar agora o nosso curso daqui para o final, falta pouco. Eu vou instalando com vocês algumas ferramentas que a gente entende que são úteis para... para desenvolvimento, para back-end, por exemplo, o N8N a gente vai instalar aqui só para mostrar para vocês a título de exemplo. A gente vai instalar o ChatWood também, que é uma ferramenta super usada para gestão de números de WhatsApp. E por fim, o nosso gran finale vai ser, eu desenvolvi uma ferramenta usando o Cloud Code Key, então a partir da nossa formação eu aprendi como desenvolver essa ferramenta, desenvolvi, ela está no meu repositório do GitHub, com o repositório do GitHub, a gente vai instalar e disponibilizar, ou seja, fazer o deploy dessa nossa aplicação a partir de um link público. Show de bola! Então, é agora a parte mais prática do nosso curso, a parte mais legal, onde você vai conseguir sair de alguém que tem um monte de coisa legal rodando no computador e disponibilizar isso para os seus clientes, para o seu time, para o que precisar. Show de bola? Então, estamos acabando. Não solta a minha mão. Confia que você vai sair daqui sabendo fazer deploy do que você precisar.

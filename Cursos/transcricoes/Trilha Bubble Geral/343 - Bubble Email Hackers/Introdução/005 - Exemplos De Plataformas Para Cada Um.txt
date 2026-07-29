@@ -1,0 +1,12 @@
+﻿# Exemplos De Plataformas Para Cada Um
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:26
+- Aula: https://flix.nocodestartup.io/m/lessons/3708
+- Vídeo: a374f704-a08c-4c7c-932a-34dcf7d32bea
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma. Sejam bem-vindos para mais um aula. E nessa aula, a gente vai estar vendo exemplos de plataformas para e-mail marketing e plataformas para e-mails transacionais. Começando com a opção de plataformas para enviar e-mail transacionais aqui com o SendGrid, tá? Então, com o e-mail transacional aqui, a gente tem o SendGrid. Ele é uma das opções mais legais também para esse tipo de e-mail, tá? Ele oferece outras funções também. Mas o principal foco dele é e-mail transacional, tá? Aqui a gente também tem para e-mail marketing. A gente tem o Send Plus, tá? Ele faz e-mail marketing. Aí você pode usar para e-mail transacional também, mas ele também oferece o e-mail marketing ali para você fazer a gestão, tá? Você consegue usar tranquilamente para e-mails transacionais também. Uma outra opção também é o Brevo, o antigo Send Blue, tá? A gente tem até aqui, SendinBlo. Ele é um CRM, uma gestão para e-mail marketing. Também tem funções de marketing para WhatsApp. Então, você consegue dar uma acessada ali e conferir algumas das funções. Tem um construtor de design também, que a gente vai estar vendo mais para frente. Mas ele é uma opção também para e-mail marketing e para e-mail transacional. Então, a gente tem essas três opções para você estar utilizando entre e-mail marketing e e-mail transacional. Na próxima aula a gente vai estar vendo a plataforma que a gente vai estar utilizando no decorrer da trilha.

@@ -1,0 +1,12 @@
+﻿# Possíveis Formas de Integrar Bubble com Xano
+
+- Curso: M3.1 - Integração Xano e Bubble | App de Filmes
+- Trilha: Integração Backend Xano + Bubble | App Filmes
+- Módulo: Introdução
+- Duração: 00:01:59
+- Aula: https://flix.nocodestartup.io/m/lessons/2568
+- Vídeo: 7e73d3a4-e98f-4d89-983b-d136921a13ca
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Beleza, pessoal? Então, nessa aula eu quero comentar rapidamente com vocês quais são as formas de a gente estar integrando o nosso back-end do Zenon com o front-end do Bubble. A primeira forma que a gente tem de fazer essa integração... é utilizando o nosso tão conhecido API Connector, então, pela interface de APIs do Bubble padrão, e a gente conectar endpoint a endpoint, todos os endpoints que a gente precisar, a gente for alimentando ali no nosso API Connector para a gente conseguir fazer as chamadas. Então, seria uma forma mais hard, digamos assim, de ser feita essa integração. A gente vai ter que criar endpoint por endpoint no API Connector, fazer as chamadas, fazer as validações, então, seria algo bem mais manual. digamos. Basicamente como se a gente estivesse conectando com qualquer sistema via API. E a outra forma da gente fazer essa integração com o backend do Zeno é utilizando um plugin chamado Zeno Connector. Esse plugin vai trazer diversas facilidades para a gente, porque muitas das chamadas que a gente teria que criar manualmente lá no API Connector, ele já traz isso pronto para a gente. Então chamadas de autentificação, que eventualmente a gente tem que fazer algumas chamadas extras para fazer a validação do usuário, coisas que podem ser chatinhas de fazer. com API Connector, esse plugin facilita muito. Outras chamadas também, fazer chamada post, get, ele já tem tudo isso integrado, facilitando muito essa integração. Esse plugin é criado a partir do próprio SDK, que é fornecido pelo Zenon. Então, ele vende fontes oficiais, o material para a construção desse plugin, o que gera e traz confiabilidade. E ele também é um plugin criado pelo Eli. O Eli é um desenvolvedor bubble muito conhecido na comunidade. Ele também é conhecido por desenvolver plugins. Ele trabalhou já há bastante tempo na AirDev, na agência AirDev, uma das agências maiores do mundo. Então, ele é um cara bastante influente na comunidade de Bubble. Ele tem bastante nome e respaldo, o que dá mais respaldo também para a utilização desse plugin. Então, tendo em vista todas as facilidades, a gente vai estar utilizando aqui nesse nosso curso o plugin para a gente fazer essa nossa integração.

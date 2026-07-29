@@ -1,0 +1,11 @@
+﻿# Aviso Importante!
+
+- Curso: M1 - Meu Primeiro Super App | App de Viagens 1.0
+- Trilha: (sem trilha)
+- Duração: 00:01:11
+- Aula: https://flix.nocodestartup.io/m/lessons/2408
+- Vídeo: fdad23dd-33bb-4852-ab7f-8831dcd663b8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, uma atualização importante é que esse módulo 1 de viagens e o módulo de viagens 2.0, ele foi substituído pelos novos módulos de fundamentos do Flutter Flow e também o app de sonhos. No módulo de fundamentos eu passei por tudo. Você tem que saber sobre os fundamentos de design de banco de dados. A gente fez a nossa primeira tela e no módulo do app dos sonhos a gente construiu o primeiro aplicativo de uma forma mais completa, tudo zero. A parte de fundamentos e o app dos sonhos ele está mais atualizado. Por isso que ele foi substituído. Ao invés do app de viagens. Que está um pouquinho desatualizado. Também eu acabo fazendo o app. Usando mais alguns templates. Algumas pessoas pediram para criar os aplicativos do zero. Por isso que a gente refez toda a parte inicial. Se você quiser construir também o app de viagens. Pode seguir aqui as aulas do app de viagens 1.0 e 2.0. Se já tiver feito no YouTube a parte 1.0. E quiser fazer a 2.0. E dentro da formação pode fazer também. Mas só para te avisar que esse conteúdo vai ser bem iniciante. e bem parecido com o que eu já fiz lá na parte de fundamentos no app do sonho. Se não quiser assistir o app de viagens, pode ir direto para a parte de UX, design, banco de dados e aí seguir para a parte do zero ao app. Vai ser muito bom para você começar a construir um aplicativo mais robusto do do zero. Beleza? Bora lá!

@@ -1,0 +1,12 @@
+﻿# DELETE - Remover Dados
+
+- Curso: 2 - APIs no Supabase
+- Trilha: Trilha Supabase
+- Módulo: Tudo sobre APIs
+- Duração: 00:02:10
+- Aula: https://flix.nocodestartup.io/m/lessons/2645
+- Vídeo: ff2b2b50-d720-465e-b3e1-5c25129a5d52
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bom, aqui no método de deletar, a gente pode vir aqui, nossa API, e vamos lá ver, né? É só a gente ler com calma que a gente vai descobrindo. Delete rows, deletar linhas. Então, eu tenho que passar aqui esse, essa URL, vou copiar, e o método é delete, tá? Então, eu vou lá no meu postman. Aqui no meu postman, eu acho que eu vou pegar esse valor aqui, ó, getFiltroIG, e vou duplicar, tá? Que eu acho que vai ser parecido. clicar e aqui vai ser o delete é que a gente coloca aqui delete remover os tá beleza salvar aqui e daí eu vou colocar o RL que eu peguei lá do Superbase eu vou deletar e aqui ó é a condição então vamos fazer sempre a condição pelo ID é a forma mais correta de se fazer tá sempre faz pelo ID para isso eu vim aqui em filtro pelo ID Vou copiar aqui, ó. Essa condição pra gente passar o ID da linha do curso que a gente quer deletar. Vou vir aqui, apagar e vou colar. Então, eu falo assim, ó. Quero que você delete, tá? Onde o ID for igual a 2. Então, aqui pra não atrapalhar nossos dados lá, o ID vai ser igual a 12, né? Pra gente deletar o curso de Postman top. Vamos ver se falta mais algo. Head tá certo. Não precisa de body, tá? Body é só pra post e patch. O put. Ele tá pra ver se ele vai deletar nosso curso top. Então, 204, ó. Deu certo, hein? Bora lá ver. Vou fechar aqui. Ó. Já sumiu. Ó. Cadê? Sumiu nosso curso top. Já era o curso de post, mano. Então, cara, entendemos tudo aí. Como fazer o CRUD completo, né? Como interagir com o nosso banco de dados. Tudo aqui de uma forma bem organizada dentro do Supabase e do Postman. Agora a gente pode avançar para ver outras tipos de API dentro aqui do Supabase. Bora lá.

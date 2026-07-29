@@ -1,0 +1,12 @@
+﻿# O Que Você Irá Aprender
+
+- Curso: F4.4 - Function Calling | Construindo GPTs e Assistentes com Esteroides
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:26
+- Aula: https://flix.nocodestartup.io/m/lessons/3374
+- Vídeo: c0bd0358-5c14-4935-ab65-b48fc63e6900
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de Function Calling. Aqui você vai aprender tudo sobre como ativar funções dentro das ferramentas da OpenAI ou qualquer outro tipo de modelo AI. Essas aulas estão muito completas e olha só, esse daqui é um conteúdo inédito. Na internet quase não tem conteúdo sobre Function Calling que seja mais voltado para a parte no code. Geralmente as pessoas ensinam e sempre envolve bastante código. O que é? não é muito o nosso foco aqui. Então aproveita que esse conteúdo está muito completo e ele foi muito bem estruturado para você aprender tudo sobre Function Calling. Bora lá! Nessas aulas aqui você vai aprender a definição, o que é, para que serve, como usar tudo sobre Function Calling. Além disso, a gente vai fazer um projeto prático. Vamos pegar o nosso app de chat e vamos turbinar ele conseguindo chamar novas funções. A gente vai fazer tudo prático lá no nosso projeto. E também a gente vai pegar... fazer Function Calling lá dentro do GPT para você conseguir entender 100% como chamar funções no GPT. Depois dessas aulas aqui você vai aprender um entendimento completo sobre Function Calling, sobre as funções e como usar elas e também como criar aplicativos e SaaS integrados com essa funcionalidade do chat GPT. Então está bem completinho e está bem legal e bora lá que as aulas estão também muito práticas. Primeiro vamos entender exatamente o que são as Functions Calling.

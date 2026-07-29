@@ -1,0 +1,12 @@
+﻿# O Que São Provedores De Email.mp4
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:00:56
+- Aula: https://flix.nocodestartup.io/m/lessons/3706
+- Vídeo: 62efa837-e051-4118-94a7-1aad41c4d62a
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais uma aula e nessa aula a gente vai estar aprendendo sobre provedores de e-mail. Provedores de e-mail nada mais nada menos do que empresas ou serviços que oferecem a criação de conta, né? A gente consegue criar a conta e enviar e-mail através desse serviço ou empresa, tá? E nesse serviço ou empresa a gente tem alguns exemplos como o Gmail, tá? Que é do Google, a gente tem o Outlook que é da Microsoft. A gente tem o Yahoo, que é do Mail, e a gente tem o Hotmail, tá? E eles são responsáveis por armazenar e gerenciar as mensagens de e-mail que a gente envia e recebe através do portais que eles oferecem, né? Seja web ou via aplicativo. E esses são basicamente os serviços que os provedores de e-mails oferecem, claro, entre outras coisas também, vocês podem estar explorando um pouco mais a fundo, dependendo do provedor que você necessita.

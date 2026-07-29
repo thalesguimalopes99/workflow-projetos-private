@@ -1,0 +1,12 @@
+﻿# 3.5 - Commitando Epic _3 e Abrindo Branch Epic_4
+
+- Curso: Desenvolvimento e Lógica do Produto | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 3 - Configurações de chave API da LLM, Agentes e Chats
+- Duração: 00:02:04
+- Aula: https://flix.nocodestartup.io/m/lessons/5402
+- Vídeo: 43ee1f8f-b727-4193-9689-fdb16964f7ba
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Antes de seguirmos para a próxima aula, faltou a gente dar o commit da branch desta aula anterior e abrir uma nova branch, porque o épico 3, basicamente, a gente já concluiu e nós vamos abrir o épico 4 na sequência. Então, olha só, voltando aqui para o cursor, eu estava com a aplicação rodando, eu vou dar um CTRL-C para encerrar, vou dar aqui um CLS para limpar essa tela aqui. Vou subir aqui um pouquinho para você enxergar melhor. Então, vou dar aqui um git add. Vou dar um git commit. Vai ser implementações do épico 3 e o git push. Agora sim, ele está sincronizando com a nuvem. Coloco minha credencial e vamos abrir a nova branch git checkout menos b épico epic underline 4 git push epic underline 4. Eu deveria ter colocado o minúsculo, mas agora que já foi assim, o ideal é adotar um padrão. Eu já tinha colocado todas em minúscula. Eu deveria ter colocado aqui em minúsculo. Mas como eu já subi, vamos seguir assim mesmo. Então é isso. Fiz o commit e já na próxima aula vamos seguir com o desenvolvimento do Epico 4. Um abraço.

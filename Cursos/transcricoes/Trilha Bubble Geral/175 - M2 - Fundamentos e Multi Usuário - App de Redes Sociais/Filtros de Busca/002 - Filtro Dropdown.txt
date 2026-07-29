@@ -1,0 +1,12 @@
+﻿# Filtro Dropdown
+
+- Curso: M2 - Fundamentos e Multi Usuário | App de Redes Sociais
+- Trilha: Trilha Bubble Geral
+- Módulo: Filtros de Busca
+- Duração: 00:01:51
+- Aula: https://flix.nocodestartup.io/m/lessons/2092
+- Vídeo: f5912175-a6dd-4ec8-bc00-b9d7e981c221
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bom, feito aí do título, vamos para o nosso segundo filtro, então. Vamos configurar aqui nossa selecione uma categoria, nosso drop-down aqui de categorias. Voltando para o nosso editor, a primeira coisa que a gente precisa fazer é configurar aqui o nosso drop-down. Por enquanto, a gente só adicionou ele ali, não configurou que tipo de valor que vai ter ali dentro e nem nada. Então, a gente está aqui, por enquanto, com... opções estáticas, não é o que a gente quer. A gente quer deixá-las dinâmicas, então a gente pode mudar para opções dinâmicas. E que tipo de opção que a gente vai querer? A gente vai querer puxar lá nossas categorias, lá dos nossos options sets. Então a gente tem categoria, livros, options sets, a gente vai querer puxar todas as categorias. E a opção que a gente vai querer mostrar aqui é a opção display. Valor padrão, a gente não precisa trazer nada, a gente quer que de fato na hora que atualizar a página ele venha sem nada. Então é exatamente isso. Agora, nosso... nosso input aqui, nosso drop-down, e já vai conter aí nossas categorias. Feito isso, novamente a gente pode copiar aqui o nome desse nosso drop-down, que a gente, analogamente o que a gente fez com o nosso título, a gente vai fazer aqui com esse nosso drop-down. Então, clicando aqui novamente no nosso cripto invertidor, vindo para a nossa busca, o que a gente vai querer adicionar de constrain agora vai ser a nossa categoria OS. E aqui, a gente pode sim dizer que ela vai ser igual, porque a gente... Está filtrando apenas uma categoria ali. É um drop-down, então vai estar sempre exato na informação. A gente não corre o risco de ter erros nesse caminho. A gente pode colocar aqui como sendo igual. Igual o valor. Fechado. Podemos agora testar novamente essa nossa função lá no front-end. Então, vindo aqui para atualizar a nossa página. Vamos atualizar a página. Página atualizada. A gente tem aqui nossos títulos. Romance. A gente não tem livro de romance. Ficção científica. Apareceu ali o nosso Game of Thrones. Negócio já low code, no code. Beleza, pessoal. Funcionando certinho aqui o nosso drop-down também.

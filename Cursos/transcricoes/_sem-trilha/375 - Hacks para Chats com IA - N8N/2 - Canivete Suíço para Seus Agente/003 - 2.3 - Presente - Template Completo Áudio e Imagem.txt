@@ -1,0 +1,12 @@
+﻿# 2.3 - Presente - Template Completo Áudio e Imagem
+
+- Curso: Hacks para Chats com IA - N8N
+- Trilha: (sem trilha)
+- Módulo: 2 - Canivete Suíço para Seus Agente
+- Duração: 00:02:04
+- Aula: https://flix.nocodestartup.io/m/lessons/3883
+- Vídeo: 9d196915-b6b5-41f0-9376-fa4a54c7db6c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, lá rapidinha para mostrar para vocês como que o nosso template aqui que a gente está construindo está ficando. Então aquele nosso agente que antes era apenas o agente aqui com essa nossa gestão de usuários e conversas, agora ele tem aqui toda a parte de entendimento de áudio e imagem que vocês podem utilizar também. Então vou deixar disponível para vocês poderem fazer o download desse template aqui, já utilizar, entender, usar ele também para vocês entenderem a nível de conceitos, como que as coisas foram construídas. clicar e de fato ver. A gente já ensinou isso nas aulas anteriores, mas vocês têm acesso para vocês. Então, aqui de novo, a gente tem aqui o nosso template padrão, o webhook, a gestão das conversas que a gente já explorou, nosso agente de A e a resposta do WhatsApp. E aqui agora a gente tem mais essa input que a gente criou nas últimas aulas, que é basicamente uma gestão de qual tipo de informação está chegando, se é um texto, se é um áudio, se é uma imagem. Se é um texto, eu basicamente estou armazenando meu texto na variável MSG e estou centralizando, para depois centralizar essa nossa informação tudo em uma variável só. Então eu faço isso aqui, MSG texto, eu armazeno tudo que eu tratei a minha mensagem aqui de áudio na minha MSG áudio, eu armazeno também a imagem que foi analisada aqui nesse meu MSG imagem. Então... Isso é o que eu faço no texto. Se é áudio, eu estou fazendo download do áudio aqui para o N8N, transcrevendo esse áudio e salvando na minha variável mensagem. E se é uma imagem, eu estou analisando a imagem aqui com o GPT e depois salvando a resposta dessa imagem na minha variável mensagem. Assim eu tenho minha fonte de verdade aqui na variável mensagem e meu agente sempre vai estar consumindo a informação dessa variável mensagem, entendendo dependente se é um áudio. Se é uma imagem ou se é um texto. Beleza, pessoal? Só dando uma visão desse template para vocês. Qualquer dúvida, deixem aí nos comentários, na comunidade e fiquem à vontade para fazer o download desse template e usarem como Bem Entender. Beleza? Vejo vocês na próxima aula.

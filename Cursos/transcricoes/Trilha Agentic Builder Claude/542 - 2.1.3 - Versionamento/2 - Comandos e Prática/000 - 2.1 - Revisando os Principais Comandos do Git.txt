@@ -1,0 +1,12 @@
+﻿# 2.1 - Revisando os Principais Comandos do Git
+
+- Curso: 2.1.3 - Versionamento
+- Trilha: Trilha Agentic Builder Claude
+- Módulo: 2 - Comandos e Prática
+- Duração: 00:01:57
+- Aula: https://flix.nocodestartup.io/m/lessons/5571
+- Vídeo: 64c22955-db6a-4089-9419-3b994dcde0fe
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Prezados noCoders, preparei essa breve aula de hoje para que possamos revisar alguns códigos que utilizamos até agora. Então aqui no nosso glossário do Git, nosso primeiro comando a ser revisado é o commit, aquela descrição coerente que fazemos após cada mudança do nosso projeto. Aí temos também o pull request, que é quando a gente pede para alguém revisar essas mudanças, no caso de estarmos trabalhando com um time. A Branch, que é uma cópia paralela, uma cópia de segurança, para a gente testar novas mudanças sem correr risco. E caso essas mudanças sejam positivas, nós podemos juntá-las ao projeto original, ao projeto principal, utilizando o Merge. O Clone é quando a gente faz uma cópia do nosso projeto para o GitHub dentro do nosso PC. Como o próprio nome sugere, a gente faz um Clone lá do GitHub dentro da nossa máquina. Temos o gitignore, que é a pasta aí, uma lista de arquivos, como por exemplo, as nossas chaves API, que a gente não quer que outras pessoas tenham acesso por medidas de segurança. Aí utilizamos o gitignore. E temos o repositório, que fizemos internamente aí dentro do git na nossa máquina e que podemos também transferi-lo para a nuvem utilizando aí o GitHub. Então o repositório é a pasta do projeto controlada pelo git. Na nossa próxima aula, a gente vai fazer isso tudo de maneira prática, com o fluxo ao vivo, transformando o projeto. E eu peço para vocês conhecerem os códigos, mas não se preocuparem em decorá-los, já que o nosso Cloud Code fará boa parte de toda essa estrutura do nosso projeto. Mas, claro, como todo bom no-coder, precisamos conhecer etapa a etapa do nosso projeto. Convido vocês a assistirem a nossa próxima aula, onde a gente vai para a prática.

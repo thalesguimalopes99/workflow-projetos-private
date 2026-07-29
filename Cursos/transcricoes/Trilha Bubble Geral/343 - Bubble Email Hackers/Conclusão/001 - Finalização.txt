@@ -1,0 +1,12 @@
+﻿# Finalização
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Conclusão
+- Duração: 00:00:26
+- Aula: https://flix.nocodestartup.io/m/lessons/3715
+- Vídeo: 63e565f6-0f66-45d2-bd5a-dac2163967ce
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Mas é isso, turma. Espero que vocês tenham gostado dessa pequena trilha dos e-mails hackers. Espero que vocês tenham aprendido bastante e utilizem muito essa nova técnica que eu não vejo tanta gente utilizando. É muito importante você ter e-mails transacionais na sua plataforma e manter seus usuários informados. Então, se você aprendeu bastante aqui, não esquece de comentar aí na comunidade. Se você tiver alguma dúvida, procura a gente na comunidade também que a gente vai estar te ajudando. Eu te espero na próxima trilha.

@@ -1,0 +1,12 @@
+﻿# Validação criação preferência de pag. via Postman
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Pagamentos Avulso MP
+- Duração: 00:01:51
+- Aula: https://flix.nocodestartup.io/m/lessons/2898
+- Vídeo: a4557cc6-69db-4048-99fe-c346ffdeaffc
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E agora que tivemos sucesso na nossa validação da API do mercado pago, é importante validar ali também dentro do ZANU, entender se a nossa aplicação vai funcionar ali dentro. Como a gente já desenvolveu isso no Postman, fica muito mais fácil exportar e importar posteriormente no ZANU o CUR. Para identificar o CUR desse endpoint criado, a gente vai acessar pelo nosso lado direito. E aqui já mostra o nosso CUR novo. Sendo assim, a gente vai copiar esse CUR e vai voltar para a nossa página do Zano, onde a gente vai clicar em Function Stack, vamos em External API Request e vamos clicar em Import CUR. Desse modo, só vamos colar o CUR importado do Postman e clicar no botão Import. Como podem perceber, ele já trouxe todos os dados preenchidos, como... produto, quantidade, moeda, valor. Também temos as nossas back URLs aqui, todas parametrizadas. O nosso external reference. Também trouxemos para a gente o nosso token que fizemos lá. Então, vamos fazer uma validação simples, salvando e rodando a nossa API. Rodando. Como poder perceber, aqui o resultado foi nulo, mas se a gente olhar ali na nossa resposta, está sem nenhuma. Então, vou vir aqui e colocar que o nosso retorno vai ser API 1, só para a gente validar. Salvei, vou rodar novamente. Já tivemos um retorno e tivemos um retorno positivo. Sucesso! Conseguimos integrar o Zano e o Mercado Pago. Agora, não podemos ficar só nesse ponto. Precisamos organizar e estruturar o nosso banco de dados.

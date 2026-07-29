@@ -1,0 +1,12 @@
+﻿# 3.7 - Validando Funcionalidades de Multiplos Agentes
+
+- Curso: Desenvolvimento e Lógica do Produto | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 3 - Configurações de chave API da LLM, Agentes e Chats
+- Duração: 00:02:32
+- Aula: https://flix.nocodestartup.io/m/lessons/5404
+- Vídeo: d302493f-32b9-48e7-a6e3-3b7053ba65c1
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, voltando aqui, apenas para a gente validar um teste que eu não mostrei na aula anterior, que seria esse teste. Na verdade, um teste de funcionalidade, né? Vamos acessar aqui. Eu estou com ainda o cursor aqui rodando, eu acabei de executar novamente. E aqui, olha só, eu abri em localhost. meu dashboard, e eu criei aqui em agentes, eu criei mais três agentes, ou seja, a gente tinha um agente jurídico, criei o agente de venda, suporte ao cliente e marketing, e nós podemos ver aqui em chats, eu tenho aqui aquela última conversa que o próprio cursor fez ali para mim, e eu tenho aqui os agentes, e você se recorda, eu tenho a opção de ocultar, E você se recorda que lá em configurações, aqui em agentes, nós temos a opção de destacar aquele agente como popular. O que seria isso? Se eu destacar, por exemplo, esses três aqui de cima como agentes populares, eles vão ser de fácil acesso ou prioridade aqui em chats. Olha só, agora eu vim aqui para chat, sempre esses três estarão aqui em cima. Existem algumas melhorias aqui que a gente vai fazer depois de layout, mas os três estão aqui em cima. Então, para eu começar uma conversa com o marketing, eu seleciono o marketing, suporte ao cliente, suporte ao cliente e vendas, eu selecionaria aqui ou por aqui, aqui abaixo na lista. E essa lista aqui abaixo pode ter quantos agentes necessário for. Para eu conseguir habilitar mais agentes, O que eu fiz? Eu vim aqui no meu plano, que antes era o plano free, e alterei para o plano basic, o plano básico. Aqui em perfis de planos, eu alterei do plano 1, que estava o plano free, e alterei para o plano 2, que dá direito a 5 agentes. Máximo de agentes, 5. Então, foi isso que eu fiz. para validar aqui essa funcionalidade que faz parte aí da plataforma, tá? Então é isso, um abraço, até a próxima aula, até mais.

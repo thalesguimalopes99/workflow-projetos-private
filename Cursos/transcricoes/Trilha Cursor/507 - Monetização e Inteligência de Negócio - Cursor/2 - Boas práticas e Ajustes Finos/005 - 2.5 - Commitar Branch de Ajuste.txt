@@ -1,0 +1,12 @@
+﻿# 2.5 - Commitar Branch de Ajuste
+
+- Curso: Monetização e Inteligência de Negócio | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 2 - Boas práticas e Ajustes Finos
+- Duração: 00:02:22
+- Aula: https://flix.nocodestartup.io/m/lessons/5425
+- Vídeo: 67461a1b-9028-4872-92a1-7ae8cbccc724
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, antes de seguirmos para a próxima aula do próximo módulo, vamos encerrar essa branch fazendo o commit dela e vamos fazer o merge desta branch para... a branch dev deixando então o nosso sistema é versionado para garantir é que se der alguma coisa errada ali ou se a gente quiser voltar na versão anterior a gente tem tudo protegido e tudo versão nada então vamos aqui para a tela do meu cursor eu estou na visualização da aula anterior eu acabei aqui de fazer o gith ed então depois do gith ed a gente faz o gith comite e a gente coloca aqui uma mensagem Eu vou colocar aqui implementações de ajustes no dashboard. Somente isso. E vou fazer aqui o git push. Feito o git push, ele vai pedir aqui a minha credencial. Vou dar aqui um CLS para limpar a tela. E vamos agora fazer um checkout. Vamos para... a git dev, então a checkout dev e aqui nós vamos fazer o merge da ajustes, ajustes underline 01. Ele fez o merge aqui, olha só, a gente subir aqui, todas as telas que foram alteradas, foram trabalhadas e feito o merge, eu vou fazer o git push. Com isso, eu tenho já a minha branch dev, que é a nossa branch de margem de segurança, atualizada e pronta já para partirmos para as demais aulas do último módulo. Um abraço, te vejo na próxima aula.

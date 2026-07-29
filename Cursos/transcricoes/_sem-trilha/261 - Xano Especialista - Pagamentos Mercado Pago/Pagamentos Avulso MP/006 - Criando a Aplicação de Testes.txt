@@ -1,0 +1,12 @@
+﻿# Criando a Aplicação de Testes
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Pagamentos Avulso MP
+- Duração: 00:02:38
+- Aula: https://flix.nocodestartup.io/m/lessons/2893
+- Vídeo: f3db7100-9ada-437e-a0c7-e191bf32f01c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, agora temos que ir para a segunda parte mais importante desse processo de criação de credenciais e aplicação e validação, que é criar o nosso ambiente de testes. Então lembrando que agora temos tudo criado para o nosso ambiente de produção. Então precisamos fazer isso para o nosso ambiente de testes. Então vamos recordar que nós criamos uma conta teste para o vendedor. Temos que voltar, fazer o log off com a conta de produção e fazer o login com a conta de teste. Então, para isso, eu vou pegar os dados da conta de teste do vendedor para fazer esse login e aí vamos criar todas as credenciais no nosso ambiente de teste. Então, primeiramente, conta teste. Sempre tenha seu celular próximo a você, porque frequentemente o mercado pago vai fazer essas validações. Então, aqui temos a nossa conta BR no Code Vendedor e BR no Code Comprador. Então, a nossa ideia é logar com a nossa conta de vendedor para criar um ambiente de testes para que o comprador faça pagamentos para essa conta. Então, vamos pegar o usuário, já vou deixar aqui separado. E também vamos pegar a senha, que eu vou deixar aqui separada também. Depois disso, o processo é fácil. Sua conta. sair da conta, vamos entrar na conta novamente, vamos pegar o usuário de teste que acabamos de copiar, continuar e vamos pegar a senha que também temos junto e vamos iniciar a sessão. Prontinho. Logo no topo, ele já mostra para a gente que a gente está logado com o usuário teste. Aqui o processo é simples como foi da outra vez. Então, vou criar uma aplicação onde eu vou começar com o nome teste. .br no code. Seguir as mesmas orientações que fizemos anterior. Pagamento online. Não utilizamos plataforma. Vamos utilizar o Checkout Pro. E não vamos fazer uma alteração ali no modelo de integração. Vamos autorizar. E também clicar no Eu Não Sou Robô. E criar essa aplicação. Depois da aplicação criada. Vamos diretamente em credenciais de produção. e veremos que já temos as nossas public keys e access token aqui criado. Já copia o seu access token, pois a gente vai precisar dele já já.

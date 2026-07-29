@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Dominando o Whatsapp no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Bot Bubble
+- Duração: 00:00:49
+- Aula: https://flix.nocodestartup.io/m/lessons/3345
+- Vídeo: 2e00107b-1573-4037-a10c-092b45ea7c62
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma. Sejam bem-vindos para mais um módulo. Nesse módulo, a gente vai aprender a criar um chatbot no Bubble utilizando apenas o back-end como emissor das mensagens e receptor, tá? A gente também vai passar sobre etapas do formulário, onde o usuário manda a primeira mensagem, a gente verifica se o usuário está criado lá no banco de dados. Se ele não estiver criado, a gente cria ele e responde perguntando qual é o nome daquele usuário. criou o usuário respondeu qual o nome ele retornou o nome a gente altera esse usuário coloca o nome e aí pergunta o lá fulano o que você precisa você deseja e com isso a gente salva a resposta no banco de dados também e da sequência ali nos steps que a gente precisa criar certo na próxima eu vou estar mostrando para vocês como configurar o becky para gente poder acessar e utilizar o pep hook na nossa peça

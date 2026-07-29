@@ -1,0 +1,12 @@
+﻿# Fundamentos Software
+
+- Curso: F1.3 - Fundamentos Desenvolvimento de Software
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:29
+- Aula: https://flix.nocodestartup.io/m/lessons/3161
+- Vídeo: 60d8e016-050d-43be-be2f-b510603d207b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de Fundamentos de Desenvolvimento de Software. Aqui você vai aprender os principais fundamentos para criar aplicativos, softwares e SaaS muito robustos. Então, vem comigo e vamos entender o que você vai aprender. Lembrando que a gente tem a nossa tria de IA com SaaS NoCode. A gente tem a parte de Desenvolvimento de Produtos, parte de Desenvolvimento de SaaS NoCode e a parte de Inteligência Artificial. e agentes, tá? Essa vai ser nossa tríade muito importante aqui da formação. E agora a gente vai falar sobre os fundamentos de software e desenvolvimento de SaaS no code. Aqui nessas aulas você vai aprender vários conceitos muito importantes. Você vai aprender os fundamentos para criar seu próprio aplicativo. Então se você tiver um pouco perdido em como tirar sua ideia do papel e criar seu próprio projeto, aqui nessas aulas você vai aprender do zero, tá? Então bem legais. Também a gente vai ver sobre um dos conceitos mais importantes para desenvolver software, que é a parte de APIs. É um dos conceitos que você tem que saber, tanto a teoria quanto a prática, para criar soluções com inteligência artificial. E além disso, a gente vai ver as etapas, qual é o passo a passo que você tem que passar para criar o seu aplicativo, o seu SaaS. Então a gente vai dividir em fases para você entender quais são essas fases de desenvolvimento. Então sem mais enrolação, bora começar que as aulas estão legais demais. Vamos comigo!

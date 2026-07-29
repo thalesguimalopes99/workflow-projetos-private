@@ -1,0 +1,12 @@
+﻿# Bônus 1 - Atomic Fusion
+
+- Curso: Atomic Fusion | Bubble io
+- Trilha: (sem trilha)
+- Módulo: Atomic Fusion
+- Duração: 00:01:19
+- Aula: https://flix.nocodestartup.io/m/lessons/2290
+- Vídeo: 15b07bec-ea40-446a-a22b-7d229cbe56cf
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Salve, salve pessoal! Venho mais uma vez entregar mais um super bônus para os alunos da formação de Bubble da NoCode Startup. Vocês, alunos da formação, têm direito a acesso ilimitado ao Atomic Fusion por um mês e 25% de desconto após esse período, caso vocês venham a querer contratar um dos planos pagos da ferramenta. O Atomic Fusion é hoje uma das extensões mais completas do Bubble. para que vocês possam utilizar todos os templates, páginas, elementos, todos os componentes que ele tem ali pronto para acelerar o processo de desenvolvimento dos aplicativos de vocês. Então, usem e abusem desse bônus de vocês, dessa ferramenta. Na aula abaixo dessa, vou deixar todo um descritivo de como vai funcionar esse processo para vocês reivindicarem. esse bônus de vocês, que na verdade acontece tudo de forma automática, mas só para vocês saberem exatamente como funciona. E na aula após essa, eu vou deixar também um vídeo onde eu explorei toda a ferramenta por dentro, vocês vão poder entender o que a ferramenta consegue fazer, como fazer cada coisa dentro da ferramenta, então eu explorei ela ao máximo, vocês podem estar assistindo esse vídeo também para conseguir utilizar ela da melhor forma nos seus projetos durante esse mês gratuito, e caso venha ser interessante para vocês quando vocês contratarem a ferramenta também.

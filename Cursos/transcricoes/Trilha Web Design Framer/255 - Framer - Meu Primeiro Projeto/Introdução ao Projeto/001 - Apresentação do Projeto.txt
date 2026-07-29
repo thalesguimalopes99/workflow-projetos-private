@@ -1,0 +1,12 @@
+﻿# Apresentação do Projeto
+
+- Curso: Framer - Meu Primeiro Projeto
+- Trilha: Trilha Web Design Framer
+- Módulo: Introdução ao Projeto
+- Duração: 00:01:38
+- Aula: https://flix.nocodestartup.io/m/lessons/2946
+- Vídeo: fa9288ac-1001-4cea-93e2-d70b6423582c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, fico muito feliz de ver que você chegou até aqui. Espero que você esteja gostando da jornada. E bem, nessa aula eu vou dar uma introdução para vocês do projeto que a gente vai criar. E espero que vocês gostem e compartilhem comigo depois o que vocês acharam. Eu vou compartilhar minha tela agora para mostrar mais detalhes. O projeto que a gente vai criar se chama Linktree na prática. Linktree é uma ferramenta bem famosa, não sei se você conhece, mas basicamente a ideia central é ter um lugar único, um site, uma página única. onde a gente compartilha os links mais importantes para a gente. A estrutura que vai acontecer nas próximas aulas vai ser a seguinte. A gente vai ter uma primeira aula ensinando a gente a construir todo o esqueleto. Eu espero que você construiu comigo, veja a aula e vai construir no paralelo. Em seguida, a gente vai aplicar estilo a essa estrutura que a gente criou. Depois a gente vai inserir interações e, por último, publicar na web. Publicar na web vai significar que a gente vai ter um link onde a gente vai conseguir compartilhar com nossos colegas, compartilhar com nossos amigos, aonde você quiser. E falando um pouco mais sobre a estrutura, essa é a estrutura do Linktree. Então a gente tem uma página, onde a gente tem um logo ou uma imagem, e logo embaixo a gente tem diversos links, que pode ser o link do seu WhatsApp, caso você ofereça algum serviço, pode ser um ícone de uma rede social. Vai ser bem flexível a gente construir da forma que a gente quiser. Eu espero que vocês sejam bem criativos, construam diversas páginas, e depois compartilhem com a gente na comunidade também. E por último também, um detalhe bem legal, é que a gente vai conseguir escolher um background diferente. Então você pode colocar uma imagem, uma cor, enfim. Estou bem animado para começar esse projeto, espero que você também. Então, até a próxima aula.

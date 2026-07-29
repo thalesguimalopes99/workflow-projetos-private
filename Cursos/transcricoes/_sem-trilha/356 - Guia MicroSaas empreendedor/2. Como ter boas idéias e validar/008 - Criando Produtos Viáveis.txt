@@ -1,0 +1,12 @@
+﻿# Criando Produtos Viáveis
+
+- Curso: Guia MicroSaas empreendedor
+- Trilha: (sem trilha)
+- Módulo: 2. Como ter boas idéias e validar
+- Duração: 00:01:28
+- Aula: https://flix.nocodestartup.io/m/lessons/3934
+- Vídeo: 4f56ca33-81cf-4852-8b9a-d0e31d16064d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, continuando essa nossa trilha aqui com esse objetivo de dar maior clareza sobre a nossa solução, de fato, se essa nossa solução faz sentido, a gente está colocando energia nela, a gente vai entrar aqui agora no capítulo de viabilidade dessa nossa solução, olhando com uma ótica de negócio. Então, entrando aqui para esse nosso capítulo, o objetivo é identificar se, de fato, Faz sentido a gente colocar energia pensando a nível de sustentabilidade do negócio. Então a gente se concentra em saber se nosso modelo de negócio se ajusta à maneira como os clientes que a gente já conheceu bem até esse momento desejam usar e pagar por nossa solução. Viabilidade refere-se se o produto é financeiramente sustentável. Então esse é o nosso principal objetivo aqui. E obviamente, se um produto não é financeiramente viável... não será um negócio sustentável e acabará por fracassar. Então, mesmo se ele seja desejável por todos os clientes e mesmo se ele seja tecnicamente viável como um produto, de modo geral. Então, novamente, mais um tópico extremamente importante da gente buscar validar as nossas hipóteses. E para a gente fazer isso, a gente vai aí nas próximas aulas conhecer um pouquinho mais sobre como aplicar e utilizar o Lean Canvas para dar uma visão bem macro do nosso negócio, olhando o mercado, olhando concorrentes, olhando nossas forças, olhando nossa proposta de valor, olhando nossos custos, olhando nossas receitas, para dar um mapa geral. E aí depois a gente vai também dar uma olhada na matriz SWOT barra matriz TORN. Beleza? Então, vejo vocês na próxima aula para a gente comentar um pouquinho sobre o Lean Canvas.

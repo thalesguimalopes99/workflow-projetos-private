@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:51
+- Aula: https://flix.nocodestartup.io/m/lessons/2473
+- Vídeo: 85c81b38-1ac4-4e9d-83ba-5a774b1bed76
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos ao curso de Stripe. Eu me chamo Harry e é com imenso prazer que eu falo pra vocês... que agora faço parte da família NoCult Startup. Eu vou estar apresentando para vocês o curso de Stripe, onde a gente vai estar aprendendo tudo sobre pagamentos utilizando o Stripe dentro do Bubble. Nesse conteúdo, a gente vai estar aprendendo sobre pagamentos avulsos com o Stripe, a gente vai estar aprendendo sobre o plugin do Stripe que o Bubble disponibiliza para a gente, já com actions necessárias para a gente realizar pagamentos, desde assinatura quanto pagamentos avulsos. A gente vai estar aprendendo sobre assinaturas com o Stripe, que a gente vai aprender a fazer. todo o fluxo de assinatura ali. A gente vai estar aprendendo sobre o processo de assinatura, que é desde criar o plano no Stripe, vincular esse plano no Bubble e realizar o pagamento e liberar o sistema para o usuário, desde a renovação também. A gente vai estar aprendendo sobre a integração via plugin, que é criar o... o produto lá no Stripe, vincular no Bubble e também coletar as keys necessárias para liberar o acesso à nossa conta do Stripe para que seja realizado e processado os pagamentos de fato no Stripe através do Bubble, tá bom? Falando um pouco mais sobre o Stripe, eu vou te mostrar porque ele se torna uma excelente opção na hora de realizar cobranças no seu aplicativo, seja ela avulsa ou recorrente. O Stripe conta com um excelente painel de gestão que vai facilitar na hora de gerir o seu negócio. Ele conta também com uma API completa que te fornece todos os endereços. de pões necessários para realizar a integração com a plataforma. Ele conta também com o reconhecimento mundial, sendo uma das plataformas mais utilizadas no mundo todo. Isso te fornece a dinâmica de cobrar em diversas moedas diferentes. Mas lembre, configure isso no seu fluxo de cobrança, beleza? Ele conta também com o plugin do Bubble, que te facilita na hora de fazer a integração. É só coletar as credenciais no painel do Stripe e colocar no plugin do Bubble. E tudo certo, é só configurar o fluxo e realizar a cobrança, beleza? Mas vamos aprender tudo isso nas próximas aulas.

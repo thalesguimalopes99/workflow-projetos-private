@@ -1,0 +1,11 @@
+﻿# Conclusão - Aprendizados
+
+- Curso: Segurança no Supabase
+- Trilha: (sem trilha)
+- Duração: 00:00:26
+- Aula: https://flix.nocodestartup.io/m/lessons/4206
+- Vídeo: 65eba248-35c6-46ac-bcda-0e8d9125d881
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, vamos chegando ao fim de mais um módulo aqui na NoCode Startup. Basicamente nesse módulo a gente aprendeu como criar e gerenciar policies para acesso ao banco de dados e a como usar IA para entender e criar policies customizadas, beleza? Espero que vocês tenham gostado desse módulo. Se surgir qualquer dúvida, pode comentar lá na comunidade e me marcar, ok? É isso, te vejo no próximo módulo. Valeu!

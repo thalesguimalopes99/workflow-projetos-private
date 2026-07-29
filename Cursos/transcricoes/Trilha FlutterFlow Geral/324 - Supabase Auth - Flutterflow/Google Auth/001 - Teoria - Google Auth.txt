@@ -1,0 +1,12 @@
+﻿# Teoria - Google Auth
+
+- Curso: Supabase Auth - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Google Auth
+- Duração: 00:01:07
+- Aula: https://flix.nocodestartup.io/m/lessons/3405
+- Vídeo: adb46748-2b41-400c-9c63-1a047cac7067
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, então bora entender como é que funciona o login social com o Google. Apesar do processo aqui para o usuário ser menor, o processo de configurar esse login é bem maior que os anteriores, ok? E a gente tem que ficar bem atento porque a documentação do Flutter Flow nesse sentido está um pouco defasada, então a gente vai ter que fazer umas adaptações lá também, ok? Mas para o usuário o fluxo é bastante simples, ele basicamente clica no botão entrar com o Google, caso ele não esteja logado na conta dele, ele põe login e senha, Caso ele já esteja logado, na hora que ele clica no botão, ele já entra para a página do aplicativo. O Superbase, por sua vez, ele cria um registro lá na tabela usuários, a autenticação, com um provider do tipo Google. Você vai ver que tem vários providers. Um deles é o Google. E o usuário, por fim, como eu falei, acessa a página do aplicativo. O processo, reforçando para o usuário, é muito simples, mas para a gente configurar vai dar um pouquinho mais de trabalho que os anteriores, mas... Vamos seguir a documentação se atentando a alguns pontos para que funcione corretamente na web e no Android. Ok? É isso. Te vejo na próxima aula.

@@ -1,0 +1,12 @@
+﻿# Pwa celular
+
+- Curso: Zero ao App - Aplicativo de finanças
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Publicação
+- Duração: 00:01:59
+- Aula: https://flix.nocodestartup.io/m/lessons/3561
+- Vídeo: 9b52c2d7-fa9e-411f-8769-2e0fcbaad89d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então olha que legal, abri aqui no meu celular, tá? Na página web, no caso eu tô usando iPhone. Tô aqui no caso no Safari, então eu consigo criar a conta e fazer o login. E eu vou vir aqui nesse botãozinho do meio lá embaixo, ó, esse quadradinho, no caso do iPhone. Depois você pode ver como é que funciona pra Android. Mas no iPhone aqui é bem tranquilo. Vou clicar no botão do meio, vou vir aqui pra baixo e tem aqui, ó, adicionar a tela de início, tá? No caso do iPhone. E aí eu vou clicar aqui em adicionar a tela de início, ó. E vai aparecer App Finanças com o nosso logozinho lá legal. Isso porque ele é um PWA, então a gente consegue baixar no nosso aplicativo. A gente não vai conseguir usar todas as funcionalidades do celular, mas já fica mais prático, tá? Ele vai rodar na web. Ele não vai rodar como se fosse realmente um app nativo, tá? Ele tá rodando na web. E vou adicionar esse App Finanças. Então olha que bonitão aqui o nosso app. Já tá mostrando aqui no celular. Vou abrir ele. E aqui abriu, ó. Interessante que ele fica tela cheia. A usabilidade fica muito melhor. E vou logar aqui na minha conta, né? Vou entrar. E olha só que legal o nosso app aqui, ó. Bonitão. A gente já consegue fazer tudo, ó. Nossa tabela aqui funcionando. Também tem os totais aqui. Eu consigo passar o dedo mexer. Consigo clicar aqui, ó. Nos registros. Posso até deletar. Vou deletar esse registro aqui, ó. Deletei. E eu tenho meus registros prontos, ó. Cara, ficou bonito demais. Fala aí. eu consigo ver aqui o nome também adicionar novos registros tá eu fico aqui bem legal completo funciona tanto aqui dentro do celular quanto na web é claro né sempre precisar de mini ajustes aqui de design mas já tá funcionando certinho a gente consegue usar no celular e na web E aí curtiu depois comenta aqui embaixo se gostou desse app

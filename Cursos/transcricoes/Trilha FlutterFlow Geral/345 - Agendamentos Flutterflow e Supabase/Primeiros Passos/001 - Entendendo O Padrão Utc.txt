@@ -1,0 +1,12 @@
+﻿# Entendendo O Padrão Utc
+
+- Curso: Agendamentos Flutterflow e Supabase
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Primeiros Passos
+- Duração: 00:01:58
+- Aula: https://flix.nocodestartup.io/m/lessons/3734
+- Vídeo: c32d4f25-3eea-42d9-aa60-106fb3f2ac6c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, agora que a gente já deu uma olhada na aplicação, bora entender um pouco sobre o UTC. O UTC é a sigla para Tempo Universal Coordenado, em inglês, e representa um padrão internacional de medida de tempo. Basicamente, ele é utilizado em aviação, telecomunicações, navegação, tem várias aplicações. E, na prática, isso significa que a gente tem uma referência central, Tudo que vem à direita é um fuso horário positivo e tudo que vem à esquerda é um fuso horário negativo. O Brasil, por exemplo, se encontra na faixa de UTC-3 e uma parte em UTC-4. Esse padrão é muito útil na hora que você vai trabalhar com o formato timestamp TZ lá no banco de dados do Superbase, porque esse TZ no final significa time zones. E se você entender o que significa o padrão TZ, você consegue entender o que está acontecendo na hora que você busca uma informação do seu banco de dados. Logo na sequência, a gente vai entender melhor esses conceitos e ver qual é o problema que a gente vai resolver relacionado ao TC. Depois, a gente tem o padrão 8601, a ISO 8601, que é basicamente uma norma que especifica qual deve ser o formato internacional de datas e horários. Você pode ter percebido que países como o Brasil tem um formato de data, Estados Unidos tem outro. Então, para padronizar, foi criada essa ISO, que... comenta que o formato deve ser ano, mês e dia, e horário em hora, minuto e segundo. Esse formato também permite a junção dos dois, que é o exemplo que eu trago aqui embaixo. Eu tenho ano, mês, dia, logo na frente um T, informando que é o tempo, 14h30, ou seja, 2h30 da tarde, e uma informação de fuso horário, menos 5, que se relaciona diretamente com o conselho de UTC. Se eu estou falando menos 5, eu estou falando dessa faixa de fuso horários aqui. Então, o TC e a ISO 8601 estão intimamente relacionadas e a gente vai ver durante esse módulo qual é a relação entre elas na hora de gravar no Superbase. Mas esse assunto para as próximas aulas. Te vejo lá.

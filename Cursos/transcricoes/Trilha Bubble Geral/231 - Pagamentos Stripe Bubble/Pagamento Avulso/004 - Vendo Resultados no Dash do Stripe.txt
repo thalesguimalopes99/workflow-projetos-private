@@ -1,0 +1,12 @@
+﻿# Vendo Resultados no Dash do Stripe
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso
+- Duração: 00:01:04
+- Aula: https://flix.nocodestartup.io/m/lessons/2479
+- Vídeo: dd39b125-d9fd-4757-8c14-0b88a1984d42
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+e depois todos os pagamentos aprovados lá do nosso aplicativo se a gente vir aqui no nosso dashboard do stripe em pagamentos a gente vai ver que tem todos os pagamentos aqui ó ele mostra inclusive aqueles pagamentos que eu fiz com pagamento com saldo suficiente né que deu cartão recusado tá ele mostra que como falhou e os bens-sucedidos também tá aqui no caso aqui é só a descrição né A gente vem aqui pelo status desse lado aqui. O ok é que foi concluído com sucesso. Os falhos é que realmente falhou ou que foi incompleto. O pessoal não terminou de completar ele. Ele abriu o checkout, mas voltou. Então aqui a gente tem todos os pagamentos confirmados e os não confirmados. Então a nossa integração está realizada com sucesso. Espero que tenham gostado dessa cobrança avulso. Vocês viram que é muito simples criar uma cobrança avulso. Não tem nenhum mistério. E eu creio que agora vocês conseguem fazer isso no app de vocês. Espero que tenham gostado. Nossas próximas aulas agora é sobre assinatura. É um outro processo também que é simples. Mas requer um pouquinho mais de atenção. Mas também é bem divertido de fazer. Então se você quer aprender a fazer assinatura também no seu app. Fica ligado nas próximas aulas aí. E é isso.

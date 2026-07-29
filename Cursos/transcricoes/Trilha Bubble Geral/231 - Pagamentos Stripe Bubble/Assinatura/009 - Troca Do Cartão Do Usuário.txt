@@ -1,0 +1,12 @@
+﻿# Troca Do Cartão Do Usuário
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinatura
+- Duração: 00:01:43
+- Aula: https://flix.nocodestartup.io/m/lessons/2539
+- Vídeo: 8a4d816c-157b-487a-8519-e221485284d9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+a gente já fez a troca de plano agora a gente vai fazer a troca de cartão digamos que eu tenho um cartão antigo e eu perdi e agora preciso colocar um novo cartão para continuar a minha assinatura então preciso fazer essa atualização do cartão de cobrança a gente vem no nosso editor clica no botão troca de cartão adicionar o workflow pronto vem aqui edit action né vem pagamentos e collect the user cc information tá a gente vai coletar as informações do usuário E a gente vai fazer o update no card do usuário aqui, tá? Deixa marcada essa opção para ele atualizar o cartão do usuário. E aqui na descrição a gente vai colocar atualizar cartão de cobrança, ok? Vamos marcar a opção de não aparecer aquela mensagenzinha no nosso navegador e interromper o nosso fluxo. Vamos colocar aqui uma mensagem para identificar que a gente conseguiu trocar o cartão. sucesso pronto e vamos colocar no caso aqui a gente não precisa do Refresh né a gente não vai atualizar nenhuma função ali visível então não vou colocar o Refresh Page aqui ok e basicamente é isso que a gente precisa para fazer a troca de cartão vindo aqui na nossa tela do preview atualiza e clicando em trocar cartão e já vai abrir para gente o formulário para a gente trocar o cartão a gente pode vir aqui ó e isso aqui e ele vai pedir para eu tocar o cartão então posso colocar 4242 aqui ou qualquer outro cartão que dê como aprovado e ele vai substituir para mim esse cartão em salvar salvar cartão ele vai trocar sempre o cartão padrão nesse caso aqui vai ser sempre o cartão padrão cartão atualizado com o sexo Ok

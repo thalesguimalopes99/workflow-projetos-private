@@ -1,0 +1,12 @@
+﻿# Encerramento Trilha do Zero ao App
+
+- Curso: M6 -  Deploy - Checklist do Lançamento | SaaS Gestão de Projeto 3.3
+- Trilha: Trilha Bubble Geral
+- Módulo: Finalização
+- Duração: 00:01:32
+- Aula: https://flix.nocodestartup.io/m/lessons/2224
+- Vídeo: f9043a25-b15b-4722-8df8-56ca57b90195
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Meus amigos, chegamos ao fim desse nosso mega gestor de projetos, nosso mega aplicação. A gente começou desde o momento zero, do planejamento dessa aplicação, passando por todas as nossas fases de planejamento, até um deploy dessa aplicação. O objetivo aqui foi, de fato, trazer o mais próximo da realidade, como uma aplicação deve ser construída na realidade, pensando em quesitos de... ações, segurança, né? Então a gente olhou tudo isso. Foi uma aplicação que, assim, de fato, é a forma como eu construiria os pontos que eu olharia. Teria, obviamente, tem... N outros pontos aí que a gente ainda precisa abordar, precisaria ajustar, mas no geral, no grosso, a gente conseguiu ver bem próximo do que a gente faria na realidade. Então, com isso aqui, a gente encerra o core dessa nossa aplicação. A gente ainda tem alguns pontinhos que a gente precisa discutir e conversar que a gente vai trazer em algumas aulas bônus aqui depois desse nosso fechamento. Então, a gente ainda tem que falar... sobre Backend Workflows, que vai ser como que a gente vai criar rotinas de limpeza dos bancos de dados da nossa aplicação. E para isso a gente vai aprender, já aproveitar para aprender a utilizar os nossos Backend Workflows, que são ações extremamente importantes que... abrem um mundo de possibilidades para a gente. E a gente também tem que discutir um pouquinho sobre servidores profissionais de e-mail. Então, a gente comentou um pouco, a gente vai discutir isso também em uma outra aula bônus que a gente vai trazer depois desse nosso fechamento. Então, com isso, a gente encerra aqui esse nosso grande módulo, que é a série de módulos desse nosso app de gestão de projetos e a gente se vê nas próximas aulas.

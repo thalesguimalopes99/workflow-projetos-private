@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F5.6 - Gerindo Assinaturas do seu MicroSaaS
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:01:02
+- Aula: https://flix.nocodestartup.io/m/lessons/3515
+- Vídeo: 70737991-7e34-421a-a213-ec7097103fdf
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos no final de toda essa trilha, onde a gente fez do zero o nosso aplicativo desde lá do planejamento, toda a parte aí do Flutter Flow, toda a parte de integração de API, a parte de OpenAI, a parte de WhatsApp e também de assinaturas. Espero que você tenha curtido todo esse projeto aí, super completo. Espero que você tenha feito passo a passo junto comigo para poder replicar aí para a sua realidade, tá? É um projeto bem completo, onde a gente abordou todos aí os lados. Tanto de produto, tanto de IA, né? E tanto de a parte mais técnica. Espero que tenha ficado claro para você conseguir colocar o seu micro SaaS no ar e conseguir ter pagamentos ao longo aí da vida, do ciclo de vida do seu projeto. Bom, espero que você tenha gostado. Qualquer coisa é só postar lá na comunidade sua dúvida. Também posta o projeto que você está fazendo. Vai ser muito bom saber como é que está indo, como é que você está avançando para a gente conseguir te ajudar ao longo dessa jornada. Te vejo aí nos próximos vídeos e até mais. Bora lá!

@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: M1 - Fundamentos Essenciais Xano
+- Trilha: Trilha Xano
+- Módulo: Conclusão
+- Duração: 00:01:06
+- Aula: https://flix.nocodestartup.io/m/lessons/2493
+- Vídeo: f8a9d075-98d8-4d8d-944e-6ff442a1f231
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E olha que legal, a gente chega no final dessa primeira parte, desse primeiro módulo aí, que a gente conheceu o Zeno, fez um overview geral, e aposto que você aprendeu bastante coisa aí nesse projeto. Então aqui a gente viu tudo sobre o Zeno. Vimos as funcionalidades, os primeiros passos, toda a parte mais importante do poder do Zeno. Conhecemos lá dentro do Zeno o governo geral. Também conhecemos como criar tabelas, APIs, segurança e acesso. Fizemos várias funções do Zeno, que agora você já deve estar mais fluindo com a maior facilidade de criar outras funções. E também fizemos a parte de Edons. Então agora você já tem os fundamentos gerais dessa primeira parte do Zeno. E a gente pode seguir aí agora pro próximo módulo, que é o planejamento completo do nosso projeto do app de filmes, tá? A gente vai planejar tudo no próximo projeto. É importante que você faça aí passo a passo pra seguir aqui a ordem aí didática dos assuntos e ficar pró aí no Zeno. Então eu espero que você tenha gostado e bora pro próximo módulo, ele tá muito interessante e muito mão na massa. Bora aprender Zeno, bora lá!

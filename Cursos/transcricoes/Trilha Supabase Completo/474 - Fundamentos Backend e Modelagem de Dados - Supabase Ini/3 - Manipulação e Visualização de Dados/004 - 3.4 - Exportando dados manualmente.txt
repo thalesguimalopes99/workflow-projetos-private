@@ -1,0 +1,12 @@
+﻿# 3.4 - Exportando dados manualmente
+
+- Curso: Fundamentos Backend e Modelagem de Dados | Supabase Iniciante
+- Trilha: Trilha Supabase Completo 
+- Módulo: 3 - Manipulação e Visualização de Dados
+- Duração: 00:03:34
+- Aula: https://flix.nocodestartup.io/m/lessons/4850
+- Vídeo: 7490235e-3969-4e83-9bd8-885aff11142c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, agora nós vamos exportar nossos dados manualmente através do Supabase. O que é exportar? Você tem ali as suas tabelas, então você, de repente, por alguma situação, você vai precisar extrair esses dados para utilizá-los em outro ambiente. Escrever um prompt e tudo mais. De repente, você precisa dos dados. Então, acessando aqui o nosso projeto, Aqui dentro de Table Editor, vamos pegar aqui a tabela de clientes. Eu posso selecionar os dados aqui, selecionando linha por linha. Eu posso selecionar todos. Aqui em Export, então em Export eu tenho três opções. Eu posso exportar para CSV, posso exportar para SQL ou posso exportar como JSON. Então, vou exportar aqui para CSV. Ele já fez o download para mim. Eu vou abrir aqui a pasta. Abrindo a pasta, vou mostrar aqui, olha. O arquivo, ele vem nesse formato. Está vendo? Então, aqui é um arquivo em Excel. E ele já veio aqui nesse formato. Separado por vírgulas. e já veio salvo como CSV e ele vem normalmente ele vem com o nome da tabela underline rows ok então agora nós vamos aqui voltar aqui para o painel do Supabase e eu vou fazer uma exportação para SQL ele tá exportando para SQL ele exportou eu vou abrir a pasta é você pode mostrar aqui como que ele vem ó ele vem assim nesse formato cliente rows com esse nome aqui cliente rows tipo SQL file se eu clicar duas vezes sobre ele eu consigo ver aqui a informação ele vem em SQL então é uma linguagem que é do banco de dados e de repente você possa utilizar também então esse aqui é o formato SQL para eu agora fazer exportação para JSON é muito semelhante ao SQL. Basicamente ele vai abrir aqui para mim no mesmo lugar que eu abri antes. Porém, olha, ele vem em formato JSON. Aqui, olha. ele já veio no formato JSON, aquela mesma massa de dados da minha planilha, então ele já veio em formato JSON. Então é isso, exportando dados manualmente das nossas tabelas ali do Supabase. Um abraço, até a próxima aula.

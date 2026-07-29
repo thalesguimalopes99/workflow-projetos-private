@@ -1,0 +1,12 @@
+﻿# 2.4 - Conectando o Supabase ao Lovable
+
+- Curso: Fundamentos Supabase: Banco de Dados e Modelagem | Lovable
+- Trilha: Trilha Lovable
+- Módulo: 2 - Supabase na Prática
+- Duração: 00:01:29
+- Aula: https://flix.nocodestartup.io/m/lessons/4877
+- Vídeo: 726cb856-31fe-42fb-8a94-560686770a56
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então bora pro Lobo pra entender como que a gente conecta o Supabase lá no Lobo, tá? Então aqui no Lobo a gente pode vir aqui ó, na sua conta e você pode vir em Settings, tá? Em Settings, ou se você estiver no projeto vai ter um botãozinho no Supabase, vou clicar em Supabase aqui ó, e vai ter o Connect Supabase, tá? Então ele vai abrir aqui uma janela e vai pedir aqui pra autorizar, tá? Então ele já viu que eu tô logado no meu castelo.org, tá? então que é a minha organização tá ele vai habilitar para ele conseguir ler editar fazer tudo ali no super base está aqui apenas ler e escrever novos dados tá bom beleza eu vou aqui autorizar o logo na minha organização aqui do castelo org ele vai conectar o super base e dessa forma a gente vai conseguir criar softwares mais robustos a gente vai conseguir criar realmente softwares com com o back end não só com front agora sim a gente consegue criar um projeto tanto com back e com o front end para eles conectarem né então vai ficar muito mais seguro a gente vai conseguir salvar as nossas chaves apis a gente vai conseguir fazer as ad functions também aqui pelos pelo logo por exemplo ele cria as ad functions para gente tá então dessa forma fica muito mais estruturado e a gente consegue criar projetos mais robustos

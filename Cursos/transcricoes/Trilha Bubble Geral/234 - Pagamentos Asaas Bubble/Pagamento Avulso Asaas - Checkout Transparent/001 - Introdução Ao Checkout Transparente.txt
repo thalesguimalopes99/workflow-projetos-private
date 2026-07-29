@@ -1,0 +1,12 @@
+﻿# Introdução Ao Checkout Transparente
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - Checkout Transparente
+- Duração: 00:00:26
+- Aula: https://flix.nocodestartup.io/m/lessons/2764
+- Vídeo: 090b60b4-1df0-4390-9a8a-e44dbd58f277
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais um módulo. Nesse módulo a gente vai estar aprendendo a realizar a integração do Asas com o Bubble, utilizando o checkout transparente, que é aquele checkout que o usuário preenche os dados do cartão diretamente na nossa aplicação. Aqui no editor a gente já tem os campos onde a gente vai popular com as informações do cartão para realizar a cobrança diretamente no nosso app, sem precisar fazer igual ao checkout próprio, que é levar o usuário para uma página do próprio Asas. Na próxima aula a gente vai estar aprendendo como montar a chamada na documentação.

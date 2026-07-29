@@ -1,0 +1,12 @@
+﻿# Formas De Integração Bubble X Asaas
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução Pagamentos Asaas
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/2756
+- Vídeo: 82be632e-fc3a-437a-a861-396bc00a5777
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, nessa aula eu vou mostrar pra vocês as duas opções de integrar o Asas com o Bubble de forma fácil. A gente tem o plugin, os plugins na verdade, e o API Connector. Os plugins vão facilitar a sua integração, mas eles carregam uma grande responsabilidade. Você utilizar plugins de terceiros, que não sejam pagos, né? que os plugins não sejam pagos, corre um grande risco desses desenvolvedores acabarem descontinuando o plugin por falta de investimento ou por falta de tempo, por exemplo, e você acabar perdendo toda a sua integração, porque com o tempo os plugins vão parar de funcionar em determinadas atualizações do Bubble ou até mesmo da API do Asus, ok? E se faltar essa atualização, você vai acabar tendo interrupções nas cobranças que você tiver no seu aplicativo. Uma das opções mais seguras... É utilizar o API Connector. Só que exige um pouco mais de conhecimento sobre API. E você vai ter que construir a integração do zero. Mas o bom disso é que a integração é sua. E ninguém vai te tirar ela. Ela vai continuar funcionando. E por isso, nas nossas aulas, a gente vai estar utilizando apenas o API Connector. Por ter vantagem da chamada ser sua. Na próxima aula, eu vou estar mostrando para vocês a documentação do Asas. e alguns pontos que vocês precisam entender para poder estar criando os arquivos que a gente vai utilizar lá no API Connector.

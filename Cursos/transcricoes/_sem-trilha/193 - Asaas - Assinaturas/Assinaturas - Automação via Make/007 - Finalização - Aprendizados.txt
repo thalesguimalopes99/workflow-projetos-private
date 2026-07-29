@@ -1,0 +1,12 @@
+﻿# Finalização - Aprendizados
+
+- Curso: Asaas | Assinaturas
+- Trilha: (sem trilha)
+- Módulo: Assinaturas - Automação via Make
+- Duração: 00:01:39
+- Aula: https://flix.nocodestartup.io/m/lessons/2363
+- Vídeo: a8713b94-6301-48e1-a6ef-8f952bb413e9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Estamos finalizando aqui o Asas, a parte de assinatura. Espero que vocês tenham gostado. Todo o feedback que vocês puderem me mandar dentro da comunidade, basta procurar o meu nome lá dentro, Neto No Code, que eu estarei lá dentro da comunidade também, auxiliando nas respostas, tá? Qualquer tipo de dúvida durante o processo aqui do Asas, manda lá na comunidade que nós vamos tentar juntos te ajudar, ok? Então vamos dar uma relembrada em tudo aquilo que nós aprendemos até aqui. Nós começamos entendendo como que eu faço uma assinatura, como que é o processo de ler a documentação da API, entender primeiro e depois colocar em prática dentro do Flutter Flow para construir uma assinatura para aquele usuário. Depois a gente entendeu qual que é a diferença e qual que é a importância entre o checkout transparente e o checkout padrão, que é o checkout onde você coloca todas as informações dentro da página. Coloca os dados do cartão, os dados do usuário ali dentro. E o checkout padrão é aquele que nós navegamos para uma página e ali dentro realizamos aquela compra. Depois a gente verificou com a automação o status da assinatura e trouxe isso para o nosso banco de dados, criando ou atualizando uma informação ali dentro. E para finalizar, isso tudo foi feito com webhooks e automações, que são muito úteis no nosso dia a dia. Eu expliquei também qual é a diferença de pulling versus pushing, uma ação que vocês devem se preocupar, porque é uma coisa que vai ter um diferencial muito grande no desempenho do seu aplicativo, porque ele é muito importante. Eu agradeço novamente pela oportunidade aqui de estar apresentando esse projeto para vocês, fazer parte da família NoCode Startup e também agradecer todo o feedback positivo que vocês estão me dando aí nesse novo começo. Muito obrigado e fiquem com Deus. Até mais. Tchau, tchau.

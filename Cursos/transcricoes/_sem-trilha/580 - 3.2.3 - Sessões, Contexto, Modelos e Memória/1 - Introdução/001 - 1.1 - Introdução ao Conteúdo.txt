@@ -1,0 +1,12 @@
+﻿# 1.1 - Introdução ao Conteúdo
+
+- Curso: 3.2.3 - Sessões, Contexto, Modelos e Memória
+- Trilha: (sem trilha)
+- Módulo: 1 - Introdução
+- Duração: 00:02:00
+- Aula: https://flix.nocodestartup.io/m/lessons/5781
+- Vídeo: 77d519f4-9116-4d92-8747-afedc3b48e3e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Vamos agora para o nosso módulo 3 aqui da trilha avançada do nosso curso de Open Cloud. Vamos falar então agora sobre sessões, um pouco mais de contexto, a gente já falou um pouco lá na nossa trilha iniciante, né? Mas vamos falar agora um pouco mais sobre o contexto, vamos conversar também sobre como inserir novos modelos e como funciona a memória aqui do nosso Open Cloud, beleza? O que a gente vai ver nesse módulo? Nesse módulo aqui a gente vai ter quatro aulas até então. Então a nossa primeira aula 3.1 vai ser sobre janela de contexto. Como que o Open Cloud pensa, processa e por que ele esquece muitas das vezes. Então vamos recapitular algumas coisas lá da treina iniciante. Mas vamos falar com alguma coisa um pouco mais aprofundada aqui para vocês. Na aula 3.2 a gente vai falar sobre modelos e provedores. Vou passar para vocês aqui como que eu uso no meu dia a dia aqui no meu Open Cloud. e como que vocês podem usar de uma forma barata até pegando um modelo chinês ali uns planos ali de codificação que vocês podem assinar bem baratinho assim até então pra vocês poderem usar ele no seu OpenClaw como que funciona a memória e a memória da sessão como eu falei a gente já comentou lá na nossa trilha iniciante mas agora vamos falar um pouco mais avançado essa lembrança entre as sessões e dentro da cada sessão e também vamos falar na aula 3.4 o workspace do nosso agente falando sobre agents.md, memory.md e a pasta barra memory também mais avançado vamos dar uma analisada dentro dessas pastas lá dentro do nosso terminal, beleza? O objetivo desse módulo aqui vai ser a gente entender toda essa arquitetura do nosso OpenCloud por detrás dos panos, né? Para a gente poder economizar em tokens e também em dinheiro. Quem for rodar via API o seu modelo vai poder economizar muito os seus tokens e sua grana, né? Também, né? É isso que a gente quer. Então, vamos lá agora, né? Para a nossa próxima aula, a aula 3.1. Valeu, até mais!

@@ -1,0 +1,12 @@
+﻿# Planejamento do App
+
+- Curso: F4.2 - APIs de IA | Seu primeiro MicroSaaS com GPT Vision
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:45
+- Aula: https://flix.nocodestartup.io/m/lessons/3259
+- Vídeo: 08e6239d-5222-4449-8184-efaf31ed5d34
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então agora vamos entender a arquitetura do nosso app. Lembrando que quando a gente está falando de software, de SaaS, a gente sempre tem o front-end com o back-end. A gente já conversou bastante, no front-end vai ser a parte mais visual, fluxo de usuário, e no back-end vai ser a parte de banco de dados, segurança, armazenamento de mídias e outros processamentos do nosso app. Dentro aqui do nosso projeto, a gente vai ter o nosso front-end, que a gente vai utilizar a ferramenta Flutter Flow para a interface. Mas a gente vai se conectar aqui com a tecnologia da OpenAI via API. Que você já aprendeu aqui, né? E também a gente vai acabar usando o Supabase como back-end. Apenas para armazenar as nossas mídias, tá? Então, a gente tirar fotinhas. A gente vai guardar nossas fotos aqui no intorno do Supabase. Para a gente conseguir se comunicar com as fotos hospedadas, tá bom? Então, basicamente, essa é a arquitetura do nosso app. Então, agora que você já entendeu a arquitetura geral do nosso app. Vamos entender um pouco mais do layout de telas. No layout telas, a gente basicamente vai ter duas telas, vai ser um app bem simples e bem aqui mais didático, né? Vai ter uma tela de boas-vindas, depois a gente vai carregar a foto do prato. Então a pessoa vai clicar aqui, vai carregar a foto do prato e vai ver aqui as informações do prato, né? O peso dele, caloria, proteína, carboidrato e gordura. Então a gente vai deixar assim o nosso app. E a partir daí, eu já fiz aqui o modelo que a gente vai seguir, que vai ser esse app aqui, ó, bonitão. Vai ter aqui as boas-vindas para descobrir os valores nos funcionais, né? E a pessoa cai aqui para tirar foto e mostrar aqui a resposta. Então, está um app, cara, legal demais. A gente vai dar os primeiros passos aí para criar um projeto bem interessante. Então é isso. Agora a gente pode começar a criar o design do nosso app para depois colocar a nossa inteligência aí da OpenAI via API. Bora criar nosso app no Flutter Flow.

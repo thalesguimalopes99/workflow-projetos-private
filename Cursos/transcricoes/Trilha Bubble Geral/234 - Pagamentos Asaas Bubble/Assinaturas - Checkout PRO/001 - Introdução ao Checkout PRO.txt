@@ -1,0 +1,12 @@
+﻿# Introdução ao Checkout PRO
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinaturas - Checkout PRO
+- Duração: 00:00:48
+- Aula: https://flix.nocodestartup.io/m/lessons/3012
+- Vídeo: 3a193fd7-e87c-434e-8495-2c143dece031
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos a mais um módulo aqui do nosso curso de ASAS. Dessa vez a gente vai estar entrando no módulo de Checkout Pro. Então eu vou ensinar vocês para realizar uma assinatura utilizando o próprio Checkout do ASAS, que é aquele Checkout que a gente... é redirecionado para uma página pronta do próprio Asas. A gente cria a solicitação de assinatura, o Asas te retorna um link no qual você vai fazer um Go Page para abrir aquele link no navegador do seu cliente, do usuário do seu sistema, e ele preenche os dados lá naquela página e realiza a assinatura. Ele completa o cadastro e a assinatura é ativada desde que o pagamento dê como aprovado. A gente vai ver como criar essa documentação desde o começo, lá na documentação. quanto no API Connector, desde criar o cliente a realizar a primeira assinatura.

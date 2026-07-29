@@ -1,0 +1,12 @@
+﻿# Conheça seu Instrutor Expert
+
+- Curso: Geração PDF e Pub dev no Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:24
+- Aula: https://flix.nocodestartup.io/m/lessons/2979
+- Vídeo: 8e24b8cf-d9bc-4099-83f2-a852bf559bfc
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Meu nome é Renan e a pedido do pessoal da NoCode Startup, eu vim gravar esse módulo sobre como gerar PDFs dentro do Flutter Flow. Eu trabalho com desenvolvimento de software faz mais de dois anos, já trabalhei com Java, Spring Boot... o próprio Flutter, Dart, SQL e outras linguagens. E sem sombra de dúvidas, o Flutter Flow veio para ajudar muito nossa vida como desenvolvedor, até para pessoas que não são desenvolvedoras, porque ele abstrai muita coisa, você consegue criar aplicações incríveis em pouco tempo, fazendo integrações com banco de dados, apps complexos e um tempo recorde. Então, o Flutter Flow veio para agregar muito na nossa vida e o que eu vou ensinar hoje é sobre... como aproveitar essa ferramenta para gerar relatórios, certificados, boletos, o que for, através de PDFs. Isso é muito bom porque você não vai precisar contratar... APIs externos. Você vai fazer tudo isso de graça utilizando o Flutter Flow e código customizado, mas não se preocupa porque você não precisa ser um desenvolvedor para fazer isso. Eu vou mostrar passo a passo como você pode utilizar ferramentas de IA, por exemplo, para te ajudar a criar pequenos trechos de códigos ou trechos um pouco mais complexos, mas de forma muito simples, muito natural. Beleza? É isso, espero que vocês gostem. Eu montei esse material com muito carinho, tem um slide auxiliar bacana que vai te ajudar a entender melhor os conceitos. E é isso, bora começar esse módulo que tá show de bola. Valeu e até a próxima.

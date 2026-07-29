@@ -1,0 +1,12 @@
+﻿# Como instalar as ferramentas - Teoria
+
+- Curso: Edge Functions- Do Zero ao PRO
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Como instalar as ferramentas
+- Duração: 00:01:25
+- Aula: https://flix.nocodestartup.io/m/lessons/3687
+- Vídeo: eaa66f92-430a-4365-9d20-d4f60b4e3e0f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, então bora entender quais ferramentas a gente precisa instalar no nosso computador para que a gente possa criar as Edge Functions. Então basicamente eu tenho Scoop, que é um gerenciador de pacote do Windows. Através dele a gente vai baixar o Superbase Li, que significa Command Line Interface, ou seja, é uma ferramenta que a gente consegue criar as nossas funções e fazer deploy delas apenas usando linhas de código. Na sequência eu tenho Node.js, que é um ambiente que vai permitir que a gente execute os nossos códigos em JavaScript e TypeScript, ok? Eu também tenho o Docker, que tem a função de garantir que o nosso código vai funcionar tanto localmente quanto no servidor. Então, não existe aquele papo de, ah, isso aí só funciona na minha máquina. Não, o Docker veio para resolver esse problema. E também o VS Code, que é um editor de código. Então, a gente vai escrever todo o nosso código em JavaScript ou TypeScript aqui no VS Code, fazer o deploy usando o SubaBaseLi e o Docker por trás dos panos coloco nosso código lá de forma padronizada segura Ok e para rodar esse código eu também tenho que ter o no JS então é assim que essas ferramentas estão interligadas e agora você já sabe o que é necessário para criar e rodar uma Edge function Ok então sem mais delongas vão para prática para entender exatamente como instalar essas ferramentas te vejo na próxima aula

@@ -1,0 +1,12 @@
+﻿# Configurando Webhook no Make pt.2
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Assinaturas
+- Duração: 00:02:48
+- Aula: https://flix.nocodestartup.io/m/lessons/2925
+- Vídeo: 84d9c767-01bb-4355-9462-0bcb341b9006
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E aí, pessoal, para finalizar e tratar ali o erro que deu 400, a gente precisa voltar para a nossa API de atualizar a assinatura e tentar entender se lá ocorre o mesmo problema. Então, vamos pegar aqui o ID, vamos voltar na API de atualizar a assinatura, rodar e executar. Como nós visualizamos aqui, está funcionando normalmente. É possível perceber que nós estamos utilizando o tipo de chamada get quando a gente quer fazer uma atualização. Então, é possível que o erro esteja relacionado a isso. Então, o melhor cenário agora é a gente colocar ali no padrão do tipo post. Então, vou editar, colocar post, porque nós vamos fazer uma atualização nessa chamada. Clicar no botão salvar e publicar. Publicamos. Vamos voltar no make, no diagrama. E também alterar ali no post. Salvar, content type. Vou colocar o T maiúsculo aqui. Application JSON. Todas as informações relevantes. Vou dar um botão salvar. Vou voltar aqui para ter uma visualização do histórico. E vamos no processo de fazer mais uma validação de assinaturas. Excluindo a assinatura atual. Indo em APIs. Criar uma nova assinatura. Vamos rodar a criação da assinatura para pegar o link de pagamento. Então, com o link de pagamento, nós podemos efetuar o pagamento. Vou utilizar aqui o saldo mercado pago mesmo. E vamos ver o comportamento lá no Make. Então, já podemos ver aqui que temos algumas novas atualizações. Vamos acessar o histórico para pegar as últimas aqui. 29, details, tipo subscription, pré-aprovo. Passou pelo filtro, gerou o JSON e realizou a chamada com status do Zenk. Então, se a gente vir na nossa API Database Assinaturas, essa assinatura já tem que estar com status de Autorizado. Que a nossa API de assinatura Mercado Pago já está funcionando perfeitamente. Então, chamamos ela através do Make pelo Webhook e ela já vai fazer todas as atualizações. Vamos dar uma olhada ali no histórico só para validar todos os processos. Então, primeiro cenário, Subscription Pre-Approval, ele atualizou com sucesso, código 200. O segundo cenário, que é o tipo pagamento, ele entendeu que é um pagamento, porém na chamada ele deu erro 404, Code Not Found. Por quê? Porque esse número de pagamento não existe dentro do nosso pagamento Mercado Pago.

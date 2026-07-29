@@ -1,0 +1,12 @@
+﻿# Introdução IA
+
+- Curso: 1.2 - Extra: Use IA como seu Super Funcionário
+- Trilha: Trilha Supabase
+- Módulo: Introdução
+- Duração: 00:01:15
+- Aula: https://flix.nocodestartup.io/m/lessons/2628
+- Vídeo: a0a082ff-1bfe-456f-a88f-733ff757c604
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bem-vindo ao módulo Extra com Inteligência Artificial. Aqui você vai aprender como utilizar inteligência artificial para ser o seu super funcionário e te ajudar a criar seu projeto no Supabase e criar a modelagem no banco de dados. Hoje em dia, muito se fala sobre IA e as aplicações incríveis que podem ter. E às vezes a gente fica um pouco perdido com tanta coisa que dá para fazer com inteligência artificial e a gente às vezes não sabe como aplicar isso no dia a dia. na prática, nos nossos projetos. E nesse módulo extra, eu vou te explicar de uma forma mais rápida e pontual como usar os prompts certos para você conseguir usar a IA como o seu super funcionário. Então a gente vai usar inteligência artificial, que pode ser tanto o chat GPT, tanto o BARD, ou a IA do Supabase, ou a IA da NoCode Startup, que eu vou te mostrar aqui. E você vai aprender a usar da melhor forma para conseguir construir seus projetos de uma forma muito mais rápida. Ela também vai te dar aquela ajudinha quando a gente ficar um pouco perdido na forma técnica, de como escrever a sua query ou como a gente fazer uma modelagem do banco de dados. Então bora comigo que esse aprendizado aqui está irado e você vai ter um super funcionário do seu lado especialista em Supabase e SQL. Bora lá ver como é que vai funcionar.

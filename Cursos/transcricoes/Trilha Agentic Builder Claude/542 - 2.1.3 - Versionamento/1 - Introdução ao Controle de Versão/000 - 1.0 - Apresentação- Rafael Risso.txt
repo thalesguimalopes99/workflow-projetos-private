@@ -1,0 +1,12 @@
+﻿# 1.0 - Apresentação: Rafael Risso
+
+- Curso: 2.1.3 - Versionamento
+- Trilha: Trilha Agentic Builder Claude
+- Módulo: 1 - Introdução ao Controle de Versão
+- Duração: 00:01:15
+- Aula: https://flix.nocodestartup.io/m/lessons/5625
+- Vídeo: 8a228e31-222c-490b-86ed-92f81c0d82f9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E seja muito bem-vindo às aulas de versionamento com o Cloud Code. Aqui você vai aprender como trabalhar com as versões do seu projeto e vai dominar as ferramentas de Git e GitHub. Se você não lembra, a gente teve uma aula só sobre isso, depois tem que voltar para ver. Mas essas ferramentas são responsáveis pela versão do seu projeto. Basicamente são fotos que você tira do seu projeto para manter o controle e qualidade e dê bem para depois você conseguir trabalhar em times. O Git... vai ser a parte que a gente vai trabalhar no computador. Vão ser as versões que a gente consegue registrar no computador. E o GitHub vai ser quando a gente mandar para a nuvem, as nossas versões da nuvem que as pessoas vão conseguir acessar. Quem vai dar essas aulas aqui para você é o professor Rafael. O Rafael tem anos de experiência como professor e já criou vários e vários projetos utilizando Cloud Code. Codex e outras ferramentas. Aqui nessas aulas você vai aprender a dominar o Git e o GitHub e nas próximas também a gente vai entender conceitos sobre como funciona isso na prática e o processo de desenvolvimento padrão que a gente vai usar e também como colocar no ar e fazer o deploy da nossa aplicação. Dito isso, é com você Rafael, bora trocar essa aula, bora aprender sobre Git e GitHub e fazer versionamento. Bora lá!

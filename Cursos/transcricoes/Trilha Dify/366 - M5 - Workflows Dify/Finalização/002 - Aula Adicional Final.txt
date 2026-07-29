@@ -1,0 +1,12 @@
+﻿# Aula Adicional Final
+
+- Curso: M5 - Workflows Dify
+- Trilha: Trilha Dify
+- Módulo: Finalização
+- Duração: 00:01:40
+- Aula: https://flix.nocodestartup.io/m/lessons/4136
+- Vídeo: cf0842e7-31d6-4f95-9ead-0226101f5671
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fazendo essa aula só para passar dois pontos aqui importantes, aqui no nosso fluxo do agendamento, no final, o que é legal também fazer é a gente zerar todas as variáveis, porque se o cliente entrar em contato de novo, ele vai estar zerado. E a gente consegue aí atribuir um novo agendamento, tá? É claro que tem aí várias e várias melhorias que a gente consegue fazer mais pra frente, né? Como, por exemplo, reagendar ou cancelar consulta Mas aí fica um desafio pra você ir melhorando esse processo, tá? Porque o 80-20 a gente já fez E pra você zerar, é só vir aqui, ó, clicar Colocar a variável e colocar aqui limpar, tá? A nossa variável, aí ele vai limpar todas Pra quando o cliente entrar em contato de novo a gente já consegue fazer um novo agendamento pra ele e se você estiver testando pelo whatsapp ou por qualquer outra plataforma você pode vir aqui e ir nos registros aqui vai estar os registros das conversas por exemplo, posso clicar aqui no whatsapp e daí quando eu estava conversando pelo whats o que eu consigo fazer é ver o registro e aqui a gente vê o registro e a gente consegue também ver tudo o que aconteceu se tiver algum erro a gente consegue ver pelo log aqui Que a gente consegue ver esse erro da conversa no WhatsApp, por exemplo, por aqui. Então todos os seus clientes vão ter aqui, se acontecer algum erro, você vem aqui e vê o que está rolando para arrumar no fluxo, tá? Então é bom sempre testar muito, testar com a tia, com a mãe, com o pai também, para testar e ir melhorando, tá? Era só um aviso rápido, explicando aqui e espero que você tenha curtido. Bora lá!

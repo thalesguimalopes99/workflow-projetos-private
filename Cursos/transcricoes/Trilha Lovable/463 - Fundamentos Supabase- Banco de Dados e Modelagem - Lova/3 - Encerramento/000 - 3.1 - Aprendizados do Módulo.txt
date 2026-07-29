@@ -1,0 +1,12 @@
+﻿# 3.1 - Aprendizados do Módulo
+
+- Curso: Fundamentos Supabase: Banco de Dados e Modelagem | Lovable
+- Trilha: Trilha Lovable
+- Módulo: 3 - Encerramento
+- Duração: 00:01:16
+- Aula: https://flix.nocodestartup.io/m/lessons/4878
+- Vídeo: db319e39-b50a-4dfc-8c9a-e8b9df68b10b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E finalizamos o nosso módulo de Supa Base aqui, é o módulo mais iniciante para você conseguir entender sobre modelagem de dados, então a gente viu aqui tanto a parte de modelo conceitual, do modelo lógico, do modelo físico, você não vai precisar fazer isso na mão, quem vai fazer vai se apropriar, mas você precisa entender os passos para ver se está indo no caminho certo, senão você perde o controle do seu projeto, então por isso que é muito importante saber os fundamentos. Além disso, a gente entendeu sobre o Supa Base, o super back-end que consegue fazer tanto a parte de banco de dados, de segurança. de storage tão bem legal e para criar projetos robustos profissionais escaláveis tá então acho que ficou claro como criar tabelas como funciona os rls depois a gente vai ter uma trilha e mais avançada dos pabéis do zero ao avançado tá que a gente vai detalhe por detalhe aí você vai conseguir se aprofundar na ferramenta é mais por enquanto agora é o necessário para você entender os fundamentos para depois de criar projetos mais robustos e escaláveis tá então a gente vai para projetos agora mas do zero ao app, do zero ao agente, a gente vai criar projetos robustos aí, do zero realmente passo a passo, estudando todas as etapas, e mais pra frente a gente tem aí a nossa trilha avançada de Tupabase, pra você conseguir criar projetos ainda mais profissionais, beleza? Espero que tenha gostado, e te vejo aí no próximo vídeo.

@@ -1,0 +1,12 @@
+﻿# Introdução - O Que Você Irá Aprender
+
+- Curso: F3.1 -Introdução da Trilha - MasterClass NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Introdução
+- Duração: 00:02:13
+- Aula: https://flix.nocodestartup.io/m/lessons/3063
+- Vídeo: 12b3e094-515e-4736-9fcf-9b63c027dc73
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo à fase 3 dessa formação de NoCode com IA. Aqui nessa fase você vai aprender o poder das ferramentas NoCode, como tirar a sua ideia do papel para criar aquele SaaS conectado com IA. Então bora entender um pouco mais os aprendizados desse curso aqui. Bora lá! Então nesse curso você vai entender praticamente todas as categorias de projetos, tá? É bem importante a gente entender os tipos de projetos de tecnologia que a gente quer fazer. Por exemplo, você quer fazer um software ou você quer fazer um site, né? Um website estático. Ou você quer fazer apenas uma automação. Aqui vai ficar bem claro pra você todas essas categorias. E além de explorar as categorias de projetos, a gente vai explorar também as melhores ferramentas no Code do mercado. Então você não vai precisar ficar perdendo tempo aí, dias, escolhendo a melhor ferramenta no code, porque a gente já fez todo esse estudo aqui, ó, pra você ganhar agilidade e conseguir aí colocar a mão na massa. E além disso, a gente vai conversar um pouco também sobre formas de monetizar com essas ferramentas no code. Então depois dessas aulas, você terá conhecimento sobre como escolher a melhor ferramenta no code pro seu projeto e também oportunidades e formas de ganhar dinheiro com o no code. E para você entender um pouco mais sobre essa fase aqui, para você entender como fazer, a gente peça que faça na ordem, porque aí você vai ter um conhecimento geral bem aplicado sobre as ferramentas no coach. Então a gente está agora aqui nessa introdução, que é a introdução a toda a fase 3. E aqui você vai entender as categorias e depois a gente vai entrar em cada categoria que a gente vai ter conversado e a gente vai se aprofundar mais naquelas ferramentas e um pouquinho da prática também. Então agora é mais para você ter overview geral, depois a gente vai falar sobre MVPs, depois sobre automações de sites e também de SaaS e aplicativos complexos, tá? Depois talvez tenha mais módulos futuros aí que vão ser gravados. Por enquanto são esses, então eu peço que você se siga na ordem. As aulas estão curtas e direto ao ponto, mas bem aprofundadas. Então bora lá e vamos entender as categorias de ferramentas de tecnologia para o seu projeto.

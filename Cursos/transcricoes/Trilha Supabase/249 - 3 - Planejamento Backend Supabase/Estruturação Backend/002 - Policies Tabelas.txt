@@ -1,0 +1,12 @@
+﻿# Policies Tabelas
+
+- Curso: 3 - Planejamento Backend Supabase
+- Trilha: Trilha Supabase
+- Módulo: Estruturação Backend
+- Duração: 00:01:57
+- Aula: https://flix.nocodestartup.io/m/lessons/2654
+- Vídeo: 2d1681d6-4608-4e65-ae67-d3fd1ab90880
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Beleza. O que a gente faltou fazer aqui é vir aqui em autenticação e vamos deixar as políticas corretas, tá? Senão a gente não consegue acessar essas tabelas. Vamos deixar liberar tudo pra todos, tá? Vou vir aqui em matrículas, nova política e aquele processo que a gente já fez, tá? Liberar tudo, all, true e true. Perfeito? Vou salvar. Aqui em cursos e em aulas aqui também nova política. E vou deixar liberar tudo, tá? Liberar tudo para all, true e true. Para deixar tudo liberado. Perfeito. Aqui no cursos, na aula passada, a gente tinha colocado só para usuários autenticados, tá? Esse daqui é o ideal que você coloque no seu projeto depois. Por enquanto, eu vou deixar igual aos outros. Só para a gente não ter nenhum problema nessa parte, tá? Mas aí mais para frente, eu aconselho que você deixe tudo só para usuários autenticados, tá? Mas eu vou deixar assim só para a gente deixar organizado aqui. Começar de um jeito mais simples. Tá bom. Beleza. Aqui tudo certo. Bem importante que você crie. E aí agora para revisar. Se a gente for precisar de algum front-end que se conecte por API. A gente já sabe, né? A gente já fez isso nas aulas. Mas todas as aulas elas vão ter. Todas as tabelas vão ter as APIs aqui, né? Para a gente acessar e conseguir fazer. Então toda a parte de CRUD, de adicionar novos dados, ler dados. Tudo a gente consegue fazer em todas as tabelas aqui. Isso que é muito bom. E inclusive. Qualquer coisa tem aqui a documentação. Então esse projeto. Ele já está muito bem configurado. Porque as APIs estão prontas no Superbase. Por isso que é muito fácil a gente usar. Backend né. E aqui tem todas as APIs prontas. Beleza. Então agora a nossa parte de tabelas está configurada. O que a gente pode estruturar agora. É visualizar as views. Para deixar tudo pronto. e assim nosso projeto vai ficar pronto para gente conectar com o continho de questão

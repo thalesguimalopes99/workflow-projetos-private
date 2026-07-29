@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F1.4 - Fundamentos Inteligência Artificial
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:41
+- Aula: https://flix.nocodestartup.io/m/lessons/3180
+- Vídeo: a16b4100-e4ec-41e1-b1d0-d3b5c2e4105b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim das aulas de Fundamentos de A. Espero que tenha ficado muito claro todos os conceitos bem importantes que a gente conversou aqui. E agora você consiga se achar nesse mundo de A, que a gente ouve tantos conceitos e às vezes a gente pode ficar um pouquinho perdido. Então agora espero que tenha ficado claro o que é inteligência artificial, o que é machine learning, o que é deep learning e o que são os large language models. E também espero que tenha ficado claro toda a parte de tokenização. de embeddings e todos os conceitos importantes que a gente viu aqui. Agora você já pode avançar para as próximas aulas que já sabe os fundamentos mais importantes. Então bora lá que essa formação está irada demais.

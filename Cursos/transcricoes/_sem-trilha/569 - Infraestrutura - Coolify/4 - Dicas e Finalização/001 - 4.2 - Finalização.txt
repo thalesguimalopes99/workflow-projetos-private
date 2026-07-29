@@ -1,0 +1,12 @@
+﻿# 4.2 - Finalização
+
+- Curso: Infraestrutura - Coolify
+- Trilha: (sem trilha)
+- Módulo: 4 - Dicas e Finalização
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/5685
+- Vídeo: e8dcb43e-cf7c-421f-bbc7-681be42365ce
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, agora oficialmente chegamos ao final do nosso módulo de infra e DevOps. Espero ter contribuído com a sua jornada, espero ter contribuído adicionando conhecimentos úteis para você. Foi um prazer enorme estar aqui com vocês. Eu estou muito feliz de ter... ter participado desse capítulo da sua história, espero que seja um capítulo pequeno de uma história enorme que você está construindo, então obrigado por permitir, obrigado por chegar até aqui, e além de obrigado, parabéns por ter chegado até aqui, como eu falei durante a formação, eu sei que é um conteúdo que a galera às vezes tem um pouco de dificuldade, tem até um pouco de preconceito, mas eu espero que eu possa ter tornado um pouquinho melhor esse conteúdo, qualquer dúvida que tenha ficado, fiquem à vontade para comentar. Eu vou responder sempre que possível. Vocês podem procurar no LinkedIn também, Tales de Apps. Você pode procurar lá, me mandar mensagem, ficar à vontade. O que vocês precisarem, estou super à disposição de vocês. Beleza, pessoal? Lembrem também de dar o feedback depois aqui da aula, o que vocês acharam desse módulo, dessa aula. Beleza, pessoal? Então, foco nos estudos, não desanime que eu quero ver aqui um monte de gente com as suas agências desenvolvendo... microsas, softwares, agentes de IA e tudo mais que vocês conseguirem, beleza? Valeu pessoal, até mais!

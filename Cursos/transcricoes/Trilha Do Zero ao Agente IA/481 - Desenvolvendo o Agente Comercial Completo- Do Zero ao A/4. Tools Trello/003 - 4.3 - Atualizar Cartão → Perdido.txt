@@ -1,0 +1,12 @@
+﻿# 4.3 - Atualizar Cartão → Perdido
+
+- Curso: Desenvolvendo o Agente Comercial Completo| Do Zero ao Agente de IA
+- Trilha: Trilha Do Zero ao Agente IA
+- Módulo: 4. Tools Trello
+- Duração: 00:02:52
+- Aula: https://flix.nocodestartup.io/m/lessons/4982
+- Vídeo: 8f9f1c51-c5f8-4a86-9996-16ff124dfc18
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Nem todos os leads vão pagar e isso faz parte do jogo. Mas é essencial marcar quem foi perdido para manter a clareza no funil. No N8N a gente usa a tool Trello Update Perdido quando o agente identifica que a venda não aconteceu. O cartão é movido então automaticamente para a coluna Perdido. Isso permite aí... manter um histórico organizado, você sabe aí exatamente quem comprou, quem está guardando e quem se perdeu no processo. Então a gente mantém todo esse histórico para análise posterior. Então, no final dessa aula, você vai ter o funil do Telo aí que reflete a realidade. Os leads ativos aguardando e perdidos, tudo atualizado automaticamente. Então, bora lá colocar a mão na massa e criar esta última tool antes dos testes. Para isso, vamos mais uma vez aqui em adicionar tool, né? Vamos clicar aqui no maisinho. A gente vai mais uma vez adicionar uma tool do Trello e vamos basicamente seguir a mesma lógica que a gente fez na tool anterior. Vamos já mudar o nome aqui, né? Para Trello Update Perdido. Opa! Perdido. Então a gente vai fazer uma operação aqui. de update a gente vai selecionar by id e aí a gente vai definir pelo modelo a gente adiciona a descrição que é o trelo id do lead aqui como a gente já definiu e vamos também adicionar a descrição aqui da tool vamos trazer lá do material também da aula aqui a gente tem move atualiza o cartão do lead para a lista perdido o que a gente quer fazer é então aqui mudar o list ID para vamos voltar lá no nosso trelo aquele já tá tá no Jason né já mostrei como é que faz a gente vai buscar o perdido aqui perdido vamos achar aqui o list ID perdido damos um ctrl C viemos aqui selecionamos o cadê o list ID colamos e aí já podemos salvar Então, já estamos com mais essa tool criada aqui, tudo organizado e pronto para a gente iniciar os nossos testes. Então, na próxima aula, vejo vocês para a gente testar aqui se está tudo funcionando antes da gente fazer a integração com o template mestre. Até já!

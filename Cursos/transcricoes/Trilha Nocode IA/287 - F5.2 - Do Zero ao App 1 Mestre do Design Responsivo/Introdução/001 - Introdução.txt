@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: F5.2 - Do Zero ao App 1 Mestre do Design Responsivo
+- Trilha: Trilha Nocode IA
+- Módulo: Introdução
+- Duração: 00:00:59
+- Aula: https://flix.nocodestartup.io/m/lessons/3092
+- Vídeo: 4caff1c2-661b-4b91-816e-900547f3a0bc
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo ao módulo de aplicativo de finanças, que a gente vai criar um projeto do absoluto zero e vai utilizar o Supabase como banco de dados. Esse módulo aqui está completo demais, a gente vai pegar desde o planejamento do app, vamos discutir um pouco sobre o problema do aplicativo, sobre a conceitualização da solução e o design das telas, a gente vai fazer o layout completo lá dentro do Flutter Flow, fazendo as telas aí passo a passo desse web app que vai funcionar. tanto na web quanto para celular. E no final a gente vai conectar a inteligência utilizando o Supabase como banco de dados. Esse projeto é perfeito para você aprender a criar um design de ponta para o Flutter Flow, para o seu aplicativo, para o seu SaaS e também para dar os primeiros passos com o Supabase. Então a gente vai explorar bastante as funcionalidades do Supabase e você vai ficar pró para conseguir dar os seus primeiros passos. E eu estou muito animado com esse projeto, foi um dos projetos mais legais que eu já criei. Então bora começar para a gente fazer aí do zero. e vamos lá

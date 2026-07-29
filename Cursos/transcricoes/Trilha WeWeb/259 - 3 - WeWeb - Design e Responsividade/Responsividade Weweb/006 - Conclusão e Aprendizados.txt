@@ -1,0 +1,12 @@
+﻿# Conclusão e Aprendizados
+
+- Curso: 3 - WeWeb | Design e Responsividade
+- Trilha: Trilha WeWeb
+- Módulo: Responsividade Weweb
+- Duração: 00:01:12
+- Aula: https://flix.nocodestartup.io/m/lessons/2741
+- Vídeo: f8ed5a28-3ec5-4a59-aae9-5e74e0021013
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, chegando a mais um final de módulo aí, o módulo 3. Ele foi mais curto, a gente viu somente sobre responsividade, mas olhando aí toda a trajetória que a gente teve no nosso aplicativo, foi muito legal, foi muito bom. Teve aulas mais complexas, outras mais fáceis, mas de modo geral a gente conseguiu aprender ali os fundamentos, acredito eu. E se vocês tiverem alguma dúvida, pode falar comigo através das minhas redes, tudo bem? Então, o que a gente aprendeu aqui no módulo 3? A gente aprendeu sobre responsividade apenas. Então, o que é a responsividade de modo geral? Como aplicar ela dentro do iWeb com a mão na massa? Então, a gente pegou nosso super app de música ali, né? Primeiro a gente viu a teoria ali numa telinha que eu montei e depois a gente viu ali, colocou realmente a mão na massa na responsividade em relação ao nosso super app de música. Então, pessoal, finalizando aqui o módulo 3, muito feliz de estar participando desse projeto. Espero que vocês consigam absorver bastante e eu possa estar agregando na carreira de vocês em relação também ao iWeb. Então, tamo junto. Espero que vocês tenham aprendido bastante. Contem comigo. Um abraço.

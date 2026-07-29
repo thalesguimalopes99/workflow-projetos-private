@@ -1,0 +1,12 @@
+﻿# Avisos Iniciais
+
+- Curso: F4.1 - Automações de IA | Turbinando qualquer produto em minutos
+- Trilha: Trilha Nocode IA
+- Módulo: Turbinando Qualquer Produto em Minutos com Automações de IA
+- Duração: 00:01:31
+- Aula: https://flix.nocodestartup.io/m/lessons/3448
+- Vídeo: 56cbbb2f-e3b6-41f4-a691-394c1616c19b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Alguns recadinhos iniciais antes da gente começar a colocar a mão na massa de fato e criar essa nossa aplicação. Essa nossa aplicação, a gente já tem boa parte dela avançada que a gente construiu lá na nossa aplicação, no nosso curso de fundamentos de MVPs no Code. Então aqui a gente conheceu o software, criou aí a nossa primeira aplicação, fez um overview da plataforma e a gente criou boa parte dessa nossa aplicação, dessa nossa interface lá nesse nosso curso aqui de fundamentos de MVPs. Aqui o nosso objetivo vai ser basicamente estender, criar aquela nossa botãozinho para criar uma ideia mágica, que a gente chamou, e fazer a integração com a inteligência artificial. Então caso vocês queiram criar do zero aqui junto comigo, recomendo que vejam esse nosso curso aqui de MVP Snow Code, onde a gente cria essa nossa interface base aqui, que a gente vai estar utilizando como base, e aí depois vocês podem vir para cá para a gente seguir, criar essa parte do nosso botão de ideia mágica e essa integração. Caso não queiram criar, vocês podem também acompanhar por aqui. Basicamente, eu vou dar acesso à nossa base de dados. Também vocês já têm acesso ali, se vocês quiserem voltar lá no outro curso. E aqui eu vou ensinar a adicionar aquele botãozinho, criar nosso formulário e depois fazer a integração, que é basicamente a parte mais importante para a gente aqui, para a gente de fato colocar essa inteligência. nessa nossa aplicação e fazer essa integração com a inteligência artificial, que é o que a gente quer. Beleza? Então, só um recadinho inicial antes da gente começar. Caso queiram criar, voltem lá. Se não, podem seguir por aqui também, aprendendo aí já a partir da integração com a inteligência artificial. Beleza? Vejo vocês na próxima aula para a gente mergulhar e começar essa nossa aplicação.

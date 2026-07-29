@@ -1,0 +1,12 @@
+﻿# Objetivos
+
+- Curso: Framer | Seu Próprio Site + Portifólio
+- Trilha: Trilha Web Design Framer
+- Módulo: Introdução
+- Duração: 00:01:57
+- Aula: https://flix.nocodestartup.io/m/lessons/3040
+- Vídeo: 002e18d8-7b6c-49fe-9b9c-efae646bf979
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, seja muito bem-vindo ou bem-vinda ao nosso próximo módulo. E bem, agora que você já sabe um pouco mais sobre o Framer, já conhece as principais funcionalidades e já até mesmo criou o primeiro projeto, está na hora da gente dar um passo a mais e aprender um pouco mais sobre ferramentas avançadas dentro do Framer. Os objetivos desse módulo basicamente vão ser a gente aprender sobre CMS, que é uma funcionalidade que vai permitir que a gente crie blogs, conteúdos dinâmicos dentro do framework. Além disso, atualizar o nosso primeiro projeto e deixar todos aqueles botões dinâmicos. E por último, a gente vai criar o nosso maior projeto, que vai ser o projeto de portfólio. Então, eu vou te dar um spoiler agora mesmo de como vai ser esse projeto, para você se animar e vir comigo até o final para a gente concluir esse projeto super massa. Então aqui, isso aqui eu não combinei com ninguém, mas estou mostrando com exclusividade para vocês. Esse vai ser o primeiro projeto que a gente vai fazer de maiores proporções. Então a gente vai criar esse projeto na web, que vai ser o nosso portfólio. Você vai aprender a personalizar com o seu próprio conteúdo. Nesse caso eu estou utilizando o Figma, que é uma ferramenta de design. Então eu vou ensinar como que a gente transfere um projeto que está dentro do Figma para dentro do framework. E vai ser muito divertido a gente criar tudo isso. Então aqui a gente vai ter os projetos, que vão ser os seus projetos no caso. Depois o depoimento dos seus clientes. perguntas frequentes sobre como é trabalhar com você, depois um formulário para receber e-mail de contato e por último a gente vai ter uma página com mais detalhes sobre os projetos. Então a gente vai detalhar sobre o caso do projeto, que tipo de cliente que foi, um resumo do projeto, vamos ter essa outra sessão que vai mostrar outros projetos e por último uma chamada para ação para mostrar mais e convidar para preencher o formulário. Bem, espero que você esteja tão animado quanto eu e te vejo na próxima aula.

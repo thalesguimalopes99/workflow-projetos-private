@@ -1,0 +1,12 @@
+﻿# Conclusão Assinaturas e Pagamentos Xano
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Assinaturas
+- Duração: 00:00:33
+- Aula: https://flix.nocodestartup.io/m/lessons/2930
+- Vídeo: f1ffdcac-073b-4899-adbc-4e486510bfff
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, pessoal, espero que eu tenha ajudado vocês nessa jornada, nessa construção dessa aplicação e desse microserviço de pagamento, que vocês tenham conseguido utilizar o pagamento a pulso e também a assinatura em suas aplicações. E também espero que vocês contem comigo em caso de dúvidas, para que nós possamos juntos solucionar aí... aos bloqueios que vocês vão tendo durante a jornada e que vocês consigam sim finalizar as suas aplicações. Então, até uma próxima trilha Zano.

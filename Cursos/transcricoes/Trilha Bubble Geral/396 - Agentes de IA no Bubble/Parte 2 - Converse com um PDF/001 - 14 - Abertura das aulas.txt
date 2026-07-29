@@ -1,0 +1,12 @@
+﻿# 14 -  Abertura das aulas
+
+- Curso: Agentes de IA no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Parte 2 - Converse com um PDF
+- Duração: 00:00:43
+- Aula: https://flix.nocodestartup.io/m/lessons/4180
+- Vídeo: 87a20fc1-599f-4ea3-b3b4-4b83c49a250d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais um módulo e esse é um módulo bônus onde a gente vai estar aprendendo a criar um Vector Story File, onde a gente aprende a criar os arquivos, a subir os arquivos dentro da OpenAI e utilizar esses arquivos no nosso agente, dentro do nosso assistente, para que a gente possa fazer perguntas para ele e ele tenha o conhecimento para responder, seja sobre um curso, seja sobre um assunto específico, seja sobre FAQ, para tirar dúvidas sobre um produto, entre outros conteúdos. que você consegue subir lá dentro. Então nesse módulo bônus a gente vai estar aprendendo a subir os arquivos e atrelar ou remover esse arquivo de um assistente. Na próxima aula eu vou estar mostrando para vocês como ficou a nossa aplicação depois de pronta.

@@ -1,0 +1,12 @@
+﻿# Desafio do Módulo
+
+- Curso: M1 - Meu Primeiro Super App | App de Livros
+- Trilha: Trilha Bubble Geral
+- Módulo: Melhorias e Finalizações
+- Duração: 00:01:32
+- Aula: https://flix.nocodestartup.io/m/lessons/2059
+- Vídeo: 9ec62fdd-61b9-44ea-a5e3-10f7c8292020
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, aplicativo bonitão aqui, já fazendo efeitinho quando a gente clica, elementos sumindo, a gente já está utilizando boas práticas de elemento reutilizável, option set, muita coisa interessante que a gente aprendeu aqui. O que ficou faltando para a gente, de fato, reconstruir nosso aplicativo principal. É a nossa sessão de comentários. E pessoal, isso aqui vai ser meu presente aí para vocês. Eu preparei para ficar como um desafio desse curso. Nesse momento, você já tem todo o conhecimento necessário para vocês conseguirem construir essa sessão de comentários aqui. E além disso, além de já ter o conhecimento, vocês também têm acesso ao nosso editor. no qual vocês podem ver exatamente como eu fiz para construir a sessão aqui no nosso aplicativo Modelo. Então, basicamente, o desafio de vocês é para a gente replicar a sessão de comentários, no qual a gente pode clicar aqui no botão, a gente pode escrever aqui um comentário e adicionar esse comentário no nosso livro especificamente. E aqui já aparecer a nossa sessão de comentários. Aqui a gente consegue estar editando esse comentário, clicando nesse lapisinho. Então já faz uma edição no comentário. Novamente, utilizando boas práticas do Dry, para a gente não ficar se repetindo. E clicando no lixinho, a gente consegue deletar esse comentário. Pode reparar também que os ícones só aparecem quando eu passo o mouse em cima desse comentário. Também é uma ação que vocês podem estar. construindo. Tentem de fato construir essa sessão aqui sem recorrer muito ao nosso editor já pronto ali que tem as colinhas todas para vocês. Qualquer dúvida, deixe aqui nos comentários. Vou estar respondendo todos os comentários. E aí como um último artifício, vocês podem de fato ir lá para o editor, ver como foi feito e estar replicando para o aplicativo de vocês.

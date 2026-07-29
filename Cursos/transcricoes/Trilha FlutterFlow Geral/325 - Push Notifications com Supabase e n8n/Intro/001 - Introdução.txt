@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Push Notifications com Supabase e n8n
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Intro
+- Duração: 00:00:57
+- Aula: https://flix.nocodestartup.io/m/lessons/3475
+- Vídeo: 5c7a6358-ee0c-4cfa-8583-1070f47ce8c1
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Nesse módulo vocês vão aprender a como enviar notificações push para dispositivos Android usando o Superbase e o N8n, ok? Bom, a gente vai aprender o que são notificações push, a gente vai entender o processo por trás disso e é lógico, a gente vai aprender como configurar os webhooks no Superbase, como acessar suas chaves lá do FCM, Firebase Cloud Messaging, e como usar o N8n para automatizar todo esse processo de envio. Depois que você assistir essas aulas, você vai estar apto a criar apps para enviar qualquer tipo de notificação, seja de promoções, de features, de comunicado, o que for que você precise no teu negócio, na tua aplicação, ok? E esse projeto também está disponível no Flutter Flow para que você possa clonar e agilizar o teu aprendizado, ok? Bom, antes de começar na prática, vamos entender como que funciona todo esse processo por trás dos panos, mas isso é assunto para a próxima aula. Te vejo lá.

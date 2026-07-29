@@ -1,0 +1,12 @@
+﻿# Bem vindo ao Curso de Supabase!
+
+- Curso: 3 - Fundamentos Supabase | App de Cursos EAD 1.0
+- Trilha: (sem trilha)
+- Módulo: Introdução ao Supabase
+- Duração: 00:01:23
+- Aula: https://flix.nocodestartup.io/m/lessons/2267
+- Vídeo: 11d5132d-f10b-4d33-94a8-e8687d8ef6e8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo ao curso de SupaBase aqui da formação no-code startup. Nesse primeiro conteúdo a gente vai dar os primeiros passos dentro do back-end SupaBase, que é uma ótima alternativa em relação ao Firebase. Então se você não gosta tanto daquele modelo de tabelas, de documentos... e coleções não relacionais, a gente vai começar a explorar agora a parte do Supabase e o uso postings, né? Que são bancos aí, tabelas relacionais, um pouco mais tranquilo pra quem tá acostumado. Esse conteúdo completo também vai estar no YouTube, que a gente vai disponibilizar lá no nosso canal e resolvemos postar aqui na formação também. E durante esse conteúdo de Supabase, a gente vai fazer um aplicativo do zero de cursos, onde você vai ter um app que a gente vai conseguir listar os melhores cursos que você quer fazer, também com a opção de colocar vídeo aulas do YouTube, e também interagir com esses cursos, adicionar novos, deletar, editar, fazer o CRUD completo. E depois desse conteúdo, a gente vai dar um próximo passo, algo mais avançado, vamos criar um aplicativo EAD, onde vai ter cursos e professores. E nesse app já vai ser mais complexo, mais avançado, vai ter várias relações entre tabelas. professores vão conseguir dar acesso aos alunos para curso vai ser um aplicativo bem legal para quem quer construir algum projeto aí parecido com um ep ad alguma coisa com aulas online recados iniciais dados agora bora aprender supabase vamos comigo

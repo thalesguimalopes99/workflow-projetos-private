@@ -1,0 +1,12 @@
+﻿# O Que Você Irá Aprender
+
+- Curso: Pagamentos Supabase + Flutterflow - Intro
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:35
+- Aula: https://flix.nocodestartup.io/m/lessons/3630
+- Vídeo: 13de1116-3ed5-49f6-8866-c9920722fdca
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de pagamento orientadas para o Supabase. Aqui você vai entender tudo sobre como colocar pagamentos dentro do seu app utilizando os principais gateways do mercado. Mas bora ver o que você vai aprender de forma completa. Bom, nessas aulas aqui você vai aprender do zero como é que funcionam os pagamentos, tá? Qual que são os processos, todos os fundamentos. Além disso, a gente vai fazer uma revisão sobre APIs e webhooks, que é muito importante para a questão dos pagamentos. Vamos dar uma olhada aí nas ferramentas de automação que vão ajudar bastante a gente na hora de fazer as integrações e automações dos pagamentos. E aí a gente também vai ver as integrações com os principais gates do mercado, que são eles, o Stripe e o Asus. Aí o nosso back-end principal vai ser o Supabase, tá? Toda a modelagem de dados do nosso projeto vai ser orientada ao Supabase. Depois dessas aulas aqui você vai aprender como é que funcionam os pagamentos para você conseguir implementar de uma vez por todas o seu app e também fazer pagamentos avulsos ou pagamentos de assinatura com cobranças recorrentes mensais, que é a dúvida de muitas pessoas aqui. Essas aulas iniciais são muito importantes para você aprender os fundamentos e tudo o que eu falar aqui vai ser utilizado. nos outros módulos tá eu peço que você assista as aulas na ordem e os módulos na ordem também tá não pule porque senão a estrutura didática não vai ser a melhor possível segue a ordem que a gente já planejou tudo e depois você consegue aplicar para o seu projeto então bora entender como é que funciona os pagamentos

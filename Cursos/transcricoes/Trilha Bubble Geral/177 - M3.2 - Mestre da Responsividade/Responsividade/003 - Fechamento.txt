@@ -1,0 +1,12 @@
+﻿# Fechamento
+
+- Curso: M3.2 - Mestre da Responsividade
+- Trilha: Trilha Bubble Geral
+- Módulo: Responsividade
+- Duração: 00:00:41
+- Aula: https://flix.nocodestartup.io/m/lessons/2108
+- Vídeo: 97738eeb-9a2e-4f00-a4e0-d7b7d32f9524
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, com isso a gente fecha essa parte mais teórica de responsividade, no qual a gente colocou até a mão na massa no Bubble, colocou lá os elementos, entendeu como que funciona, como eles se comportam, porém a gente ainda não criou nenhum projeto prático responsivo. E responsividade é um daqueles temas que a gente de fato só vai aprender quando a gente colocar a mão na massa, criar um projeto responsivo e com foco em aprender isso. Então agora, a nossa próxima etapa vai ser criar uma landing page responsiva lá para a nossa rede social que a gente construiu no nosso módulo. anterior. Então a gente vai estar criando todo o design, começando pelos estilos, design e depois a gente vai passar para a responsividade, finalizando até com o menu mobile para essa nossa landing page. Então pessoal, vejo vocês por lá.

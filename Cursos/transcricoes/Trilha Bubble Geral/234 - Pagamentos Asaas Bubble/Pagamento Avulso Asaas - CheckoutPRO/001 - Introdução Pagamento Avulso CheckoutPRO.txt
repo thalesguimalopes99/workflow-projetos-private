@@ -1,0 +1,12 @@
+﻿# Introdução Pagamento Avulso CheckoutPRO
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - CheckoutPRO
+- Duração: 00:00:49
+- Aula: https://flix.nocodestartup.io/m/lessons/2758
+- Vídeo: 3ebe7025-2137-459d-9ba0-eb0d5759e696
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais um módulo. Nesse módulo eu vou estar ensinando vocês a fazerem integração com o Checkout Pro para pagamentos avulsos. O Checkout Pro é aquele checkout que você gera a cobrança, o Asas te retorna um link e você redireciona o usuário para uma nova tela ali onde ele pode... preencher o formulário e realizar o pagamento, mas isso em uma nova tela, não dentro do seu app. Por isso que é um checkout pronto para você utilizar. Não vai ter o trabalho de criar o design para coletar informações de cartão, endereço, entre outras informações. Então isso vai trazer uma praticidade para o seu desenvolvimento, um passo a mais para o seu cliente completar essa compra. Então eu vou testar para vocês como realizar essa integração e na próxima aula vamos estar vendo os endpoints lá na documentação do ASAS.

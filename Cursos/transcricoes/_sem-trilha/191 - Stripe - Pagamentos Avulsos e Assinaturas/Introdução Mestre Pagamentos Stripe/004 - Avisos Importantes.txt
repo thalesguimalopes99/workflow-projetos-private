@@ -1,0 +1,12 @@
+﻿# Avisos Importantes
+
+- Curso: Stripe | Pagamentos Avulsos e Assinaturas
+- Trilha: (sem trilha)
+- Módulo: Introdução Mestre Pagamentos Stripe
+- Duração: 00:00:45
+- Aula: https://flix.nocodestartup.io/m/lessons/2297
+- Vídeo: a7eeca1e-9ce5-4adc-9ac0-ba03c1d66e79
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Espera lá, só um pouquinho. Eu preciso dar dois avisos muito importantes. O primeiro é, se você quiser ver como que eu fiz toda essa parte visual do aplicativo, eu vou estar deixando um vídeo do meu canal no YouTube, onde eu vou estar fazendo junto com vocês e ensinando como que foi feito toda essa parte visual. A outra é que eu preciso que você faça as ações nas próximas aulas junto comigo. Então eu também vou estar deixando um link para você copiar toda a parte visual do projeto e algumas ações também de condição de visibilidade e de navegação. as suas navegação já prontas para você ganhar bastante tempo tá bom mas eu preciso que você faça as ações das próximas aulas junto comigo que é para você aprender de verdade e não ficar só vendo vídeo e aprendendo só a teoria tá bom eu quero que você coloca em prática porque assim você realmente aprende

@@ -1,0 +1,12 @@
+﻿# 3.5 - Commitar Branch variaveis_supabase, e atualizar Branch Dev
+
+- Curso: Prototipação, UX e Defesa de Dados | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 3 - Conectando o Backend Supabase
+- Duração: 00:03:36
+- Aula: https://flix.nocodestartup.io/m/lessons/5385
+- Vídeo: d1fd0492-b99a-47fe-a498-fdcd1ad0d005
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bom, agora que nós criamos as nossas variáveis, tanto localmente quanto em nuvem, criamos o nosso MCP, vamos encerrar essa branch que foi a sessão de criação de variáveis. Vamos salvar a branch, fazer o commit dela e vamos migrar para a branch dev, que é a principal branch, até chegar lá na nuvem, na main. e vamos atualizar a branch dev para seguirmos os próximos passos. Então, é importante esse passo para a gente ir reforçando o conceito e vocês irem praticando. Vamos acessar aqui o cursor. Eu estou aqui, olha, vou dar um zoom aqui bem grande aqui para você visualizar. Eu estou com a minha branch que não foi adicionada ao meu git local e também não subiu para a nuvem. Então eu vou fazer aqui um git add que eu vou adicionar. Adicionei e vou comitar m atualização. Não, vou colocar aqui, olha. Branch de variáveis supabase. Criei a minha branch. Agora vou dar um push dessa branch git que é a atualização lá para a nuvem. Git push. menos o origem, oxe, errei aqui, push, menos o origem, e vou chamar a minha, aqui eu tenho que digitar exatamente o nome, variáveis, supa base, ele vai pedir a minha autenticação agora, vou colocar aqui o meu usuário, e pronto, subi a minha branch para a nuvem, vou agora, migrar para a branch deve vou parar o deve agora indo estando em deve eu faço o merge daquela branca eu acabei de comitar né eu vou fazer aqui o gt merge variáveis super base olha lá ele diz que eu tive todas essas inclusões aqui olha 19 linhas no meu arquivo MCP, que foi um arquivo alterado e não teve nenhuma linha excluída. Então, agora, feito isso, eu faço o git push e ficarei com o meu git dev 100% atualizado. Processo concluído com sucesso, olha, o meu git dev está atualizado. Então, esse passo... Até esse e os próximos eu vou ser um pouco mais didático e depois a gente vai aqui mais acelerado nesse processo de atualizar e criar branch. Só fiz reforçando aqui para que você pratique aí também. Um abraço, até a próxima aula.

@@ -1,0 +1,12 @@
+﻿# Criar registros para tabelas
+
+- Curso: 1.2 - Extra: Use IA como seu Super Funcionário
+- Trilha: Trilha Supabase
+- Módulo: IA da NoCode StartUp
+- Duração: 00:01:20
+- Aula: https://flix.nocodestartup.io/m/lessons/2633
+- Vídeo: f269c11c-28bc-4b5c-99d1-8d48cb19f10d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E um outro ponto interessante que a gente já falou aqui rapidamente, mas é colocar novos dados e registros para essas tabelas. Então, às vezes você precisa testar, né? Precisa de dados dentro da sua tabela. Você pode criar registros aleatórios. Como que eu posso fazer isso aqui no Superbase A? Posso falar assim, ó. Crie 15 registros, 20, 30 registros para a tabela de cursos. Vamos ver se ele vai entender. Ó, ele já consegue... Inserir aqui registros para minhas tabelas de cursos, né? Ele pegou esses campos aqui. Foi colocando até o ID do professor, ó. Legal. Foi colocando o ID do professor. E daí é só eu copiar esse código. Colar lá para eu ter aí minhas tabelas. E a gente pode criar registros, né? Cri registro de 50 professores. Na tabela professores, né? Professores o nome? Vamos ver. Ele vai criar. Professora 1, né? Ele vai criar os registros aí, vai criar 50. Acho que também dá para você mudar um pouco a pergunta, né? Para ele gerar nomes aleatórios. Então, aqui está o Professor32, mas poderia ser o nome aleatório. Enfim, essa parte aqui é bem importante para você conseguir colocar novos registros dentro das suas tabelas. Curtiu?

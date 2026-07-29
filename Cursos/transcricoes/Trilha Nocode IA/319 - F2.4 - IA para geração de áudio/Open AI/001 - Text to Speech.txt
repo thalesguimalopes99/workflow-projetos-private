@@ -1,0 +1,12 @@
+﻿# Text to Speech
+
+- Curso: F2.4 - IA para geração de áudio
+- Trilha: Trilha Nocode IA
+- Módulo: Open AI
+- Duração: 00:01:50
+- Aula: https://flix.nocodestartup.io/m/lessons/3235
+- Vídeo: 5a85c7d9-4f17-440e-bb50-10fc93f6dec6
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bom, em relação ao OpenAI, a gente consegue utilizar a parte de texto para áudio, áudio para texto. A gente consegue utilizar no app da OpenAI do chat IPT, você consegue mandar um comando de voz e ele vai passar aquilo para texto. Inclusive, você pode falar, pode transcrever o que eu estou falando aqui para texto. Também a gente consegue mandar arquivos aí em áudio para ele transcrever para texto. A gente consegue fazer pelo chat da OpenAI. Uma forma interessante que você sempre tem que dar uma olhada é a parte lá do API da documentação. Então vamos dar uma olhada na documentação da OpenAI para ver o que é possível, porque às vezes a gente quer conectar a inteligência de áudio da OpenAI com o nosso SaaS. Então eu estou aqui dentro da documentação, a gente tem a parte aqui de Pitch to Text, de áudio para texto. Então aqui vai ser explicado e como é que funciona, a gente consegue fazer transcrições, a gente manda esse áudio, a gente consegue mandar arquivos em IP3 aqui. Tudo conectado. E aí a OpenAI vai conseguir transcrever esses áudios. Inclusive tem aqui até a parte de transcrever. E tem a parte aqui também de traduções. Você consegue traduzir aqui os seus textos. Então às vezes você consegue fazer um app de tradução simultânea. E depois é só dar uma olhada aqui nas linguagens suportadas. Então tem muitas, muitas linguagens. A gente tem aqui português para fazer essas traduções. Então depois dá uma olhada aqui na OpenAI. Na documentação que é tudo bem completinho. Pode dar uma olhada. Se a gente procurar aqui também. pelo whisper no caso aqui tem alguns exemplos de como usar o whisper mas acaba sendo um pouco mais técnico tal aquele a gente faz por meio de código aqui nesse exemplo da opinião transcrevendo áudio com o whisper não tem alguns código Zinhos aqui e alguns exemplos de como você pode usar o whisper tá eu recomendo aí você explorar a documentação da opinião para conseguir ver como é que funciona tanto a parte aqui de transferir para o tanto e 10 para se utilizar com o whisper tá

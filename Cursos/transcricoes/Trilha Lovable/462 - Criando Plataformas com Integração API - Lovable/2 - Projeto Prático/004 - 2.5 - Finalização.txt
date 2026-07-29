@@ -1,0 +1,12 @@
+﻿# 2.5 - Finalização
+
+- Curso: Criando Plataformas com Integração API | Lovable
+- Trilha: Trilha Lovable
+- Módulo: 2 - Projeto Prático
+- Duração: 00:01:21
+- Aula: https://flix.nocodestartup.io/m/lessons/4868
+- Vídeo: b9b3fbee-6214-4c70-8aef-355a2fabbf47
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim desse modo sobre APIs, espero que tenha ficado claro para você como é que funciona as APIs e como você deve fazer para criar seus aplicativos com APIs Nesse caso aqui, eu uso a API da OpenAI, mas como eu falei, você pode usar alguma API de pagamentos, alguma API de calendário, API de mapas vai depender do que você quer criar. Sempre que você for criar o seu prompt no Lobo, coloca lá no chat apt antes, e se você quiser que o chat apt entenda sobre a API que você está usando, envia o link da documentação API, porque ele consegue acessar, e com base na documentação, ele vai conseguir fazer uma proposta melhor do prompt para o Lobo. Então, lembra desse passo a passo, sempre desenha seu projeto, como ele vai ser construído, é constrói o seu projeto com base na documentação api pede lá para o chat ept criar o ponto mais elaborado para o logo pode mudar algumas coisas se quiser né por exemplo design manda lá logo e consegue testar e fazer os ajustes finais tá se for um projeto maior lembrar de sempre seguir o framework da NoCode Startup, mas a gente vai fazer alguns outros projetos aqui ao longo da formação. Espero que tenha ficado claro para você como é que funciona criar projetos com APIs, a importância delas, para você conseguir criar projetos bem elaborados. Então agora a gente já pode ir para o próximo modo. Te vejo lá!

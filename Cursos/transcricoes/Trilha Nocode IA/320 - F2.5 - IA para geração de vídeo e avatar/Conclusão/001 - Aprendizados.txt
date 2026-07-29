@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F2.5 - IA para geração de vídeo e avatar
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:45
+- Aula: https://flix.nocodestartup.io/m/lessons/3246
+- Vídeo: 494fc6a1-e1ff-4830-a2a8-adb84e4a00b8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Galera, espero que você tenha curtido esses conteúdos sobre como criar vídeos a partir de textos e imagens. Espero que tenha ficado claro aí os melhores modelos do mercado. E fazendo um resumo do que a gente aprendeu, a gente viu aqui os melhores modelos para a criação de vídeo, viu o Runaway e o Stable de Fusion na prática, tá? Tentou dar uma pincelada geral para você conseguir entender como criar vídeos a partir de IA. E já trouxemos aqui o filtro das melhores ferramentas do mercado. Algo importante também, quem sabe a gente traz mais pra frente, é a criação de avatares, que geralmente a gente usa as ferramentas Raygen, tá? Pra criar esses avatares aí bem interessantes, um avatar próprio aí da pessoa. Mas de restante é isso, e espero que você tenha curtido, então bora pro próximo módulo.

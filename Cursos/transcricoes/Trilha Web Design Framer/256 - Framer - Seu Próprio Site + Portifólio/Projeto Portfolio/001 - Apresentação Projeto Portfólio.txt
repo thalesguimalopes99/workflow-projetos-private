@@ -1,0 +1,12 @@
+﻿# Apresentação Projeto Portfólio
+
+- Curso: Framer | Seu Próprio Site + Portifólio
+- Trilha: Trilha Web Design Framer
+- Módulo: Projeto Portfolio
+- Duração: 00:01:21
+- Aula: https://flix.nocodestartup.io/m/lessons/3044
+- Vídeo: f8f23da9-0813-4e4f-a546-77a0e1b9dc23
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, seja muito bem-vindo ou bem-vinda a mais esse módulo. E agora a gente vai construir o nosso maior projeto, que vai ser o nosso site pessoal barra portfólio, e que eu estou super ansioso para a gente conversar, espero que você também. E deixa eu compartilhar mais detalhes desse projeto que a gente vai construir. Então a estratégia que a gente pensou para vocês criarem esse projeto junto com a gente vai funcionar da seguinte forma. A gente vai aplicar basicamente a mesma metodologia que a gente utilizou no projeto do Linktree, criar nossa estrutura. Então a gente vai simular como você faria no seu campo de trabalho, no seu dia a dia, recebendo um projeto de um cliente e precisando implementar. Então pensando em como criar estrutura, como que a gente vai aplicar os estilos, que basicamente são as cores, a tipografia, as pontes, tudo. Depois a gente vai começar a inserir as animações, as interações na página, deixar a página cada vez mais interessante. E por último, o processo de publicação na web. Que é basicamente dar a vida a tudo que a gente construiu. E agora para compartilhar só um pouco do que a gente vai construir. Esse vai ser a base do nosso projeto. Na verdade é só uma parte. Na próxima aula eu vou te mostrar completo tudo que a gente vai construir do zero. E bem, é isso. Espero que você esteja animado ou animada. E até a próxima.

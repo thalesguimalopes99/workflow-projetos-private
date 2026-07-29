@@ -1,0 +1,134 @@
+[
+ {
+  "course_id": 308,
+  "title": "F5.4 - Conectando Assistente de IA aos Dados do App",
+  "track": "Trilha Nocode IA",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Nocode IA\\308 - F5.4 - Conectando Assistente de IA aos Dados do App",
+  "want": 18,
+  "have": 18,
+  "hours": 1.25,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 304,
+  "title": "F4.2 - APIs de IA | Seu primeiro MicroSaaS com GPT Vision",
+  "track": "Trilha Nocode IA",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Nocode IA\\304 - F4.2 - APIs de IA - Seu primeiro MicroSaaS com GPT Visi",
+  "want": 12,
+  "have": 12,
+  "hours": 0.92,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 285,
+  "title": "F3.5 - Fundamentos SaaS NoCode",
+  "track": "Trilha Nocode IA",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Nocode IA\\285 - F3.5 - Fundamentos SaaS NoCode",
+  "want": 11,
+  "have": 11,
+  "hours": 0.87,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 276,
+  "title": "1 - O Poder das APIs - Fundamentos Essenciais",
+  "track": "Trilha FlutterFlow Geral",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha FlutterFlow Geral\\276 - 1 - O Poder das APIs - Fundamentos Essenciais",
+  "want": 10,
+  "have": 10,
+  "hours": 0.81,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 249,
+  "title": "3 - Planejamento Backend Supabase",
+  "track": "Trilha Supabase",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Supabase\\249 - 3 - Planejamento Backend Supabase",
+  "want": 9,
+  "have": 9,
+  "hours": 0.78,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 325,
+  "title": "Push Notifications com Supabase e n8n",
+  "track": "Trilha FlutterFlow Geral",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha FlutterFlow Geral\\325 - Push Notifications com Supabase e n8n",
+  "want": 11,
+  "have": 11,
+  "hours": 0.57,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 581,
+  "title": "3.2.5 - Ferramentas Avançadas e Dicas",
+  "track": null,
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\_sem-trilha\\581 - 3.2.5 - Ferramentas Avançadas e Dicas",
+  "want": 4,
+  "have": 4,
+  "hours": 0.52,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 283,
+  "title": "F3.1 -Introdução da Trilha - MasterClass NoCode",
+  "track": "Trilha Nocode IA",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Nocode IA\\283 - F3.1 -Introdução da Trilha - MasterClass NoCode",
+  "want": 6,
+  "have": 6,
+  "hours": 0.46,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 485,
+  "title": "Introdução: Planejamento do Projeto da Formação Lovable",
+  "track": "Trilha Lovable",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Lovable\\485 - Introdução- Planejamento do Projeto da Formação Lovable",
+  "want": 6,
+  "have": 6,
+  "hours": 0.45,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 378,
+  "title": "Converse com um PDF, Planilhas e Arquivos | RAG",
+  "track": "Trilha Assistants Open AI",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Assistants Open AI\\378 - Converse com um PDF, Planilhas e Arquivos - RAG",
+  "want": 4,
+  "have": 4,
+  "hours": 0.4,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 186,
+  "title": "Comunidade Open No-Code | FlutterFlow",
+  "track": null,
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\_sem-trilha\\186 - Comunidade Open No-Code - FlutterFlow",
+  "want": 2,
+  "have": 2,
+  "hours": 0.18,
+  "complete": true,
+  "has_resumo": false
+ },
+ {
+  "course_id": 535,
+  "title": "0.1 - Comece por aqui",
+  "track": "Trilha Agentic Builder Claude",
+  "dir": "C:\\Users\\Thales Lopes\\Documents\\wtf\\Workflow Projetos\\Cursos\\transcricoes\\Trilha Agentic Builder Claude\\535 - 0.1 - Comece por aqui",
+  "want": 1,
+  "have": 1,
+  "hours": 0.15,
+  "complete": true,
+  "has_resumo": false
+ }
+]

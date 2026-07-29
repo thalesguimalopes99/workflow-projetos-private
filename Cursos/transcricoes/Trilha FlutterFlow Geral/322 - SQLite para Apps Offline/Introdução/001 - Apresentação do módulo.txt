@@ -1,0 +1,12 @@
+﻿# Apresentação do módulo
+
+- Curso: SQLite para Apps Offline
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:06
+- Aula: https://flix.nocodestartup.io/m/lessons/3307
+- Vídeo: 5806a4fb-076b-47a5-bc51-5c630a00f454
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, meu nome é Renan e nesse módulo a gente vai aprender tudo sobre SQLite no Flutter Flow. Aqui tem um exemplo do sumário que a gente vai ver nos slides, lógico que também tem a parte prática. E nesse módulo a gente vai aprender a criar um banco de dados relacional usando SQLite no Flutter Flow e também a sincronizar esses dados localmente com um banco de dados remoto Supabase, beleza? E é claro que depois de assistir esse módulo, você vai poder criar apps que exijam conexão apenas em alguns momentos, quanto apps que não precisam de conexão nenhuma, ok? Um exemplo disso é uma operação agrícola de colheita de laranja. Imagine que o pessoal não tem internet no campo, mas precisa fazer apontamento de produção. Ou seja, em algum momento esse pessoal precisa mandar os dados apontados offline para um banco de dados remoto. E é esse tipo de aplicação que a gente vai trabalhar aqui. Então, esse app que eu mencionei da colheita de laranja, de uma operação agrícola, ele vai estar disponível para que você possa clonar através desse link, beleza? Bom, para iniciar, vamos fazer algumas conceituações importantes, mas isso é lógico, é assunto para a próxima aula. Te vejo lá.

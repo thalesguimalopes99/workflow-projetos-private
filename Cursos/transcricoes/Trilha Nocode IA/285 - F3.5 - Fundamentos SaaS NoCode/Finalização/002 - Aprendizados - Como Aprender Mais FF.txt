@@ -1,0 +1,12 @@
+﻿# Aprendizados - Como Aprender Mais FF
+
+- Curso: F3.5 - Fundamentos SaaS NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Finalização
+- Duração: 00:01:49
+- Aula: https://flix.nocodestartup.io/m/lessons/3090
+- Vídeo: ce6a014a-a679-45e0-8b86-4a2ae7397de9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos à finalização dessas aulas. Eu espero que você tenha curtido bastante todo esse conteúdo que eu trouxe. Mas vamos fazer um resumo aí de tudo que a gente aprendeu? Então você aprendeu sobre fundamentos de SaaS, toda arquitetura de SaaS e como criar aplicativos complexos para fazer SaaS e micro SaaS com IA. Você aprendeu todas as melhores ferramentas de front-end de SaaS para o seu app e também as melhores ferramentas de back-end de SaaS para o seu app. E além disso, Você também aprendeu como utilizar o Flutter Flow e o Superbase de uma forma em conjunto. Então agora acho que está claro para você as melhores ferramentas para você construir o seu próprio SaaS. Já conseguiu o teu gostinho ali do Flutter Flow com o Superbase e pode ficar tranquilo. que depois nas aulas você vai aprender na prática mais detalhado como utilizar o Flutter Flow Superbase. Agora foi mais uma pincelada geral para você entender. Mas caso você queira aprender Flutter Flow de uma forma avançada, a gente tem uma formação completa e está incluso, além da Anocode A, a formação completa de Flutter Flow, que é a formação mais completa e de melhor qualidade do mercado, são mais de 60 a 70 horas de curso, do zero ao avançado. Tem bastante conteúdo. Se você não quiser, é só seguir aqui. a no code A que depois vão ter as aulas para você aprender os fundamentos, beleza? E caso também você queira aprender Bubble ou WeWeb, a gente tem aqui a formação Bubble, que também é super completa e você tem acesso aqui para aprender Bubble do zero. E também temos aqui o curso de WeWeb, que você pode acessar para aprender a fazer seus web apps, beleza? Então, pode ficar tranquilo que você tem acesso a todos esses cursos aqui dentro do mesmo pacote. Então é isso, bora pro próximo módulo, que depois a gente vai juntar todos esses conteúdos de SaaS e vamos criar projetos irados com IA. Bora lá!

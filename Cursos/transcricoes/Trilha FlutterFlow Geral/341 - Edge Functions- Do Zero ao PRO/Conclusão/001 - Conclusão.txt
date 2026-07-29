@@ -1,0 +1,12 @@
+﻿# Conclusão
+
+- Curso: Edge Functions- Do Zero ao PRO
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:00:37
+- Aula: https://flix.nocodestartup.io/m/lessons/3692
+- Vídeo: b610f703-f801-41fc-befc-e7837c41e787
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Vamos chegar ao fim de mais um módulo aqui na NoCode Startup. Nesse módulo a gente aprendeu o que são EdFunctions, como instalar as ferramentas, como criar uma EdFunction para proteger a sua chave de API e como sugestão de aprendizado, caso você queira se aprofundar nesse assunto, eu recomendo você estudar como criar uma EdFunction agendada, como manipular um banco de dados e também como enviar e-mails através de AdFunctions. É isso, espero que vocês tenham gostado desse módulo. Se ficou alguma dúvida, pode me marcar lá na comunidade e te vejo nos próximos módulos. Valeu e até a próxima!

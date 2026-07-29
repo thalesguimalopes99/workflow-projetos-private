@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: Pagamentos Asaas Supabase - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:01:24
+- Aula: https://flix.nocodestartup.io/m/lessons/3628
+- Vídeo: a95c3a4a-2762-4445-80b5-bf9a66a145d4
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos no final das aulas de pagamento avulso com Stripe. Então agora espero que você tenha entendido a lógica que é muito parecido com Stripe de fazer pagamentos avulsos. Se você quiser usar outros gates de pagamento, é importante que você tenha assistido todas as aulas, porque aí você vai entender qual que é a essência e aí no outro gate você basicamente tem que entender a documentação. Mas sempre vai ser bem parecido, né? Cria uma cobrança, cria um checkout, vê se aquele checkout já foi pago. Daí você pode pegar esse fluxo e copiar aí para o seu próprio, ou sua própria forma aí do aplicativo de fazer a cobrança. Se você quiser fazer assinaturas, no Asas também é um processo muito semelhante ao do Stripe, tá? Eu não vou fazer aqui, que basicamente vai ser o mesmo processo, só tem que entender um pouco mais detalhes aí da parte de APIs em relação a assinaturas e como é que faz essa parte de assinaturas, tá? Mas a essência, eu já expliquei ali, muito bem explicado no Stripe. Que é você criar uma assinatura. E depois vai ter que ter um abhook. A gente utiliza o make. Ele fica esperando. Configura o abhook. É tudo o mesmo passo a passo. Tanto para o Asus. Ou para qualquer outro tipo de pagamento. Gate de pagamento. A estrutura. A essência. Vai ser a mesma. Por isso que é importante. Você fazer todas as aulas aqui. Para você entender. Quais são esses fundamentos. E repetir para qualquer que seja. O seu gate de pagamento. Espero que você tenha curtido. E te espero aí. Nas próximas aulas. Até mais.

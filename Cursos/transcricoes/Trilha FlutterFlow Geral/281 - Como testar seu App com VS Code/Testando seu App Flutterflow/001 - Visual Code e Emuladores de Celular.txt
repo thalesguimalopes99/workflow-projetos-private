@@ -1,0 +1,12 @@
+﻿# Visual Code e Emuladores de Celular
+
+- Curso: Como testar seu App com VS Code
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Testando seu App Flutterflow
+- Duração: 00:02:02
+- Aula: https://flix.nocodestartup.io/m/lessons/3035
+- Vídeo: 5cc2de7b-10c8-44b2-bacf-44b6eec9d544
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, então bora entender agora o que é o Visual Studio Code que eu estou mencionando desde o início desse módulo. Basicamente o Visual Studio Code é uma IDE, um ambiente de desenvolvimento integrado onde a gente vai editar e executar o nosso código baixado lá do Flutter Flow, ok? Existem várias ideias do mercado, como IntelliJ, Eclipse, e eu creio que o Visual Studio Code seja o mais simples, porque a interface dele é muito limpa, ele tem bastante extensões, ele é bastante popular entre os desenvolvedores, então isso garante que ele tenha uma comunidade muito grande também por trás, ok? Então, o Visual Studio Code, reforçando, vai permitir que a gente edite, visualize e execute o nosso código baixado do Flutter Flow. Lembra aqui o Flutter Flow? É só uma interface que permite que você edite de forma mais simples um código gerado em Dart, que é a linguagem que compõe o framework Flutter. Tendo isso em mente, vamos entender agora o que são os emuladores. O emulador é basicamente uma ferramenta que permite você simular um dispositivo físico. Eu comentei na aula anterior que você poderia simplesmente conectar o seu celular num cabo USB para testar. Porém, qual é a vantagem de usar o emulador? Com o emulador, você consegue ter qualquer versão. de diferentes fabricantes. Então, imagina que eu tenha um celular da Samsung, um Pixel, qualquer dispositivo, um tablet, um wearable, como um smartwatch, eu posso ter qualquer dispositivo de forma simples e rápida para eu testar. Então, por isso que o foco desse curso é em emuladores e não em dispositivo físico, para garantir que você possa testar a sua aplicação em qualquer cenário, em qualquer versão do Android, em qualquer API. Então, essa é a vantagem de usar o emulador celular. E para fazer isso, a gente vai usar o Android Studio. Lembra que o Visual Studio Code vai servir como a nossa IDE, ou seja, é lá que a gente vai editar o nosso código, mas a gente precisa baixar o Visual Studio Code para criar esses emuladores. Tendo isso em mente, bora para a próxima aula, onde a gente vai aprender a como, de fato, instalar essas ferramentas. Te vejo lá.

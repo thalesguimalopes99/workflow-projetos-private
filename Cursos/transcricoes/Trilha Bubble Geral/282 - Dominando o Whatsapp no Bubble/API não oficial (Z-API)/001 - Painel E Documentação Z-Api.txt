@@ -1,0 +1,12 @@
+﻿# Painel E Documentação Z-Api
+
+- Curso: Dominando o Whatsapp no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: API não oficial (Z-API)
+- Duração: 00:01:52
+- Aula: https://flix.nocodestartup.io/m/lessons/3060
+- Vídeo: 94b40560-98a8-4484-b1f7-e7fac1f0bc7e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais uma aula e nessa aula eu vou estar ensinando para vocês como criar a integração única instância, que é quando você envia mensagem com um único número, digamos que é o número que você tem padrão do seu sistema aí na sua aplicação. E o serviço que a gente vai estar utilizando para fazer essa integração é a ZAPI, ela é bem simples de fazer a integração, então vou mostrar para vocês como a gente vai utilizar a ZAPI para integrar. uma única instância. Lembrando que no decorrer do curso a gente vai ver outras APIs também para ficar um pouco mais diversificado a nossa integração de WhatsApp. Fez o cadastro na ZAPI, você já tem uma instância ali criada, você vai vir aqui em instância web e a gente tem a nossa instância disponível. Você pode vir nesse olhinho aqui, tá? No caso da ZAPI, você pode vir nesse olhinho aqui. clica nele e ele vai abrir a visualização da sua API. Aqui a gente consegue escanear o QR Code e tem os nossos dados também, que a gente vai utilizar o ID da instância, o token da instância e aqui em segurança também a gente tem o token da conta, que a gente vai utilizar também. Aqui a gente pode conectar o nosso telefone diretamente por aqui pelo painel, se tratando de uma única instância, é uma das melhores opções para você não ter muito trabalho na hora de fazer a integração. Certo? A documentação da ZAPI é um pouco simples, tá? A gente pode vir aqui em documentação. Clicou na documentação, ele vai carregar pra gente. Vocês podem vir, dependendo da integração que vocês forem fazer, ela também aceita integração multi, tá? Ela faz multi-integração, não tem problema. Vocês conseguem fazer, porque aqui em instâncias vocês conseguem buscar todas as informações, mas nesse caso a gente não vai estar vendo. O único tópico que a gente vai estar vendo é mensagens, tá? É aqui que a gente vai coletar as informações sobre enviar as mensagens que a gente precisa. No caso aqui, eu vou fazer dois envios. Vou enviar texto e vou enviar mensagem com imagem, certo? Então, na próxima aula, a gente vai passar para o editor e começar a integração lá no API Connector e vou mostrar para vocês como que funciona.

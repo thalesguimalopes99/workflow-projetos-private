@@ -1,0 +1,12 @@
+﻿# Teoria Webhooks
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - CheckoutPRO
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/3026
+- Vídeo: 499d05ce-d5aa-4069-8524-b2cc36a62e3c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora a gente vai partir para o back-end para estar configurando o webhook, tá? É lá que vai acontecer toda a comunicação entre o Asas e o Bubble sem precisar do dispositivo do usuário. Ou seja, ele pode realizar um pagamento e fechar o aplicativo normalmente. E essa compra vai ser confirmada normalmente sem precisar que o dispositivo dele esteja aberto na tela do nosso aplicativo. Então é no back-end que acontece todas essas comunicações. Ou seja, o webhook é uma forma de comunicação direta entre o nosso aplicativo e o banco, tá? Todas as informações serão transitadas através do webhook. Nesse caso, do Checkout Pro. Nas outras aulas, com o Checkout transparente, eu vou estar ensinando para vocês como confirmar sem a necessidade de um webhook, por exemplo. Então, na próxima aula, eu vou estar ensinando para vocês como ativar o back-end e como configurar esse webhook, tanto no Asas como no Bubble.

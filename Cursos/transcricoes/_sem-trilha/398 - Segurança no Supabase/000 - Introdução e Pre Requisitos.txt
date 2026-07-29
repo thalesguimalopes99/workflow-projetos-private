@@ -1,0 +1,11 @@
+﻿# Introdução e Pre Requisitos
+
+- Curso: Segurança no Supabase
+- Trilha: (sem trilha)
+- Duração: 00:01:19
+- Aula: https://flix.nocodestartup.io/m/lessons/4202
+- Vídeo: 0ed96006-ec04-4e8f-a9b1-835e2e377979
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Nesse módulo a gente vai aprender a como gerenciar o acesso ao nosso banco de dados Supabase de forma segura através das RLS, ok? Então, basicamente, a gente vai entender o conceito de RLS, o processo por trás de acessar uma informação ao banco e entender o formato de uma política de segurança para o Supabase, beleza? Aqui é só uma breve descrição, o que a gente vai aprender de fato. Como permitir que somente pessoas autorizadas consigam efetuar operações no nosso banco. Aqui eu coloquei alguns pré-requisitos para você assistir essa aula e aproveitar ela. o máximo possível por exemplo o Matheus gravou uma trilha de aulas sobre sua base então eu creio que seja interessante que você assista Ok principalmente essa primeira aula aqui e essa terceira porque a gente vai trabalhar com chamadas para o nosso banco utilizando post então se você entender para que que serve post como configurar já facilita bastante as outras aulas com certeza são importantes porém não diretamente para esse módulo aqui beleza mas recomendo forte fortemente que você assista todos os módulos aqui, beleza? Bom, e para começar, vamos tentar conceituar o que é uma RLS, mas isso é assunto para a próxima aula. Te vejo lá.

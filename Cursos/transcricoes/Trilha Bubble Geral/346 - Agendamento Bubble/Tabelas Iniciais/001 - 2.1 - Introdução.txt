@@ -1,0 +1,12 @@
+﻿# 2.1 - Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Tabelas Iniciais
+- Duração: 00:01:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3750
+- Vídeo: 0316db95-2910-4c31-9763-cc6de457b872
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma! Sejam bem-vindos para mais um módulo. E esse é o módulo mais curto e o módulo mais importante da nossa trilha. Nesse módulo, a gente vai estar falando sobre banco de dados. Nesse módulo, a gente vai estar aprendendo a criar as tabelas e relacionar essas tabelas entre si. É com essas tabelas que a gente vai deixar o nosso app mais leve e mais dinâmico possível. Através do relacionamento de tabelas e dados, a gente vai ter que extrair o máximo de informação possível sem precisar ficar realizando buscas no banco de dados. Otimizar essa parte para a gente poder economizar um pouquinho mais de workload units. Já que o nosso bubble está cobrando de forma mais dinâmica os preços. das aplicações, ok? Então, dessa forma, criando as tabelas de forma inteligente e relacionando elas de forma segura e prática, vai ser a melhor prática para a gente poder economizar um pouquinho mais no nosso app, ok? E na próxima aula, a gente já vai estar começando a criar as nossas primeiras tabelas.

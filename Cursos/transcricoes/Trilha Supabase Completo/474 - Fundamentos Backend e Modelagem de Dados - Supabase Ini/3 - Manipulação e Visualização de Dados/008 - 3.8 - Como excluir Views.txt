@@ -1,0 +1,12 @@
+﻿# 3.8 - Como excluir Views
+
+- Curso: Fundamentos Backend e Modelagem de Dados | Supabase Iniciante
+- Trilha: Trilha Supabase Completo 
+- Módulo: 3 - Manipulação e Visualização de Dados
+- Duração: 00:01:59
+- Aula: https://flix.nocodestartup.io/m/lessons/4854
+- Vídeo: 71d61504-4b90-4744-ba92-2c49f2ea695c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, nesta aula, bem rapidinho, nós vamos ver como excluir views. Isso é muito importante, é simples, mas é importante. Às vezes a gente bate cabeça para resolver algo muito simples, mas ali no SupaBase, às vezes confunde como você vai excluir uma view. Então, vamos aqui no SupaBase, vamos acessar o nosso projeto Aulas, vamos em Table Editor, e aqui, olha, Table Editor, eu já bati cabeça com isso no início. Olha só. Por quê? Tabelas. Se eu quiser excluir uma tabela, eu posso vir aqui, olha, nesses três pontinhos e deletar a tabela. Posso deletar ela por aqui, tá? Mas a View, olha só, a View, ela tem esses três pontinhos, mas eu só consigo copiar o nome dela aqui. Não consigo fazer mais nada. Então, para excluir uma View, A gente tem que ir lá no SQL Editor. Então como que é bem simples. Mas é necessário tocar nesse assunto aqui. Olha só. O que você vai fazer para excluir a Vue? Você vai copiar o nome dela. Vai vir aqui no SQL Editor. Vai colocar aqui um novo spin. E vai escrever o seguinte. Drop. Vue. E colar o nome da Vue. Somente isso. E vai mandar executar. Ele vai perguntar se eu tenho certeza. Que eu quero excluir a view. Sucesso. Agora se eu for aqui novamente em table editor. A minha view já não existe mais aqui. Então como eu disse. É um processo simples. Mas é necessário. Então para excluir views. Você tem que acessar o SQL editor. E digitar drop view. E o nome da view. Um abraço e até a próxima aula.

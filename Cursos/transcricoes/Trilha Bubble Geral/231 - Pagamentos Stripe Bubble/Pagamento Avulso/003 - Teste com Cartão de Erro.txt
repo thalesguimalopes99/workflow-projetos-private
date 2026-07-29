@@ -1,0 +1,12 @@
+﻿# Teste com Cartão de Erro
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso
+- Duração: 00:01:42
+- Aula: https://flix.nocodestartup.io/m/lessons/2478
+- Vídeo: 0b30cb39-15d9-472d-8338-5ba8c612965f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora para realizar um teste de pagamento recusado, a gente vem aqui na documentação do Stripe, onde ele fornece vários cartões para a gente poder fazer teste de diferentes países, de diferentes bancos, tá? Ele oferece todos esses cartões, vai estar o link aí embaixo para vocês poderem pegar a lista e fazer teste, tá bom? Então eu vou pegar um cartão aqui que vai dar pagamento recusado, é só você procurar aqui porque tem uma lista diversa, e só copiar, eu vou copiar aqui, o que a gente precisa saber é só o número, não preciso mais nada desse cartão, a gente vai voltar no checkout aqui onde eu já coloquei um item no checkout, poder fazer o teste. Vou confirmar. Vim aqui para o checkout novamente. Provavelmente ele vai estar com aquele cartão anterior salvo. Isso mesmo. Ele salva aqui para a gente. Por isso que é muito bom o Stripe. Ele já salva o cartão do usuário. A gente não precisa fazer essa parte diferente da API que a gente teria que configurar esse hash, salvar esse cartão no usuário. Então aqui no plugin ele faz isso totalmente automático. Vamos alterar. Colar o cartão que a gente copiou. Vamos colocar aqui a data válida e o CCV e tentar fazer um pagamento. Só que vai dar recusado. Deixa eu tirar aqui o que ele pediu para salvar. Está vendo? Agora ele deu o pagamento recusado. Seu cartão de crédito foi recusado com a opção de pagar com outro cartão de débito. Pronto. Se a gente voltar aqui, vamos sair da página. A gente vai voltar lá para o nosso app manualmente. O usuário não consegue confirmar o pedido se ele não pagar. Então, o meu item está aqui e não confirmou. Agora, se eu voltar lá, confirmar novamente e realizar um pagamento aprovado, ele vai puxar o meu cartão anterior. Isso, ele puxou 4242. Vou só confirmar aqui e... preste bem atenção. Prontinho, pagamento aprovado e ele vai voltar e confirmar o meu pedido. Muito rápido, muito simples. Prontinho, pagamento confirmado. Hoje o Stripe é uma das melhores formas por ser prático de fazer essa integração, sabe? Então recomendo muito.

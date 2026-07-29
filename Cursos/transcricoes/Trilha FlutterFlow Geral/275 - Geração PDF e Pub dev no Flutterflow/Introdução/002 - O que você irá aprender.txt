@@ -1,0 +1,12 @@
+﻿# O que você irá aprender
+
+- Curso: Geração PDF e Pub dev no Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:43
+- Aula: https://flix.nocodestartup.io/m/lessons/2980
+- Vídeo: f0ba88d9-404f-4a56-a066-7278c40de6ce
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, antes de entrar no módulo, vamos entender como ele está organizado e o que a gente pode esperar dele. Basicamente, eu separei nesses tópicos aqui, onde eu falo o que são PDFs, quais são as alternativas de mercado para criar esses arquivos, o que são pacotes e bibliotecas, que é um conceito fundamental. Depois a gente vai ver como melhorar o layout e o design do seu PDF e, por último, fazer uma conclusão, recapitulando tudo o que a gente aprendeu. Mas o que de fato a gente vai aprender nesse curso? Basicamente, é como gerar qualquer tipo de PDF, a partir de textos, imagens e tabelas, seja de forma estática ou dinâmica. E também como criar esses PDFs a partir do banco de dados remoto, ou seja, o Supabase. Lembrando que, apesar do exemplo ser focado em Supabase, a ideia para fazer esse PDF a partir do Firebase é a mesma, ok? E lógico, depois de assistir esse módulo completo, você vai estar apto... a gerar qualquer tipo de relatório de vendas, certificado de participação, ordem de serviço, enfim, qualquer tipo de demanda que envolva a criação de PDF. E é claro, eu vou compartilhar o link desse projeto para que você possa clonar no seu Flutter Flow. E nesse projeto, que vai ser o projeto que vai acompanhar a gente... por todas as aulas, eu incluí todos os exemplos que a gente vai trabalhar aqui. A ideia é que você utilize essa aplicação em modo run, em modo run ou teste, que seja, para entender quais são os PDFs que estão sendo gerados. E, é claro, no editor você também vai poder conseguir acessar o custom code gerado. para entender qual é o código que gera cada PDF, o porquê daquele código ser assim, enfim, todos os detalhes da criação desse código. A gente vai trabalhar de forma bastante tranquila aqui no curso, passo a passo, e também vai usar algumas IAs para ajudar a gente nesse processo. Beleza? É isso. Bora começar com a primeira aula.

@@ -1,0 +1,12 @@
+﻿# 1.1 - Introdução Banco de Dados e Modelagem
+
+- Curso: Fundamentos Supabase: Banco de Dados e Modelagem | Agentes IA
+- Trilha: Trilha Agentes IA
+- Módulo: 1 - Banco de Dados e Modelagem
+- Duração: 00:01:43
+- Aula: https://flix.nocodestartup.io/m/lessons/4880
+- Vídeo: 17373b2d-7bf2-421f-bbbc-0e35c47d0c6d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo, bem-vinda ao módulo de SupaBase. Agora você vai aprender tudo sobre o back-end mais famoso do mercado e o nosso queridinho aqui no Code Startup. O SupaBase é um excelente back-end e aqui nesse módulo você vai aprender como que funciona essa ferramenta e o que ela consegue fazer. Por que ela é tão importante? A gente vai ver também na prática para criar as primeiras tabelas e também vamos ver as principais funcionalidades. Então, se você está criando algum projeto, software, com AirCoding ou com outra ferramenta no code, se você está criando agente de A, automações, o Superbase, que vai ser o back-end, vai ser o coração de tudo. Então, é uma das ferramentas mais importantes para você criar qualquer tipo de projeto. Beleza? Então, é bem importante esse modo e bora junto comigo que você vai gostar bastante. depois dessa trilha você vai aprender a criar aplicativos conectados com o Supabase Backend também entender sobre conceitos importantes de modelagem de dados, tá? Hoje em dia a IA ajuda muito a gente a fazer qualquer tipo de projeto, mas é importante a gente entender os fundamentos, senão a gente fica perdido aí e não consegue ter sucesso nos nossos aplicativos. Agora a gente vai focar no back-end, tá? Lembrando que a gente tem o front-end, que é a nossa interface, temos o nosso banco de dados e também temos tecnologias adicionais que a gente conecta por API, tá? Então, aqui a gente não vai falar sobre interface, a gente vai focar apenas no back-end. Então, vamos falar só sobre banco de dados, segurança, autenticação, armazenamento de mídias, ações de servidor. Esse módulo é para você entender como é que funciona o coração de qualquer projeto de tecnologia, que é o back-end, no caso, que a gente vai usar o Superbase, beleza? Então, dito isso, bora lá, vamos para as aulas de conceitos essenciais muito importantes. Vamos comigo!

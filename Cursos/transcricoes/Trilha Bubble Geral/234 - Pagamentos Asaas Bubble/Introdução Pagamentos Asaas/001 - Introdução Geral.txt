@@ -1,0 +1,12 @@
+﻿# Introdução Geral
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução Pagamentos Asaas
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/2753
+- Vídeo: 22ecbb81-8527-4d2a-8d05-e169a7f735f5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Falei pessoal, sejam bem-vindos ao nosso curso de ASAS, curso que vocês vão estar aprendendo a fazer a integração do ASAS com o Bubble de forma simples e prática. Bom, e o que a gente vai estar aprendendo no decorrer do curso? No decorrer do curso a gente vai estar aprendendo sobre pagamentos avulsos, pagamentos por assinatura, como funciona a confirmação das compras ali, a confirmação da assinatura, do pedido, da compra avulso. A gente vai estar aprendendo como funciona a API, como funciona a documentação ali. completa do Asas. A gente vai estar aprendendo como funciona o API Connector, para consumir essa documentação, consumir essas chamadas do nosso aplicativo e fazer essa integração de forma assim. Na próxima aula eu vou estar apresentando para vocês o nosso app que a gente vai estar utilizando e o que a gente vai fazer ao decorrer das aulas.

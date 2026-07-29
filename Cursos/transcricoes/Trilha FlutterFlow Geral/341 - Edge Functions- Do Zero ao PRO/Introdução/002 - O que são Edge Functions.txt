@@ -1,0 +1,12 @@
+﻿# O que são Edge Functions
+
+- Curso: Edge Functions- Do Zero ao PRO
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:51
+- Aula: https://flix.nocodestartup.io/m/lessons/3686
+- Vídeo: eec1eb77-5264-4004-8eab-8b5ff5aac7f5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, então bora entender o que é uma add function. Começando com o nome. Bom, add significa borda e function função, ou seja, funções de borda, que significa que uma função vai ser executada muito próxima do usuário final. próximo da borda que separa o servidor e o usuário. Por isso esse nome, addFunction. Pensa em função muito próxima. É isso que significa. Mas próxima como? É porque o Supabase possui vários servidores espalhados geograficamente no mundo. Então, a hora que você faz uma chamada para uma addFunction, ela vai ser roteada para o servidor mais próximo. Então, eu não preciso mandar uma chamada lá para os Estados Unidos. Se tiver algum servidor aqui na América Latina, ou no Brasil mais especificamente, eu consigo executar essa função aqui. ou seja, o servidor está muito próximo a mim, add function, ok? Aqui na definição, ele comenta também que isso permite que as respostas sejam rápidas e eficientes, proporcionando uma melhor experiência para o usuário, que é exatamente o que as add functions fazem. E para que serve uma add function? Quais são os casos de uso? Basicamente, eu posso fazer uma autenticação. personalizada, eu posso fazer toda a gestão de tokens, eu posso integrar com serviços externos, recebendo webhooks de meios de pagamento, por exemplo, eu posso automatizar tarefas repetitivas, agendando tarefas lá no servidor, ou seja, nas Edge Functions, eu também posso proteger dados sensíveis, fazendo chamadas somente pelo server-side, que é exatamente o exemplo que a gente vai ver nesse módulo, eu também consigo manipular o banco de dados e muitas outras funções, ok? Então, fica claro, o poder das ad functions como um back-end para sua aplicação e como instalar as ferramentas para poder utilizar todo o poder das ad functions isso a gente vai ver na próxima aula te vejo lá

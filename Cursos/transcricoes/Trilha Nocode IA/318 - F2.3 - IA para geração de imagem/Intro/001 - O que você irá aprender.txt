@@ -1,0 +1,12 @@
+﻿# O que você irá aprender
+
+- Curso: F2.3 - IA para geração de imagem
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:15
+- Aula: https://flix.nocodestartup.io/m/lessons/3220
+- Vídeo: 470a8498-f999-47b3-9214-24dff5cb734e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de geração de imagens com inteligência artificial. E bora ver o que você vai aprender nessas aulas aqui. Aqui nessas aulas você vai aprender os principais modelos de geração de imagem. Então a gente vai dar uma olhada e vai fazer um comparativo em quais são os modelos mais famosos do mercado para você gerar imagens com IA. Depois a gente vai dar uma olhada na prática no Dali do GPT, beleza? E a gente vai repassar as principais funcionalidades para você conseguir gerar imagens da melhor forma. E além do dali, a gente também vai explorar o Stable Diffusion, que é um dos melhores modelos para você gerar as imagens que você está precisando. Depois dessas aulas aqui, você... vai ter o conhecimento sobre como escolher e utilizar os melhores modelos de geração de imagem para o seu dia a dia. Você vai aprender sobre os principais modelos e conhecerá as principais ferramentas, podendo fazer uso delas no dia a dia com eficiência. Ou seja, você vai conseguir escolher também qual que é a melhor ferramenta na prática, a que mais se encaixa para o seu projeto para conseguir gerar essas imagens viradas. Então bora começar, bora falar um pouquinho sobre os modelos de imagem e depois a gente vai para a prática. Vamos lá que esse módulo tá irado demais, bora lá!

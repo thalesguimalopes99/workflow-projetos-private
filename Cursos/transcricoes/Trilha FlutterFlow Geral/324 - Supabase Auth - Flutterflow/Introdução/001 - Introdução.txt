@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Supabase Auth - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:04
+- Aula: https://flix.nocodestartup.io/m/lessons/3402
+- Vídeo: 6ecf8f96-f618-4d8f-b769-6d6cead5a21b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Nesse módulo a gente vai explorar alguns recursos extras de autenticação dentro de sua base, como o Esqueci Minha Senha, Link Mágico e Login Social via Google. Beleza? Então aqui basicamente é um escopo do que a gente vai trabalhar na teoria e principalmente na prática. Aqui é só um reforço do que a gente vai aprender. A gente vai ver como configurar o Supabase, as URLs, os emails, templates, as APIs, ok? Para fazer toda essa configuração do Esqueci Minha Senha e Link Mágico. E na sequência, a gente vai aprender como configurar o Google Cloud para utilizar o login social dentro do nosso app. E é óbvio, implementando isso, seu app vai estar no padrão de mercado. Hoje em dia, qualquer app utiliza essas ferramentas de Esqueci Minha Senha, Link Mágico, Login Social. Então, colocando o teu app... Com esses recursos, você vai estar no mesmo nível desses caras, ok? Deixar o teu app o melhor possível para o mercado. E é lógico, esse projeto vai estar disponível no link que vocês têm acesso aí para poder acompanhar. Bom, agora a gente vai conhecer os fluxos, como é que funciona cada uma dessas lógicas, mas isso é assunto para a próxima aula. Valeu, até lá!

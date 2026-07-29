@@ -1,0 +1,12 @@
+﻿# Finalização do Web App Micro SaaS
+
+- Curso: F5.3 - Do Zero ao App 2 Inteligência e Backend
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:32
+- Aula: https://flix.nocodestartup.io/m/lessons/3321
+- Vídeo: 847cec28-aff3-4f2c-92e0-02e3c082d285
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Chegamos no final desse projeto aqui do app financeiro, onde a gente viu toda a parte aí do layout, então a gente fez do zero todo o layout e toda a parte do back-end, juntamos os dois para ter o nosso projeto web app financeiro. Eu espero que você tenha curtido e nos próximos módulos a gente vai fazer as integrações com inteligência artificial, hein? Tá robusto demais. Então lá, bora lá para o próximo módulo que agora a gente vai integrar. todo o nosso web app com uma solução financeira para o nosso chat conseguir se conversar lá com o nosso banco de dados. Vamos que vamos!

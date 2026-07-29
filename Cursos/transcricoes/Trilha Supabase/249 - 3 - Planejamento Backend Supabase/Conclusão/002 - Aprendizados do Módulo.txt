@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: 3 - Planejamento Backend Supabase
+- Trilha: Trilha Supabase
+- Módulo: Conclusão
+- Duração: 00:00:53
+- Aula: https://flix.nocodestartup.io/m/lessons/2658
+- Vídeo: e936360b-a1ed-4ee1-b46a-509d7a935bfb
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Chegamos ao fim de mais um módulo aqui dentro da trilha do Superbase e agora a gente aprendeu como planejar todo o nosso back-end. O módulo foi um pouquinho mais rápido, mas a gente já deixou pronto todas as nossas tabelas, todos os nossos APIs, as nossas views também estão todas estruturadas e também a gente está com a estratégia aí pronta para conectar qualquer tipo de front-end. E agora nos módulos seguintes a gente pode construir o app. Então se você estiver na formação Flutter Flow, a gente vai construir o aplicativo. com o Flutter Flow e Superbase, tá? Tá bem irado. Se tiver em outra formação, você pode escolher aí como é que vai conectar o seu backend, que praticamente ele tá pronto pra ser conectado a qualquer outra ferramenta no code. Fechou? Espero que você tenha gostado, tenha curtido bastante toda essa trilha de aprendizado e agora bora construir nosso aplicativo. Vamos lá pra parte final do nosso app EAD de cursos online. Bora construir com o Flutter Flow.

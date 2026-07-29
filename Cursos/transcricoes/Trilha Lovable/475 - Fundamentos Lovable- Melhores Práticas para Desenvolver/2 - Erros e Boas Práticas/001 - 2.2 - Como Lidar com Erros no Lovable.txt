@@ -1,0 +1,12 @@
+﻿# 2.2 - Como Lidar com Erros no Lovable
+
+- Curso: Fundamentos Lovable: Melhores Práticas para Desenvolver
+- Trilha: Trilha Lovable
+- Módulo: 2 - Erros e Boas Práticas
+- Duração: 00:01:39
+- Aula: https://flix.nocodestartup.io/m/lessons/4860
+- Vídeo: 68221b65-0275-4919-bd05-aa0b8f40f270
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Galera, e como eu falei no começo do módulo, vai ser bem importante você entender os fundamentos e as boas práticas, tá? Porque quando você utilizar o mesmo prompt que o meu, vai aparecer aí aplicativos diferentes, porque a gente tá trabalhando com IA e IA não é determinístico, tá? Então é bem importante que você saiba lidar com erros, porque às vezes vai dar um erro pra você que não vai aparecer pra mim, tá? E vice-versa. O importante é que já dá essa super dica no Lobo, a gente tem ali um pop-up, né, que aparece quando há algum erro, que você pode clicar assim, ó, try to fix, que é... tentar consertar tá então você consegue clicar aqui ele vai tentar consertar o próprio erro ali que ele gerou de uma forma automática se isso começar a continuar de uma forma aí constante, ficar aparecendo e entrar num looping de erros, é interessante que você pare, respire e tente a sua estratégia. Aqui é entrar no modo chat, tá? Então a gente sempre vai usar muito o modo chat porque ele facilita pro logo antes entender o que vai ser construído. Ao invés de você falar assim, ah, corrija isso daqui, você fala pra ele assim, ah, faça um plano pra corrigir esse tipo de funcionalidade, por exemplo. Então ele vai fazer um plano lá e no final ele vai colocar um botão. implementar o plano e aí sim você pode ir lá pra ele implementar isso daí vai deixar muito mais assertivo e vai gastar menos crédito também inclusive pra erros se começar a dar muitos erros entra no modo chat pergunta, fala para o povo pensar sobre os erros que está dando, explorar, é como se fosse um agente focado na criação de software. Então você vem aqui e clicar no modo chat. Então lembrar dessas duas super dicas, ir ali no try to fix e também ir ali no chat. Dito isso, a gente já pode continuar para as próximas aulas.

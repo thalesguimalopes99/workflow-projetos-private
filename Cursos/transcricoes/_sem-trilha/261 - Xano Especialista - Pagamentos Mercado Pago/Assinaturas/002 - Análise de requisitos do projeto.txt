@@ -1,0 +1,12 @@
+﻿# Análise de requisitos do projeto
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Assinaturas
+- Duração: 00:02:33
+- Aula: https://flix.nocodestartup.io/m/lessons/2913
+- Vídeo: fe532f0c-7352-4ef3-a86d-b7a1f2b86392
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E agora nós vamos fazer análise de requisito na ideia de entender como que nós podemos implementar um sistema de cobrança recorrente dentro do nosso negócio, dentro da nossa aplicação. Então a ideia é a gente entender o que é um pagamento recorrente. Então um pagamento recorrente é um modelo financeiro que é feito para que lojas possam fazer cobranças recorrente aos seus clientes. Isso de uma forma que, periodicamente, ele possa fazer essas cobranças, sendo ela por dias, a cada 15 dias, ou até mesmo por meses. Um mês, três meses, seis meses, ou até anos. A ideia é seguir o que o mercado já manda, porque desde sempre trabalhamos com esse tipo de negócio, como academias, colégios, faculdades. E agora muito recentemente no mundo digital, com os streamings e com licenças de software. E quais são os benefícios que nós teremos utilizando o pagamento recorrente? O que a gente traz de benefício para o nosso negócio? O primeiro é a previsibilidade de receita. Porque com o volume de clientes que estão ativos dentro da nossa base, que pagam uma receita recorrente, a gente consegue saber o montante que a gente vai ter em determinado mês ou em determinados meses. Também tem o lado da conveniência para o cliente, porque ele já vai ter ali uma fidelidade com a gente, ele vai ter ali proximidade de todas as transações realizadas entre ele e a loja. E, consequentemente, vai estar gerando ali um relacionamento a longo prazo. Então, ele vai ficar mais dependente das nossas soluções e dos nossos serviços, o que vai causar, no final, uma redução de inadimplência, que são os clientes que deixam de pagar ou esquecem de pagar. Então, dessa forma, automatizando e deixando no cartão de crédito, fica mais fácil de eles lembrarem de pagar e não esquecerem. E aí o ponto é, precisamos fazer o mapeamento de estrutura desse ambiente. Para fazer isso, precisamos iniciar ali as validações das APIs do mercado pago. Então, a gente já teve a oportunidade de visualizar as APIs de clientes, pedidos, pagamentos do mercado pago. E agora, a gente vai começar a olhar para dentro das assinaturas. Então, a ideia é, vamos olhar para a documentação do mercado pago e entender como que a gente pode estar criando uma assinatura.

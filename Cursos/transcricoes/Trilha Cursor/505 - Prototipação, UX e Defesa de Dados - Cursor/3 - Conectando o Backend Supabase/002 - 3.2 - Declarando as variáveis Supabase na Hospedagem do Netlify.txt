@@ -1,0 +1,12 @@
+﻿# 3.2 - Declarando as variáveis Supabase na Hospedagem do Netlify
+
+- Curso: Prototipação, UX e Defesa de Dados | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 3 - Conectando o Backend Supabase
+- Duração: 00:02:33
+- Aula: https://flix.nocodestartup.io/m/lessons/5382
+- Vídeo: d219b17e-372f-481c-a608-7ffc98e06928
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, agora nós vamos declarar as variáveis do Supabase também na nuvem e nós temos que fazer isso na hospedagem Netlify. O que essas variáveis serão responsáveis? Por fazer ali a integração do nosso back-end com o front-end que está na nuvem. Então é muito importante esse passo, tá? Vamos aqui para o cursor. Eu tenho aqui aquele arquivo env local, onde estão as variáveis que é a URL e a AnonKey. Eu vou abrir aqui o meu Netlify e vou acessá-lo aqui, olha só. Acabei de acessar a minha conta do Netlify e eu tenho aqui o meu projeto. Então você vai abrir o seu projeto, você vai vir aqui em Project Configuration. E você vai vir aqui, ó, Environment Variables. Vai clicar aqui nesse carinha aqui e vai adicionar as variáveis aqui. Então, você vai clicar aqui, Add a Single Variable. Então, aqui você vai colocar o nome. Vamos lá no cursor. Eu vou pegar aqui o nome dessa variável aqui. Vou voltar lá para o Netlify, vou colocar o nome aqui. E aqui nós vamos colocar o valor. o valor é esse daqui olha é toda essa esse endereço aqui e vamos colocar aqui e vamos criar agora o mesmo procedimento para a outra variável que é a non key ou não que eu vou copiar aqui vou voltar aqui no net ele faz e aqui no valor nós vamos copiar todo esse valor aqui olha estou selecionando toda minha a não aqui Vou voltar ali. Poderia acessar ali dos pabéis direto, sem nenhum problema. E vou criar. Pronto. Estão criadas as nossas variáveis aqui no nosso serviço de hospedagem do nosso front-end. Então, feito isto, nós cumprimos esse estágio aqui bem importante. que vai nos suportar ali na frente quando a gente for fazer a tela de login de usuário, logout, confirmação de senha, entre outros. Um abraço, até a próxima aula.

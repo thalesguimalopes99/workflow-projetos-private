@@ -1,0 +1,12 @@
+﻿# 1.5 - Commitar Epic1-1 (Atualizando versão local e em nuvem)
+
+- Curso: Desenvolvimento e Lógica do Produto | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 1 - Criando o Desenvolvimento em Fases
+- Duração: 00:01:28
+- Aula: https://flix.nocodestartup.io/m/lessons/5390
+- Vídeo: 490ef656-2f58-4993-b3b7-2e229cc35b84
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Antes da gente seguir para as próximas aulas, vamos fazer o fechamento daquela branch, fazendo o add da branch, o commit e o push da branch. Então, vamos voltar aqui, olha, no cursor. A última visualização foi esta. Eu vou fechar aqui o chat. E, olha só, eu tenho esses arquivos aqui para comitar. Eu tenho aqui várias alterações que a gente fez. Então, eu vou... Vou habilitar isso aqui, vou dar um CLS para dar uma limpada aqui, estou no meu terminal e vou dar aqui um git add, git commit, menos m, implementação, epic 1, traço 1, vou colocar aqui que foi autenticação, criação e criação de usuário, vou dar um commit, e vou criar aqui, vou dar o push desta branch, e agora eu sei que eu estou garantido que a minha versão da epic 1-1 foi salva tanto na nuvem quanto aqui localmente. Então é isso, um abraço e até a próxima aula.

@@ -1,0 +1,12 @@
+﻿# 1.1 - O que você irá aprender
+
+- Curso: Framework NoCode StartUp.AI
+- Trilha: Trilha Agentes IA
+- Módulo: 1 - Introdução
+- Duração: 00:01:26
+- Aula: https://flix.nocodestartup.io/m/lessons/4685
+- Vídeo: 3b082bf6-b1ca-43d3-899e-f02e89358d25
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo a aula sobre metodologia de desenvolvimento da NoCode Startup AI. A gente criou todo um framework completo, um material que você vai conseguir organizar qualquer tipo de solução e a... passo a passo. A gente vai lá desde o planejamento da solução até a estruturação técnica, desenvolvimento e o lançamento desse produto que você vai criar, tá? Isso vale pra qualquer tipo de projeto, seja um agente de ar, seja uma plataforma, seja uma EVP que você está construindo, ou seja, só um projeto teste, tá? Vai ser bem útil pra você criar qualquer tipo de projeto. Bom, nesse framework você vai ver a metodologia para criar esse tipo de solução e depois dessas aulas aqui você vai entender o passo a passo para criar qualquer tipo de projeto com IA. Então você não vai ficar mais perdido. A gente via muitos alunos falando, cara, Castelo, como é que eu faço? Me traz aí uma metodologia. Então a gente juntou o que tinha de melhor do mercado, o que tinha de melhor aqui, a parte estratégica, didática, para ficar claro para você. Além disso, se você for oferecer serviços de agentes... de ar, de projetos de ar, você vai poder implementar esse material e fornecer também como um diferencial na entrega do seu serviço, com certeza você vai conseguir cobrar pelo menos o dobro, só por conta dessa entrega que vai ficar profissional, beleza? Vamos lá então, vamos conversar sobre essa metodologia, vou fazer um resumo aqui, depois a gente vai entrar no material lá que eu vou deixar e a gente vai ver passo a passo e tá legal demais, tenho certeza que você vai gostar bastante. Bora lá!

@@ -1,0 +1,12 @@
+﻿# 3.1 - Objetivo do Módulo
+
+- Curso: Fundamentos N8N - Domine o 80/20
+- Trilha: Trilha Agentes IA
+- Módulo: 3 - Principais Nodes N8N
+- Duração: 00:01:05
+- Aula: https://flix.nocodestartup.io/m/lessons/4056
+- Vídeo: 9dd6fc40-c537-4a94-a027-c57e3aa3306d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bacana pessoal, recadinho rapidinho aqui antes desse nosso módulo 8020. O objetivo desse nosso módulo é te passar da maneira mais rápida que a gente conseguir os principais módulos e as suas principais funcionalidades de uma maneira um pouco mais teórica. Então a gente vai trazer o nódulo de maneira mais teórica mostrando qual é o objetivo dele, para que ele serve. Nesse primeiro momento, esse é o objetivo. Não é nosso objetivo explorar todo o N8N, todas as suas funcionalidades, que enfim, é muita coisa. A gente ficaria... muito na teoria. Logo já no nosso primeiro case, a gente vem envelopando todo esse conhecimento 80-20 dos principais nodes aqui, já criando uma automação na prática. Então o objetivo é a gente ser menos teórico, passar a teoria para dar a fundamentação, mas a gente já ir para a prática logo em seguida. E aí, nodes mais avançados, funcionalidades mais avançadas, a gente vai aprendendo durante a construção das nossas automações e no futuro também a gente vem criar aí um módulo voltado para a gente explorar nodes mais avançados e funcionalidades mais avançadas entre esses nodes. Beleza? Ficamos combinados assim, então a ideia é a gente ir bem direto ao ponto nas próximas aulas no que de fato importa. Vejo vocês nas próximas aulas.

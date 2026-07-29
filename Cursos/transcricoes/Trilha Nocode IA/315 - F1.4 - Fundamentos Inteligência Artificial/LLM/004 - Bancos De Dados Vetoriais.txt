@@ -1,0 +1,12 @@
+﻿# Bancos De Dados Vetoriais
+
+- Curso: F1.4 - Fundamentos Inteligência Artificial
+- Trilha: Trilha Nocode IA
+- Módulo: LLM
+- Duração: 00:02:05
+- Aula: https://flix.nocodestartup.io/m/lessons/3177
+- Vídeo: 7e91973b-c30b-4fe3-9af9-918ca93f707f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, eu espero que tenha ficado claro para você o que é embedding, essa forma de transformar textos, palavras em vetores e agora vamos entender o que são bancos de dados vetoriais. Então, bancos de dados vetoriais vão ser sistemas projetados para armazenar, consultar, manipular dados em formato vetorial, esse formato que eu falei, formato vetorial multidimensional, especialmente úteis no contexto de dados de alta dimensão como imagem, vídeos e textos, tá? Então como os dados eles não são estruturados no mundo real, né? Por exemplo, áudio, texto, vídeos. A gente consegue transformar esses dados por meio de modelos em embeddings. Então um áudio a gente também consegue transformar num vetor bem grande que vai ser um vector audio, né? Os textos a gente também consegue transformar em vetores e os vídeos também a gente consegue fracionar em várias partes pra transformar em vetores. Então a gente vai representar esses dados no formato vetorial. esses bancos de dados vetoriais, tá? Eles são bem importantes porque eles têm uma indexação eficiente, a gente consegue indexar cada vetor lá no nosso banco pra fazer uma busca super rápida. E essa busca geralmente, como eu falei, né? Na multidimensão, a gente vai fazer uma busca aí por similaridade, tá? Então os itens são buscados de forma mais semelhante. E também os bancos de dados são muito escaláveis e rápidos. É por isso que a gente utiliza isso na parte aí de inteligência artificial. A gente tem alguns principais bancos de dados vetoriais do mercado, né? Tem os mais famosos que é o Pinecone e o Regis. E a gente também tem alguns bancos de dados aqui, o Open Source, que é o Quadrant e o Milvus, tá? Aqui a gente também tem o Supabase, que a gente vai falar bastante dentro da formação, que é um back-end, que também tem a opção do banco de dados vetorial, que é bastante utilizado, tá? A gente vai usar bastante o Supabase por ser um formato excelente de back-end. Então, eu espero que tenha ficado claro que são bancos de dados vetoriais e todo o processo de tokenização e embedding. Isso é bem importante para você ter uma noção geral desses conceitos. Então, a gente está quase finalizando. Bora para as últimas aulas.

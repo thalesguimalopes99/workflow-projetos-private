@@ -1,0 +1,12 @@
+﻿# Vinculando sua Conta do Google Sheets
+
+- Curso: Make | Fundamentos Automações com Make
+- Trilha: Trilha Automações Make
+- Módulo: Fundamentos Make
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/2836
+- Vídeo: 3847ec8e-4ebd-4ce7-8f17-8fbe99895096
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Voltando então, a gente vai colocar aqui o nosso Rota, que é o nosso separador de caminhos. Ele serve para a gente criar vários fluxos dentro do nosso fluxo. Então, várias rotas dentro do nosso fluxo. Então, o primeiro comando que a gente vai dar aqui é no Google Sheets. Repara que a gente excluiu ali o nosso acesso. As nossas conexões aqui estão limpas. Então, para a gente fazer a nossa conexão com o Google Sheets, eu vou colocar... colocar aqui o módulo e vou inserir a função e depois disso ele vai me pedir, tá, beleza, você quer trabalhar com a planilha, mas que planilha é essa? Quem é o dono dessa planilha? Então, basta você clicar ali no sign in com o Google, que ele vai te pedir o seu acesso, obviamente, e pode ficar tranquilo que o Make é uma empresa super segura, tem aí seus certificados de segurança internacionais, seus dados são seguros aqui dentro, pode ficar despreocupado e, basicamente, ele já fez ali o nosso vínculo com o nosso Drive, que é o nosso Gmail. Então, a partir desse momento, eu só preciso clicar aqui e escolher uma planilha qualquer, que no meu caso aqui, você pode fazer essa planilha aqui, pode ficar à vontade, crie aí uma planilhinha, renomeia ela com o dado que você quer e coloca essas cinco colunas aí, o A, B, C, D, E, F, que é texto, texto formatado, a data, a data formatada, o número e o número formatado, que a gente vai utilizar essas funções a partir de agora, certo? Então, pausa aí, faz a conexão e primeiro, cria a planilha. E faz a sua conexão do Google enquanto eu tomo um gole d'água aqui.

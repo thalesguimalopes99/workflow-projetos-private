@@ -1,0 +1,12 @@
+﻿# 9 - Aprendizados
+
+- Curso: M5 - Workflows Dify
+- Trilha: Trilha Dify
+- Módulo: Workflows Na Prática
+- Duração: 00:00:53
+- Aula: https://flix.nocodestartup.io/m/lessons/3825
+- Vídeo: a7b67386-7d4e-40d1-a051-7547a664de27
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim desse módulo aqui. No próximo a gente vai completar o nosso workflow para colocar ações de agendamento, tanto de consultar a agenda, como criar uma nova agenda. Então a gente já fez basicamente a metade do nosso workflow e no próximo a gente vai finalizar. Então espero que você tenha aprendido bastante nesse módulo. O objetivo foi dar um overview geral sobre workflows e como você usar os principais nós, os principais blocos que a gente tem no workflow do DeFi. Lembrando também para você sempre testar... colocar tudo aquilo no prompt, né, pra testar direto lá no nosso chat, no nosso agente, que às vezes pode ser mais fácil do que fazer um workflow que você pode ter muita personalização. A gente ganha isso de flexibilidade, conseguir usar lm diferentes, a gente consegue economizar muito, mas também tem essa maior complexidade e um pouco mais de dificuldade nos caminhos. Mas bora lá então pra parte de agendamento pra gente finalizar esse projeto. Te vejo no próximo módulo.

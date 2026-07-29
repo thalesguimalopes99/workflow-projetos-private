@@ -1,0 +1,12 @@
+﻿# O Que Você Vai Aprender
+
+- Curso: F5.6 - Gerindo Assinaturas do seu MicroSaaS
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:09
+- Aula: https://flix.nocodestartup.io/m/lessons/3497
+- Vídeo: 705a264d-b3dc-4185-a3c0-582e5c37aaa7
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de assinaturas. Agora você vai entender como monetizar seu app e conseguir cobrar por uma assinatura no seu serviço. Bora ver o que a gente vai aprender. Nessas aulas aqui você vai aprender como é que funciona os pagamentos. Então vai ficar claro como é que você pode utilizar os gates de pagamento para coletar o dinheiro das assinaturas ou de qualquer outra venda. do seu serviço. Além disso, a gente vai fazer uma revisão completa aqui sobre APIs e Webhooks, bem rapidinho. Também vamos entrar de novo na ferramenta Make para fazer essas alterações e a gente vai fazer toda a integração entre a plataforma lá no Flutter Flow, o Make como as integrações e o Stripe para os nossos pagamentos. A gente vai utilizar o Gateway de pagamento Stripe porque é um dos melhores que tem para serem usados aí no mercado. Depois dessas aulas aqui, você vai aprender como é que funciona os pagamentos e também vai entender como colocar assinaturas dentro do seu app para você conseguir receber aquela graninha da assinatura e aí conseguir monetizar com o seu microSaaS. Então agora bora começar essas aulas que elas estão bem legais e bem interessantes. Bora lá!

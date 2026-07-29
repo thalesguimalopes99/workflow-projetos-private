@@ -1,0 +1,12 @@
+﻿# 3.4 - Variaveis de Ambiente utilizadas pelas Edge Functions
+
+- Curso: Funções, Triggers e Edge Functions | Supabase Intermediário
+- Trilha: Trilha Supabase Completo 
+- Módulo: 3 - Edge Functions - O poder das Funções de Borda
+- Duração: 00:02:40
+- Aula: https://flix.nocodestartup.io/m/lessons/5238
+- Vídeo: a85a2cb3-9185-422f-9f18-6439d6c82463
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, você se recorda que na aula anterior eu comentei, num dado momento da aula, sobre variáveis de ambiente. O que são variáveis de ambiente? As variáveis de ambiente são as chaves que estão dentro lá do nosso banco de dados, dentro lá do back-end, lá no servidor, e essas chaves estão protegidas pela camada de segurança do Supabase. Quando a AdFunctions... e é invocada pelo servidor que está próximo ao seu usuário final, ele passa uma variável que representa essa chave que está guardada lá no nosso back-end. Vou te mostrar aqui, olha. Aqui no Supabase, na nossa função anterior, eu usei aqui esta variável aqui, Supabase URL e Supabase Anon Key. Então, essas variáveis, elas são globais, tá? E elas estão onde aqui dentro do seu banco de dados? Elas estão aqui, ó, em Secrets. Dentro aqui de Add Functions, em Secrets, eu tenho as minhas variáveis globais. Ou seja, quando a função, quando eu tô aqui na função, eu tô aqui no código da função, e eu invocar essa variável aqui, ó, SupabaseAnonKey, não está sendo exposta, você tem que entender bem aqui, o valor da sua variável não está sendo exposta lá para o seu usuário final, na chamada, mas sim a EdFunction sabe, aqui eu vou usar a Supabase AnonKey, então ela manda esse recado lá para o servidor, para o nosso back-end, e ele usa aquelas credenciais. para executar as ações. Então é isso. Olha só, aqui em Secrets, a gente tem todas as variáveis. SupabaseRule, URL, SupabaseAnonKey, SupabaseServiceRule, que é uma das mais poderosas que tem aqui dentro, que eu já comentei com você em outras aulas, e SupabaseDBURL. E era isso que ficou faltando. Eu te... mostrar-te e ensinar onde ler e como são utilizadas essas variáveis de ambiente para que as add functions possam ter autenticidade, que elas possam ter autorizações para manipular dados e informações dentro do nosso back-end. Um abraço, até a próxima aula.

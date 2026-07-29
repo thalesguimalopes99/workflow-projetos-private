@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Aplicativo de Chat | Mensagens em Tempo Real
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:17
+- Aula: https://flix.nocodestartup.io/m/lessons/2780
+- Vídeo: c32eb4d3-dde8-4cab-b31a-4ed16afcc37f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá pessoal, sejam muito bem-vindos a mais uma trilha aqui da NoCode Startup. O meu nome é Daniel Neto, mas muitos me conhecem como Neto NoCode e é um prazer imenso fazer parte aqui dessa família. Eu gostaria de apresentar para vocês o nosso aplicativo de chat, aonde vamos estar enviando tanto mensagens quanto imagens e, sem muita enrolação, vamos entender o que nós vamos aprender durante essa nossa nova trilha. A primeira coisa que eu vou estar explicando para vocês... É como que funciona, tanto em relação ao banco de dados, quanto do front-end, o sistema de envio de mensagens, tanto de texto quanto das imagens. Depois, eu vou estar explicando para vocês como que funciona um sistema de busca. Lembrando que eu fiz uma trilha exclusiva falando apenas sobre sistemas de busca, tá bom? Mas eu vou estar explicando novamente aqui dentro dessa trilha como fazer para buscar aquela conversa em específico, tá bom? Daquela pessoa em específico. E, para finalizar, A gente vai estar manipulando todas essas informações em tempo real. Vou estar logando em contas diferentes e nós vamos estar trocando uma ideia. Vou estar mandando mensagem de um para o outro e vocês vão ver que essa mensagem vai carregar em tempo real para os dois usuários. E isso é uma coisa muito legal da gente aprender como funciona dentro do Flutter Flow.

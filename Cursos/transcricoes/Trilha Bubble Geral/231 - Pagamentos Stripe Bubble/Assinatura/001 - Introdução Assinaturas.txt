@@ -1,0 +1,12 @@
+﻿# Introdução Assinaturas
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinatura
+- Duração: 00:00:41
+- Aula: https://flix.nocodestartup.io/m/lessons/2531
+- Vídeo: 4d12ebae-8076-40ba-924b-5c68bd9ae43d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos a mais um módulo do nosso curso de Stripe, onde a gente vai estar aprendendo sobre assinaturas no Bubble utilizando o Stripe. A gente vai estar aprendendo sobre introdução de assinaturas no Bubble. escrever o usuário a uma assinatura, cancelar o plano do usuário, alterar o plano atual daquele usuário, alterar o cartão de cobrança, o usuário tem um cartão já definido onde é realizada as cobranças, e ele quer alterar para um novo, a gente vai fazer isso também. A gente vai fazer a liberação do usuário, liberar os benefícios daquele plano, cancelar o plano do usuário também, entre outras coisas que eu vou estar passando para vocês no decorrer das aulas.

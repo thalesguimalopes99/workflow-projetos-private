@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Dominando o Whatsapp no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Multi-Instancias
+- Duração: 00:00:20
+- Aula: https://flix.nocodestartup.io/m/lessons/3338
+- Vídeo: f8617de4-8809-4b68-98d5-4e21100b3736
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, pessoal! Sejam bem-vindos para mais uma aula e nessa aula a gente vai falar sobre multi-estâncias. Vou ensinar para vocês como criar o painel de conexão multi-estâncias dentro do seu sistema. E a API que a gente vai estar utilizando para isso vai ser a WhatsApp, tá bom? Na próxima aula eu vou estar mostrando para vocês a documentação da WhatsApp e o que a gente vai estar fazendo utilizando essa documentação.

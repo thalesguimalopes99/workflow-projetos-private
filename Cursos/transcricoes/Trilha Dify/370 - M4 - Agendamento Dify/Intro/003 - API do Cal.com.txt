@@ -1,0 +1,12 @@
+﻿# API do Cal.com
+
+- Curso: M4 - Agendamento Dify
+- Trilha: Trilha Dify
+- Módulo: Intro
+- Duração: 00:01:43
+- Aula: https://flix.nocodestartup.io/m/lessons/4138
+- Vídeo: 5589e887-a9a0-455d-8ff2-03426329c0f8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Galera, e algo importante pra você entender toda vez que você vai integrar com algum serviço é sobre a API daquele serviço. Quero conectar com o call.com, a gente vai ter que entender a API do call.com. Quero conectar com o meta, tem que entender a API do meta. Quero conectar com o asas, tem que entender a API do asas. Então sempre que for conectar com algum serviço, no seu app, no seu agente, você tem que entender a API. Então eu vou vir aqui, documentação da API do call.com, tá? Só colocar no Google e eu fui aqui na API V1 Reference. Então aqui a gente vai ter, se for vir em slots, a gente tem uma autorização, uma chamada API que a gente pega todos os horários disponíveis, que é o get slots. Então, aqui fica bem organizadinho e bem legal pra gente aprender. Então, na hora que a gente for conectado do N2N pro call.com, eu já vou deixar pronto a parte de pegar os horários da agenda daquela pessoa, daquele médico. E um outro ponto importante aqui é para criar novas reservas. Então se a gente for aqui para baixo, a gente tem Bookings. Create New Booking. Então quando a gente for lá na nossa automação no E-20, já vou deixar pronto aqui para a gente conseguir criar uma nova reserva. Então a gente está fazendo aqui a parte de consultar as datas. disponíveis e conseguir criar reserva que é o que um agente de agendamento pode fazer. Depois você pode melhorar esse agente, né? Aí você pode dar uma olhada aqui, entender como é que funciona, por exemplo, se a gente quiser deletar, ó, quiser fazer uma, deletar uma agenda, então é só você fazer essa chamada API. Então entenda os fundamentos que depois é só você ir melhorando, tá? Mas vai se ambientando aqui com a API do qual.com que depois a gente vai usar. Eu já vou trazer pronto a integração, tá? Mas basicamente vai ser a chamada API, certo? Então, bora continuar agora que você já entendeu a API do qual.com.

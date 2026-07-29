@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: M3.2 - Integração Xano e Flutterflow | App de Filmes
+- Trilha: (sem trilha)
+- Módulo: Conclusão
+- Duração: 00:01:02
+- Aula: https://flix.nocodestartup.io/m/lessons/2519
+- Vídeo: 47b5e9c0-e6fc-4b85-8284-c387a146dfb8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E finalmente finalizamos os três módulos iniciais de Zeno e conseguimos finalizar toda essa parte completa. Então agora a gente já conseguiu entender como fazer e conseguir planejar um projeto inteiro lá dentro do Zeno. Entendemos como criar tabelas e APIs e também como criar um aplicativo do zero. no Flutter Flow conectado com o Xeno. Espero que você tenha gostado e de todos esses aprendizados. A gente viu toda essa parte de integração do Flutter Flow, o app do zero, fazer o CRUD, fazer a autenticação, as mídias, os filtros também, fazer o pesquisa de busca. Se você quiser publicar o seu aplicativo, é só publicar ele na web também, se quiser publicar pelo Flutter Flow, ou publicar pelo PWA. Se você nunca fez isso, dá uma moeda lá no começo da nossa trilha, das nossas formações que tem lá na trilha inicial. com publicar em PWA, tá bom? Se quiser publicar também nas lojas oficiais, também é possível. Tem na nossa trilha lá do Zero Web App que eu também ensino a publicar nas lojas oficiais. Só seguir o passo a passo. Espero que vocês tenham gostado. Então ficamos por aqui e até mais.

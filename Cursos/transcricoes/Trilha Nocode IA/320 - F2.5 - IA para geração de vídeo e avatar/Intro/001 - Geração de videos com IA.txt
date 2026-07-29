@@ -1,0 +1,12 @@
+﻿# Geração de videos com IA
+
+- Curso: F2.5 - IA para geração de vídeo e avatar
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/3241
+- Vídeo: c10350a3-085e-4ebf-914b-0dbbe757a851
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de criação de vídeos com inteligência artificial. Aqui você vai aprender como criar vídeos incríveis usando os modelos e as principais ferramentas do mercado. Bora ver! Então você vai aprender como utilizar as ferramentas mais famosas do mercado para a geração de vídeo. E aqui, dentro dessas aulas, você também vai ver um pouco mais sobre o Runaway e o Diffusion, o Stable Diffusion na prática, beleza? utilizar os principais modelos para a criação de vídeos no seu dia a dia. Então você vai ter um entendimento geral de quais são os melhores modelos e também quais são as melhores ferramentas para criar vídeos irados. Então bora começar essas aulas que estão iradas demais.

@@ -1,0 +1,12 @@
+﻿# 7 - If_Else (Se_Se Não)
+
+- Curso: M5 - Workflows Dify
+- Trilha: Trilha Dify
+- Módulo: Workflows Na Prática
+- Duração: 00:02:35
+- Aula: https://flix.nocodestartup.io/m/lessons/3823
+- Vídeo: 06f80845-73cd-4bea-8ddb-ce72e21e2f93
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então agora, o que a gente pode fazer? Vou fazer aqui uma consulta, né? Vou ver se essa variável que a gente criou, que é a variável de infomédicos, né? Variável infomédicos, ela é vazia ou não? Se ela já estiver com o valor ok, a gente não precisa rodar ela, né? Senão vai ficar rodando toda hora. Vamos vir aqui, ó, esse não, e vamos colocar aqui, ó. Se a variável infomédicos for o valor, pode vir aqui, ó, está vazio. O que vai acontecer? Se está vazio, a gente precisa rodar a nossa função, né? Porque não rodou a função ainda, né? Deixa eu colocar aqui tudo juntinho para a gente não ficar perdido. Mas se ela não for vazio, eu posso só responder aqui, né? Vamos responder. Duplicar. Vim aqui, né? Podemos responder aqui. Descobrir médico. E aí aqui a gente pode também duplicar. Perfeito. duplicar e responder aqui, né? Então daí não precisa ficar rodando várias vezes. E aqui, na verdade, vamos colocar aqui descobrir médico 2, tá? Mas é a mesma coisa. A gente vai usar o contexto da variável infomédicos e aqui a gente resposta info 2, tá? E responde aqui, ó, descobrir médico 2, beleza? Daí dessa forma a gente não precisa ficar rodando a função várias vezes. Vamos ver se deu certo. Oi, quais médicos você tem? Certo? Vamos colocar aqui, quais médicos você tem? Vai rodar. Rodou, já preencheu aqui com o nome dos médicos. Então não é vazio. Ele olhou aqui, está vazio, consultou. Vamos perguntar aqui, quais especialidades? Vamos ver se ele responde. Especialidades, rodou. Então ele já viu aqui. que estava cheio, né? Estava com um valor. E aí ele respondeu as especialidades. Então aqui está funcionando. E dessa forma a gente consegue ser mais organizado em relação a nossas funções, tá? Então aqui a gente já está fazendo tudo certinho. E a gente pode ir já para a parte de realizar o agendamento, tá? Que a gente vai conseguir fazer aqui. Antes de realizar o agendamento, vamos deixar aqui um pouco mais organizado, estruturado, para quando a gente for fazer a parte de agendamento, a gente conseguir ser mais direto ao ponto. Bora lá!

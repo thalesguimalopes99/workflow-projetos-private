@@ -1,0 +1,12 @@
+﻿# Atualizando Custom Functions
+
+- Curso: F5.4 - Conectando Assistente de IA aos Dados do App
+- Trilha: Trilha Nocode IA
+- Módulo: Function Calling Getdespesas
+- Duração: 00:02:34
+- Aula: https://flix.nocodestartup.io/m/lessons/3463
+- Vídeo: 192f17de-4d68-47c3-a68d-f295a042af15
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora, o que falta também é a gente atualizar nossas funções, nossas custom functions, lá no Flutter Flow, tá bom? Então, vem comigo. Aqui, vamos vir lá, ó, aqui nas nossas funções. A gente tem o código da moeda aqui, né? E o que eu posso fazer é atualizar. Agora, eu quero puxar a categoria, né? A categoria. Então, eu vou atualizar aqui, do nosso arquivo JSON, a categoria. E depois, eu quero puxar também o tipo, né? Então, extrair código categoria. Então aqui atualizei o nome. Pra gente testar, vai seguir o mesmo padrão aqui da moeda, tá? Sempre vai vir nesse padrãozinho aqui, tá? E o que a gente tem que fazer só é tirar esses colchetes aqui, essas barras. Mas, por exemplo, a gente já sabe que vai vir aqui na categoria. E aqui, né? Vai ter a categoria, né? Por exemplo, o supermercado. Vai vir assim. Aqui pode tirar os colchetes, eu acho. Pra gente testar nossa função. Você já vai pegar a categoria supermercado. Daí ele vai trazer certinho, tá? Esse resultado que vai chegar. E vai trazer certinho. Lembrando que se você não fez as aulas de Function Calling. Lá da parte da moeda, né? As nossas primeiras aulas. É muito importante que você faça. Beleza. Aqui, ó. Extrair código categoria. Não é nem extrair. Vou deixar assim. Extrair categoria, tá? Salvar. Eu vou duplicar. E a gente vai ter aqui também o extrair. Tipo. Tá? Function Code aqui. A gente vem aqui e escreve tipo, tá? Tipo. Tipo. E aqui a gente sabe que vai ser nesse modelo, né? Vai ter aqui o tipo, né? O tipo. Entrada ou saída. A gente consegue até testar aqui. Tipo saída. Vamos ver se a nossa função vai extrair certinho. A nossa Custom Code. Vai vir certinho. Vou salvar aqui. E também tem que dar esse botãozinho aqui, ó. Pra checar. Beleza? Beleza. Então aqui está as nossas funções certinho. O que a gente pode fazer também é corrigir aqui. Aqui várias ações mudaram, né? Que eu mudei alguns nomes. Daí eu vou ter que corrigir. Então bora corrigir aqui na próxima aula para a gente começar a testar aqui a nossa action, né? Para a gente conseguir testar e ver se está funcionando agora. Se ele vai chamar direitinho a nossa função. Bora lá.

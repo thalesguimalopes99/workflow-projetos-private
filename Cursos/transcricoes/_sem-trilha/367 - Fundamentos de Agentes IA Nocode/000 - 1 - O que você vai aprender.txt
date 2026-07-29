@@ -1,0 +1,11 @@
+﻿# 1 - O que você vai aprender
+
+- Curso: Fundamentos de Agentes IA Nocode
+- Trilha: (sem trilha)
+- Duração: 00:00:53
+- Aula: https://flix.nocodestartup.io/m/lessons/3827
+- Vídeo: 4f40c317-4e3d-49e8-974a-29e72a5d4a14
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E seja muito bem-vindo às aulas de Fundamentos de Agentes. E olha só o que você vai aprender. Você vai aprender sobre os modelos de IA e os melhores modelos de Large Language Model, que são os LLMs. Além disso, vai aprender sobre Embeddings e Bancos Vetoriais, que é um conceito que a gente vai usar e utilizar em toda a formação. E também, fundamentos de agente de IA, o que faz o agente de IA, o que é estruturado. Depois disso, você vai ter entendimento completo dos fundamentos das LLMs sobre os agentes para conseguir colocar em prática todos esses conceitos. Lembrando que essas aulas são os fundamentos, depois a gente vai para a prática, então eu acho importante que você seguir fazendo junto aqui, acompanhando na ordem para conseguir tirar o máximo proveito. Depois disso, você vai conseguir trocar o seu projeto sozinho e aí rever aulas específicas quando necessário e acessar a comunidade específica. Então, bora lá!

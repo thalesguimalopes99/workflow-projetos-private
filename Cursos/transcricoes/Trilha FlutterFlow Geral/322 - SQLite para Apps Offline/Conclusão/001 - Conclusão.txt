@@ -1,0 +1,12 @@
+﻿# Conclusão
+
+- Curso: SQLite para Apps Offline
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:00:42
+- Aula: https://flix.nocodestartup.io/m/lessons/3315
+- Vídeo: 82ac4898-403b-40f2-b705-b0b6055f2d24
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, então pegando ao fim do módulo de SQLite, a gente aprendeu como criar e manipular um banco de dados SQLite dentro do Flutter Flow, a gente aprendeu a usar o VS Code para testar nosso aplicativo direto com o nosso celular, ok? Diferente do módulo lá de VS Code, onde a gente fez com o emulador, aqui a gente usou nosso próprio celular para testar a aplicação, ok? E a gente também aprendeu como fazer um sincronismo com o Supabase, ou seja, como mandar as informações que estão localmente no SQLite direto para o teu banco Supabase. Beleza? Bom, espero que vocês tenham gostado. E se gostaram, fiquem ligados aí na NoCostSertup que está vindo muita novidade boa e tem muito conteúdo bom esperando por vocês. Ok? Até a próxima.

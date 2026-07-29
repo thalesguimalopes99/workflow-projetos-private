@@ -1,0 +1,12 @@
+﻿# 1 - Cases iniciantes
+
+- Curso: 3.1.4 - Case Iniciante
+- Trilha: Trilha Agentic Builder OpenClaw
+- Módulo: Cases Iniciantes
+- Duração: 00:01:37
+- Aula: https://flix.nocodestartup.io/m/lessons/5592
+- Vídeo: 57ef9df2-01fb-45ec-a56e-0662410d3d9e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Vamos agora para o nosso módulo 4, módulo agora de cases iniciantes. Vamos já colocar a mão na massa. Vamos fazer aqui dois cases para vocês, bem legais, vou apresentar aqui para todos vocês. O que a gente vai construir? Dois cases práticos que vão sair do completamente zero e já funcionando. O primeiro case vai ser uma newsletter diária. Então, quem tem sua newsletter, quem gosta de acompanhar, quem sempre está lendo e-mail, você pode construir sua própria newsletter aqui no caso. Então, vamos construir um case aqui que vai ser todo dia às 9 da manhã. A gente vai buscar nas principais notícias do seu nicho e entrega um resumo no seu Telegram sem fazer nada. O que vai ser editado aqui? Então, a gente vai trabalhar com o herfbit.md, o soul.md e o Telegram ali internamente, o nosso gateway de acesso que a gente está usando como padrão. O segundo case, nós já vamos usar um marketplace de API que vai ser a WAPFI, mais uma API do Instagram deles lá. Então a gente vai conectar o WAPFI via MCP e pedir para o agente para ele analisar posts, hashtags, concorrentes do Instagram em uma linguagem natural. Vamos conversar ali com um amigo normal. O que nós vamos trabalhar aqui então? MCP, WAPFI e Instagram. Beleza? Então, vão ser dois cases bem legais aqui. Vou tentar trazer para vocês coisas que vocês... Vai dar um pontapé inicial para vocês já criarem as próximas automações. Beleza? Então, vamos lá para a nossa próxima aula.

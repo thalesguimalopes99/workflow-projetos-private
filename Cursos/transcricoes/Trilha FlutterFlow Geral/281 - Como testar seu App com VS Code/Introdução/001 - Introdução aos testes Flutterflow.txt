@@ -1,0 +1,12 @@
+﻿# Introdução aos testes Flutterflow
+
+- Curso: Como testar seu App com VS Code
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:36
+- Aula: https://flix.nocodestartup.io/m/lessons/3033
+- Vídeo: 2b7e4e40-d411-4676-9d71-e8a3cb342cf3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Meu nome é Renan e eu faço parte aqui do time de experts da NoCode Startup. Nesse módulo a gente vai aprender a como baixar o teu código do Flutter Flow pra testar em um emulador Android, beleza? Pra fazer isso eu separei esses tópicos aqui, onde a gente vai ver perguntas e respostas comuns em relação ao teste de aplicativos, o que é o Visual Studio Code, o que é o seu emulador celular, e na sequência eu vou fazer um passo a passo mostrando como baixar, configurar, instalar. e testar o teu aplicativo, ok? Só lembrando que o foco desse módulo é teste em emuladores Android, beleza? E outro ponto importante é que você vai precisar de uma versão paga do Flutter Flow para poder fazer esse teste, porque só nas versões pagas que você consegue baixar o teu código, ok? Aí você me pergunta, por que testar? em uma IDR, igual Visual Studio Code. Por que não testar direto no Flutter Flow? Porque, basicamente, algumas features nativas do dispositivo, você não consegue testar na versão web, ok? Lembra que quando você usa o modo teste ou run lá do Flutter Flow, você está testando na versão web do teu aplicativo. Por mais que apareça uma telinha no formato de um celular, de um tablet, aquilo lá é tudo versão web, ok? Para testar de forma nativa, ou você testa num dispositivo físico, ou no emulador, que é o foco desse curso. Beleza? Num dispositivo físico, você consegue ter acesso a vários recursos nativos, como, por exemplo, o SQLite. Inclusive, a gente vai ter um módulo específico de como usar o SQLite aqui na NoCode Startup. Beleza? Tendo isso bem explicado, vamos começar agora, então, com o nosso curso. Ok? Te vejo na próxima aula.

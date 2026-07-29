@@ -1,0 +1,12 @@
+﻿# 6.1 - Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Filtros
+- Duração: 00:00:30
+- Aula: https://flix.nocodestartup.io/m/lessons/3769
+- Vídeo: 111136a0-bf18-4bb8-a2ec-ab5f6abc3e9f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais um módulo e nesse módulo a gente vai estar aprendendo a criar os nossos filtros da agenda dinâmica, tá? Vamos aprender a filtrar as datas disponíveis de acordo com o profissional que a gente selecionou, vamos aprender a filtrar os horários disponíveis de acordo com o profissional e a data que foi selecionado e a gente vai aprender também a filtrar horários que já foram agendados, horários que não estão mais disponíveis na agenda. Na próxima aula a gente vai estar aprendendo a criar os filtros de data.

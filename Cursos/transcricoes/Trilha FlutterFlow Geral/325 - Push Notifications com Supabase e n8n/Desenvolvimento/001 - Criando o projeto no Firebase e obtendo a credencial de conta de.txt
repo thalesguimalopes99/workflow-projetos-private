@@ -1,0 +1,12 @@
+﻿# Criando o projeto no Firebase e obtendo a credencial de conta de serviço
+
+- Curso: Push Notifications com Supabase e n8n
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Desenvolvimento
+- Duração: 00:02:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3477
+- Vídeo: 7cc3bfec-7f74-479e-bed4-c95b61b8cbb8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, nessa aula a gente vai aprender como configurar nosso projeto no Firebase e obter a nossa chave de conta de serviço. Bom, para começar, eu entro aqui nas configurações, depois em Firebase. Aqui, como eu já criei o meu projeto, ele mostra essa mensagem, mas para você vai ter uma mensagem de criar projeto, você só insere o nome e dá um OK, beleza? Na sequência ele habilita essa opção aqui embaixo para a gente, depois é só clicar aqui em gerar arquivos de configuração. Isso aqui não demora nem um minuto. E uma vez que ele termina de configurar o Firebase, você pode conferir o teu projeto criado lá no console do Firebase. Beleza? Eu vou entrar aqui no projeto. Depois eu vou entrar na seção de configurações do projeto. E por último, em contas de serviço. Nessa seção a gente consegue criar as nossas chaves privadas. Então eu vou criar uma chave privada para acessar a conta de serviço. Então na hora que você clica aqui... Ele dá essa mensagem falando para você não compartilhar essa chave com ninguém. E na hora que você clica em gerar chave, ele gera um arquivo JSON, que você pode abrir ou pelo bloco de notas, ou no meu caso aqui, no VS Code. Beleza? Aqui, óbvio, eu estou mostrando porque eu vou excluir essa chave depois, mas você tem a responsabilidade de manter essa chave segura, ok? Desse JSON todo, a gente vai usar apenas esse client e-mail e o private key. Beleza? bater lá no Google Alpha, obter o token, e esse token vai ser utilizado para ativar o endpoint que envia de fato as notificações. Lembra que eu falei que todo esse processo o próprio N8n gerencia, então vai ficar muito mais simples para a gente. A gente vai ver mais na prática nas próximas aulas, é só para adiantar o que vai ser feito. Na próxima aula a gente vai ver como obter um token no Flutter Flow. para que o FCM envie essas notificações somente para os tokens que estão cadastrados, ok? Mas isso a gente vê na próxima aula. Valeu e até a próxima.

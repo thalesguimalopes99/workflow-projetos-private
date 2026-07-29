@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F1.3 - Fundamentos Desenvolvimento de Software
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:25
+- Aula: https://flix.nocodestartup.io/m/lessons/3169
+- Vídeo: 02ae0958-ff46-44c5-bc9e-b136d25a97ee
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos na finalização dessas aulas sobre os fundamentos de software. Espero que você tenha ficado bastante claro sobre o que é um software, toda a parte de comunicação de APIs, que é um assunto super importante, API WebHook te vai usar bastante, também as fases de desenvolvimento de um software. Espero que você tenha gostado e te dê base para as próximas aulas. E agora a gente já pode continuar. Te vejo no próximo módulo.

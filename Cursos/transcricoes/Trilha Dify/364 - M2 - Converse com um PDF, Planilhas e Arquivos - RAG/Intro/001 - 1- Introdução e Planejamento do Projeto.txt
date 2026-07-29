@@ -1,0 +1,12 @@
+﻿# 1- Introdução e Planejamento do Projeto
+
+- Curso: M2 - Converse com um PDF, Planilhas e Arquivos | RAG
+- Trilha: Trilha Dify
+- Módulo: Intro
+- Duração: 00:02:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3799
+- Vídeo: bb0bb6ef-cb99-4d0d-ad35-a53f457ce585
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo, agora nesse módulo você vai aprender como utilizar conhecimentos personalizados para turbinar seu agente. Então planilhas, PDFs, sites externos, você vai aprender como treinar o seu agente para ele conseguir responder com base nesses conhecimentos. Bora entender! Então, nesse módulo aqui, você vai aprender sobre reg. O que é reg? Se chama Retrieval Augmented Generation. Eu vou sempre falar reg, que é mais fácil, e meu inglês não é tão bom pra essa palavra aqui. Então, a gente vai entender como é que funciona esse processo pra gente conseguir treinar nosso agente com conhecimento externo. Vai ser bem rápido e o Defy facilita bastante todo esse processo. Beleza. Legal demais. Então depois dessas aulas você vai entender como treinar o seu agente com PDF, com planilha, site e qualquer outra fonte de conhecimento. Você vai conseguir criar tipos de agentes, como por exemplo, agentes de suporte, que estão treinados com materiais personalizados da sua empresa, ou com a empresa de outras, materiais da empresa que você está precisando de serviço, e também agentes de vendas, né? Então com base nesses materiais, o agente vai conseguir vender e ele vai ser personalizado para você. Essa é uma habilidade de criar os agentes que todo mundo busca, porque... Faz muita diferença e a gente consegue criar agentes personalizados. E qual que vai ser o projeto que você vai estar criando junto comigo? Vai ser um agente de atendimento que a gente já fez um modelo inicial, integrado ao WhatsApp. Agora a gente vai treinar ele com site, com PDF e com planilha. E como que vai funcionar? Vai ter a dúvida do usuário, vai ter as instruções e ele vai fazer aqui o reg. Então ele vai consultar a nossa planilha, ele vai consultar o nosso PDF, ele vai consultar um site para ele conseguir dar uma resposta. personalizada, tá? Então esse vai ser o nosso agente personalizado que vai conseguir consultar materiais aí de qualquer tipo que você quiser treinar eles. Então sem mais enrolação, bora lá que a gente tem um resumo de conhecimento pra fazer sobre reg e sobre embeddings e depois a gente já coloca uma na massa. Bora lá!

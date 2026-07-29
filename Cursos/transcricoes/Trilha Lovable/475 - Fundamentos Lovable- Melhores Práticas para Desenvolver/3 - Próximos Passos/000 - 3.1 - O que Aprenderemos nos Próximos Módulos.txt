@@ -1,0 +1,12 @@
+﻿# 3.1 - O que Aprenderemos nos Próximos Módulos
+
+- Curso: Fundamentos Lovable: Melhores Práticas para Desenvolver
+- Trilha: Trilha Lovable
+- Módulo: 3 - Próximos Passos
+- Duração: 00:01:05
+- Aula: https://flix.nocodestartup.io/m/lessons/4861
+- Vídeo: 4447b9e9-c839-40fc-b7a7-3fa49a51cf87
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora que você já aprendeu toda a parte dos fundamentos do Lobo, a gente consegue construir os próximos módulos. A gente vai ver muito aqui sobre como criar interfaces, a partir de fundamentos e design, então vai ser importante para você ter a noção de como criar aplicativos, softwares, landing pages e sites bonitos. Depois a gente vai ver como você faz um aplicativo, um Lobo integrado com API, então vai conseguir abrir a sua cabeça para você se conectar com outros sistemas da internet e depois a gente vai entender sobre o... Backend Supabase, tá? Quando a gente fala de banco de dados, o Supabase é muito importante porque ele é o coração do nosso aplicativo. Então, seja se você quer construir aí um site, uma landing page, um agente de ar, ou você quer criar aí um projeto mais complexo, como por exemplo, um cursor que a gente vai ver lá na frente, o Supabase é o coração de tudo, tá? O seu banco de dados. Então, é importante você aprender bem, que a gente vai ver mais pra frente. Depois disso, a gente vai ver aí do zero a um app pronto com o Lobo, onde a gente vai ver todo o passo a passo. Então, siga a ordem das aulas aí. na ordem que está relacionada uma paz a outra que você vai aprender bem, tá bom? Então siga nosso plano e bora aí para a próxima aula.

@@ -1,0 +1,12 @@
+﻿# Apresentação Do App
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinatura
+- Duração: 00:00:59
+- Aula: https://flix.nocodestartup.io/m/lessons/2533
+- Vídeo: 94d56ad3-6b61-4856-947a-95ae5ac29053
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora falando do projeto, a gente vai estar utilizando o mesmo projeto que a gente fez a integração dos pagamentos avulsos lá no Checkout, tá? É o mesmo projeto, pode ver que é a mesma estrutura. A diferença ali é que a gente criou uma página dedicada para mostrar para vocês como que funciona o processo de assinaturas, tá? Desde a criação da assinatura, alterar essa assinatura, cancelar e trocar o cartão, por exemplo. A gente criou uma página dedicada para isso, que é uma página onde a gente vai estar fazendo essa integração, tá? Então nessa página a gente tem a... alguns textos visuais ali que são o ID da assinatura, o nome do usuário logado, o plano que o usuário tem ali atrelado a ele, tá? A gente tem as funções que é trocar o cartão, selecionar o plano, cancelar esse plano e alterar o cartão, tá? Tem muita enrolação, a gente já vai direto pra mão na massa, vou mostrar pra vocês como que a gente faz esse processo de assinatura, tá? É muito simples, eu tenho certeza que cada um de vocês vai pegar tranquilamente, tá bom? Então vamos lá, mão na massa.

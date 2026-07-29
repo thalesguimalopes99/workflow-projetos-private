@@ -1,0 +1,12 @@
+﻿# Ajuste
+
+- Curso: Zero ao App - Aplicativo de finanças
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Publicação
+- Duração: 00:01:27
+- Aula: https://flix.nocodestartup.io/m/lessons/3559
+- Vídeo: b930ed31-1eb6-450e-8ff8-b0d9aedd5d79
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Aqui eu só vou fazer alguns ajustes antes de testar no celular, tá? Primeiro eu vou vir aqui nessa opção, ó, colocar aqui, ó, precisa de autenticação, tá? Na nossa página, pra exigir autenticação pra pessoa chegar na home page, tá bom? E também aqui, ó, na ação que a gente fez de deixar Dark Mode, vou copiar ela aqui, ó, Copy Action, e aí eu vou lá no meu login cadastro, vou vir aqui na minha Action, aqui na minha parte mais acima, e vou colocar aqui pra baixo. paste action tá para acertar o light mode tá tanto login no cadastro aqui eu vi que na minha tela específico ficou meio estourado né acho que a minha tela mais que a maiorzão então você tem que fazer alguns ajustes aqui tá eu até posso diminuir um pouco por exemplo esse container aqui dá para fazer vários e vários ajustes tá aqui por exemplo no conteúdo nesse header aqui os totais eu posso depois dar uma ajustada e aqui na tabela de gastos Eu posso vir aqui e diminuir um pouco o tamanho desse container também, ó. Tá? No caso da minha tela aqui. Vai ficar um pouco menor. Daí eu acho que vai ficar melhor também. Mas beleza. Agora eu posso... Se toda vez que fizer mudança, você vem aqui no seu aplicativo aqui na web e publica de novo, tá? Publica de novo pra essas mudanças serem realizadas. E agora que eu fiz esses minis ajustes, eu vou testar lá no celular pra ver como é que ficou. Vamos lá ver.

@@ -1,0 +1,12 @@
+﻿# Login
+
+- Curso: 2 - APIs no Supabase
+- Trilha: Trilha Supabase
+- Módulo: Autenticação de Usuários
+- Duração: 00:01:40
+- Aula: https://flix.nocodestartup.io/m/lessons/2647
+- Vídeo: 82d5624d-32a5-4634-b567-53cff3120212
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora vamos ver a parte de login, tá? Vou vir na minha documentação de API e lá em User Management eu vou vir em login. Olha que legal. Fechou o bash. E sem segredo, né? E aí para login ele pede para fazer um post. Certinho. Vou vir aqui e copiar, tá? Copiar. E para login vai ser parecido aqui com o cadastro, tá? Bora lá no nosso post, mano. Aqui já salvei. Vou vir aqui e vou duplicar. Esse vai ser o cadastro. Esse vai ser o login. Tá? Certinho. Vamos ver o body. Então, body é o mesmo, né? Vamos supor que eu fiz um cadastro com a Mayara. Agora a Mayara quer logar. Então, vai vir aqui, ó. Maya, tarará. E a senha da Maya. Beleza? Ou eu posso logar com o castelo, né? Enfim. Vamos testar? Será que falta algo aqui? Vamos enviar aqui para ver se a gente consegue logar com a Maya. Toda vez que a gente cadastra ou loga, a gente tem que receber de volta um token de acesso para poder logar na nossa conta e conseguir mexer. Vamos enviar. E deu certo. Status OK. Então agora a Maya está logada. Cara, olha que fácil isso, hein? Já temos o nosso token de acesso, já temos o tipo, temos todos os dados que a gente já tinha feito no cadastro, mas agora o login também, né? Fez a autenticação usuário. Então agora a gente já sai de toda a parte de... Cadastro e a parte de login. Tudo certo aqui. Está bem colorido. Podemos seguir para a finalização.

@@ -1,0 +1,12 @@
+﻿# Recado Importante!
+
+- Curso: Pagamentos Stripe Supabase - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Assinaturas
+- Duração: 00:00:27
+- Aula: https://flix.nocodestartup.io/m/lessons/3666
+- Vídeo: 264c369f-68d4-429c-98c9-ace05f4f049c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala galera, Break Rápido aqui, eu quero fazer um singelo pedido pra você. Se você tá curtindo as aulas da formação e toda a estrutura didática que a gente vem passando aqui, eu vou pedir pra você deixar um feedback aqui no link abaixo. Então basta clicar aqui no link e colocar um feedback bem legal, uma foto de perfil pra ficar organizado. E olha, você não vai perder nem um minutinho e vai fazer muita diferença pro nosso trabalho. Então eu vou ficar muito feliz se você deixar o seu feedback. Então é isso, bora continuar as aulas.

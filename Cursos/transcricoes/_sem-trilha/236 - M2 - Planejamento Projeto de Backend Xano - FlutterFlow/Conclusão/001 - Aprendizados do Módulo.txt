@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: M2 - Planejamento Projeto de Backend Xano | FlutterFlow
+- Trilha: (sem trilha)
+- Módulo: Conclusão
+- Duração: 00:01:03
+- Aula: https://flix.nocodestartup.io/m/lessons/2502
+- Vídeo: 93c7f2dd-96f2-42a8-9bd8-8fc52ac508b7
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, chegamos ao final desse módulo, então já planejamos de forma completa aí nosso aplicativo em relação ao back-end, as tabelas estão prontas, nossos APIs estão prontos pra gente conseguir fazer a integração e criar nosso aplicativo do zero. Espero que você tenha gostado. A gente aprendeu tudo sobre o projeto. Toda a estrutura geral. Fazer toda a parte do CRUD. Operações. Atualizações também na autenticação. Fazer upload de filtros. Fazer upload de imagens. E também trabalhar com filtros. Tanto com filtros comuns. Tanto quanto o filtro de busca. Pelo novo filme lá. Que está bem legal. Eu espero que você tenha gostado e aprendido muito. E agora a gente já está 100% preparado. Para criar nosso aplicativo de filmes. diretamente agora no Flutter Flow e no Bubble. Então se você está na formação Flutter Flow, aqui a próxima aula vai ser sobre a integração do Zenon com o Flutter Flow. Se você está na formação Bubble, a próxima aula vai ser a integração do Zenon com o Bubble lá com o Neto. Beleza? Desejo boa sorte nos estudos e bora aprender!

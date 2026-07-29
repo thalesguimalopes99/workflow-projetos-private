@@ -1,0 +1,12 @@
+﻿# O que são notificações push
+
+- Curso: Push Notifications com Supabase e n8n
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Intro
+- Duração: 00:01:03
+- Aula: https://flix.nocodestartup.io/m/lessons/3476
+- Vídeo: 1a30186b-4613-482d-bd6f-709bca0c1a42
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, então bora conceituar o que é uma notificação push. Basicamente é uma mensagem que o teu app envia para o teu dispositivo, mesmo se esse app não estiver em uso, ok? E é óbvio que essa mensagem pode ser usada para diferentes finalidades. Lembrando que é um serviço gratuito lá do FCM, o Firebase Cloud Messaging, ok? E que... Este módulo inteiro vai ser destinado a notificações Push Android, beleza? A gente vai ter mais pra frente um módulo específico para iOS, mas por enquanto são notificações para apps nativos Android, beleza? E nesse módulo a gente vai ver quatro formas de usar essas notificações. A forma simples, a forma agendada... A forma segmentada, que é quando você envia uma notificação só para usuários específicos. E a forma usando o Webhooks, ok? Tanto a forma segmentada quanto a forma via Webhooks, a gente vai usar o Supabase como apoio, beleza? Bom, agora bora entender como que todo esse processo funciona por debaixo dos panos. Mas isso é assunto para a próxima aula. Valeu e até mais.

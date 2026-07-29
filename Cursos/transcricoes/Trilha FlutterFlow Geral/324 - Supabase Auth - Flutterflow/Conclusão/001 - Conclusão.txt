@@ -1,0 +1,12 @@
+﻿# Conclusão
+
+- Curso: Supabase Auth - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:00:24
+- Aula: https://flix.nocodestartup.io/m/lessons/3408
+- Vídeo: 01e5acdf-5f81-4628-bf5a-d07da7291b4d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, vamos chegar ao final desse módulo, onde a gente aprendeu como utilizar os recursos de Esqueci Minha Senha, Link Mágico e Login Social com Google, ok? Então só recapitulando, a gente aprendeu como configurar as URLs e os e-mails de autenticação e como configurar a conta do Google para usar o recurso de Login Social, beleza? É isso, espero que vocês tenham gostado e te vejo no próximo módulo. Valeu, um abraço!

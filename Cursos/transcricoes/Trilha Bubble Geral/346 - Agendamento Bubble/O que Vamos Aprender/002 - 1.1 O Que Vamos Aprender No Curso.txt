@@ -1,0 +1,12 @@
+﻿# 1.1 O Que Vamos Aprender No Curso
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: O que Vamos Aprender
+- Duração: 00:01:47
+- Aula: https://flix.nocodestartup.io/m/lessons/3746
+- Vídeo: f0428eeb-7899-419f-bf27-ac5bf330beae
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais uma aula e nessa aula eu vou estar explicando para vocês o que a gente vai estar aprendendo na nossa trilha de agendamentos, ok? Na nossa trilha de agendamentos a gente vai estar aprendendo sobre agenda dinâmica de... De acordo com o profissional, então o profissional vai poder definir o dia que ele quer trabalhar, o horário que ele quer trabalhar e o intervalo durante o dia. Digamos que ele quer parar para almoçar meio-dia. Ah, ele quer retornar às 1, 2 da tarde, por exemplo. A gente também vai poder aprender sobre definir os intervalos ali. Vou estar mostrando para vocês ali como pode definir o intervalo, se é de hora em hora, se é de minuto em minuto. A gente já está definindo isso também. Vou estar explicando para vocês passo a passo. dando outras dicas que vocês podem aplicar ao sistema de vocês. É muito importante a gente aprender sobre agendamento, porque principalmente para quem vai criar chatbots, para quem vai criar dashboards ou algo do tipo que necessitem de agendamentos, mesmo que você não vá utilizar o que a gente aplicou aqui, mas você pode... adaptar e utilizar no seu sistema. A gente vai aprender sobre banco de dados, então a gente vai criar um banco de dados bem estruturadinho ali, bem relacionado, para a gente poder ter o máximo de dinamismo possível entre os nossos agendamentos, os profissionais e os serviços. A gente vai aprender sobre lógicas e workflows, ok? Então eu vou mostrar para vocês as lógicas do agendamento, os workflows que vocês precisam criar, então isso vai estar bem definido ali, bem separadinho e bem estruturado para vocês poderem conhecer mais ali a lógica de agendamento. A gente vai aprender o máximo possível sobre o plugin que a gente vai estar utilizando e as melhores práticas para extrair a melhor funcionalidade desse plugin em si, ok? Então na próxima aula a gente vai estar conhecendo um pouco mais o nosso aplicativo, o aplicativo que a gente vai aprender nessa trilha de agendamentos.

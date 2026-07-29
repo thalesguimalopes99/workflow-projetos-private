@@ -1,0 +1,12 @@
+﻿# Efeitos de Som em Vídeos
+
+- Curso: F2.4 - IA para geração de áudio
+- Trilha: Trilha Nocode IA
+- Módulo: Eleven Labs
+- Duração: 00:01:31
+- Aula: https://flix.nocodestartup.io/m/lessons/3236
+- Vídeo: 4f8402b6-404a-4b77-a401-2e3b0b1bf99b
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Essa funcionalidade é de colocar efeitos sonoros e áudio dentro de algum vídeo teu. Olha que legal que eles postaram no Twitter dele há algum tempo atrás. Então, eu tô aqui no Twitter do Eleven Labs, né? E lembra que a OpenAI postou o vídeo da Sora com os vídeos muito incríveis criados por IA? O que eles fizeram agora foi colocar sons naturais dentro dos vídeos criados pela Sora, né? Vamos dar uma olhada aqui como é que ficou. Legal, né? Irado demais. Então você vai conseguir colocar, fazer vídeos lá com Sora ou com outras ferramentas que a gente já comentou e depois colocar o áudio dentro desses vídeos. Então basicamente você vai conseguir criar filmes por conta própria. Isso que é muito interessante aqui da IA. E agora que a gente já entendeu um pouco mais, a gente pode entrar na plataforma e fazer o nosso acesso. Então bora lá.

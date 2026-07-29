@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Ordens e Carrinho de Compra
+- Trilha: Trilha Bubble Geral
+- Módulo: Ordem de Compras
+- Duração: 00:01:14
+- Aula: https://flix.nocodestartup.io/m/lessons/2469
+- Vídeo: 061f0400-df73-4fc7-bec0-62c6d146e5a0
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, nessa aula a gente vai aprender a estrutura e as ações necessárias para a gente pegar o nosso carrinho de compra e transformar ele de fato em uma ordem de compra com status aguardando pagamento ou pago, por exemplo. Exemplificando aqui mais uma vez dentro da nossa loja, a gente tem aqui... O nosso carrinho de compras, aqui no status onde a gente parou. Então, a gente já construiu esse nosso carrinho. E o que a gente vai construir agora é, ao clicar aqui no botão finalizar, a gente vai ser enviado aqui para esse nosso checkout, um resumo aqui da nossa compra. Aqui a gente tem resumo do cliente, tal, tal, tal. Aqui o nosso carrinho de novo. A gente poderia até adicionar mais itens aqui, na forma como foi construído. Porém, o que importa aqui para a gente agora é que, ao a gente clicar nesse confirmar compra, a gente vai pegar esse nosso carrinho. Cliquei em confirmar compra. Peguei esse carrinho. limpei esse carrinho, transformei esse carrinho em uma ordem de compras e já apareceu aqui nossa ordem de compras aguardando o pagamento. A gente veio aqui para a nossa página perfil nas minhas compras e aqui a gente já tem esse histórico, nossa última compra aqui. E se a gente olhar o nosso carrinho, agora o nosso carrinho está vazio. porque ele de fato foi limpo, virou uma ordem de compra. Então bora lá pessoal, últimos conhecimentos aí para a gente fechar esse nosso curso aqui de carrinho de compras, criar essa ordem de compras, para depois a gente avançar e de fato integrar com os principais meios de pagamento do mercado.

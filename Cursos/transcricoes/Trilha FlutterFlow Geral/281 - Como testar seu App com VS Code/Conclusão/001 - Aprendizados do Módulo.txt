@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: Como testar seu App com VS Code
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:00:48
+- Aula: https://flix.nocodestartup.io/m/lessons/3038
+- Vídeo: cec7b287-d30b-4138-a92e-acdbad923feb
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, vamos chegando ao final do nosso módulo. Nesse módulo a gente aprendeu como baixar o teu código lá do Flutter Flow para testar no emulador Android dentro do Visual Studio Code. Agora, como eu comentei na última aula, você tem a liberdade para testar funções nativas do teu app. dentro do emulador, ok? E não mais depender do andamento da equipe do Flutter Flow para melhorar as features do local run, por exemplo. Igual eu comentei, ela tem alguns bugs ainda, eu tenho certeza que eles vão corrigir, porém, isso pode demorar algum tempo. E para você não ficar esperando por isso, a melhor alternativa é usar o Visual Studio Code para testar o teu app de forma nativa, ok? Se você gostou dessa aula, pode me seguir nas redes sociais e espero que isso tenha te ajudado bastante, ok? É isso, até a próxima. Valeu!

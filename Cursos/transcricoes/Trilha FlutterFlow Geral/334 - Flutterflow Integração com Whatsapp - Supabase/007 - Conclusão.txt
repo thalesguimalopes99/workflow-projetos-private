@@ -1,0 +1,11 @@
+﻿# Conclusão
+
+- Curso: Flutterflow Integração com Whatsapp - Supabase
+- Trilha: Trilha FlutterFlow Geral
+- Duração: 00:00:38
+- Aula: https://flix.nocodestartup.io/m/lessons/3674
+- Vídeo: 4d15301e-39c7-4d28-aa59-90a356c94147
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, e vamos chegando ao fim de mais um módulo aqui na NoCode Startup. Basicamente, a gente aprendeu quais são as possibilidades de usar o WhatsApp na nossa aplicação, como configurar e usar uma API não oficial, no caso a gente viu a ZAPI, como integrar com o SupaBase e como criar um chatbot simples com o N8N, ok? É isso, espero que vocês tenham gostado desse conteúdo. Se ficou com alguma dúvida, manda lá na comunidade e me marca, ok? E também recomendo muito que vocês leiam a documentação das ferramentas, porque é lá que se encontram a maioria das respostas para as dúvidas comuns, ok? É isso, te vejo no próximo módulo.

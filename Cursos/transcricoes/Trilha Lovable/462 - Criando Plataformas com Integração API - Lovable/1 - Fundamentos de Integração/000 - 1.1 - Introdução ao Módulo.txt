@@ -1,0 +1,12 @@
+﻿# 1.1 - Introdução ao Módulo
+
+- Curso: Criando Plataformas com Integração API | Lovable
+- Trilha: Trilha Lovable
+- Módulo: 1 - Fundamentos de Integração
+- Duração: 00:00:45
+- Aula: https://flix.nocodestartup.io/m/lessons/4862
+- Vídeo: 315ec81b-035f-4774-91dd-e0c2aa977980
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo, bem-vinda ao módulo de APIs. Aqui você vai aprender como usar APIs na prática. Então se você quer conectar com qualquer outro sistema da internet, seja de pagamentos, ou seja de mapas, ou seja uma API da OpenAI, a gente precisa entender sobre APIs para você integrar esses sistemas aí dentro lá do seu app, tá? Então aqui você vai aprender como utilizar APIs na prática, lá com o Lobo, e depois dessas aulas você vai dominar o poder das APIs para conseguir conectar outras tecnologias no seu produto. a gente vai criar um case real aqui dentro das aulas e vamos fazer um resumo também das apis pra ficar 100% claro pra você que é um dos pontos mais importantes pra você conseguir criar softwares, aplicativos, automações tem que entender sobre apis então bora começar

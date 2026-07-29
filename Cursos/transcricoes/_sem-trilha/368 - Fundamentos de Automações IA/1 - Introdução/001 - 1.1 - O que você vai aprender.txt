@@ -1,0 +1,12 @@
+﻿# 1.1 - O que você vai aprender
+
+- Curso: Fundamentos de Automações IA
+- Trilha: (sem trilha)
+- Módulo: 1 - Introdução
+- Duração: 00:01:42
+- Aula: https://flix.nocodestartup.io/m/lessons/3832
+- Vídeo: a4c7b114-32c7-4d34-b51b-296eb9fa03f6
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de Fundamento de Automação e bora ver o que você vai aprender nesse módulo aqui. Bom, a gente vai ver muito sobre arquitetura de projeto de automação, então como que você consegue escolher as melhores ferramentas para dar vida ao seu próprio projeto. Além disso, a gente vai ver sobre APIs e webhooks. Então esse é um conceito que para mim é o mais importante e praticamente em todas as aulas a gente vai estar falando sobre API. e o webhook tá então é muito importante que você não pôr essas aulas se não você ficar perdido lá na frente também vamos ver as melhores ferramentas aí não só de automação mais melhores ferramentas para o seu projeto legal demais Depois dessas aulas, você vai conseguir ter uma visão clara, como construir o seu próprio projeto de automação e também o seu projeto conectado com o agente de A. E vai dominar conceitos fundamentais para construir esses tipos de projetos. Beleza, e eu queria deixar claro aqui como a gente aprende o mais rápido possível. Então eu vou dar uma dica que você aprenda primeiro os fundamentos, a teoria. Depois a prática, tá? Aqui nas aulas, agora a gente vai ver mais os fundamentos, mas logo depois é pura prática. Então vai fazendo junto com a gente, tá? Siga as aulas fazendo junto comigo os case. Depois disso, que você aprender bastante de todos os modos aqui da formação, eu quero que você pegue um projeto no mundo real. Que aí sim você vai começar a aprender de verdade. E quando você tiver alguma dúvida, você pode voltar aqui para rever aulas específicas ou para acessar a comunidade e tirar dúvidas, tá? Esse com certeza vai ser o melhor jeito de você aprender e conseguir dar vida aos seus projetos de automação e de agente de ar. Então, sem mais enrolação, bora ver que esse módulo aqui tá legal demais. Bora lá!

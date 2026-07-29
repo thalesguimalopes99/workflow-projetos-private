@@ -1,0 +1,12 @@
+﻿# Desafio
+
+- Curso: F5.4 - Conectando Assistente de IA aos Dados do App
+- Trilha: Trilha Nocode IA
+- Módulo: Finalização
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/3474
+- Vídeo: 3021164a-a7c2-4d34-bd45-1d19e935ce9c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E olha só, depois que você integrar o chat app que a gente fez lá com o app financeiro, fazer todo aquele espaço que eu falei de copiar o design, compor as funções, copiar as chamadas APIs, eu tenho um desafio para você. Além de tudo que a gente fez, a gente tem que colocar mais um parâmetro na nossa URL, né? Quando a gente chama lá no Superbase, é importante também que a gente mande o user ID, porque a gente quer os gastos só daquele usuário que está alugado. Então, não se esqueça que na hora que você for criar a sua action, você tem que mandar também na chamada, ali do Supabase, que vai ter que ir o User ID junto, tá? Isso aí você vai conseguir fazer depois que o Web App estiver integrado lá com o Chat App financeiro. Então fica o desafio, qualquer coisa é só perguntar na comunidade que a gente vai ajudando. Então, agora sim, bora pro próximo módulo.

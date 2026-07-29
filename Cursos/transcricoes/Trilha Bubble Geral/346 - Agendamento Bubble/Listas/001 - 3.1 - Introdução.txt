@@ -1,0 +1,12 @@
+﻿# 3.1 - Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Listas
+- Duração: 00:00:21
+- Aula: https://flix.nocodestartup.io/m/lessons/3753
+- Vídeo: b00e1c75-39d6-4f81-8912-5a2f36fdd68a
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais um módulo aqui na nossa trilha e nesse módulo a gente vai estar aprendendo a construir a nossa agenda, que é a agenda que o cliente vai estar visualizando as disponibilidades de horário dos nossos profissionais, certo? Nesse módulo a gente vai aprender a listar os serviços, listar os profissionais, listar as datas e listar os horários utilizando o plugin. Bora lá?

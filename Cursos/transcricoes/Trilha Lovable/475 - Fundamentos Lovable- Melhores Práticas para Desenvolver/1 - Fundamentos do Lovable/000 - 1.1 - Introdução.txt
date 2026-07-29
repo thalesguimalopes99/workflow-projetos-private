@@ -1,0 +1,12 @@
+﻿# 1.1 - Introdução
+
+- Curso: Fundamentos Lovable: Melhores Práticas para Desenvolver
+- Trilha: Trilha Lovable
+- Módulo: 1 - Fundamentos do Lovable
+- Duração: 00:01:53
+- Aula: https://flix.nocodestartup.io/m/lessons/4856
+- Vídeo: 7be631a3-d487-42f2-8634-338331484739
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo, bem-vinda à aula de fundamentos de Lobo. Aqui você vai aprender as melhores ferramentas de E-Code do mercado. Então a gente vai ver desde o zero qual ferramenta é melhor para qual tipo de projeto e também vai depender do seu background técnico. Então a gente vai explorar as ferramentas até a gente cair no Lobo. Depois disso, a gente vai falar um pouquinho sobre o Lobo, que é as melhores boas práticas para você desenvolver seus projetos e também os erros mais comuns que o pessoal acaba cometendo e não consegue ir para frente. Então essas aulas são super importantes para você começar do jeito certo. Beleza, bora continuar. E depois, com o conhecimento dessa aula, você vai ter os fundamentos para começar a criar seus projetos no Lobo. É uma ferramenta bem fácil, bem intuitiva, mas é muito importante você aprender os fundamentos para conseguir dar passos mais largos e criar projetos completos. legal e um recado muito importante aqui da aula tá que eu quero passar para você é uma mentalidade que é aprender vibe code não é determinístico tá então o que acontece quando a gente vai criar cunha o mesmo prompt irá gerar resultados diferentes e o seu projeto vai ser diferente do meu então Quando você for acompanhando junto comigo aqui na tela, eu vou passar um prompt para criar meu projeto, também vou passar o mesmo prompt para você, se você quiser usar e acompanhar comigo. Porém, quando a gente está falando de IA, o mesmo prompt vai gerar cases diferentes, vai gerar resultados diferentes. Então, eu quero que você não fique assustado, não fique desanimado, se não ficar igual o meu, vai acontecer de ficar diferente, e eu quero que você entenda aqui nas aulas as boas práticas. Então, eu quero que você entenda os fundamentos, e as boas práticas e ter a mentalidade de resolvedor de problemas, tá? Porque vão aparecer projetos diferentes quando você colocar o mesmo prompt e é importante que você saiba lidar com isso. Então, dito isso, podemos continuar as nossas aulas. Bora lá!

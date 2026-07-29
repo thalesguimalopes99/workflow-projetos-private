@@ -1,0 +1,12 @@
+﻿# Cms
+
+- Curso: F3.4 - Fundamentos Websites NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Fundamentos Sites
+- Duração: 00:02:06
+- Aula: https://flix.nocodestartup.io/m/lessons/3071
+- Vídeo: fb2e7919-5399-4324-a901-a9165bd4c1c5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E um conceito muito importante que você tem que entender na criação de sites é o conceito de CMS. O que é CMS? CMS é Content Management System, que é um sistema de gerenciamento de conteúdo. Quando a gente está criando um site, uma estrutura... ele pode ter um CMS ou não. Ou seja, é um sistema que eu consigo colocar novos conteúdos, gerenciar conteúdos, tirar conteúdos. Então, geralmente, tem aplicações em blog. Quando a gente vai fazer um post no blog, a gente consegue escrever em um lugar só. E depois que a gente faz aquele post, ele já sai pronto com o design que a gente queria. A gente consegue fazer uma listagem nos posts. Então, é para isso que serve um CMS, tá? Em sites de notícias também, a gente vai ter várias e várias notícias. Em portfólios de projetos, que você vai colocar seus portfólios, vai ser um CMS também. Então é importante que fique claro o que é CMS, que é um dos pontos mais importantes no mundo de sites. E para você entender de forma clara, eu vou te mostrar aqui dentro do nosso blog, como que é feito o CMS dos blogs e dos posts. Então aqui vamos supor que eu tenho meu post aqui no WordPress, eu estou usando no caso a ferramenta no code WordPress, que é a maior ferramenta para CMS que existe, é uma das maiores ferramentas no code do mundo. E daí esse texto aqui já está abrindo então, bem organizado, bem estruturado, já vem certinho. E para a gente construir esse texto, eu uso o CMS do WordPress. Então o texto foi construído aqui. Então aqui a gente constrói o texto. define aqui a estrutura, que vai ter cada bloco, define os links, consegue estruturar tudo bem organizado aqui também, e aqui já define pontos como SEO, palavras-chave. Então aqui dentro do WordPress, por exemplo, sai o texto pronto, então não preciso ficar fazendo toda a estrutura e design, só crio o texto uma vez e consigo organizar. E daí, além disso, aqui eu também consigo ter uma listagem dos meus textos prontos, já vem tudo bem estruturado e organizado. Então é exatamente isso que é um CMS, é um gerenciamento de conteúdos que a gente tem aqui no nosso site. Espero que tenha ficado claro que é um conceito aí bem importante.

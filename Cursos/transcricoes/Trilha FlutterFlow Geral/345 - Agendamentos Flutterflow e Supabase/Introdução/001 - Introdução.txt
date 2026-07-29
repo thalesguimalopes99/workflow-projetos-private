@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Agendamentos Flutterflow e Supabase
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:46
+- Aula: https://flix.nocodestartup.io/m/lessons/3731
+- Vídeo: 02b503cd-3108-4546-8da9-6ab887565be0
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, bem-vindos a mais um módulo aqui na NoCode Startup. E hoje a gente vai falar sobre agendamentos, ou seja, como trabalhar com datas e horários no Flutter Flow e no Supa Base. Bom, para começar, eu vou mostrar o projeto na prática, depois eu vou explicar o que é o padrão TC e qual é a importância para esse projeto. Na sequência, eu vou mostrar como foram criadas as tabelas e as views que vão auxiliar esse projeto. Depois, vou passar por todas as telas e os componentes. Inclusive, vamos criar um componente de agendamento do zero. Na sequência, vamos ver também as funções auxiliares que vão permitir que esse agendamento seja realizado da forma correta. Bom, sendo mais explícito, vai ser um projeto de agendamento de uma clínica de especialidades médicas. Ou seja, o usuário vai poder fazer login, entrar na plataforma, clicar em uma especialidade, como por exemplo um cardiologista. e agendar o horário que ele quiser. Ele também vai poder visualizar esse agendamento e excluir caso ele deseje. Bom, como pré-requisito, eu recomendo que você faça essa trilha de Superbase do zero ao pró, porque a gente vai usar esse banco de dados aqui, e é interessante que você já tenha familiaridade com ele. E se você caiu aqui de paraquedas, eu recomendo muito esse plano de estudos para que você possa estudar de forma estruturada e acompanhar o seu progresso da melhor forma possível. Bom, chega de falar, vamos conhecer o projeto na prática, ok? Eu vou mostrar a interface dele direto lá no Flutter Flow e na sequência eu vou entrar um pouquinho na teoria para vocês entenderem qual é a finalidade do padrão TC e por que ele vai ajudar a gente aqui nesse projeto. Mas isso é assunto para a próxima aula. Te vejo lá.

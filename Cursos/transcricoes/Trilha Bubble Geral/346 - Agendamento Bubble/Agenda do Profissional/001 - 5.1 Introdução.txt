@@ -1,0 +1,12 @@
+﻿# 5.1 Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Agenda do Profissional
+- Duração: 00:00:35
+- Aula: https://flix.nocodestartup.io/m/lessons/3763
+- Vídeo: 4c7f4db7-401b-48fd-b328-7d192eda2a3e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma. Sejam bem-vindos para mais um módulo. E nesse módulo, no módulo de gestão de agenda, a gente vai aprender a criar a nossa lista de profissionais, para daí a gente criar a nossa agenda. É diferente da lógica, basicamente, de listar os profissionais. A gente vai criar um pouquinho mais de forma de gestão em si. Então, a gente vai criar essa lista de profissionais ali. E a gente vai também criar a lista de agenda, né? Vamos criar a agenda do profissional e vamos listar os agendamentos com a possibilidade de... sei lá, o agendamento também. Então, na próxima aula, a gente já vai começar listando os nossos profissionais.

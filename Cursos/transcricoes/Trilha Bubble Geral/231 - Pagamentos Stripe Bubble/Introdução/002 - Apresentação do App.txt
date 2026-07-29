@@ -1,0 +1,12 @@
+﻿# Apresentação do App
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:41
+- Aula: https://flix.nocodestartup.io/m/lessons/2474
+- Vídeo: b43d95e3-0a83-4975-b9ab-5bb5c303f03c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos a mais uma aula. Eu agora vou estar acessando o nosso app modelo e estar apresentando para vocês o resultado das nossas próximas aulas. Já estou com o nosso app aqui aberto, o nosso app modelo. Já vou estar realizando para vocês um teste aqui no nosso ambiente de sandbox, tá? Para a gente poder trazer um pagamento aprovado aqui com dados fictícios. Eu vou adicionar um item ao nosso carrinho aqui. Lembrando que não importa a quantidade de itens, não importa o valor, tá? Se você está fazendo uma cobrança de pagamentos avulsos, a gente consegue cobrar qualquer valor, qualquer quantidade. de itens aqui, tá? Você só precisa mandar pra lá o total de itens, descrição, imagem, mas isso aí a gente vai estar vendo nas próximas aulas. Eu vou vir aqui em confirmar a compra e ele já vai redirecionar a gente pro checkout do Stripe. A gente não vai precisar construir essas telas, a gente vai ver tudo isso nas próximas aulas certinho, então vou estar realizando somente o teste aqui pra vocês verem como ficou, tá? Aqui a gente consegue também alterar o cartão ou continuar usando um cartão que eu já cadastrei em outro teste que eu acabei fazendo. Então eu vou confirmar aqui como pago, é um cartão de teste, então é o 4242, ele vai... trazendo um saldo aprovado. Se eu clicar aqui em pagar, ele vai processar esse pagamento aqui, vai dar como pago e ele vai retornar lá para o nosso app. Vamos aguardar um pouquinho. Pagamento aprovado, agora ele vai fazer o redirecionamento lá para o checkout. Aguarda mais um pouquinho. Beleza, ele redirecionou para o checkout. Sucesso, ordem criada e ele retornou para a nossa tela inicial. Limpando o carrinho aqui, já limpou, confirmou o nosso pedido. A gente pode vir aqui em minhas compras, segura certinho. E minhas compras a gente tem o nosso pedido aqui de R$200. confirmado com o pago aqui, ó. R$200 confirmado com o pago, tá bom? Na próxima aula a gente vai estar coletando as nossas credenciais lá no Stripe e anexando no plugin no nosso app e dando continuidade às aulas. Beleza? Te vejo na próxima aula.

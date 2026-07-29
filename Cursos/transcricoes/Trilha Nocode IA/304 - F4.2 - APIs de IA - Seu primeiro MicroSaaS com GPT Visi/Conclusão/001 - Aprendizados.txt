@@ -1,0 +1,12 @@
+﻿# Aprendizados
+
+- Curso: F4.2 - APIs de IA | Seu primeiro MicroSaaS com GPT Vision
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:47
+- Aula: https://flix.nocodestartup.io/m/lessons/3269
+- Vídeo: 5e07290a-fb6d-41a9-9589-7eadde8ea2a4
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos no final dessas aulas aqui do seu projeto MicroSaaS feito com o Flutter Flow e com a OpenAI. Espero que você tenha curtido muito essas aulas práticas e espero que tenha aberto aí a sua cabeça a várias, várias ideias que você pode criar aí com o Flutter Flow com o GPT. Então aqui a gente fez a análise da imagem, a análise da descrição da imagem, mas você poderia fazer qualquer gerador de texto, você poderia fazer um gerador de imagem. Então o importante é pensar em resolver o problema ali da dor do seu nicho. Espero que você tenha curtido, tenha aprendido aí o básico de como mexer com o Flutter Flow, a API e a OpenAI. E aqui depois a gente vai fazer exemplos aí mais completos. E é isso, então bora para as próximas aulas que a gente tem vários cases aqui, super irados e bem completos para você aprender na prática. Bora lá!

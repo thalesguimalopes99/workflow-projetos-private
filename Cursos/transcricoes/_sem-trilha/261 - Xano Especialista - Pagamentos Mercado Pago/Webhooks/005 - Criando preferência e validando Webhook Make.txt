@@ -1,0 +1,12 @@
+﻿# Criando preferência e validando Webhook Make
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Webhooks
+- Duração: 00:03:12
+- Aula: https://flix.nocodestartup.io/m/lessons/2907
+- Vídeo: 3928ea6a-1fe8-4c49-9c8a-9281c89e20ac
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora com o nosso endpoint atualizado, vamos criar uma nova preferência de pagamento e em seguida vamos validar se as informações estão chegando corretamente. Vamos em databases, pedidos e vamos adicionar um novo pedido. William, produto 3D, 333, quantidade 1 e agora vamos voltar na nossa API. e aí tem mercado pago criar preferência pagamento em preferência de pagamento a gente vai rodar 14 agora e executar aqui vamos pegar o link de pagamento acessar uma página anônima e colar é muito importante que você já esteja logado com seu usuário teste de comprador ou utilize um dos cartões de teste. Então vamos utilizar o novo cartão. Cartões de testes está em suas integrações, dentro de integrações, cartões de teste. Eu vou copiar o cartão e aqui o código de segurança é 123-1125. Vou em cartão. Dentro do próprio cartões de teste existem alguns. status de pagamento que nós podemos utilizar, assim como nós fizemos o avulso. Então vamos utilizar sempre o APRO e o CPF é 1, 2, 3, 4, 5, 6, 8, 9, 0, 9. Vamos voltar, APRO 11, 25, 1, 2, 3. Vou clicar em continuar e no CPF é 1, 2, 3, 4, 5, 6, 7, 8, 9. 0, 9. Vou pagar em uma vez. Vou clicar em pagar. Pagamento aprovado. Agora vamos voltar lá no Make e identificar se recebemos esse pagamento. Dentro do diagrama, a gente pode perceber que recebeu uma notificação a menos de um segundo. Vamos clicar nele. E aqui, nesse identificador, a gente tem todas as informações possíveis dentro dessa notificação. Então tem a versão da API. a ação que foi criada, payment created, então foi criado um pagamento, a data que foi criado, o ID dessa notificação é muito importante, incomoda o sell through ou sandbox, live mode é para saber se foi criado no ambiente de produção ou no ambiente de teste, o tipo que é pagamento, o user ID que foi criado, data ID e o search news. Então se a gente entrar em data, a gente tem o número 686704, 36564 representa o aí de pagamento então a ideia agora é identificar em de ponte dentro da documentação do Mercado Livre para que possamos identificar de quem foi esse pagamento esse será o nosso próximo passo

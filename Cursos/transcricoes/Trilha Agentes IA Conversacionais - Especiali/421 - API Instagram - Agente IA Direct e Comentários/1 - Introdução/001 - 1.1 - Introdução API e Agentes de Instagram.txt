@@ -1,0 +1,12 @@
+﻿# 1.1 - Introdução API e Agentes de Instagram
+
+- Curso: API Instagram - Agente IA Direct e Comentários
+- Trilha: Trilha Agentes IA Conversacionais | Especialistas
+- Módulo: 1 - Introdução
+- Duração: 00:01:36
+- Aula: https://flix.nocodestartup.io/m/lessons/4344
+- Vídeo: a0518aad-8350-4b1b-acc0-640e0f386370
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de integração do seu agente de A com o Instagram. Aqui a gente vai aprender como integrar qualquer tipo de agente com um gatilho e uma resposta lá do Instagram. Bora ver o que você vai aprender? Então aqui a gente vai integrar o nosso agente de A lá nos directs. Então o seu agente de A vai conseguir responder os directs da sua empresa ou da conta do Instagram que você integrar. Então vai ser bem legal. Além disso, o seu agente de A... também vai responder comentários lá no Instagram, que é uma funcionalidade que muita gente pede. Então são conceitos bem interessantes que o pessoal pede muito para a gente, então a gente resolveu trazer essas aulas aqui para vocês. E quais são os requisitos dessa aula? Muito importante! é preciso que você tenha feito toda a parte de fundamentos essenciais, porque tem alguns conceitos bem importantes que é necessário que você tenha aprendido lá, tá? Então, se você pulou as aulas e viu até aqui diretamente, volta lá, senão você vai ficar perdido. E, além disso, é bem importante que você tenha visto as aulas de fundamentos de NU20 e também a sua primeira automação com NU20. E a gente de A, tá? Além disso, você também tem que ter entendido o template mestre, que é o primeiro módulo aqui dessa trilha, tá? Então, se você pulou, volta do dolar, entende o template mestre que a gente vai integrar com o template e eu não vou ficar explicando detalhe por detalhe, vou direto a ponto, porque isso já foi explicado nas aulas anteriores. Então, revisando, é muito importante que você não pule as aulas e siga essa informação passo a passo pra conseguir entender aqui, tá? Eu vou até um pouco mais rápido, porque eu já tô contando que você já viu as aulas. passadas. Sem mais enrolação, bora integrar o Instagram lá no N8N.

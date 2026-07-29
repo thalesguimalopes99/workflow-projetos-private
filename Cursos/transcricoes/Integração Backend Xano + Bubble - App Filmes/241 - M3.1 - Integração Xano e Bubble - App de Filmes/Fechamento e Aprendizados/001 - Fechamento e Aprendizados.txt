@@ -1,0 +1,12 @@
+﻿# Fechamento e Aprendizados
+
+- Curso: M3.1 - Integração Xano e Bubble | App de Filmes
+- Trilha: Integração Backend Xano + Bubble | App Filmes
+- Módulo: Fechamento e Aprendizados
+- Duração: 00:01:20
+- Aula: https://flix.nocodestartup.io/m/lessons/2581
+- Vídeo: 9dc9e8d2-68a6-4daa-aedb-c1a1e47eee6a
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, com isso a gente encerra esse nosso curso aqui da integração do Xenon com o Frontend do Bubble. E o que a gente aprendeu aqui durante esse curso? A gente fez essa integração completa, a gente entendeu como fazer a integração, as formas da gente fazer a integração e a gente entendeu ali no plugin todas as configurações necessárias para a gente fazer uma conexão ideal com o Xenon. Então a gente construiu o nosso app, a gente aprendeu a fazer todas as chamadas de CRUD para criar, ler, deletar e editar. os nossos filmes lá no back-end do Zenon. A gente também aprendeu a fazer uma autentificação, entendemos como fazer um login, um cadastro. A gente também entendeu por debaixo dos panos o que essa autentificação quer dizer, que a gente está enviando aquele token em todas as chamadas que a gente está fazendo, para de fato a gente falar para o Zenon, olha Zenon, estou autentificado, eu posso ver esses dados que estão fechados, que requerem autorização. E a gente também aprendeu a fazer um upload de mídias a partir do Bubble lá para o Então é isso pessoal, espero que vocês tenham curtido esse nosso curso, essa integração com o Bubble, espero que tudo tenha ficado claro e novamente no próximo curso a gente vai aprender a fazer as novas configurações dentro do Xenon para que a gente de fato deixe aqui a nossa aplicação multi-usuários com toda a segurança implementada. Então espero que você tenha gostado e vejo vocês no próximo curso.

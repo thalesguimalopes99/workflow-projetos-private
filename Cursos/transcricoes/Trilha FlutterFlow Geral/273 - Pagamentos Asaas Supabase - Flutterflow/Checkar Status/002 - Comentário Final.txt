@@ -1,0 +1,12 @@
+﻿# Comentário Final
+
+- Curso: Pagamentos Asaas Supabase - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Checkar Status
+- Duração: 00:02:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3627
+- Vídeo: f99152f3-5f16-4921-ac23-cc0b5c6765ee
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Beleza, pessoal. Sobre essa parte de conseguir pegar o status da cobrança, no Asas, a gente não vai conseguir testar, né? Porque, ó, aqui a gente não consegue ir pra página de pagamento, né? Pra página de obrigado, porque a gente tá fazendo com o Pix. Ele não tem uma forma aqui de eu testar que foi pago, né? Eu consigo vir aqui e falar que o pagamento foi confirmado, né? E aí sim, o pagamento vai ser confirmado. Só que a minha ação, ela tá rodando aqui, né? pagamento confirmado na página correta, que é o que deve acontecer nessa parte aqui. A gente poderia colocar um botão aqui de, por exemplo, lista produtos em minhas compras, pode ter um botão aqui falando assim, atualizar, dar o refresh, né, para usar a chamada API, tá? Mas eu não vou fazer isso porque aqui é o mesmo fluxo, tá? Tá tudo certo. A única coisa que vai faltar é que a gente não vai conseguir testar essa parte porque a gente não está conseguindo chegar na página de obrigado tá mas aqui exatamente o mesmo fluxo que a gente fez por strike e é rodar essas actions aqui a gente faz a gente com pegar o que o status daquela cobrança e aí atualizar a rola tá se quiser testar é só vir aqui como eu falei né e minhas compras fazer um botão aqui de refresh copiar aquela action lá e colar as actions aqui tá ele vai colar as actions esse botão E daí você consegue disparar o botão para checar se aquele pagamento foi pago ou não, tá bom? Então é isso. Isso daqui vai ser mais fácil testar realmente quando estiver funcionando aqui, que a gente pode até testar. Eu acho que deve ter alguma forma até de testar o Pix aqui, né? Fazer um pagamento simbólico para testar. Dá para colocar 10 reais aqui para ver se vai ser pago, para ver se roda aí para... Chamada página de brigado. Mas não tem muito segredo não. É exatamente o mesmo processo que a gente já fez para o Stripe. E é só repetir por aqui.

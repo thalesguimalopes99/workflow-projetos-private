@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: F2.3 - IA para geração de imagem
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:01:11
+- Aula: https://flix.nocodestartup.io/m/lessons/3230
+- Vídeo: 0d2ccaa2-6796-4bf6-9964-f18458ef5be1
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim dessas aulas, eu espero que você tenha aprendido muito sobre geração de imagens com IA, os principais modelos e as principais ferramentas. Então aqui nesse módulo você aprendeu os principais modelos para a geração de imagens, então agora você não está mais perdido desse mundo de gerar imagens com IA. Também aprendeu sobre as principais funcionalidades e como gerar imagens com Dali, que é muito importante, é um modelo muito prático, inclusive para a gente usar... na OpenAI a partir de API para trazer para o nosso Sass e também conceitos sobre o Stable Diffusion para a gente gerar imagens lá com nossas ferramentas. E além disso também tem ferramentas local para você baixar um modelo do Stable Diffusion na sua máquina e usar o Control Net ou o Conf UI para hospedagem local. Então agora você aprendeu bastante coisa sobre a geração de imagens e já consegue se achar e se entender qual que são as melhores ferramentas para você criar as suas imagens. Lembrando aí que você pode aí explorar outras diversas ferramentas aí que usam o modelo do Stable Diffusion ou qualquer outro modelo por trás, tá bom? Espero que você tenha curtido muito e bora para o próximo módulo.

@@ -1,0 +1,12 @@
+﻿# Introdução Assinaturas Asaas
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinaturas - Introdução
+- Duração: 00:00:39
+- Aula: https://flix.nocodestartup.io/m/lessons/3009
+- Vídeo: 5f2fb8a3-e937-4bba-80e0-e76bca29c5e4
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos a mais um módulo aqui no nosso curso ASA. Nesse módulo você já está aprendendo tudo sobre assinatura, desde o cliente comprar ali o plano, desde esse plano ser liberado dentro do seu app, desde a gente fazer o plano tanto pelo Checkout Pro quanto pelo Checkout Transparente, tá? Vocês vão estar aprendendo todos esses fluxos, desde criar chamada, criar o fluxo ali, tudo certinho, tá? Para poder realizar essa cobrança tanto pelo Checkout Pro quanto pelo Checkout Transparente. Vamos ver também a liberação dessa assinatura e a desativação da assinatura via webhook lá no back-end, tá bom? Então, nas próximas aulas eu vou estar mostrando para vocês como a gente pode estar fazendo isso, tá?

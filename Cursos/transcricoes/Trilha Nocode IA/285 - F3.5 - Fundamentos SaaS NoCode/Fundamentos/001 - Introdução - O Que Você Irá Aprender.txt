@@ -1,0 +1,12 @@
+﻿# Introdução - O Que Você Irá Aprender
+
+- Curso: F3.5 - Fundamentos SaaS NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Fundamentos
+- Duração: 00:01:36
+- Aula: https://flix.nocodestartup.io/m/lessons/3078
+- Vídeo: a3de9233-7686-4e98-b881-b652b17dde0d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de Fundamentos de SaaS e aplicativos complexos. Aqui você vai dar o próximo passo para criar sistemas e apps muito mais robustos e tirar os seus SaaS do papel. Então bora ver o que você vai aprender. Bom, nesse módulo aqui você vai entender os fundamentos de SaaS, o que é e como é que funciona esse modelo de negócio incrível. e como você pode monetizar com isso. A gente também vai ver as melhores ferramentas que você não precisa de código para criar o seu próprio SaaS. A gente vai dividir tanto na parte front-end, que é a parte mais de visual, lógica de ações do seu app, e depois a gente vai ver as melhores ferramentas de back-end, que vai ser o banco de dados, toda a inteligência por trás. Então você vai aprender como juntar os dois para, sem código, conseguir construir o seu SaaS ou seu app mais completo. E depois de tudo isso, a gente vai entrar dentro do Flutter Flow para você conhecer uma das melhores ferramentas. para você criar o seu SaaS sem código. Então você vai dar os primeiros passos aqui dentro dessas aulas. E depois dessas aulas você vai ter o conhecimento sobre o poder de SaaS em aplicativos mais complexos. E vai saber quais são as melhores ferramentas para você conseguir criar o seu SaaS aí super rápido e conseguir validar no mercado para ganhar uma grana com isso. E além disso vai ter um entendimento prático como eu falei do Flutter Flow. A gente vai aprender a usar dentro aqui dessas aulas vamos ter o primeiro contato. para você conhecer essa ferramenta que é uma das melhores ferramentas no code do mundo. Então bora lá!

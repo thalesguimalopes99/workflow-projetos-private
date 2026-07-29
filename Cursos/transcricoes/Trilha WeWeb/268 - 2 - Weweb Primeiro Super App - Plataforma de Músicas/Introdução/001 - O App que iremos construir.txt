@@ -1,0 +1,12 @@
+﻿# O App que iremos construir
+
+- Curso: 2 - Weweb Primeiro Super App | Plataforma de Músicas
+- Trilha: Trilha WeWeb
+- Módulo: Introdução
+- Duração: 00:02:18
+- Aula: https://flix.nocodestartup.io/m/lessons/2711
+- Vídeo: e68d60bd-7a85-4e96-9458-1c75df22a6e9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, tudo bem? Sejam muito bem-vindos ao módulo 2 da trilha de fundamentos do Uweb. Ao final desse módulo, você vai ter construído seu primeiro aplicativo em Uweb, um super app de músicas. Agora, vamos para a tela do meu computador, que eu vou mostrar para vocês qual aplicação a gente vai construir. Olha o nível de aplicação que a gente vai construir no módulo 2. Aqui é o super app de música, tá? Então você vai poder cadastrar suas músicas favoritas e elas vão ser listadas em um lugar só. Para adicionar uma música, você vai apertar nesse botão de adicionar música. Você vai ter que colocar o nome da música, o link diretamente do YouTube para salvar, gravar essa música dentro do aplicativo. A descrição da música, a categoria e se assim você desejar também uma imagem de capa. Tudo bem? Ao adicionar a música, ela vai vir para nessa listagem aqui abaixo, tá? Eu já coloquei algumas músicas para mostrar para vocês o funcionamento. Está vendo que ao passar o mouse tem esse efeito, vai ser ensinado também na criação. Ao clicar aqui na música que você deseja, ele já abre aqui o vídeo player, tá? Para você poder escutar essa música. Tem a opção de deletar a música e a opção de editar, caso você queira alterar algum dado. Clicando aqui... Você pode observar que são os mesmos campos do botão adicionar. Então você praticamente é o mesmo formulário. Você só altera aqui os dados. Tudo bem? E aí clica em salvar. Já vai fazer essa alteração direto. Além disso você também vai poder trabalhar com filtros. Então aqui por exemplo você pode filtrar por nome. E aqui você pode filtrar por categoria. A categoria das músicas estão aqui abaixo. Você pode clicar aqui por exemplo. E quer ver só as de pagode. Então. Está vendo que ele filtrou só o pagode aqui. Ao final desse módulo, além de ter aprendido a construir seu primeiro aplicativo no Uweb, você vai aprender toda a parte de front-end, a parte do design de telas, como melhorar a experiência do usuário. Vai também manipular o back-end, vai fazer a ligação do front com a base de dados e manipular esses dados. E também a gente vai fazer uma ligação API. Então você vai aprender o básico de APIs. Essa foi a introdução ao módulo 2. Vejo vocês nas próximas aulas.

@@ -1,0 +1,12 @@
+﻿# 1.0 Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: O que Vamos Aprender
+- Duração: 00:00:22
+- Aula: https://flix.nocodestartup.io/m/lessons/3745
+- Vídeo: 2bfa7415-db9e-4af4-88d7-e26fa0e884a2
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais uma trilha aqui na Formação Bubble e essa trilha está excelente, tá? É uma trilha sobre agendamentos Bubble, tá? Não perca essa trilha, ela tá perfeita, tá completinha. Na próxima aula eu vou mostrar pra vocês o que a gente vai estar aprendendo durante as aulas e mostrar pra vocês todo o nosso roteiro de aprendizado, ok?

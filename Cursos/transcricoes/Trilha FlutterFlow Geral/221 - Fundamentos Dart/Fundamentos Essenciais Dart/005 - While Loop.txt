@@ -1,0 +1,12 @@
+﻿# While Loop
+
+- Curso: Fundamentos Dart
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Fundamentos Essenciais Dart
+- Duração: 00:02:35
+- Aula: https://flix.nocodestartup.io/m/lessons/2971
+- Vídeo: 2fd0efaf-2120-4c73-add7-c2f45a97cf6e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Bom galera, voltando a falar sobre loops, agora a gente vai ver sobre o loop while. Então, quando a gente quer fazer um loop, né, sobre alguma condição, quando a gente, um exemplo, a gente quer printar 50 números, né, na tela, a gente não vai ficar fazendo assim, né, print 1, 2, 3 e assim por diante, né, então vou colocar aqui, 2, 3, 2, 3. Se eu printar aqui, de fato, ele vai mostrar, né. 123 então normalmente a gente não faz isso e para isso que existe os loops então aqui no caso do aino como que a gente vai fazer a gente tem que declarar uma variável por fora do aino é diferente do for onde a gente consegue declarar uma variável dentro da estrutura dele eu vou declarar aqui um um computador é igual a zero a ele vai iniciar como zero é que a gente vai começar a nossa estrutura eu vou colocar aqui o aio computador ou menor igual a 5 e agora a gente vai começar a nossa estrutura certo quando ele for menor ou igual a 5 ele vai executar o que a gente colocar aqui dentro e que eu vou fazer colocar um print e eu vou fazer um pouco diferente do que a gente está acostumado tá então vou colocar uma mensagem de texto para ele aparecer ali também junto com o contador tá eu vou colocar o valor do contador é aí eu vou chamar o cifrão né que é para a gente pegar a nossa variável e vou passar aqui o computador uma outra coisa que a gente precisa fazer é diferente do for a gente precisa passar computador mais mais ou seja a estrutura do for a gente coloca o mais mais dentro da estrutura né aqui a gente precisa fazer diferente a gente precisa passar computador dessa forma e aqui depois que acabou a gente pode passar uma mensagem eu posso colocar aqui o up while encerrou, por exemplo, só pra mostrar uma mensagem ali de encerramento. Eu vou rodar isso aqui. Então o que ele fez? É, um aqui, tá maiúsculo. Certo? Então ele colocou aqui o valor do contador. Coloquei errado aqui. E aqui ele tá pegando. Então aqui é a mesma coisa, tá pessoal? Ele tá iniciando em zero, tá? E toda vez que ele passa aqui pelo mais mais, ele sempre tá adicionando um E voltando aqui para a estrutura. Tá bom? Então ele começa em 0. Termina em 5. E aqui ele dá a mensagem que a gente definiu.

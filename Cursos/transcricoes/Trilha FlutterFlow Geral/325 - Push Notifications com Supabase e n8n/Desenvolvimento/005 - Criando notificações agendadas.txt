@@ -1,0 +1,12 @@
+﻿# Criando notificações agendadas
+
+- Curso: Push Notifications com Supabase e n8n
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Desenvolvimento
+- Duração: 00:01:15
+- Aula: https://flix.nocodestartup.io/m/lessons/3482
+- Vídeo: cab53e2e-a3e2-464b-bff4-109880d5690f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, então bora criar um envio agendado aqui no N8n. Repare que é bastante parecido com o exemplo anterior. Eu tenho aqui do lado direito a tela do meu celular e aqui do lado esquerdo o fluxo. O bloquinho do HTTP é exatamente o mesmo, a diferença é que agora o meu gatilho é um gatilho agendado, o Schedule Trigger. A hora que eu abro aqui... ele mostra algumas opções de envio. Eu tenho envio em minutos, em horas, segundos, dias, semanas. Eu posso selecionar dias da semana para mandar essa notificação, mas aqui eu vou usar uma notificação a cada um minuto, ok? Então, eu vou fechar e vou habilitar esse fluxo. Pronto, ele salvou. Repare que agora é 8h24. Vamos aguardar chegar essa notificação. Vou pausar o vídeo para não tomar muito tempo. Pronto. Já é 8h25, agora essa notificação vai chegar a qualquer momento. Vamos aguardar chegar aqui e esperar a execução desse fluxo. Pronto, acabou de chegar. Se eu mostrar aqui na tela para vocês, aulas para o NoCode Startup, e aí Matheus, e a imagem que a gente colocou lá na URL. Beleza? Então, é assim que você envia notificações de forma agendada no N8N. Bora para a próxima aula.

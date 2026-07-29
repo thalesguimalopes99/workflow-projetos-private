@@ -1,0 +1,12 @@
+﻿# Precisamos do seu feedback!
+
+- Curso: F2.3 - IA para geração de imagem
+- Trilha: Trilha Nocode IA
+- Módulo: Stable Diffusion
+- Duração: 00:00:43
+- Aula: https://flix.nocodestartup.io/m/lessons/3256
+- Vídeo: 6e37ab1d-4621-4596-a85a-ac390ef8b6e9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Opa, tudo bem? Só um pedido aqui super rápido. Se você está curtindo o conteúdo que você está aprendendo dentro da formação no Code A, eu queria te pedir o seu singelo feedback aqui no link abaixo, tá? Então, se você está gostando, já aproveita, clica no link e faz um feedback aí de um minutinho pra gente do que está gostando, da estrutura, da didática, deixa bem detalhado e também coloca uma foto de perfil pra aparecer ali a sua fotinha no seu feedback. Isso vai fazer muita diferença pra gente. conseguir aí produzir novos conteúdos e conseguir te ouvir, tá? Então é algo muito importante para a gente e não custa nem um minutinho para você. Então se você está achando legal esse conteúdo em contrapartida, faz esse feedback para a gente. E agora bora continuar para o conteúdo.

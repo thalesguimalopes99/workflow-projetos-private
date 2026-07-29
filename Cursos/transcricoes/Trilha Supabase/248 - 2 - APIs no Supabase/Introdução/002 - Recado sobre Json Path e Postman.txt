@@ -1,0 +1,12 @@
+﻿# Recado sobre Json Path e Postman
+
+- Curso: 2 - APIs no Supabase
+- Trilha: Trilha Supabase
+- Módulo: Introdução
+- Duração: 00:00:36
+- Aula: https://flix.nocodestartup.io/m/lessons/2639
+- Vídeo: db450b6c-6181-4b52-93b0-fcbb97e2ac72
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Tem alguns conceitos bem importantes que é bem legal você aprender. Eu separei aqui nos próximos vídeos da formação. O primeiro é de JSON Path e o segundo é como utilizar o Postman. Que é a ferramenta que a gente vai mais utilizar durante esse módulo aqui. Esses vídeos também serão postados no YouTube. Mas eu peço que você veja os dois vídeos que eu vou explicar passo a passo como utilizar. o Jason Path e também a parte do Postman, que vai ser muito importante. Então veja os vídeos com calma e depois siga para as próximas aulas que eu já vou presumir que você já vai ter um conhecimento sobre como utilizar o Postman. Então, bora lá!

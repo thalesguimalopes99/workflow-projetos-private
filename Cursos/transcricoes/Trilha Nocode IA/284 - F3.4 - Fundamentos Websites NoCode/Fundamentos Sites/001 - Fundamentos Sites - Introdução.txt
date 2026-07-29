@@ -1,0 +1,12 @@
+﻿# Fundamentos Sites - Introdução
+
+- Curso: F3.4 - Fundamentos Websites NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Fundamentos Sites
+- Duração: 00:01:25
+- Aula: https://flix.nocodestartup.io/m/lessons/3069
+- Vídeo: cd131b17-68eb-4510-8de2-33c15e3c0691
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de fundamentos para você criar websites incríveis. Bora ver o que você vai aprender e o que está incluso nessas aulas aqui. Bom, aqui você vai aprender os fundamentos de websites, ou seja, o que são websites, tipos e estruturas de sites, como fazer do processo do zero até a entrega para o cliente, melhores ferramentas para você criar sites no code de forma rápida e sem código e com muita qualidade. E também, depois a gente vai ver um pouco mais na prática o poder do Framer, que é uma das melhores ferramentas para você criar sites de uma forma veloz e com bastante qualidade. Esse módulo está bem completo. Depois disso, que você vê as aulas inteiras, você vai poder construir qualquer website, um design diferenciado. Porque você vai aprender os fundamentos para criar qualquer tipo de website. Para a sua empresa, para o cliente ou principalmente para o seu SaaS com IA. Também você vai entender como é que funciona blogs, criar portfólios, o que é um SMS. A gente vai ver tudo isso também conectado com um pouco da prática do Framer. E depois a gente também vai mostrar como criar sites com IA. Que é algo bem útil para você conseguir criar a sua estrutura de site de uma forma rápida e ágil. Essas aulas estão bem bacanas, então vamos comigo, bora entender como é que funcionam os fundamentos de websites para você conseguir criar seus sites aí do zero de forma super rápida. Bora lá!

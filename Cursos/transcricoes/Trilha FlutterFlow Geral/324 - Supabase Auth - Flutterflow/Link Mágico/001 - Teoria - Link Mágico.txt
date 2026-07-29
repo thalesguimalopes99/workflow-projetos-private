@@ -1,0 +1,12 @@
+﻿# Teoria - Link Mágico
+
+- Curso: Supabase Auth - Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Link Mágico
+- Duração: 00:01:13
+- Aula: https://flix.nocodestartup.io/m/lessons/3403
+- Vídeo: 99642744-eb6f-4e72-8928-4e905e30da3c
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, na última aula a gente aprendeu o fluxo de esqueci minha senha. Agora a gente vai ver o fluxo do link mágico, ok? Bom, esse fluxo vocês vão ver que é bem mais simples que o esqueci minha senha. Basicamente, o usuário informa o e-mail, da mesma forma como no fluxo de esqueci minha senha. O Flutter Flow, por sua vez, faz uma chamada API do tipo post, passando no body o e-mail fornecido na etapa anterior, ok? O Supabase, por sua vez, ele atende a requisição e envia um link para o usuário no e-mail que ele passou. E o link leva a página inicial do seu app. Ou seja, agora, ao invés de levar uma página de mudar senha, ele vai mandar para uma página, a página inicial do seu app, a homepage. E o usuário, por sua vez, ele acessa a página inicial do app. Então você vai ver que é um fluxo muito mais enxuto. E como é que isso é possível? Porque lembra no fluxo anterior que a hora que o Superbase manda esse link, nesse link já tem o token de autenticação. Então, se a pessoa acessou o e-mail dela, quer dizer que ela está confirmando que ela é ela mesmo, ok? E é por isso que ela consegue clicar no link e já entrar no app, porque esse link que o Superbase fornece já tem o token de autenticação, ok? Bom, então bora ver na prática como configurar isso da mesma forma que a gente viu no fluxo anterior. Te vejo na próxima aula.

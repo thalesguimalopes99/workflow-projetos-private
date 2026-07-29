@@ -1,0 +1,12 @@
+﻿# Validando o Fluxo Completo
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Assinaturas
+- Duração: 00:02:40
+- Aula: https://flix.nocodestartup.io/m/lessons/2927
+- Vídeo: daa2dd13-8bcc-40fb-b90a-f0edcd4c5457
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, com o nosso endpoint de atualizar pagamentos mercado pago atualizado, nós precisamos agora fazer uma nova validação de ponta a ponta para saber se está tudo funcionando, se os webhooks estão atualizando, se as chamadas estão ok. Então, a ideia é cadastrar um novo pedido e seguir com o processo normal de pagamento. Então, vamos lá para a database. A gente vai em pedidos. Vamos adicionar um novo pedido, 21. Seguir o mesmo padrão. Assinatura. TR3D. Valor 30. 1. E o tipo é assinatura. Vamos voltar na API. Gateway. Criar assinatura. Pedido. Vamos adicionar o pedido 21. Rodamos. Pedido criado com sucesso do tipo pendente. Vamos dar uma olhada no Make History. Tivemos um retorno aqui, 21.46, é o último. E a gente percebe que foi um tipo de atualização do tipo subscription pre-approval. Seguiu o fluxo e a rota do pre-approval e na chamada ele deu 200. Atualizou com sucesso. Lembrando que só que foi criado, essa atualização com certeza foi com o status pendente. Então vamos voltar na API e fazer o pagamento agora. Vamos ir na aba anônima. Vamos colar o link de pagamento. E eu vou efetuar o pagamento com saldo em conta mesmo. Confirmar. Aguardando aí a confirmação do pagamento. E a gente já faz todas as validações necessárias. Vamos lá. Histórico. Vamos aqui. 21 e 46 foi o último que a gente viu. Tem uma de 21 e 47. 15 e 17. Vamos no primeiro. 15. É do tipo pagamento. E ao atualizar o pagamento, ele deu status 200. Então, se a gente vir na tabela pedidos pagamento MP, tem o pedido 21 criado e aprovado. Foi o último criado agora, 9,47. E se a gente olhar o outro histórico, que era 21,47 e 17, a gente pode perceber é um status approval e status 200. Ele atualizou e recebeu o ok do banco. Então, voltar aqui. Assinatura, pedido 21, status autorizado. Então, podemos assim validar que os nossos endpoints, as nossas tabelas e o nosso webhook estão funcionando. Tanto as nossas tabelas, os nossos endpoints e o webhook estão funcionando com sucesso.

@@ -1,0 +1,12 @@
+﻿# Conclusão
+
+- Curso: Push Notifications com Supabase e n8n
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Finalização
+- Duração: 00:00:39
+- Aula: https://flix.nocodestartup.io/m/lessons/3485
+- Vídeo: 5b88078f-9987-4c12-aac1-7afa54514efa
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, vamos chegando ao fim de mais um módulo aqui na NoCool Startup, onde a gente aprendeu como utilizar Push Notifications em dispositivos Android. Basicamente, a gente viu como pegar as chaves lá do Google, tanto do Google Cloud, quanto trabalhar com FCM, ok? A gente também aprendeu a trabalhar com Superbase, como mexer com Webhooks, como configurar nossas tabelas, e por último, no N8N, como juntar todas essas peças do quebra-cabeça para mandar notificações. de quatro formas diferentes, ok? Espero que vocês tenham gostado dessa aula, e se tiver alguma dúvida, pode mandar lá na comunidade. É isso, a gente se vê no próximo módulo. Valeu, um abraço.

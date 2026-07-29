@@ -1,0 +1,12 @@
+﻿# Como importar CSV no Xano
+
+- Curso: M2 - Planejamento Projeto de Backend Xano | FlutterFlow
+- Trilha: (sem trilha)
+- Módulo: Setup Geral
+- Duração: 00:01:52
+- Aula: https://flix.nocodestartup.io/m/lessons/2496
+- Vídeo: 99d87121-c743-417f-ae55-07d6b63ac9bd
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, o que eu vou fazer agora, eu vou enriquecer a minha tabela com o CSV, tá? Eu vou deixar o link aqui embaixo, se quiser acessar. A gente tem um arquivo aqui que eu fiz no Excel, só com os filmes, as URLs, duração, só pra gente conseguir preencher com alguns exemplos aí de uma forma rápida e você já aprende como fazer esse upload aí em relação aos filmes, né? Ou qualquer outro dado, a gente pode fazer o upload lá no Zen. Como que a gente vai fazer isso? Vou vir aqui em três pontinhos e vou importar no CSV, tá? Vou clicar no CSV, vou vir aqui, né? Na verdade, ó. arquivo pode fazer o download como csv tá bom eu já tinha feito aqui vou subir eu subiu aqui o meu csv ó ele já vai tentar entender né qual coluna faz parte de cada coluna aqui ficou vermelho create é eu vou falar que o crie chat é esse daqui ó é deixei vazio mesmo depois eu preencho filme é filme duração duração status nota nota tudo certo né ó ele esse daqui é bem bom no zenu que ele dá um preview de como vai ficar a sua estrutura de dados e você pode criar colunas e estruturar melhor da forma que você for aí colocando os dados ele já entendeu aqui nos filmes já tá entendendo que eu tô portando o csv eu acho que tá tudo certo qualquer coisa a gente ajeita depois né e vou fazer o upload tá bom fazer o upload aqui e ó que legal ele já completou aí uma forma automática para mim todos os usuários, até preencheu a data de criação e também já preencheu o ID de forma automática. Então agora a gente já tem aqui, ó, de uma forma bem organizada os nossos registros aqui no Xenon, né? Então a gente já tem aqui bem completinha a nossa tabela e você já aprendeu como que coloca Insere o CSV. Perfeito. Agora que eu tenho o nosso banco de dados, a gente pode ir e criar a nossa última tabela, que é a tabela de foto de usuário. Vamos lá?

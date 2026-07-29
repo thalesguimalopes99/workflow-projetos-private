@@ -1,0 +1,12 @@
+﻿# Finalização do Módulo
+
+- Curso: 2 - Meu Primeiro Super App | App dos Sonhos
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Turbinando o Aplicativo
+- Duração: 00:01:04
+- Aula: https://flix.nocodestartup.io/m/lessons/2402
+- Vídeo: 9e329453-112f-4480-a3c9-ce62b8e27efa
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E a gente chega ao fim dessa primeira aula completa, onde a gente viu todos os fundamentos, as boas práticas do Flutter Flow. E a gente fez nosso primeiro app passo a passo, todas as telas, tudo design do zero. O banco de dados, integramos o banco de dados. Aprendemos várias e várias coisas interessantes, como por exemplo o App State, como por exemplo, como adicionar dados, deletar dados, adicionar imagens. Então você já conseguiu saber a base. para construir qualquer tipo de app um pouco mais simples e agora a gente pode deixar e fazendo apps aí práticos os projetos aqui no Anoncode Startup para você ir aprendendo mais mão na massa espero que você tenha gostado muito dessas aulas tentei deixar aqui bem completo e bem organizado para você realmente ter a base a gente sempre vai estar melhorando o que é a nossa formação Flutter Flow e tem muitos projetos práticos para você ir aprendendo Aos poucos a gente vai ensinando projetos mais e mais complexos para ficar cada vez mais difícil você se aprofundar no conhecimento. E depois você realmente vai aprender com o seu próprio projeto do mundo real. Espero que você tenha aproveitado muito a formação e vejo no próximo projeto. Bora lá!

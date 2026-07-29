@@ -1,0 +1,12 @@
+﻿# 1.4 - Encerrar a Execução do Projeto Localmente
+
+- Curso: Prototipação, UX e Defesa de Dados | Cursor
+- Trilha: Trilha Cursor
+- Módulo: 1 - Setup do Ecossistema e Estilo Base
+- Duração: 00:00:48
+- Aula: https://flix.nocodestartup.io/m/lessons/5372
+- Vídeo: fcccd22c-d672-4154-b17c-1214bbe7d977
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Rapidinho, eu deixei de falar, para você encerrar o projeto, ou seja, para você fechar a aplicação localmente, porque esse projeto está executando em localhost na sua máquina, então você precisa encerrar ele. Você tem que fazer o seguinte, olha, vamos voltar aqui, eu estou aqui na tela do terminal, né? Então eu cliquei aqui para abrir o projeto da última vez. Aqui na última linha onde vai ficar esse espaço aqui, no seu teclado você vai digitar Ctrl C. Você digitou Ctrl C, ele encerrou o projeto que estava rodando localmente. Ok?

@@ -1,0 +1,12 @@
+﻿# O Que É Cms
+
+- Curso: Framer | Seu Próprio Site + Portifólio
+- Trilha: Trilha Web Design Framer
+- Módulo: Introdução
+- Duração: 00:02:04
+- Aula: https://flix.nocodestartup.io/m/lessons/3042
+- Vídeo: 302a5bca-030a-42d4-846a-4c4645519ac1
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, nessa aula a gente vai falar sobre CMS. O que significa CMS? CMS em inglês significa Content Management System, que em português significa Sistema de Gerenciamento de Conteúdo. Basicamente, o CMS é uma forma da gente se comunicar com o nosso site, com todos os conteúdos que a gente quer enviar para ele. Isso está confuso, eu vou te explicar de uma forma melhor agora. Então imagina que o seu cliente te mandou um conteúdo para o blog que você tem no site e você precisa subir esse post que o cliente compartilhou com você no seu site. Como que você vai fazer isso? Imagina que você tivesse que todo post que o seu cliente manda para você, todo o conteúdo que ele te manda, você tivesse que fazer isso manualmente. Isso seria um trabalho incansável, concorda comigo? Imagina se você tivesse que importar... um blog que já existia em outra ferramenta como WordPress, Webflow, para dentro do framework, como que você poderia fazer isso? E o CMS é a ferramenta que possibilita que a gente faça isso. Então, como que funciona na prática? Então, você tem um conteúdo que o seu cliente te mandou e dentro do CMS, você vai colocar esse conteúdo e dentro da forma como você organizou o CMS, é como se fosse um banco de dados, se você já mexeu com um banco de dados. Mas caso você não tenha mexido, não se preocupe, é super simples. O Framework estruturou isso aqui exatamente para quem não sabe nada de código. E assim que você coloca conteúdo dentro do CMS, ele já vai aparecer magicamente no seu site, de acordo com o design que você definiu. Então você, por exemplo, faz um layout de uma página, por exemplo, de um post de blog, e todos os posts que você postar, ele automaticamente vai se adaptar àquele layout. Pode não ter ficado claro ainda para você, mas eu vou te mostrar na prática e isso vai brilhar os seus olhos. É uma das ferramentas que eu mais admiro no Framer e em ferramentas no-code no geral, que são muito importantes. Então na próxima aula eu conto com você para a gente ver isso funcionando.

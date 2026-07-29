@@ -1,0 +1,12 @@
+﻿# Integrando Google Sheets
+
+- Curso: Make | Sua Primeira Super Automação
+- Trilha: Trilha Automações Make
+- Módulo: Sua Primeira Automação
+- Duração: 00:02:40
+- Aula: https://flix.nocodestartup.io/m/lessons/2843
+- Vídeo: dc001ed5-1bfa-44d1-a171-34f4343fa9d5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+bom vou construir essa automação do zero tá muito simples então pra isso a gente vai precisar do google sheets aqui dentro do google sheets a gente vai utilizar uma função chamada watch new rows certo e aqui basta que a gente selecione o nosso arquivo tá esse arquivo vai ser gerado depois que você fizer a nossa a sua pesquisa no google form então deixa eu até voltar um passo aqui ó vamos voltar aqui pra página inicial do nosso google form para quem não se confunda ali no que precisa vir primeiro certo então se eu criar aqui um v2 pesquisa opinião satisfação se eu crio aqui essa pesquisa tá e aqui nas minhas respostas eu posso criar um link né pra ela cair em alguma planilha então você pode escolher aqui criar uma planilha ou selecionar algum existente caso você já tenha preparado algum aí então posso criar aqui qualquer planilha, simplesmente cliquei ali ele já criou essa planilha eu posso clicar em ver no app certo? está associado ali a sua conta do google e ele vai te vincular aqui ao formulário sem título caso você não tenha renomeado aqui ainda olha só, posso até copiar aqui esse campo Para que eles fiquem iguais antes das respostas começarem a chegar. Então a partir de agora, toda e qualquer resposta que for dada aqui nessa pesquisa, ele já vai cair automaticamente nessa planilha. Eu vou até fechar essa outra aqui para que a gente não se confunda com o antigo e o novo. Então temos agora somente a automação que estamos criando, a nossa nova pesquisa e aqui a nossa nova planilha. Fechou? Então o nosso kit está completo. Deixa eu dar um refresh aqui para a gente poder encontrar essa nova planilha. Então está aqui, V2, Pesquisa de Opinião, SAS, XYZ. E aí você pode colocar aqui a sua aba, que é esse campo aqui embaixo, que está selecionado ali embaixo. Certo? É um indicativo de onde vai cair essa resposta. E aqui, basta você colocar um, ou isso aqui indica quantas linhas você vai coletar por vez. Pode ser uma, pode ser cinco, pode ser dez, depende aí do seu uso. e de quanto tempo você quer fazer essa verificação.

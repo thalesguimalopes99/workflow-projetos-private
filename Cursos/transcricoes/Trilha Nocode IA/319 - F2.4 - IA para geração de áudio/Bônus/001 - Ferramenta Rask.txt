@@ -1,0 +1,12 @@
+﻿# Ferramenta Rask
+
+- Curso: F2.4 - IA para geração de áudio
+- Trilha: Trilha Nocode IA
+- Módulo: Bônus
+- Duração: 00:01:42
+- Aula: https://flix.nocodestartup.io/m/lessons/3239
+- Vídeo: de4c3dc5-7b40-42a5-af5d-5493dee129f2
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E uma dica bônus para você que quer colocar um vídeo e esse vídeo automaticamente ser dublado para, por exemplo, inglês, espanhol. A gente tem outra ferramenta aqui de inteligência artificial que ela é bem boa e ela está sendo bem referenciada nesse meio. Deixa eu mostrar aqui. Essa ferramenta se chama Rask. Abriu o site aqui da ferramenta e ela aqui a gente consegue traduzir aqui de uma forma automática. Que legal. Vou colocar um play. E dessa forma a gente consegue pegar um vídeo que eu estiver comentando aqui e traduzir automaticamente para o inglês ou espanhol ou qualquer outra língua, tá? A gente tá bem de olho porque a gente quer também ter a nossa formação aqui em outros idiomas. Só que até o momento ou era muito caro ou também é um pouco mais difícil de fazer assim, não ficava tão bom, né? Então aqui depois pode dar uma olhada. Aqui é uma das melhores ferramentas que a gente viu. Em relação aos preços, se você vir aqui, né, os preços, pode dar uma olhada depois. Mas tem aqui, ó, 50 dólares por mês, 120 dólares por mês. E aí tem que verificar aqui qual tamanho dos vídeos, né, que a gente consegue gerar essas vozes aí e experimentar também gratuitamente, tá? Então aqui você vai conseguir gerar aí variadas vozes com uma ferramenta muito boa. Se você quiser dublar aí os seus vídeos ou vídeos atuais passar, né? Seja de inglês para português, português para inglês e espanhol. E aí tem várias e várias aí funcionalidades. Então depois dá uma olhada que é uma ferramenta bem interessante.

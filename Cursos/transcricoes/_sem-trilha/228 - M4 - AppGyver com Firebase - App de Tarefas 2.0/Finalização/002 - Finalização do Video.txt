@@ -1,0 +1,12 @@
+﻿# Finalização do Video
+
+- Curso: M4 - AppGyver com Firebase | App de Tarefas 2.0
+- Trilha: (sem trilha)
+- Módulo: Finalização
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/2449
+- Vídeo: c52d4ba3-298b-41fc-8d6e-1e570a295ac9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Eu queria te desejar os parabéns por ter chegado até o final, ter feito o curso completo. Eu espero que você tenha aprendido muito. Espero que você tenha colocado tudo em prática do que a gente viu. E eu estou muito feliz por você ter chegado aqui. Espero que você tenha gostado. Qualquer feedback, sugestão, pode sempre colocar nos comentários. Porque a intenção é ir melhorando aos poucos, deixando o curso, a formação no Google Startup cada vez mais forte, mais profissional. com o maior projeto técnico. Ao longo das semanas e dos meses, vai ter sempre atualizações nesse curso, então sempre eu vou trazer o que é mais de novo no AppGriver e também alguns projetos um pouco mais complexos. Mas eu espero que você tenha tido a base agora, para ir atrás também dos seus outros projetos, conseguir fazer aplicativos mais complexos com o AppGriver. E obrigado, até mais!

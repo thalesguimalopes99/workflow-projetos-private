@@ -1,0 +1,12 @@
+﻿# Fundamentos Ia
+
+- Curso: F1.4 - Fundamentos Inteligência Artificial
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:02:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3170
+- Vídeo: 71317274-12cb-4a12-9f32-66ed4463edf3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo, bem-vindo às aulas de Fundamento de Inteligência Artificial. Essas aulas aqui, eu arrisco dizer que é uma das aulas mais importantes de toda a formação, porque ela vai te dar a base para você entender conceitos muito importantes e não ficar mais perdido nesse mundo de ar que tem tantos conceitos, tantas ferramentas e muitos modelos aí que às vezes a gente fica um pouquinho perdido. Então bora ver aqui comigo o que você vai aprender nessas aulas que estão, ó, legais demais. Lembrando que a gente tá falando muito aqui sobre a triade de desenvolvimento de SaaS com IA no code, tá? Então a gente vai ter três partes muito importantes pra você conseguir desenvolver produtos incríveis com IA e com no code. Primeira parte é o desenvolvimento de produtos, então a gente já passou aqui pelas aulas do Neto de como desenvolver produtos e conseguir testar. Também a gente já passou para as aulas de desenvolvimento de SAS NoCode, que foram as aulas de fundamentos de software. E agora a gente está aqui em inteligência artificial e agentes IA. A gente vai ver os fundamentos de inteligência artificial aqui nessas aulas. Então agora a gente vai focar na parte de fundamentos de IA para a gente completar a nossa tríade. E olha só, nessas aulas aqui você vai aprender os fundamentos e definições do mundo de IA. O que é inteligência artificial? O que é machine learning? O que é deep learning? A gente vai se achar dentro desse mundo de vários conceitos. Vamos entender também várias características sobre os LLMs, que são os Large Language Models, que o pessoal fala tanto aí. E também conceitos práticos muito importantes, como por exemplo, embedding, tokens e outras definições bem importantes para você começar nesse mundo aqui de A. Essas aulas aqui estão bem completas. Então esse módulo pode parecer um pouquinho difícil, mas relaxa que você só precisa entender o desenho geral, os fundamentos gerais, para depois a gente continuar e você conseguir dar os seus próximos passos. Então agora que você já entendeu, bora começar que as aulas estão legais demais.

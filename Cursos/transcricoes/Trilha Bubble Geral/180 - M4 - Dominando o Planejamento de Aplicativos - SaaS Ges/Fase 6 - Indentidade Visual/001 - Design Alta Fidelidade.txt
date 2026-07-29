@@ -1,0 +1,12 @@
+﻿# Design Alta Fidelidade
+
+- Curso: M4 - Dominando o Planejamento de Aplicativos | SaaS Gestão de Projetos 1.0
+- Trilha: Trilha Bubble Geral
+- Módulo: Fase 6 - Indentidade Visual
+- Duração: 00:02:10
+- Aula: https://flix.nocodestartup.io/m/lessons/2149
+- Vídeo: c2b29c46-c045-4113-92fb-0f3b1d701f2f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, pessoal, para a gente fechar aqui esse nosso módulo, nosso planejamento, nossa fase 6 aqui de identidade visual e prototipagem de alta fidelidade. Nosso objetivo aqui não é a gente se aprofundar em identidade visual e prototipagem, apenas mostrar que ela pode ser uma fase importante da nossa aplicação, a gente de fato definir quais vão ser as cores, identidade visual do nosso aplicativo, a gente construir padrões para isso, criar os nossos padrões, para a gente conseguir seguir esses padrões durante o desenvolvimento e aí construir a nossa prototipagem de alta fidelidade com base nessa identidade visual já definida. Então aqui a gente tem todas as nossas telas já em uma fidelidade extremamente alta de como de fato vai ser na nossa aplicação. Todas essas telas podem ser desenvolvidas em ferramentas de design como o Figma, por exemplo, perfeito para fazer esse tal tipo de desenvolvimento, porém não... necessariamente a essa necessidade. Caso você seja novo no desenvolvimento no code, não tenha habilidades com ferramentas de design como essa, esse processo pode ser feito diretamente mesmo nas próprias ferramentas no code. Elas possibilitam essa criação de uma maneira bem facilitada também. Então a gente pode estar ganhando tempo com isso, ao invés de ir para uma ferramenta como um Figma de design, que às vezes a gente vai ter todo o trabalho de pegar, aprender. mais, pegar confiança na ferramenta e às vezes não se paga a gente construir diretamente nas ferramentas no code que já nos dão uma agilidade imensa para a criação, já pode ser uma solução. Para você que já tem familiaridade, já é designer, por exemplo, construir direto, primeiramente, uma ferramenta como o Figma pode sim te trazer ganhos daí. Então aí vai muito do perfil de experiência de vocês. Então aqui trouxe aqui Apenas um exemplo mapeado, que pode ser uma fase importante também desse nosso desenvolvimento. Então, gerar identidade visual, fazer uma prototipagem de alta fidelidade da nossa aplicação, antes de jogar para o Bubble, ou já dentro do Bubble, pensando mais a nível de design mesmo.

@@ -1,0 +1,12 @@
+﻿# Testando nossas primeiras automações
+
+- Curso: Make | Fundamentos Automações com Make
+- Trilha: Trilha Automações Make
+- Módulo: Fundamentos Make
+- Duração: 00:01:45
+- Aula: https://flix.nocodestartup.io/m/lessons/2838
+- Vídeo: 21ed18c2-e244-4eb7-b896-32c1930f0a24
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então qual é a nossa expectativa agora, nesse momento, quando eu rodar esse cenário e dar o play nele? O que vai acontecer? O que você acha que vai acontecer? Como a gente não tem nenhum filtro, ali a gente só trabalhou com formatações de dados, no primeiro caminho ele vai receber os nossos dados sem formatação nenhuma. No segundo caminho ele vai criar mais uma linha, onde ele vai enviar os dados sem formatação e com formatação, preenchendo cada uma das planilhas. Vamos ver como é que isso acontece? Então vou dar o play aqui agora, pra gente ver. Isso acontecendo. Você pode ver que pelo bundle, ele está me informando que aquela operação foi bem sucedida. Ela fez alterações e ali tem os dados a respeito daquela operação bem sucedida. Então, se a gente vir aqui na nossa planilha, você vai ver que a gente tem um texto qualquer. Na coluna B não tem nada. A gente tem uma data sem formatação na coluna C. Na data formatada não temos nada. No número também não temos nada. No número formatado... Também não temos nada de diferente. Já na coluna 3, que é o segundo caminho, a segunda pernada da nossa automação, a gente tem aqui um texto qualquer, que é o texto sem formatação, um texto qualquer, mais uma vez, só que agora formatado de acordo com a tratativa de dados que a gente pediu, tem a data sem formatação, a data formatada de acordo com aquilo que a gente solicitou, o número, que é o nosso número padrão, e o nosso número formatado, solicitado de acordo com o que a gente... pediu que ele fizesse de mudança, que era, na verdade, arredondar esse número. Então, de 18.97, o Make entendeu que o número arredondado seria o 19. E muito justo, muito correto, porque 18.97 é quase 19. Então, você percebe que essas funções, elas... servem para que a gente trate e envie o dado para o nosso destino final que está lá na frente da maneira correta. Então esse é o nosso controle do dado antes que ele chegue lá para que a nossa automação tenha lógica e instruções muito bem claras.

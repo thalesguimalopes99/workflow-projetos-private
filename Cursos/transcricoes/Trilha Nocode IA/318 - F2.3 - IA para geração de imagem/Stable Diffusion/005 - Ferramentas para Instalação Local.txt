@@ -1,0 +1,12 @@
+﻿# Ferramentas para Instalação Local
+
+- Curso: F2.3 - IA para geração de imagem
+- Trilha: Trilha Nocode IA
+- Módulo: Stable Diffusion
+- Duração: 00:01:39
+- Aula: https://flix.nocodestartup.io/m/lessons/3231
+- Vídeo: 4ae024ea-4589-43df-bf19-0822e3fa2bb3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E para finalizar esse tema do Stable Diffusion, eu queria também mostrar para você que também é possível você instalar o Stable Diffusion modelo no sua máquina, no seu próprio computador. Então essa é uma forma interessante e dessa forma você consegue ter maior personalização sobre a criação de qualquer imagem. Então a gente tem no mercado algumas ferramentas para você fazer a instalação local no seu PC. O principal delas eu acho que é a ConfUI e aqui você vai conseguir por meio de nódulos criar aqui as suas imagens e também mudar o estilo da imagem, mudar aqui o background da imagem. Então vai ser tudo conectado e você vai fazer essa instalação e vai conseguir que girar e personalizar sua imagem de basicamente qualquer forma. A ferramenta aí é muito incrível que você consegue ter no seu próprio PC e se está rodando de uma forma local, você não precisa gastar, tá? Então você para de gastar dinheiro para gerar as suas imagens. que é uma forma bem interessante. Então se você quer dar um passo mais avançado aí no Stable de Fusion e usar o modelo no seu próprio PC, pode dar uma olhada como instalar o Confio UI. Tem várias estruturas da internet. No momento aqui nessa formação a gente não vai se adentrar nessa parte, pra não ficar tão grande também esse módulo, mas também que sai mais pra frente e a gente traz conteúdos aqui sobre o Confio UI. Também tem o Control Net, que você consegue rodar o Stable de Fusion pra fazer aqui diferentes desenhos, né? Por exemplo, aqui você faz... o desenho de uma tartaruga e ele consegue criar aqui vários e vários tipos de tartaruga, mudar o background, é uma ferramenta incrível e inclusive vai estar usando aí a tecnologia, o modelo do Stable de Fusion por trás, tá? Então depois dá uma olhada que é bem interessante para você criar essas imagens viradas.

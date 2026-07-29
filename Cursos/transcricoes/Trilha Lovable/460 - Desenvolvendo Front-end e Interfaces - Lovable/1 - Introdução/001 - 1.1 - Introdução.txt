@@ -1,0 +1,12 @@
+﻿# 1.1 -  Introdução
+
+- Curso: Desenvolvendo Front-end e Interfaces | Lovable
+- Trilha: Trilha Lovable
+- Módulo: 1 - Introdução
+- Duração: 00:01:36
+- Aula: https://flix.nocodestartup.io/m/lessons/4796
+- Vídeo: d5d1a52f-0da5-4a48-89dc-98527f82ab8f
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo ao módulo de criação de front-ends interfaces que a gente vai usar o Lovewell. Aqui você vai aprender tanto a parte de fundamento de design, então se você não sabe nada de design, a gente vai ver alguns fundamentos muito importantes que vão ser conhecimentos bem úteis para você criar qualquer tipo de aplicativo, seja agora ou seja no futuro. Além disso, a gente vai criar a nossa primeira interface, nossa primeira... página com o Lovable. A gente vai criar um site irado demais e você vai entender qual seria esse passo a passo para você criar esse tipo de projeto. Beleza, aqui como a gente está falando, vamos usar a melhor ferramenta para criar essa parte de interface, aplicativos, que é o Lovable. Então ele é ideal para a criação de interfaces, ele é mais para projetos mais simples, depois a gente vai ver outras ferramentas para projetos mais complexos, tem integração nativa com o Superbase e a ferramenta... E a do mercado que mais está crescendo atualmente. Recebeu muito investimento. Por isso que a gente está se dedicando a ela. Aqui a gente vai focar só no front-end. A gente não vai usar a parte do banco de dados e do back-end. Vamos ao Wall Lovable porque ele é excelente para criar qualquer tipo de interface, sites, plataformas, projetos simples. Então a gente consegue criar de uma forma muito rápida e lidar projetos muito e muito bonitos visualmente falando. Então vamos começar, vamos falar primeiro da parte de Fundamental Design que vai ser útil para depois você começar a entender a parte de como criar aplicativos bonitos com boa UX e boa UI. E depois a gente vai lá para o Wall Lovable para a gente criar o nosso primeiro site. Bora lá!

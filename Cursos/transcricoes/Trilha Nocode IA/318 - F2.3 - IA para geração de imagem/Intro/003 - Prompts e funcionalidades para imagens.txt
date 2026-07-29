@@ -1,0 +1,12 @@
+﻿# Prompts e funcionalidades para imagens
+
+- Curso: F2.3 - IA para geração de imagem
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:30
+- Aula: https://flix.nocodestartup.io/m/lessons/3222
+- Vídeo: 7f5af6f4-0e13-4058-8623-54146b3675cf
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Vamos revisar rapidamente questões sobre prompt, tá? Então, prompt para imagens, a gente vai seguir as mesmas boas práticas repassadas nas aulas de prompt que o Neto estava explicando, tá? Então, para a geração de imagens, o processo vai ser semelhante, a gente sempre tem que detalhar muito bem as nossas requisições, a gente pode fornecer etapas, passo a passo claro, para a criação daquela imagem, a gente pode pedir para o modelo adotar uma persona para ele criar aquela imagem. E a gente pode também especificar detalhes aqui, comprimentos da resposta, mas seria detalhes da imagem, tá? Então, quanto mais detalhes, melhor. E dentro de imagens, a gente vai principalmente querer algumas funcionalidades. Primeiramente, o mais óbvio, é a geração de imagens do zero, né? Então, ah, vou gerar aqui um vetor, vou gerar agora um cor do sol. Então, eu vou conseguir gerar qualquer tipo de imagem, tá? Essa é uma das principais funcionalidades que a gente vai querer na geração de imagens. Além disso, a gente também vai querer edição de imagens, tá? Então aqui trocar background, trocar também personagens que estão na imagem, a gente vai querer fazer essas edições dentro das nossas ferramentas de modelagem de imagens, tá bom? Também uma outra funcionalidade interessante é o upscale, que é de melhorar a definição da imagem, tá? Então alguns modelos... eles trazem essa funcionalidade aí que é bem interessante bem útil e agora que você já entendeu um pouco mais sobre os prompts e sobre as funcionalidades a gente pode entrar agora na prática para falar sobre o da Lida OpenAI então bora lá

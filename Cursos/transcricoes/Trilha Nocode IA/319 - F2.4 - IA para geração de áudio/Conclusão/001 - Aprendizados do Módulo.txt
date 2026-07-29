@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: F2.4 - IA para geração de áudio
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:00:35
+- Aula: https://flix.nocodestartup.io/m/lessons/3240
+- Vídeo: 6064bfdb-7ce2-4bc9-8df0-f07e59ada7cd
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos no final dessas aulas aqui de geração de áudio com IA. Espero que você tenha aprendido sobre as melhores ferramentas e os melhores modelos para você criar vídeos, criar áudios com IA. Seja de texto para áudio, de áudio para texto. A gente tem várias e várias funcionalidades no mercado. É claro que eu mostrei algumas ferramentas bem famosas, mas tem muitas outras que dá para pesquisar. Tem algumas ferramentas focadas para determinados nichos também que são bem interessantes. Espero que você tenha gostado e te espero agora no próximo vídeo. Bora lá!

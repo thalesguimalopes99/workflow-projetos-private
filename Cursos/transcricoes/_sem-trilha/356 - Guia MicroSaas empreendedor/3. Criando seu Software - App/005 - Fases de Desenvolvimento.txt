@@ -1,0 +1,12 @@
+﻿# Fases de Desenvolvimento
+
+- Curso: Guia MicroSaas empreendedor
+- Trilha: (sem trilha)
+- Módulo: 3. Criando seu Software / App
+- Duração: 00:02:12
+- Aula: https://flix.nocodestartup.io/m/lessons/3946
+- Vídeo: 6463615d-2ec0-40b2-a807-f0dae892cb81
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora, para finalizar essas aulas aqui de conceitos mais importantes sobre fundamento de desenvolvimento de software, vamos entender quais seriam as etapas, passo a passo, para você fazer o desenvolvimento do seu aplicativo ou do seu SaaS. Então, vem comigo e vamos seguir a metodologia da NoCode Startup. Então, a gente vai começar o desenvolvimento da nossa solução sempre olhando para o problema que você quer resolver. Foque bastante no problema para você criar uma solução personalizada para resolver aquele problema em questão. Então é muito importante que você entenda o problema. Depois disso, você faça a conceitualização da solução, que seria um resumo geral das telas, dos usuários, das funcionalidades. E a partir dessa conceitualização, você pode fazer o design realmente das telas. Tanto os wireframes, que são modelos esboços nessas telas, tanto as telas de mais alta fidelidade, telas prontas, para você entender como vai ficar o seu app. E depois disso tem a parte de banco de dados, que é muito importante, muita gente que pula, que é refazer a modelagem correta do seu banco de dados e a relação entre os seus dados. E por fim, você pode ir realmente para o desenvolvimento do seu app. para unir toda a parte do front-end com o nosso back-end, com todas as ações, que você vai conectar tudo e aí vai para a parte prática. Eu vejo muita gente pulando todas essas etapas, indo direto aqui para desenvolvimento, e daí começa a ver, dá problema, fez tudo errado aqui a parte de telas, fez errado o banco de dados, eu tenho que voltar. Então siga uma metodologia para facilitar o processo de desenvolvimento do seu app, tá? E além disso, muito importante que você vai mensurar os dados, você vai testar com seus usuários, vai aprender com esses resultados e vai voltar aqui para o problema. É bem importante porque isso é um processo cíclico, ou seja, você vai testar aquele seu projeto, vai aprender e vai mudar conceitos, por exemplo, de layout, vai mudar conceitos do banco de dados ou conceitos dessa solução de acordo com os testes que você está fazendo com o usuário. Mas agora é já que a gente entendeu. toda a parte da metodologia, bora ver passo a passo com um exemplo real como é que seria feito toda essa parte. Vem comigo!

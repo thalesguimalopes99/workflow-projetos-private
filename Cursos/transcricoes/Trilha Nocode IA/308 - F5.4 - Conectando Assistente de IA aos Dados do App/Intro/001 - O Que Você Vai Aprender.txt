@@ -1,0 +1,12 @@
+﻿# O Que Você Vai Aprender
+
+- Curso: F5.4 - Conectando Assistente de IA aos Dados do App
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:01:30
+- Aula: https://flix.nocodestartup.io/m/lessons/3458
+- Vídeo: 0ecdd6ea-18d2-43bb-aff3-548e18859d5e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas onde a gente vai conectar o nosso web app agora com o nosso chat app. Só que a gente vai colocar uma inteligência especial. O nosso aplicativo de chat vai conseguir conversar diretamente lá com o nosso banco de dados para Base. Olha que irado! Aqui nessas aulas você vai aprender como unir o nosso SaaS com inteligência artificial. Então toda a plataforma que a gente construiu. de gestão financeira, de finanças pessoais, a gente vai agora integrar com o poder de inteligência artificial. E além disso, a gente vai conectar essa função no nosso chat e a conseguir conversar diretamente lá com o nosso banco de dados. Nesse caso aqui, a gente vai utilizar o Supabase, que foi o nosso projeto, mas também você vai conseguir conectar com qualquer outro tipo de banco de dados, porque você vai entender a lógica por trás. Depois dessas aulas aqui, você poderá integrar aí qualquer tipo de SAS, micro SAS, o seu projeto com o IA, tá? E também os conceitos práticos um pouco mais avançados sobre Function Calling. Então, a gente já viu nos módulos passados e agora a gente vai dar um passo mais a fundo para ver algumas coisinhas mais avançadas, tá? Essas aulas aqui, você tem que ir um pouquinho com calma, porque elas já estão mais avançadas. E é muito importante que você tenha feito todas as aulas anteriores, porque eu vou usar aqui, ó. conteúdos de aulas que já passaram. Então, se você não tiver feito, revisa aí a fase 4, a parte de Function Calling e também os projetos anteriores. Então, bora começar.

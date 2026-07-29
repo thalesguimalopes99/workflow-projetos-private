@@ -1,0 +1,12 @@
+﻿# 18 - O Que É Um Vector Stores
+
+- Curso: Agentes de IA no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Parte 2 - Converse com um PDF
+- Duração: 00:01:33
+- Aula: https://flix.nocodestartup.io/m/lessons/4184
+- Vídeo: d9441bca-cf2b-41fd-a654-0750ba80eeb1
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá, turma, sejam bem-vindos para mais uma aula e nessa aula eu vou estar falando para vocês o que é um Vector Store. Um Vector Store é nada mais nada menos que uma biblioteca de informações, um agrupamento de informações ali, de forma que a IA consegue extrair com base em similaridade, que assuntos similares sejam o mais próximo possível do que você está perguntando para ela ou do que ela precisa. ela vai conseguir consultar isso de forma mais clara. Diferente das consultas em SQL, que tem que ser exatamente o que ela precisa, ela vai buscar com base na similaridade entre as informações. Então, o Banco Vector Store serve para você salvar PDFs, áudios, imagens. textos longos, serve para você salvar diversas informações e dar essa autonomia de consulta para IA, tá? Ao invés de você pegar o seu texto e colocar diretamente no prompt ali, por exemplo, você pode simplesmente dizer no prompt que ele tem essa informação em um determinado vector store e que ele pode consultar quando ele achar necessário que ele precise de alguma informação que talvez tenha naquele... ele ir lá e consultar essa informação dentro daquele texto e com base na similaridade ela trazer essa informação para ti. Então é muito simples quando a gente fala de VectorStore, basta sempre lembrar que é onde a gente armazena as informações de forma mais clara para IA. Quando você tem que passar muitas informações para ela, é sempre recomendado que você utilize o VectorStore. Inclusive esse é o próximo assunto da nossa aula, quando utilizar o VectorStore.

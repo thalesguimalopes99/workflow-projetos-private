@@ -1,0 +1,12 @@
+﻿# Descrição do Caso de Uso
+
+- Curso: Make | Sua Primeira Super Automação
+- Trilha: Trilha Automações Make
+- Módulo: Introdução ao Case
+- Duração: 00:02:06
+- Aula: https://flix.nocodestartup.io/m/lessons/2841
+- Vídeo: 8a007f58-c44b-4b2f-ad40-9a9a99f3a997
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E aí, seja bem-vindo a mais um módulo. Seguinte, nessa aula aqui a gente vai falar sobre alguns cases básicos, certo? Onde a gente não vai ver aquela parte mais técnica da última aula, do último módulo, mas a gente vai criar aqui um cenário um pouco mais simples, já interagindo ali com o chat de apt, para que você tenha já uma experiência, pelo menos básica, na criação de um cenário que realmente vai ter uma aplicação para você que mexe com o microSaaS, com sistemas. E olha só, para esse case a gente vai utilizar duas ferramentas que são o Google Forms e o Chat GPT. E aqui a gente tem um cenário, um contexto que talvez seja bem útil para você, que é, suponha, imagine que você queira coletar o feedback dos primeiros usuários da sua ferramenta. Para isso você está oferecendo um formulário para coletar o que essas pessoas têm a dizer a respeito do seu serviço, se está bom, se está ruim. tem algum bug ou algo do tipo é e assim uma hora ou outra você vai se deparar com muitas respostas diferentes nem muitas formas de se explicar cada um não é fala de um jeito se expressa de um jeito então você vai ter ali né um mix de pessoas dando diversas opiniões de cada uma da sua forma é então assim como é possível não é otimizar um processo que muito provavelmente vai fazer parte do seu dia a dia através das automações como você pode fazer disso uma tarefa um pouco mais simples talvez qualificar os feedbacks em positivos e negativos e avaliar primeiros reclamações ou talvez então resumir cada uma das feedbacks recebidos para poder extrair o melhor de toda e qualquer opinião positiva ou negativa perdendo o menor tempo possível A proposta dessa automação é justamente essa, facilitar a tratativa e o entendimento desses feedbacks dos seus clientes usando automações e inteligência artificial. Então vamos lá construir essa automação do zero.

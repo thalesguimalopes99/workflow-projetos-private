@@ -1,0 +1,12 @@
+﻿# Apresentação Geral
+
+- Curso: Dominando o Whatsapp no Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:06
+- Aula: https://flix.nocodestartup.io/m/lessons/3052
+- Vídeo: 873d3c8c-529e-4d14-8b59-99f2f1757dd9
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais um curso aqui na NoCodeStartup. Eu me chamo Helder e vou estar apresentando para vocês o curso Dominando WhatsApp, onde a gente vai estar aprendendo diversas formas de integrar o seu aplicativo com o WhatsApp de forma simples e rápida. E o que vamos aprender no curso? No curso Dominando WhatsApp, basicamente a gente vai aprender formas de integrar o seu aplicativo Bubble ao WhatsApp, cases de integração via link... API não oficial instância única, API não oficial multi-instâncias, né? Que quando você tem vários números de WhatsApp conectado no mesmo servidor, tá? Chatbot com Bubble, tá? WhatsApp e Bubble. Então, a gente vai aprender a criar um chatbot que a gente consegue responder e pegar coisas lá no nosso banco de dados também. E com isso, depois dessas aulas, a gente vai ter aprendido a criar aplicativos com notificação via WhatsApp. A gente vai ter criado aplicativos com números de WhatsApp conectados, múltiplos números de WhatsApp conectados. A gente vai ter aprendido a criar chatbots personalizados. E na próxima aula eu vou estar mostrando para vocês como utilizar o WhatsApp dentro do seu aplicativo Bubble e mostrar alguns exemplos na prática de como isso funcionaria.

@@ -1,0 +1,12 @@
+﻿# Documentação Api Asaas
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - Checkout Transparente
+- Duração: 00:00:45
+- Aula: https://flix.nocodestartup.io/m/lessons/2765
+- Vídeo: b80cf7ae-1a8e-4a45-b9f4-45776b35f5bd
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, nessa aula eu vou estar mostrando pra vocês quais são os endpoints que a gente vai estar utilizando lá na documentação do ASUS para poder realizar a integração. Aqui na documentação do ASUS a gente vai clicar na setinha pra ele expandir os endpoints pra gente. E se a gente prestar bem atenção, esse aqui é o endpoint que a gente utiliza pra criar o checkout PRO, que é o checkout do ASUS das últimas aulas, tá? Nesse caso a gente quer o endpoint que é criar cobrança com cartão de crédito. Esse seria o checkout transparente do ASUS, tá? A gente clica na chamada. Ele vai carregar para a gente. E logo abaixo aqui a gente tem todos os campos necessários para poder preencher e começar a realizar cobranças diretamente no checkout transparente. Na próxima aula eu vou estar mostrando para vocês como preencher essa requisição e levar lá para o API Connector e realizar a integração.

@@ -1,0 +1,12 @@
+﻿# 4.1 - Introdução
+
+- Curso: Agendamento Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Seleções
+- Duração: 00:00:31
+- Aula: https://flix.nocodestartup.io/m/lessons/3758
+- Vídeo: 4d116734-7420-4fa2-9b19-bd4526044b85
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí turma, sejam bem-vindos para mais um módulo e nesse módulo a gente vai estar aprendendo a criar as ações da agenda, que é selecionar o serviço, selecionar o profissional, selecionar a data e o horário, ok? Ainda não chegamos na etapa dos filtros, mas a gente vai criar já essa seleção dos serviços, horários e datas ali basicamente, para a gente poder criar já no banco de dados os registros e poder ir controlando os filtros que a gente precisa, tudo bem? Na próxima aula a gente vai estar aprendendo a fazer a seleção do serviço.

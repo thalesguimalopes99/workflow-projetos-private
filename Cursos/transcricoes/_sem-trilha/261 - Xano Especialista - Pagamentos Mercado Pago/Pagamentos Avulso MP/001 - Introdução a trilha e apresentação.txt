@@ -1,0 +1,12 @@
+﻿# Introdução a trilha e apresentação
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Pagamentos Avulso MP
+- Duração: 00:02:35
+- Aula: https://flix.nocodestartup.io/m/lessons/2888
+- Vídeo: 2fb226ba-8a55-437b-9441-53baeb738ddb
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Olá pessoal, sejam muito bem-vindos e muito bem-vindas a mais uma jornada de conhecimento aqui dentro da NoCode Startup. A ideia é trazer trilhas de conhecimento relacionadas a integrações conhecidas no mercado para ajudar a incrementar ainda mais o seu site ou aplicativo. E para começar, vamos começar a integrar nossos sites e aplicativos com o meio de pagamento. e o meu de pagamento escolhido foi o Zano. Então, a ideia desse projeto é trazer uma integração de back-end utilizando o Zano e fazer uma integração diretamente com o Mercado Pago. Vamos descobrir quais são os problemas que essa integração Zano e Mercado Pago vão atender e vão resolver no seu dia a dia. Mas, antes de começar, deixa eu me apresentar. Eu sou o Will. e faço parte do time de especialistas aqui da NoCode Startup. Eu trago comigo mais de 20 anos de experiência na área de tecnologia. Então eu passei desde o começo lá atrás trabalhando com manutenção, trabalhando com redes, depois migrei para a Helpdesk, trabalhei com atendimento ao cliente. Migrei para a implementação, passei a dar consultoria para grandes clientes e grandes marcas e, nos últimos cinco anos de carreira, eu venho me dedicado à parte de gestão de produtos, onde eu ajudo desde a concepção, fazendo descobertas, discoveries, até a entrega do produto, que envolve toda a área de marketing. Ajudo também fazendo pesquisa com clientes e usuários para entender melhor o desenvolvimento do produto. E é claro, utilizando o no-code e o low-code para ajudar ali a trazer MVPs mais rápidos, conseguir acelerar processos e projetos para assim conseguir agregar mais valor ao final do desenvolvimento. Trabalho também com a inteligência artificial. onde já ajudei diversas marcas a aumentarem suas vendas em seus marketplaces e e-commerce através de sistema de resposta de perguntas e dúvidas de seus clientes. Recentemente, eu migrei para a ByrisDev, uma empresa do Vale dos Silícios, onde eu assistuo como business analyst, utilizando no-code, low-code e inteligência artificial para trazer todos os dados para um data lake e data warehouse e trazer insights. para os clientes de como eles podem se posicionar estrategicamente no mercado.

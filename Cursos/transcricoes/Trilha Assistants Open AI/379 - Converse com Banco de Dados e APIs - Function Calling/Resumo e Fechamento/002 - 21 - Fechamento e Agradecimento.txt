@@ -1,0 +1,12 @@
+﻿# 21 - Fechamento e Agradecimento
+
+- Curso: Converse com Banco de Dados e APIs | Function Calling
+- Trilha: Trilha Assistants Open AI
+- Módulo: Resumo e Fechamento
+- Duração: 00:01:20
+- Aula: https://flix.nocodestartup.io/m/lessons/4021
+- Vídeo: 94603147-2dd6-43df-bea6-2f5f5d32e6ce
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Salve, meus amigos, minhas amigas. Chegamos, então, ao final desse nosso super módulo aqui, explicando bastante em detalhe como que a gente constrói esse nosso agente vendedor, que tem quatro funções, que consegue criar um pagamento de ponta a ponta. Espero que vocês tenham curtido. A gente explorou a fundo toda a parte de funções dentro do Assistance da OpenAI. Aprendemos bastante coisa também nova dentro do próprio... N8N, exploramos coisas que a gente não tinha explorado tanto nas outras formações. Então, espero que tenham curtido. Com isso, a gente chega ao final dessa nossa formação aqui de assistants, passando basicamente o 8020 principal, com o conhecimento que vocês têm agora. Basicamente, vocês conseguem criar qualquer coisa envolvendo assistentes da OpenAI, utilizando o N8N como essa ferramenta maravilhosa de inteligência, super base como a nossa base de dados. Espero que tenham curtido. Qualquer comentário, crítica, sugestão, deixem na comunidade. Qualquer dúvida também, deixem na comunidade. Usem e abusem os templates, os materiais que a gente enviou para vocês. E bora construir coisa nova aí. Bora vender fluxos aí. Comentem com a gente também o resultado que vocês estão tendo. Bora crescer junto. Valeu, pessoal. Espero que tenham curtido.

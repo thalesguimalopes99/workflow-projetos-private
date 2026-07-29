@@ -1,0 +1,12 @@
+﻿# Introdução ao Curso
+
+- Curso: Fundamentos Websites e LPs com Framer
+- Trilha: Trilha Web Design Framer
+- Módulo: O Poder do Framer
+- Duração: 00:01:31
+- Aula: https://flix.nocodestartup.io/m/lessons/2931
+- Vídeo: 872c3cac-6135-41e1-8724-1b8f721509e4
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Salve NoCoder, seja muito bem-vindo ao nosso curso de Framer. Fico muito feliz de te ver por aqui, porque você está assistindo esse curso, quer dizer que você já está entendendo melhor onde cada ferramenta vive no seu universo. Por que você vai estar aprendendo uma ferramenta para criar especificamente um website? E eu falando aqui com uma preferência pessoal, gosto muito do Framer para essa finalidade de criar websites, portfólios, blogs. Para mim hoje é a forma mais eficiente da gente estar criando esse tipo de aplicação de forma bastante profissional. Por esse motivo, fico muito feliz de te ver por aqui. Partindo para o nosso conteúdo, o que a gente vai estar vendo aqui nesse nosso curso de Framer? Primeiro, a gente vai começar com uma introdução. a gente entender o poder dessa ferramenta, entender também uma diferenciação entre sites e apps, para quem ainda tem essa dúvida. Depois a gente vai partir, de fato, para aprofundar na ferramenta. conhecer, criar a conta, fazer um overview da ferramenta, entender aí os fundamentos do Framer, cada um dos seus elementos. Depois a gente vai partir para os nossos cases práticos. Então você vai, ao final desse nosso curso por completo, você vai ter pelo menos dois cases para você já adicionar ao seu portfólio, onde você vai criar o primeiro case, uma cópia do Linktree. Então fazer ali um Linktree personalizado seu. E por fim, a gente vai criar todo um portfólio completo. Então você pode criar o seu próprio portfólio aqui a partir desse curso, onde a gente vai aprender a fazer o uso de CMS no Framework. Então aproveite muito esse nosso curso adicionando essa super ferramenta aí no seu stack, na sua caixinha de ferramentas.

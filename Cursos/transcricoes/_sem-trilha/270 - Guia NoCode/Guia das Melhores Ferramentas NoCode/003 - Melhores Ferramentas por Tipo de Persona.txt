@@ -1,0 +1,12 @@
+﻿# Melhores Ferramentas por Tipo de Persona
+
+- Curso: Guia NoCode
+- Trilha: (sem trilha)
+- Módulo: Guia das Melhores Ferramentas NoCode
+- Duração: 00:01:48
+- Aula: https://flix.nocodestartup.io/m/lessons/2778
+- Vídeo: 4f3e55c1-6c33-47d4-ae47-218ac76ae93e
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora que a gente dividiu as ferramentas por categoria, a gente consegue enxergar um pouco melhor quais são as melhores. Agora a gente tem que fazer uma segunda pergunta, que é pra quem? Quem que vai utilizar a ferramenta no code? Então essa seria a segunda perguntinha estratégica que eu quero te fazer, que é pra quem? Qual que é o tipo de persona que vai utilizar a ferramenta no code? E aqui a gente tem os empreendedores e também temos desenvolvedores e agências. De uma forma geral, o no code acaba sendo muito indicado pra alguém que... tem um pouco mais esse estilo empreendedor. Seja ele que quer tirar a sua ideia do papel ou quer trabalhar, por exemplo, com um freelancer oferecendo o serviço como desenvolvedor no code, tá? Então, eu só queria deixar isso claro que no code, ele anda muito junto com pessoas que são mais empreendedoras. Show demais. Mas, voltando aqui, então, a gente tem principalmente os empreendedores, tá? Que eles querem tirar a ideia do papel, querem criar a sua startup, querem criar, por exemplo, uma inovação dentro de uma empresa, ele pode trabalhar muito com o Intra. empreendedorismo, que é você inovar dentro da sua empresa e geralmente o objetivo do empreendedor é construir o MVP o mais rápido possível para validar a sua ideia e conseguir crescer aí o seu projeto. Então, além de empreendedor, nós temos também os desenvolvedores e agências, né? Que querem oferecer um serviço de desenvolvimento aplicativo, querem fazer um freelancer, seja aqui no Brasil ou seja na gringa, querem aí trabalhar... lido de uma agência ou quer criar a sua própria agência, software house no code, tá? Então, geralmente, a gente tem esses dois perfis aqui bem divididos, que é o empreendedor, que é tirar a ideia do papel, né? Criar o seu projeto, ou o desenvolvedor ou agência que quer oferecer o serviço de desenvolvimento. E agora, a partir daí, que a gente já sabe que tem ferramentas por categorias e tem ferramentas específicas para empreendedores e para desenvolvedores, a gente consegue dar o veredito final para falar quais são as melhores ferramentas no code. Tá curioso? Bora para a próxima aula.

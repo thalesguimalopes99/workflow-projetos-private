@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: 1 - Fundamentos Supabase + Curso SQL
+- Trilha: Trilha Supabase
+- Módulo: Conclusão
+- Duração: 00:00:58
+- Aula: https://flix.nocodestartup.io/m/lessons/2627
+- Vídeo: 08a38e80-9c16-49b5-bb3b-2fdba5ce1b2d
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E para finalizar, só para a gente concluir, você ver tudo o que você aprendeu. Então, esse módulo foi incrível. A gente começou aprendendo tudo sobre o poder do Superbase, o que é esse back-end poderoso, o que ele faz. Depois a gente viu todas as funcionalidades e os primeiros passos na ferramenta. Você já sabe criar tabelas, criar campos, fazer views. Você também viu tudo sobre SQL do básico e já está em um nível quase intermediário. Só precisa praticar. A gente viu principalmente a parte dos Joins que é muito importante no Superbase. É claro que a gente vai ver ainda muito sobre SQL no Superbase, mas a gente vai ter outras formas também de ser ajudado com inteligência artificial. Depois eu vou mostrar nos próximos módulos, tá bem legal. Espero que você tenha aprendido bastante. Qualquer dúvida pode postar na comunidade. E agora eu te convido a seguir nos próximos módulos que estão bem completos para você dar essa jornada no Superbase. Conseguir construir aplicativos incríveis. banco de dados relacionais. Bora lá!

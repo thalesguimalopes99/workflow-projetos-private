@@ -1,0 +1,12 @@
+﻿# 2.5- Credencial Postgresql
+
+- Curso: Agente SDR com Follow up| Cases Práticos -Agente IA
+- Trilha: Trilha Agentes IA Comerciais | Especialistas
+- Módulo: 2 - Setup Projeto
+- Duração: 00:01:47
+- Aula: https://flix.nocodestartup.io/m/lessons/4466
+- Vídeo: 048e64e8-e18b-447f-8478-11b7f1c4dbca
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E vamos aproveitar já também e definir a credencial para o nosso Postgre, que vai ser a nossa memória, o nosso Chat Memory. Beleza? Se você não fez ainda, já foi falado em outras aulas, mas vamos refazer aqui de novo, a gente precisa ir lá no Superbase, tá? Aqui em Project Settings, e aí vem aqui em Connect, tá? No N2N, a gente vai vir aqui em Credenciais, vamos criar uma credencial, e vamos escrever aqui, ó, Postgre. Postgre, certo? E agora a gente vai vir aqui em TransactionPooler e colocar View Parameters. Em Host, vamos copiar aqui, Host. Vim aqui, colar. DatabasePostGrid. Em User, aqui, User. A gente copia aqui, User. E cola, tá? E aí a nossa senha, a nossa senha aqui, tem a nossa porta aqui também, né? Coloca aqui pra baixo, a porta. E vai faltar só a senha, tá? E a senha, você pode vir aqui em Database, tá? Vou vir aqui pra criar uma nova senha. E aqui você pode colocar aqui o Generate Password. Copia, tá? E vou resetar. Resetar a senha do meu banco de dados. E essa senha você vem aqui e cola aqui, tá? Colei. E vou salvar. Então ele vai testar pra ver se deu certo. Se der algum erro, coloca aqui em Hattori, porque aí uma hora ele vai, tá? Mas aqui já deu certo a minha postgris account. Postgris Supabase, tá? Então vou salvar aqui. E já está tudo certo com a minha conta do Supabase também. Beleza? Bora para a próxima aula.

@@ -1,0 +1,12 @@
+﻿# Introdução
+
+- Curso: Edge Functions- Do Zero ao PRO
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Introdução
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/3685
+- Vídeo: 043a3af7-ce0f-41a5-bdcd-cc10b9db45a5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, bem-vindos a mais um módulo aqui na Non-Code Startup. E hoje a gente vai entender como utilizar Edge Functions no Supabase. Então basicamente eu vou explicar os conceitos, como instalar as ferramentas e para que elas servem. Vamos construir uma Edge Function simples para que você possa ver tudo isso na prática. E depois eu vou para um exemplo um pouco mais avançado, onde eu mostro como proteger as suas chaves de API utilizando Edge Functions, ok? Bom, a ideia é que você entenda como utilizar essas ferramentas para colocar a sua aplicação em outro nível. Como pré-quisito, eu entendo que você precisa entender o que são APIs, um pouco de Superbase e como testar APIs utilizando Postman. E além dos módulos acima, é interessante que você tenha uma certa familiaridade com o chat de APT, porque é ele que vai ajudar a gente a criar os nossos códigos. E se você caiu aqui de paraquedas, seria interessante que você... acompanhasse o teu progresso utilizando um plano de estudos. Esse plano aqui, o Matheus construiu, é só chamar a gente lá na comunidade que a gente disponibiliza o link, ok? E ele é bastante completo, você consegue acompanhar teu progresso através de um checklist e isso facilita muito a tua jornada nesse mar de conteúdo. Bom, então vamos entender o que são Edge Functions, mas isso é conteúdo para a próxima aula. Te vejo lá.

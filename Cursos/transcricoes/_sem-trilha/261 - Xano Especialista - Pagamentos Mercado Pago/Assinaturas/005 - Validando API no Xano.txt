@@ -1,0 +1,12 @@
+﻿# Validando API no Xano
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Assinaturas
+- Duração: 00:02:09
+- Aula: https://flix.nocodestartup.io/m/lessons/2916
+- Vídeo: 68f638b8-6bf5-441a-91af-891d64407801
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então agora vamos pegar o que a gente fez no postman e vamos levar diretamente para o Zeno e fazer as validações das APIs direto na nossa nova aplicação. Então vamos clicar em Code, Copiar, vamos acessar o Zeno em linha APIs, ir na nossa API Gateway Mercado Pago e vamos iniciar o desenvolvimento do nosso novo endpoint. Clicando em... Add API Endpoint. E vamos iniciar o nosso Start from Scratch. O nome dela vai ser criar assinatura mercado pago. Ela precisa ser do tipo post. E a gente vai salvar. Beleza. A nossa ideia realmente é só fazer a validação ali do nosso Endpoint dentro dos anos. Vamos clicar em adicionar function, external API request e vamos clicar em import core. Vamos colar o core copiado e clicar no botão import. Já temos todas as nossas funções e parâmetros dentro do Zano. E aí, a partir de agora, é somente alterar as informações que nós vamos precisar. Então, primeiramente, vou salvar. a aplicação e vou clicar no botão Run para testar se essa aplicação funciona aqui dentro do Zano. Fizemos o request e tivemos o retorno 201 com todas as informações necessárias para a criação de um endpoint dentro do mercado pago. Então, com isso, nós já fizemos a validação inicial das nossas APIs. Vamos pegar esses dados e vamos começar a trabalhar com a modelagem e vir desenvolvendo a nossa aplicação. Bora lá?

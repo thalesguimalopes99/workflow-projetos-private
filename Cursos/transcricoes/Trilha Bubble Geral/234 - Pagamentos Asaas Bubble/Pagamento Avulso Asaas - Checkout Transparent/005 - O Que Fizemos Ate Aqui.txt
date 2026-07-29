@@ -1,0 +1,12 @@
+﻿# O Que Fizemos Ate Aqui
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - Checkout Transparente
+- Duração: 00:00:46
+- Aula: https://flix.nocodestartup.io/m/lessons/2768
+- Vídeo: 0959b688-b351-4daf-8918-8854779c7b24
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma. Eu queria agradecer a cada um de vocês que chegaram até aqui e me acompanharam em todos esses módulos do curso de ASAS, desde o módulo do Checkout Pro quanto o módulo do Checkout Transparente. Até aqui a gente já aprendeu a criar cobranças avulsos com o Checkout Pro, que é o Checkout do ASAS, aquele que a gente faz o redirecionamento para uma página do próprio ASAS. E também aprendemos a criar e confirmar esses pedidos diretamente com o Webhook. A gente aprendeu também a criar a integração do Checkout Transparente. diretamente no nosso aplicativo, sem precisar ter uma URL de redirracionamento para o usuário sair da nossa tela. Ele vai manter ali no nosso checkout até a confirmação do pagamento. Eu quero agradecer a cada um de vocês que veio até aqui e te dizer que tem uma aula super bônus lá no final do curso. Não perde, está incrível.

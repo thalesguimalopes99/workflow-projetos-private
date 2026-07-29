@@ -1,0 +1,12 @@
+﻿# Brevo
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:11
+- Aula: https://flix.nocodestartup.io/m/lessons/3709
+- Vídeo: 309e6f04-3393-4eaa-884c-4bb2250d6b17
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí, turma. Sejam bem-vindos para mais uma aula. E nessa aula a gente vai descobrir qual foi a plataforma escolhida para a gente estar utilizando no decorrer das próximas aulas. E a plataforma escolhida foi o Brevo, tá? Além dele ter as melhores ferramentas de marketing, tá? Ele tem a facilidade de ser utilizado, né? Ele é muito fácil de ser utilizado. E ele ainda oferece para a gente 300 e-mails grátis por dia. Ou seja, você consegue enviar 300 e-mails por dia. gratuitamente. Agora, claro, se você faz envio de vários e-mails, e-mails em massa, aí você vai precisar de um plano. Mas se você não envia tantos e-mails, se você envia ali 100, 150, até 200 e-mails por dia, tranquilo, o Brevo vai suprir tranquilamente, porque ele tem 300 e-mails gratuitos por dia, ok? Então, se você não tem uma conta no Brevo, pesquisa aí Brevo, ou pode digitar também Sendinblue, que vai aparecer Brevo diretamente, porque era o antigo Sendinblue. Ele vai estar aparecendo. Você pode criar a conta, criar uma conta para experimentar o Brevo. Crie uma conta rapidinho. Na próxima aula a gente vai estar vendo sobre a API e como passar isso para o Bubble.

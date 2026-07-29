@@ -1,0 +1,12 @@
+﻿# Encerramento
+
+- Curso: Aplicativo de Chat | Mensagens em Tempo Real
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Conclusão
+- Duração: 00:01:04
+- Aula: https://flix.nocodestartup.io/m/lessons/2811
+- Vídeo: 002bde1a-f506-4c9d-93ff-e0c5a64359ba
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Galera, então para finalizar, o que nós aprendemos até aqui foi, primeiro, como fazer um sistema de mensagens, onde eu posso enviar, de acordo com o meu banco de dados, uma mensagem para uma conversa de referência. É claro que para isso nós vamos para o segundo card, que é utilizando bastante o nosso AppState. Primeiro eu expliquei para vocês o que ele é, e depois eu ensinei como você deve utilizá-lo. Terceiro. A gente aprendeu como que estrutura tanto as ações quanto também as informações que estão aparecendo ali no front-end. E por último, a gente aprendeu e colocou em prática todo o nosso design e também o CRUD, que é a construção de algumas informações. Então, espero que vocês tenham gostado. Esse foi o aplicativo que nós construímos em chat. É muito importante o feedback de vocês. Qualquer tipo de dúvida, qualquer tipo de feedback que você tenha, tanto para mim quanto também para o aplicativo, pode comentar lá dentro da nossa comunidade que eu estarei sempre de olho. Muito obrigado a todos que viram até aqui. Fiquem com Deus e até mais. Um abraço. Tchau, tchau.

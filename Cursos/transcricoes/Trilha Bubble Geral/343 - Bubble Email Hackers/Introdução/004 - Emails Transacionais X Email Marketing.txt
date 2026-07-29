@@ -1,0 +1,12 @@
+﻿# Emails Transacionais X Email Marketing
+
+- Curso: Bubble Email Hackers
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:17
+- Aula: https://flix.nocodestartup.io/m/lessons/3707
+- Vídeo: 2cb267c3-6cb0-4d80-af7d-7a2ccd1f8913
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala aí pessoal, sejam bem-vindos para mais uma aula e nessa aula a gente vai estar comparando e-mails transacionais com e-mails marketing. Nessa aula a gente vai estar entendendo o que são cada um deles e basicamente os e-mails transacionais são e-mails ali, né? São os e-mails que o usuário está esperando, né? Que depende de uma ação do usuário no sistema, seja num site, num aplicativo, num blog, por exemplo. E dependa dessa ação, digamos que eu vou recuperar minha senha, eu acabei de fazer uma compra, eu estou aguardando um e-mail com essa informação. Esse é um e-mail transacional, né? Quando o usuário está aguardando aquela informação, está aguardando aquele e-mail ali, diretamente na caixa de entrada dele. Então, esse é um e-mail transacional. Já o e-mail marketing... É aquele e-mail que é responsável por aumentar as vendas, por aumentar o número de leads, por consolidar a marca, tá? Então, é um e-mail que o usuário não está esperando, né? Ele tem o objetivo de aumentar a autoridade da marca, de realizar vendas, criar também leads, né? São enviados ali para uma lista de contato específica, tá? Então, esses são os e-mails marketing, ok? Na próxima aula, vou estar mostrando para vocês um exemplo de plataforma para cada... tipo de email, um exemplo para a plataforma de email marketing e para os emails transacionais.

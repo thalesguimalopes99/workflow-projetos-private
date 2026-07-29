@@ -1,0 +1,12 @@
+﻿# 1.3 - Modo Padrão versus Modo Fila
+
+- Curso: Infraestrutura Simplificada - Hostinger
+- Trilha: (sem trilha)
+- Módulo: 1 - Fundamentos de Infraestrutura
+- Duração: 00:01:38
+- Aula: https://flix.nocodestartup.io/m/lessons/5309
+- Vídeo: 9332f275-0afa-46f9-8918-a178949d4ce6
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E vamos entender um conceito muito importante que é o modo padrão e o modo fila do Neto N, tá? São duas formas que você consegue estruturar, organizar o seu Neto N na sua hospedagem. A gente tem o modo padrão, que basicamente o processamento é feito ao mesmo tempo ali das automações, das requisições nos seus workflows. E ele é rápido para poucas requisições, mas ele pode gerar gargalos e limitações. O ideal é você utilizar o modo fila. Basicamente o modo fila vai fazer um empilhamento das requisições, onde vai passar uma por vez. Talvez demore um pouquinho mais. mas tem muito mais performance, tá? A gente consegue muito mais escala pra fazer essa estruturação em modo fila, tá? Em rodar um por um. Se você deixar aqui no modo padrão, ele não é muito indicado pra você ganhar performance ali, pra quando você estiver rodando vários e vários workflows, várias automações e requisições ao mesmo tempo. Então, é recomendado você sempre utilizar o modo fila do Enoitune, tá? E só pra ficar claro como é que funciona isso, Aqui tem um desenho na documentação lá do N8N Eles basicamente utilizam o banco de dados Redis Que aí basicamente a gente tem esse modo Fila Que ele vai ser armazelado lá no Redis Para depois ser executado em conjunto com o N8N Então a hospedagem, quando a gente escolher um modo Fila Ele já vai fazer toda essa instalação e essa estruturação do N8N com o Redis para ter a melhor performance possível tá então dica super importante se for usar uma hospedagem escolha o modo fila a hostger e as maioria das hospedagens estão utilizando aí o modo fila integrado o que é excelente para nossa performance beleza dito isso bora continuar

@@ -1,0 +1,12 @@
+﻿# 1.3 - Arquitetura do Projeto
+
+- Curso: Geração Automática de Vídeos UGC | Agentes de IA para Marketing
+- Trilha: Trilha Agentes IA
+- Módulo: 1 - Introdução e Planejamento de Projeto
+- Duração: 00:02:47
+- Aula: https://flix.nocodestartup.io/m/lessons/5337
+- Vídeo: 2644d35e-39d4-407a-b54b-e170854fd556
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora que você já viu o fluxo completo do projeto, chegou o momento de olhar para o lado técnico. Vamos entender aí como cada ferramenta se conecta e qual é o papel de cada uma dentro do nosso sistema. Essa aqui, pessoal, é a base da nossa arquitetura. É o que garante que tudo funcione de forma coordenada e automatizada, da entrada de dados até a integra final. O case UGC é formado por seis ferramentas principais, que trabalham em sequência e de forma integrada. Vamos analisar aqui como cada uma começa e se integra junto com cada uma delas aqui. Então, a gente vai começar pelo nosso Lovable, que é o nosso front-end, a nossa interface principal, onde vai estar acontecendo toda a interação com o usuário. e aí a gente tem nosso back-end onde a gente tem toda a inteligência e a tecnologia que é no nosso N8N a gente vai ter tantas automações com o banco de dados rodando ali no N8N além disso a gente vai ter os agentes de A rodando no N8N com o modelo LLM do chat GPT tá o N8N ele é o cérebro da nossa automação e ele a gente vai ter ali né toda a parte do recebimento dos dados enviados pelo logo o armazenamento da do arquivo no drive né então tudo isso vai vai ser concluído através aqui do n8n e aí dentro do n8n a gente vai ter mais apis né a gente vai ter a fol e aí para a gente mandar as requisições aí de imagem e de vídeo a gente vai ter também o Google Drive para a gente armazenar a imagem em geral, o URL, e vamos ter o Gmail aí também para a gente conseguir fazer o envio do e-mail. Sem o N8n aqui, a gente não teria coordenação e ele é o ponto de orquestração entre todas as APIs. Agora, quando a gente fala aqui desse projeto, a gente tem então todas essas integrações, essas APIs aqui. que a gente vai usar e na Fall AI vai estar dentro dela aqui o Nano Banana e o VO3 para a gente usar. Então, com isso, a gente encerra aqui essa aula e aí eu vejo vocês na próxima aula para a gente continuar a desenvolver aqui esse case e agora finalmente colocar a mão na massa. Vamos colocar aí o nosso workflow. para rodar e iniciar através do Form Trigger. Então vejo vocês na próxima aula.

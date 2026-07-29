@@ -1,0 +1,11 @@
+﻿# Conceito de RLS
+
+- Curso: Policies Avançadas no Supabase - RLS
+- Trilha: Trilha FlutterFlow Geral
+- Duração: 00:01:08
+- Aula: https://flix.nocodestartup.io/m/lessons/3653
+- Vídeo: f8ea6300-37df-49bc-afcb-13de0c003eb7
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Pessoal, então bora entender o conceito de RLS. Basicamente, essa sigla significa Role Level Security, que quer dizer segurança a nível de linha. Ou seja, o Superbase permite que a gente crie políticas de acesso para as nossas tabelas. E nessas políticas, a gente vai falar quem pode acessar o nosso conteúdo e o que essas pessoas podem fazer com os nossos dados dentro daquelas quatro operações básicas, Create, Read, Update e Delete. E um conceito importante também é que autenticação é diferente de autorização, ou seja, eu posso estar autenticado, ter o meu token JWT, porém eu posso não ter autorização... para realizar uma operação no banco, beleza? Esse conceito vai ficar mais claro quando a gente fizer os nossos exercícios lá no Postman, beleza? E é lógico, todo o conceito que eu estou trazendo aqui vem lá da documentação oficial do Superbase, que se você quiser entender melhor, tem o link aqui no slide, ok? Na sequência, na próxima aula, a gente vai aprender tudo sobre como funciona o processo por trás dos panos, mas eu te vejo lá. Valeu e até a próxima!

@@ -1,0 +1,12 @@
+﻿# Aprendizados Do Módulo
+
+- Curso: F3.4 - Fundamentos Websites NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão
+- Duração: 00:01:13
+- Aula: https://flix.nocodestartup.io/m/lessons/3077
+- Vídeo: c315054c-8dc8-487b-99ea-448e34f1dae3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E agora chegamos ao fim dessas aulas aqui e eu espero que você tenha gostado demais. Esteja bem claro quais são os fundamentos de websites e as melhores ferramentas e também um pouquinho da prática do Framer. Mas bora ver o que a gente aprendeu. Bom, a gente aprendeu os fundamentos de websites, estruturas importantes também como o CMS. A gente aprendeu também as melhores ferramentas do mercado para você construir o seu site. E também a gente aprendeu o Framer na prática. Então a gente olhou um pouco do site do Framer. entrou lá dentro do frame e também vimos algumas ideias de como você pode monetizar com sites e ia tá bom se você quiser aprender mais sobre o frame como eu falei a gente tem um curso muito completo com o Leo, que é o nosso especialista de Framer. Então você faz aqui todas as aulas passo a passo, onde ele explica tudo bem detalhado o que vai ter aqui também o projeto Linktree e depois um portfólio para você fazer, beleza? Então está bem completo, bem legal se você quiser fazer o seu portfólio ou o seu projeto. Dá uma olhada lá depois para você entender 100% como usar o Framer na prática. Agora foi mais para você ter um overview. Então, eu espero que você tenha curtido essas aulas e bora para a próxima. Esse aprendizado está irado demais.

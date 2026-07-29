@@ -1,0 +1,12 @@
+﻿# O Poder Do Supabase
+
+- Curso: F3.5 - Fundamentos SaaS NoCode
+- Trilha: Trilha Nocode IA
+- Módulo: Melhores Backends
+- Duração: 00:01:40
+- Aula: https://flix.nocodestartup.io/m/lessons/3086
+- Vídeo: 9d5e9220-578b-4eee-8bbb-6db2294e4cbb
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então agora vamos lá, vamos conhecer sobre o Supabase, esse incrível back-end aí para você usar no seu SaaS. O Supabase se titula como uma alternativa ao Firebase, tá? Então é todo um serviço de back-end, mas vai ser relacional. Então a gente vai ter aqui o que a gente está acostumado com as linhas e colunas da nossa tabela, né? Firebase acaba sendo um pouco difícil porque são documentos e coleções e é um conceito que quem não é programador é mais difícil de aprender. Em relação ao Supabase, ele tem um banco de dados flexível. Ele tem um construtor facilitado de API, ele tem alta performance, é rápido, escalável. A gente consegue criar projetos que vão escalar muito e ele é muito seguro. Ou seja, ele também está associado com as principais leis de dados aí pro país. Então ele acaba sendo bem importante pra utilizar aí nos seus projetos. Tem todos os serviços, como eu falei, de banco de dados, autenticação, storage, patchwork da mídia. Tem algumas coisas mais técnicas como Edge Functions. tem o banco de dados real time e tem as APIs, beleza? E além disso, ele tem o banco de dados vetorial, tá? O Vector Database, que vai ser pra gente construir aplicações de inteligência artificial aí bem mais robustas. Então isso acaba sendo um grande diferencial com os novos projetos que estão a vir aí dentro do Supabase. Então agora que eu fiz a introdução do SupaBase, vamos entrar na plataforma para conhecer na prática como é que funciona esse banco de dados. Agora o momento é só para a gente conhecer e ir se ambientando, tá? Eu não vou ensinar o passo a passo, depois a gente vai ter aulas lá nos cases, só para isso que a gente vai realmente passo a passo para você entender. Então bora lá!

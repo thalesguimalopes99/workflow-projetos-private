@@ -1,0 +1,12 @@
+﻿# 0 - Introdução ao Módulo OpenClaw
+
+- Curso: 3.1.1 - O Poder do OpenClaw
+- Trilha: Trilha Agentic Builder OpenClaw
+- Módulo: Introdução
+- Duração: 00:00:37
+- Aula: https://flix.nocodestartup.io/m/lessons/5620
+- Vídeo: 8cbfb3ec-117d-448d-99dd-209b5f2b119a
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E seja muito bem-vindo às aulas de OpenClaw. Aqui você vai aprender como dominar essa ferramenta do zero até os fundamentos e configurações iniciais até a parte avançada. O seu professor vai ser o Alisson Ryan. O Alisson já tem inúmeros projetos criados com OpenClaw e ele tem uma agência de tráfego pago onde ele roda a maioria dos processos e projetos via OpenClaw. Você vai aprender como configurar esse seu super assistente pessoal e como fazer projetos na... prática. Aqui a gente vai unir todos os fundamentos com as boas práticas. Mas chega de enrolação, agora é com você Alisson. Bora começar!

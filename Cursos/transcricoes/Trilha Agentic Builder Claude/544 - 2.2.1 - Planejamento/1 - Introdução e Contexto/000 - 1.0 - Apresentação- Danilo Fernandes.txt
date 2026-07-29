@@ -1,0 +1,12 @@
+﻿# 1.0 - Apresentação: Danilo Fernandes
+
+- Curso: 2.2.1 - Planejamento
+- Trilha: Trilha Agentic Builder Claude
+- Módulo: 1 - Introdução e Contexto
+- Duração: 00:01:18
+- Aula: https://flix.nocodestartup.io/m/lessons/5623
+- Vídeo: 52d2b8e4-b15e-4df0-abbf-251d098c6082
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E seja muito bem-vindo a trilha do zero até o SaaS completo com Cloud Code. Essa trilha aqui é a mais importante da formação, porque você vai entender a base de como fazer lá desde o planejamento de um projeto maior, mais complexo, até todo o design, toda a arquitetura do projeto, as funcionalidades, toda a parte de ferramentas, vai ser super importante, integração com pagamentos ou outras APIs externas, e também como colocar em produção um projeto maior. que você faça essas aulas porque você vai entender como que funciona do zero até colocar em produção um projeto aí, colocar um projeto no ar. Dessa forma você vai conseguir replicar para um projeto que você tem aí a nível pessoal ou a nível profissional, tá? Então faça essas aulas na ordem, com muita calma que elas são bem importantes. Quem vai ser o seu professor aqui? Vai ser o Danilo Fernandes. O Danilo Fernandes é um professor com uma didática diferenciada, ele tem um humor aí muito engraçado, vocês vão ver durante as próximas aulas. mas mantendo aí toda a parte didática e a parte técnica para você aprender da melhor forma. Ele já criou vários e vários projetos com o Cloud Code e outras ferramentas e está passando um pouco desse conhecimento aqui passo a passo para você criar o seu próprio projeto. Chega de enrolação, é com você Danilo, bora lá e bora começar essas aulas.

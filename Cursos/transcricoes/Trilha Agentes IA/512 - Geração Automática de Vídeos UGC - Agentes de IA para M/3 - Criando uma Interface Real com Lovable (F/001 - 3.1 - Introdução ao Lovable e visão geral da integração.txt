@@ -1,0 +1,12 @@
+﻿# 3.1 - Introdução ao Lovable e visão geral da integração
+
+- Curso: Geração Automática de Vídeos UGC | Agentes de IA para Marketing
+- Trilha: Trilha Agentes IA
+- Módulo: 3 - Criando uma Interface Real com Lovable (Fase 2)
+- Duração: 00:02:01
+- Aula: https://flix.nocodestartup.io/m/lessons/5345
+- Vídeo: 1ecc1f50-9a04-4fa8-9073-533e977ac411
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora que o nosso fluxo técnico está funcionando perfeitamente, é hora de darmos um rosto para ele. Até aqui, a gente construiu toda a parte interna, o cérebro da automação, o N8N, a Fall AI e a OpenAI. Mas o usuário final ainda não tem como interagir com esse sistema de forma simples. E é exatamente isso que o Lovable vai resolver para a gente. O Loveable App Builder é uma ferramenta no-code que permite transformar automações em aplicações reais, com layout, formulário e experiência visual. Pense nele aqui, pessoal, como o nosso front-end do nosso projeto. É onde o usuário vai enviar a imagem, vai enviar a descrição do produto e o e-mail dele, disparando automaticamente todo o workflow que a gente criou junto ali no N8N. Agora a gente vai substituir, então, o Form Trigger, usando o Lovable, que a gente usou até agora para fazer os testes. A conexão entre o Lovable e o N8N vai acontecer por meio de um webhook. Então a gente vai configurar o webhook no N8N e a gente vai depois trazer esse webhook aqui para o Lovable. Quando o usuário clicar em enviar dentro do app que a gente vai criar, o Lovable vai enviar todos os dados do formulário diretamente para o N8N e o N8N então executa todo o fluxo que você já construiu. Vai gerar a imagem, criar o vídeo e enviar o link final por e-mail. Essa comunicação é instantânea e totalmente automatizada, e o resultado é que você não precisa mais acessar o EnerTN para gerar um vídeo. Qualquer pessoa pode abrir o link do app que você vai criar, fazer o upload da imagem e ver o sistema funcionando. Isso vai transformar a automação em um produto utilizável, com uma interface real e acessível a algo que você pode apresentar como protótipo, como MVP ou até mesmo como um produto comercial. Então, agora que você já entendeu o que é o Lobo e como ele se conecta no N2N, na próxima aula a gente vai construir juntos o layout e o formulário do nosso consultor de anúncios do IGC. A partir daqui o projeto começa a ganhar cara de produto e eu te vejo lá na próxima aula.

@@ -1,0 +1,12 @@
+﻿# 8.1 - Gestão de Credenciais no N8N
+
+- Curso: Fundamentos N8N - Domine o 80/20
+- Trilha: Trilha Agentes IA
+- Módulo: 8 - Dicas e Truques N8N
+- Duração: 00:01:14
+- Aula: https://flix.nocodestartup.io/m/lessons/4067
+- Vídeo: 9c836e6c-29e7-4448-8f83-fe3ec045e3db
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Aulinha rapidinha aqui para a gente entender como é que ficam as nossas credenciais aqui dentro do N8N. Então depois de a gente ter feito algumas integrações já com a OpenAI, com o Superbase, com a ZAPI, aqui na nossa home, aqui nas workflows, a gente também tem essa opção de credenciais. E aqui a gente vê as credenciais que a gente está criando. Então a gente agora tem algumas credenciais já pré-prontas, que facilita muito a gente... Usar essas credenciais em outros módulos. Do nodes que a gente vai criando. Então eu vou ter que enviar. Eventualmente várias mensagens de API. Em diversas automações. Que eu vou construir. Várias mensagens de WhatsApp. Eu posso sempre usar. Referenciar essa minha autentificação. Não tem que ficar fazendo sempre aquilo. Então elas vivem aqui. Caso sua chave de API mudar. Você vem aqui e altera a chave de API por aqui. Então. O 1N20 já gerencia isso aqui bem para a gente. Fica uma forma mais organizada de a gente gerenciar essas credenciais. Basicamente isso que eu queria mostrar. Só aproveitando e mostrando. Eu posso abrir aqui essa credencial e posso deletar ela. Abrir. Aqui a gente pode fazer edição do nosso valor e deixar sempre tudo atualizado e funcional. Bacana? Então, pessoal, na próxima aula a gente vai aprofundar um pouquinho mais alguns termos técnicos. Já estamos finalizando esse 8020 para a gente começar a nossa primeira automação que vocês vão curtir.

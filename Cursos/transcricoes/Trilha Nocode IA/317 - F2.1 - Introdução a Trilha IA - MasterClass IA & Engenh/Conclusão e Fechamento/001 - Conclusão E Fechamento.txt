@@ -1,0 +1,12 @@
+﻿# Conclusão E Fechamento
+
+- Curso: F2.1 - Introdução a Trilha IA - MasterClass IA & Engenharia de Prompts
+- Trilha: Trilha Nocode IA
+- Módulo: Conclusão e Fechamento
+- Duração: 00:01:00
+- Aula: https://flix.nocodestartup.io/m/lessons/3212
+- Vídeo: 4b8a34ae-b600-432a-b486-1e14d4af4269
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Salve, pessoal! Com isso a gente finaliza esse nosso primeiro curso aqui da nossa trilha de Fundamentos e Ferramentas de Inteligência Artificial. Então a gente fez aí uma bela introdução e também aprendemos aí sobre engenharia de prontos. A ideia desse curso aqui foi de fato começar a desenhar esse nosso mapa aí para a gente ir se ambientando já com esse nosso ecossistema de inteligência artificial, dos modelos, das ferramentas que a gente tem à disposição, começar a entender também essa arquitetura dos nossos agentes, para daí agora a gente começar a cair de fato, para cada um dos módulos falando de texto, de imagem, de vídeo, de áudio e mergulhando um pouquinho mais em cada uma dessas ferramentas. Então, aqui, para dar essa base fundamental, os próximos cursos a gente vai setando algumas bases para depois a gente avançar mais profundamente no futuro dessa nossa formação, trazendo alguns cases mais práticos de fato, integrando e criando produtos conectados com o NoCode. Beleza, pessoal? Espero que tenham curtido esse curso. Qualquer coisa, deixe um comentário lá na comunidade para a gente que a gente vai batendo um papo. Beleza? Até o próximo.

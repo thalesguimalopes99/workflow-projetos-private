@@ -1,0 +1,12 @@
+﻿# Aprendizados do Módulo
+
+- Curso: Geração PDF e Pub dev no Flutterflow
+- Trilha: Trilha FlutterFlow Geral
+- Módulo: Finalização
+- Duração: 00:00:35
+- Aula: https://flix.nocodestartup.io/m/lessons/2992
+- Vídeo: bb24e0cb-6766-43d1-8cb1-35a112d177b3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, nesse módulo a gente aprendeu como criar PDFs no Flutter Flow de forma gratuita. Então, só recapitulando, a gente descobriu como usar pacotes de bibliotecas dentro do Flutter para expandir as funcionalidades nativas. A gente viu como criar custom code com o auxílio de IaaS. para dar mais produtividade ainda na hora de construir um PDF. E a gente viu também como utilizar um banco de dados externos, no caso o Supabase, para alimentar o nosso PDF. Lembrando que a lógica para fazer com o Firebase é muito similar, ok? É isso, se você gostou, pode me seguir nas redes sociais. Espero que a gente se veja em uma próxima verdade. Valeu, um abraço.

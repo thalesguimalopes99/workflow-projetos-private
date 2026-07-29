@@ -1,0 +1,12 @@
+﻿# Aprendizados Pagamentos Avulso
+
+- Curso: Stripe | Pagamentos Avulsos e Assinaturas
+- Trilha: (sem trilha)
+- Módulo: Pagamento Avulso via Api
+- Duração: 00:01:02
+- Aula: https://flix.nocodestartup.io/m/lessons/2316
+- Vídeo: 7fcfa78d-3876-422e-a4b2-71750a013453
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E para finalizar essa parte de pagamento avulso, vamos fazer um resumo do que nós aprendemos até aqui. Nós começamos entendendo como que cobra um valor avulso de um cliente, podendo ser até mesmo com a ação nativa do próprio Flutter Flow, onde o cliente coloca o cartão dele e aí a gente tem a resposta se foi feito o pagamento ou não. Depois nós aprendemos sobre como que funciona e como que nós podemos também ler a documentação da API e aprendemos a criar essas ações de acordo com a documentação dentro do Flutter Flow e aí eu tenho uma resposta, tá bom? A gente aprendeu também como que funciona, o que é um Checkout Session, uma sessão de Checkout e aí nós criamos e também tivemos as nossas respostas das suas respectivas informações. E para finalizar, a gente pegou essas respostas e alterou o nosso banco de dados do Firebase. de acordo com suas respectivas respostas também, tá bom? Então isso foi muito legal, espero que vocês tenham gostado. Muito obrigado para quem chegou até aqui, mas não pense que terminou por aqui, tá bom? Vamos começar agora com a nossa área de assinaturas. Vamos lá?

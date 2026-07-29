@@ -1,0 +1,12 @@
+﻿# 6.1 - Resumo do que Aprendemos
+
+- Curso: Fundamentos Essenciais de Desenvolvimento - Projetos IA
+- Trilha: Trilha Agentes IA
+- Módulo: 6 - Finalização
+- Duração: 00:01:44
+- Aula: https://flix.nocodestartup.io/m/lessons/4684
+- Vídeo: 6b389061-4b8c-4aa9-91b9-c7727c517c02
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E chegamos ao fim desse módulo, vamos revisar tudo o que a gente aprendeu, porque foi cada ponto muito importante para dar os fundamentos para depois você conseguir construir seus próprios projetos. A gente viu aqui a arquitetura de sistemas, então o que é front-end, o que é back-end, como que eles se comunicam entre si. A gente viu também a arquitetura dos agentes, então por que o agente é tão poderoso. A gente viu que ele consegue fazer as tools, consegue fazer o reg também de se comunicar com outros sistemas da internet. A gente viu aqui também as melhores ferramentas para criar aplicativos, para criar sites, para criar automações. Então já elenquei quais as melhores ferramentas que você tem que focar. Entendemos também os... fundamentos de webhooks e de APIs, então dessa forma você entende como que o seu sistema pode se conversar com outros sistemas. Vimos também sobre prompts, então quais são as melhores formas de você criar os seus prompts para agentes, para também aplicativos, interfaces, e também vimos como ganhar dinheiro com IA, várias e várias formas que você pode monetizar. Então, muitos assuntos bem importantes. Tomara que você não tenha pulado nenhuma aula, porque a gente vai usar todos esses conhecimentos ao longo das nossas aulas práticas. Então, se ficou alguma dúvida... pergunta aqui para a gente, pergunta na comunidade para entender bem os fundamentos. E em relação a isso, eu também peço que você preencha aqui embaixo, se você gostou desse módulo ou não, a gente vai ter uma pesquisa para você dar uma nota, a gente está sempre melhorando. E se você está curtindo aqui as aulas, está animado, posta lá nas redes sociais para a gente conseguir ver que você está aprendendo, a gente vai compartilhar e vai ser muito feliz ver o seu aprendizado aí. Beleza? Te vejo no próximo módulo, bora lá!

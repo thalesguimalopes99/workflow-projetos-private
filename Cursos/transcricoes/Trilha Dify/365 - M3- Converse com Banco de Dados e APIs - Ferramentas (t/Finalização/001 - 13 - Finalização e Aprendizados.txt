@@ -1,0 +1,12 @@
+﻿# 13 - Finalização e Aprendizados
+
+- Curso: M3- Converse com Banco de Dados e APIs | Ferramentas (tools)
+- Trilha: Trilha Dify
+- Módulo: Finalização
+- Duração: 00:01:17
+- Aula: https://flix.nocodestartup.io/m/lessons/3816
+- Vídeo: 147878f4-4d04-428a-b7e3-0017e774fe00
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Espero que você tenha gostado desse módulo onde você aprendeu como usar as tools, que são as ferramentas do DeFi, ou também conhecidos como Function Calling, onde a gente consegue chamar funções. Então, dessa forma... o nosso agente, a gente consegue chamar qualquer outro tipo de serviço na internet, seja no Google, seja no Superbase, seja criar um pagamento, ou pode ser também um agendamento, que a gente vai ver no próximo módulo. Então, a gente consegue agora ter o nosso agente turbinado. Além de conseguir fazer o reg, que a gente já tinha aprendido, a gente consegue fazer. as funções personalizadas para deixar nosso agente poderoso. Então a gente aprendeu como fazer isso consultando lá no banco de dados, como criar um link de pagamento pelo Asas e também se você quiser aprender como que a gente faz um webhook para ficar vendo se aquele link de pagamento foi pago ou não, dá uma olhada lá nas nossas aulas de pagamentos que eu ensino ali e é bem rapidinho, é só um e-book no E-N8N que fica esperando lá para ver se o pagamento foi feito ou não. E dessa forma a gente consegue ter um atendente de vendas que vai vender aí 24 horas, 7 dias por semana para o seu negócio ou se quiser oferecer esse serviço aí para vários negócios, com certeza eles vão estar muito interessados. Beleza, bora para o próximo modo, espero que você tenha gostado desse e bora lá!

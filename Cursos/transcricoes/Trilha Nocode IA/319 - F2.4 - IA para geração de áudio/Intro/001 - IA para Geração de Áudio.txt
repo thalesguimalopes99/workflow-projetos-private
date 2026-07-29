@@ -1,0 +1,12 @@
+﻿# IA para Geração de Áudio
+
+- Curso: F2.4 - IA para geração de áudio
+- Trilha: Trilha Nocode IA
+- Módulo: Intro
+- Duração: 00:00:50
+- Aula: https://flix.nocodestartup.io/m/lessons/3233
+- Vídeo: fb1e1ffe-7d1e-4c51-9d05-c6a8aa71e902
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Seja muito bem-vindo às aulas de geração de áudio com IA. E bora ver o que você vai aprender nessas aulas aqui. Nessas aulas a gente vai ver os principais modelos de IA para geração de áudio, tá? Para a gente trabalhar com texto para áudio, áudio para texto. Então vamos falar um pouco sobre IAs generativas para áudio. E além disso a gente vai ver na prática uma das melhores ferramentas aí para você utilizar, que é o Eleven Labs. Então, também você vai conseguir aprender muitas coisas após essas aulas, você vai conseguir entender os melhores modelos para criar SaaS e projetos conectados com alguma funcionalidade de áudio e você vai entender as melhores ferramentas, os melhores modelos e a gente também vai ver na prática. Então, sem mais enrolação, bora começar essas aulas aqui que estão bem legais. Vamos que vamos!

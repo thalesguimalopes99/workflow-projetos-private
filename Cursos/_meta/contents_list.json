@@ -1,0 +1,2641 @@
+[
+ {
+  "id": 593,
+  "uuid": "81cbfbec-3321-4ad8-81ce-6525036c5a00",
+  "title": "Curso Hermes Agent | Trilha",
+  "code": null,
+  "slug": "curso-hermes-agent-trilha-1784307623570"
+ },
+ {
+  "id": 592,
+  "uuid": "f765146e-3e79-4e8c-a1c1-bc0f01bc0e3f-case-hermes-kanban-multiagente",
+  "title": "4.1.3 - Case Hermes: Kanban Multiagente",
+  "code": null,
+  "slug": "case-hermes-kanban-multiagente1784137058890"
+ },
+ {
+  "id": 589,
+  "uuid": "dc6630d6-b825-4666-9299-26d4836f379f",
+  "title": "Boas Práticas em Desenvolvimento e Automação",
+  "code": null,
+  "slug": "boas-praticas-em-desenvolvimento-e-automacao"
+ },
+ {
+  "id": 588,
+  "uuid": "15251008-d831-400b-b11c-52a6669f1478-hermes-na-pratica",
+  "title": "4.1.2 - Hermes na Prática",
+  "code": null,
+  "slug": "hermes-na-pratica1783597376186"
+ },
+ {
+  "id": 587,
+  "uuid": "15251008-d831-400b-b11c-52a6669f1478-fundamentos-do-hermes-agent",
+  "title": "4.1.1 - Fundamentos do Hermes Agent",
+  "code": null,
+  "slug": "fundamentos-do-hermes-agent1783597356047"
+ },
+ {
+  "id": 586,
+  "uuid": "e9fe76a9-76de-11f1-92f6-12b5b192a227",
+  "title": "Vibe Coding na Prática: como construí o monitor social em tempo real do maior evento de inovação do ",
+  "code": null,
+  "slug": "vibe-coding-na-pratica-como-construi-o-monitor-social-em-tempo-real-do-maior-evento-de-inovacao-do-es"
+ },
+ {
+  "id": 585,
+  "uuid": "8f49b329-7484-11f1-92f6-12b5b192a227",
+  "title": "Como transformar automação e IA em soluções que empresas compram, usam e recomendam",
+  "code": null,
+  "slug": "como-transformar-automacao-e-ia-em-solucoes-que-empresas-compram-usam-e-recomendam"
+ },
+ {
+  "id": 584,
+  "uuid": "5879782c-6bf3-11f1-92f6-12b5b192a227",
+  "title": "TubeFlow: construindo um SaaS de IA com Claude Code ",
+  "code": null,
+  "slug": "tubeFlow-construindo-um-saas-de-ia-com-claude-code"
+ },
+ {
+  "id": 583,
+  "uuid": "bb2c8a88-bd45-477c-a3fc-78b051785b2d",
+  "title": "3.2.7 - Comande Sua Frota de Agentes",
+  "code": null,
+  "slug": "seu-jarvis-de-ia-1781877318887"
+ },
+ {
+  "id": 579,
+  "uuid": "6cddd940-5048-4bcf-8909-8d2114b50aa9-subagentes-e-orquestracao",
+  "title": "3.2.4 - SubAgentes e Orquestração",
+  "code": null,
+  "slug": "subagentes-e-orquestracao1781236675604"
+ },
+ {
+  "id": 580,
+  "uuid": "6cddd940-5048-4bcf-8909-8d2114b50aa9-sessoes-contexto-modelos-e-memoria",
+  "title": "3.2.3 - Sessões, Contexto, Modelos e Memória",
+  "code": null,
+  "slug": "sessoes-contexto-modelos-e-memoria1781236675836"
+ },
+ {
+  "id": 581,
+  "uuid": "6cddd940-5048-4bcf-8909-8d2114b50aa9-ferramentas-avancadas-e-dicas",
+  "title": "3.2.5 - Ferramentas Avançadas e Dicas",
+  "code": null,
+  "slug": "ferramentas-avancadas-e-dicas1781236676205"
+ },
+ {
+  "id": 582,
+  "uuid": "6cddd940-5048-4bcf-8909-8d2114b50aa9-case-final-agente-de-prospeccao-local",
+  "title": "3.2.6 - Case Final: Agente de Prospecção Local",
+  "code": null,
+  "slug": "case-final-agente-de-prospeccao-local1781236676458"
+ },
+ {
+  "id": 578,
+  "uuid": "7238b670-7a8f-4a74-a33d-0671a9956103",
+  "title": "Certificado",
+  "code": null,
+  "slug": "certificado-1781129426586"
+ },
+ {
+  "id": 577,
+  "uuid": "6ab846b5-60cc-11f1-92f6-12b5b192a227",
+  "title": "Como Montar seu Próprio Harness de IA com Claude Code",
+  "code": null,
+  "slug": "como-montar-seu-proprio-harness-de-ia-com-claude-code"
+ },
+ {
+  "id": 576,
+  "uuid": "4d9f5854-e81b-47e4-a93b-7f93bd66d424-claude-cowork",
+  "title": "1.3 - Claude Cowork",
+  "code": null,
+  "slug": "claude-cowork1780596466984"
+ },
+ {
+  "id": 575,
+  "uuid": "47735013-107b-4b06-b86e-b25fe422a9d6-claude-chat",
+  "title": "1. 2 - Claude Chat",
+  "code": null,
+  "slug": "claude-chat1780573309780"
+ },
+ {
+  "id": 574,
+  "uuid": "86ea9615-5a99-11f1-92f6-12b5b192a227",
+  "title": "Como automatizei 70% do meu trabalho com o Claude Code",
+  "code": null,
+  "slug": "como-automatizei-do-meu-trabalho-com-o-claude-code"
+ },
+ {
+  "id": 573,
+  "uuid": "5f9dc0f1-1c80-42ad-932f-0a87a4fa729b-agente-247-automacoes-avancadas",
+  "title": "3.2.1 - Agente 24/7: Automações Avançadas",
+  "code": null,
+  "slug": "agente-247-automacoes-avancadas1779726616138"
+ },
+ {
+  "id": 572,
+  "uuid": "01c6d6f6-1153-4128-8d12-b91f3b1795d8-habilidades-mcps-e-clawhub",
+  "title": "3.2.2 - Habilidades, MCPs e ClawHub",
+  "code": null,
+  "slug": "habilidades-mcps-e-clawhub1779726515631"
+ },
+ {
+  "id": 570,
+  "uuid": "474fa51d-551a-11f1-92f6-12b5b192a227",
+  "title": "Como conseguir montar sua agência de IA no exterior",
+  "code": null,
+  "slug": "como-conseguir-montar-sua-agencia-de-ia-no-exterior"
+ },
+ {
+  "id": 569,
+  "uuid": "552eea11-5398-11f1-92f6-12b5b192a227",
+  "title": "Infraestrutura - Coolify",
+  "code": null,
+  "slug": "infraestrutura-coolify"
+ },
+ {
+  "id": 568,
+  "uuid": "c25fb4bf-52ad-11f1-92f6-12b5b192a227",
+  "title": "Como vender projetos de IA e Automação pelo Linkedin com Victor Baggio ",
+  "code": null,
+  "slug": "como-vender-projetos-de--ia-e-automacao-pelo-linkedin-com-victor-baggio"
+ },
+ {
+  "id": 567,
+  "uuid": "8e14c606-4ef4-11f1-92f6-12b5b192a227",
+  "title": "2.3.1 - Agente de IA no WhatsApp com Agno Framework + Railway",
+  "code": null,
+  "slug": "agente-de-ia-no-whatsapp-com-agno-framework-railway"
+ },
+ {
+  "id": 564,
+  "uuid": "f2627b7f-494e-11f1-9d2b-12b5b192a227",
+  "title": "Por dentro do meu sistema multiagente: arquitetura, interface visual e automações reais",
+  "code": null,
+  "slug": "por-dentro-do-meu-sistema-multiagente-arquitetura-interface-visual-e-automacoes-reais"
+ },
+ {
+  "id": 563,
+  "uuid": "65735530-3fe1-11f1-9d2b-12b5b192a227",
+  "title": "Meu Prontuário: O App Real Que Construí com IA - Sem Saber Programar",
+  "code": null,
+  "slug": "meu-prontuario-o-app-real-que-construi-com-ia-sem-saber-programar"
+ },
+ {
+  "id": 562,
+  "uuid": "660a0515-3e96-11f1-9d2b-12b5b192a227",
+  "title": "Cupons de Desconto",
+  "code": null,
+  "slug": "beneficios-copia-2026-04-22-18-58-30"
+ },
+ {
+  "id": 561,
+  "uuid": "16145af8-3e85-11f1-9d2b-12b5b192a227",
+  "title": "Benefícios",
+  "code": null,
+  "slug": "nocode-match-copia-2026-04-22-16-54-34"
+ },
+ {
+  "id": 560,
+  "uuid": "e957f9fc-3e84-11f1-9d2b-12b5b192a227",
+  "title": "NoCode Match",
+  "code": null,
+  "slug": "curso-openclaw-trilha-copia-2026-04-22-16-53-19"
+ },
+ {
+  "id": 559,
+  "uuid": "750ff3b7-3da9-11f1-9d2b-12b5b192a227",
+  "title": "Curso OpenClaw | Trilha ",
+  "code": null,
+  "slug": "curso-claude-code-trilha-copia-2026-04-21-14-42-24"
+ },
+ {
+  "id": 558,
+  "uuid": "3a42058f-3da9-11f1-9d2b-12b5b192a227",
+  "title": "Curso Claude Code | Trilha ",
+  "code": null,
+  "slug": "formacao-supabase-trilha-copia-2026-04-21-14-40-46"
+ },
+ {
+  "id": 557,
+  "uuid": "c411de66-3a67-11f1-9d2b-12b5b192a227",
+  "title": "Claude Code para Área Comercial",
+  "code": null,
+  "slug": "claude-code-para-area-comercial-com-daniel-lima-abacatepay"
+ },
+ {
+  "id": 556,
+  "uuid": "d475eb5a-3469-11f1-9d2b-12b5b192a227",
+  "title": "Agentes de IA + OpenClaw: Como Automatizei Minha Agência de Ads",
+  "code": null,
+  "slug": "agentes-de-ia-openclaw-como-automatizei-minha-agencia-de-ads"
+ },
+ {
+  "id": 555,
+  "uuid": "73a4e7c6-32a1-11f1-9d2b-12b5b192a227",
+  "title": "Formação Agentic Builder",
+  "code": null,
+  "slug": "formacao-agenticbuilder"
+ },
+ {
+  "id": 554,
+  "uuid": "7cd8d442-2ee3-11f1-9d2b-12b5b192a227",
+  "title": "Do Zero ao Deploy com Antigravity Avançado: Metodologias de Extreme Programming na prática",
+  "code": null,
+  "slug": "do-zero-ao-deploy-com-antigravity-avancado-metodologias-de-extreme-programming-e-economia-de-tokens"
+ },
+ {
+  "id": 553,
+  "uuid": "ebafa869-2e14-11f1-9d2b-12b5b192a227",
+  "title": "3.1.5 - Debug e Boas Práticas",
+  "code": null,
+  "slug": "315-Debug-e-Boas-Praticas"
+ },
+ {
+  "id": 552,
+  "uuid": "bdde4e60-2e14-11f1-9d2b-12b5b192a227",
+  "title": "3.1.4 - Case Iniciante",
+  "code": null,
+  "slug": "314-Case-Iniciante"
+ },
+ {
+  "id": 551,
+  "uuid": "83dbe69e-2e14-11f1-9d2b-12b5b192a227",
+  "title": "3.1.3 - Boas Práticas de Segurança",
+  "code": null,
+  "slug": "313-Boas-Praticas-de-Seguranca"
+ },
+ {
+  "id": 550,
+  "uuid": "2eb205ec-2e14-11f1-9d2b-12b5b192a227",
+  "title": "3.1.2 - Setup Inicial",
+  "code": null,
+  "slug": "312-Setup-Inicial"
+ },
+ {
+  "id": 549,
+  "uuid": "f4b860eb-2e13-11f1-9d2b-12b5b192a227",
+  "title": "3.1.1 - O Poder do OpenClaw",
+  "code": null,
+  "slug": "311-O-Poder-do-OpenClaw"
+ },
+ {
+  "id": 548,
+  "uuid": "b2dab512-2e13-11f1-9d2b-12b5b192a227",
+  "title": "2.2.5 - Deploy e Segurança",
+  "code": null,
+  "slug": "225-Deploye-Seguranca"
+ },
+ {
+  "id": 547,
+  "uuid": "8576ac87-2e13-11f1-9d2b-12b5b192a227",
+  "title": "2.2.4 - Pagamentos",
+  "code": null,
+  "slug": "224-Pagamentos"
+ },
+ {
+  "id": 546,
+  "uuid": "1aeeedb0-2e13-11f1-9d2b-12b5b192a227",
+  "title": "2.2.3 - Integrações e Backend",
+  "code": null,
+  "slug": "223-Integracoes-e-Backend"
+ },
+ {
+  "id": 545,
+  "uuid": "e7ed7c37-2e12-11f1-9d2b-12b5b192a227",
+  "title": "2.2.2 - Interface e Visual",
+  "code": null,
+  "slug": "222-Interface-e-Visual"
+ },
+ {
+  "id": 544,
+  "uuid": "b53cb584-2e12-11f1-9d2b-12b5b192a227",
+  "title": "2.2.1 - Planejamento",
+  "code": null,
+  "slug": "221-Planejamento"
+ },
+ {
+  "id": 543,
+  "uuid": "718990c6-2e12-11f1-9d2b-12b5b192a227",
+  "title": "2.1.5 - Deploy e Segurança",
+  "code": null,
+  "slug": "215-Deploye-Seguranca"
+ },
+ {
+  "id": 542,
+  "uuid": "3728f9d4-2e12-11f1-9d2b-12b5b192a227",
+  "title": "2.1.3 - Versionamento",
+  "code": null,
+  "slug": "214-Projeto-Pratico"
+ },
+ {
+  "id": 541,
+  "uuid": "fa75a507-2e11-11f1-9d2b-12b5b192a227",
+  "title": "2.1.4 - Projeto Prático",
+  "code": null,
+  "slug": "213-Versionamento-Git"
+ },
+ {
+  "id": 540,
+  "uuid": "c3ad83ce-2e11-11f1-9d2b-12b5b192a227",
+  "title": "2.1.2 - Skills",
+  "code": null,
+  "slug": "212-Skills"
+ },
+ {
+  "id": 539,
+  "uuid": "60676ea5-2e11-11f1-9d2b-12b5b192a227",
+  "title": "2.1.1 - Do Zero a Um Claude Code",
+  "code": null,
+  "slug": "211-Do-Zero-a-Um-Claude-Code"
+ },
+ {
+  "id": 538,
+  "uuid": "514d9a99-2e09-11f1-9d2b-12b5b192a227",
+  "title": "1.4 - Fundamentos (Para Não Técnicos)",
+  "code": null,
+  "slug": "12-Fundamentos-Para-Nao-Tecnicos"
+ },
+ {
+  "id": 537,
+  "uuid": "9fe4b646-2dfe-11f1-9d2b-12b5b192a227",
+  "title": "1.1 - O Profissional Agentic Builder",
+  "code": null,
+  "slug": "11-o-Profissional-Agentic-Builder"
+ },
+ {
+  "id": 536,
+  "uuid": "4622dba5-2dfe-11f1-9d2b-12b5b192a227",
+  "title": "0.2 - Seu primeiro projeto",
+  "code": null,
+  "slug": "02-seu-primeiro-projeto"
+ },
+ {
+  "id": 535,
+  "uuid": "64c76e84-2dfd-11f1-9d2b-12b5b192a227",
+  "title": "0.1 - Comece por aqui",
+  "code": null,
+  "slug": "01-comece-por-aqui"
+ },
+ {
+  "id": 534,
+  "uuid": "93c4e129-291e-11f1-9d2b-12b5b192a227",
+  "title": "Boas práticas no N8N e Supabase: Fluxos escaláveis e calendário à prova de erros",
+  "code": null,
+  "slug": "boas-praticas-no-n8n-e-supabase-fluxos-escalaveis-e-calendario-a-prova-de-erros"
+ },
+ {
+  "id": 533,
+  "uuid": "8b80b995-23e9-11f1-9d2b-12b5b192a227",
+  "title": "LGPD no universo de IA e Automação: riscos, boas práticas e oportunidades",
+  "code": null,
+  "slug": "lgpd-no-universo-de-ia-e-automacao-riscos-boas-praticas-e-oportunidades"
+ },
+ {
+  "id": 532,
+  "uuid": "0a3aee5a-1e6a-11f1-9d2b-12b5b192a227",
+  "title": "Os bastidores da construção da SpaceApps ",
+  "code": null,
+  "slug": "os-bastidores-da-construcao-da-space-apps"
+ },
+ {
+  "id": 528,
+  "uuid": "ffaf37b3-1980-11f1-9d2b-12b5b192a227",
+  "title": "Multiatendimento Chatwoot com IA",
+  "code": null,
+  "slug": "multiatendimento-chatwoot-com-ia"
+ },
+ {
+  "id": 527,
+  "uuid": "06da1c52-5b31-423c-9f13-58027c586126",
+  "title": "Formação Cursor",
+  "code": null,
+  "slug": "formacao-cursor-1772559561778"
+ },
+ {
+  "id": 526,
+  "uuid": "7f4737c6-1726-11f1-9d2b-12b5b192a227",
+  "title": "Formação Lovable",
+  "code": null,
+  "slug": "formacao-lovable"
+ },
+ {
+  "id": 525,
+  "uuid": "f7fdbabf-1324-11f1-9d2b-12b5b192a227",
+  "title": "Como gerei faturamento e escalei no digital sem prospecção agressiva",
+  "code": null,
+  "slug": "como-gerei-faturamento-e-escalei-no-digital-sem-prospeccao-agressiva"
+ },
+ {
+  "id": 524,
+  "uuid": "1823753e-08e9-11f1-9d2b-12b5b192a227",
+  "title": "Minha Agência de IA saiu do MEI… e agora? Contabilidade, impostos e próximos passos",
+  "code": null,
+  "slug": "minha-agencia-de-ia-saiu-do-mei-e-agora-contabilidade-impostos-e-proximos-passos"
+ },
+ {
+  "id": 523,
+  "uuid": "a1915df1-0056-11f1-9d2b-12b5b192a227",
+  "title": "Como um negócio sai do zero e chega aos milhões de faturamento",
+  "code": null,
+  "slug": "como-um-negocio-sai-do-zero-e-chega-aos-milhoes-de-faturamento"
+ },
+ {
+  "id": 522,
+  "uuid": "7e39d116-f249-11f0-9ac9-12b5b192a227",
+  "title": "Como construí um SaaS financeiro com IA usando Lovable, n8n e APIs",
+  "code": null,
+  "slug": "como-construi-um-saas-financeiro-com-ia-usando-lovable-n8n-apis"
+ },
+ {
+  "id": 521,
+  "uuid": "8cdd39ad-ecd5-11f0-9ac9-12b5b192a227",
+  "title": "Roadmap e bastidores de um agente de IA de alta complexidade ",
+  "code": null,
+  "slug": "roadmap-e-bastidores-de-um-agente-de-ia-de-alta-complexidade"
+ },
+ {
+  "id": 520,
+  "uuid": "570e2081-dc46-11f0-9ac9-12b5b192a227",
+  "title": "Lovable + Estratégia: Conheça o aplicativo brasileiro que virou case global do Lovable",
+  "code": null,
+  "slug": "lovable-estrategia-conheca-o-aplicativo-brasileiro-que-virou-case-global-do-lovable"
+ },
+ {
+  "id": 519,
+  "uuid": "cda33fec-d9de-11f0-9ac9-12b5b192a227",
+  "title": "QuintaLab: Construindo ao vivo com IA",
+  "code": null,
+  "slug": "quintalab-construindo-ao-vivo"
+ },
+ {
+  "id": 518,
+  "uuid": "b6921b7a-d4fe-11f0-9ac9-12b5b192a227",
+  "title": "MENTORIA: Plano 10K - O passo a passo para faturar com IA",
+  "code": null,
+  "slug": "mentoria-plano-10-k-o-passo-a-passo-para-faturar-com-ia"
+ },
+ {
+  "id": 517,
+  "uuid": "3c0dd47c-cc68-11f0-92f8-0afff860292d",
+  "title": "Como fazer entregas de alto valor agregado de automações & IA para contratos de high ticket e B2B",
+  "code": null,
+  "slug": "como-fazer-entregas-de-alto-valor-agregado-de-automacoes-e-ia-para-contratos-de-high-ticket-e-b2b"
+ },
+ {
+  "id": 516,
+  "uuid": "6323782b-c79b-11f0-92f8-0afff860292d",
+  "title": "Estratégia na Prática para criar um negócio com IA com ﻿Wellington Luiz﻿ ",
+  "code": null,
+  "slug": "estrategia-na-pratica-para-criar-um-negocio-com-ia"
+ },
+ {
+  "id": 515,
+  "uuid": "45502dbf-c3af-11f0-9b32-12eeaa0e8335",
+  "title": "Como Prospectar clientes B2B de forma automatizada com Luciana Menezes﻿ ",
+  "code": null,
+  "slug": "como-prospectar-clientes-b2b-de-forma-automatizada"
+ },
+ {
+  "id": 514,
+  "uuid": "dfcd7bfc-b8a9-11f0-9b32-12eeaa0e8335",
+  "title": "Funil, Prospecção e Implantação: Lições do Primeiro Cliente com IA com Leonardo Gherardi",
+  "code": null,
+  "slug": "funil-prospeccao-implantacao-licoes-do-primeiro-cliente-com-ia-com-leonardo-gherardi"
+ },
+ {
+  "id": 513,
+  "uuid": "40c7bd6d-b8a9-11f0-9b32-12eeaa0e8335",
+  "title": "Automação Inteligente: Muito além de só rodar fluxos no n8n com Luiz Pessatto",
+  "code": null,
+  "slug": "automacao-inteligente-muito-alem-de-so-rodar-fluxos-no-n8n"
+ },
+ {
+  "id": 512,
+  "uuid": "a88184d7-b4dc-11f0-b0d0-12eeaa0e8335",
+  "title": "Geração Automática de Vídeos UGC | Agentes de IA para Marketing",
+  "code": null,
+  "slug": "geracao-automatica-de-videos-ugc-agentes-de-ai-para-marketing"
+ },
+ {
+  "id": 511,
+  "uuid": "5878be57-ae89-11f0-b0d0-12eeaa0e8335",
+  "title": "Processos inteligentes com IA: Como automatizar fluxos internos com Bianca Leticia",
+  "code": null,
+  "slug": "processos-inteligentes-com-ia-como-automatizar-fluxos-internos"
+ },
+ {
+  "id": 510,
+  "uuid": "dc3e8158-ae87-11f0-b0d0-12eeaa0e8335",
+  "title": "De Protótipo a Solução Completa: Bastidores de um Projeto de RH Automatizado com Lucas Gabriel   ",
+  "code": null,
+  "slug": "de-prototipo-a-solucao-completa-bastidores-de-um-projeto-de-rh-automatizado"
+ },
+ {
+  "id": 509,
+  "uuid": "82ad9a1e-aa20-11f0-b0d0-12eeaa0e8335",
+  "title": "Infraestrutura Simplificada - Hostinger ",
+  "code": null,
+  "slug": "infraestrutura-simplificada-hostinger"
+ },
+ {
+  "id": 508,
+  "uuid": "45d41b07-aa18-11f0-b0d0-12eeaa0e8335",
+  "title": "Go Live, Segurança e Escala Master | Cursor ",
+  "code": null,
+  "slug": "go-live-seguranca-e-escala-master-cursor"
+ },
+ {
+  "id": 507,
+  "uuid": "cfdf1242-aa17-11f0-b0d0-12eeaa0e8335",
+  "title": "Monetização e Inteligência de Negócio | Cursor ",
+  "code": null,
+  "slug": "monetizacao-e-inteligencia-de-negocio-cursor"
+ },
+ {
+  "id": 506,
+  "uuid": "465dc03e-aa17-11f0-b0d0-12eeaa0e8335",
+  "title": "Desenvolvimento e Lógica do Produto | Cursor",
+  "code": null,
+  "slug": "desenvolvimento-e-logica-do-produto-cursor"
+ },
+ {
+  "id": 505,
+  "uuid": "977def07-aa16-11f0-b0d0-12eeaa0e8335",
+  "title": "Prototipação, UX e Defesa de Dados | Cursor",
+  "code": null,
+  "slug": "prototipacao-ux-e-defesa-de-dados-cursor"
+ },
+ {
+  "id": 504,
+  "uuid": "16cb78fa-aa15-11f0-b0d0-12eeaa0e8335",
+  "title": "Planejamento e Setup do Projeto | Cursor ",
+  "code": null,
+  "slug": "planejamento-e-setup-do-projeto-cursor"
+ },
+ {
+  "id": 503,
+  "uuid": "8661bc97-a887-11f0-b0d0-12eeaa0e8335",
+  "title": "Otimização e Performance | Supabase Avançado",
+  "code": null,
+  "slug": "otimizacao-e-performance-supabase-avancado"
+ },
+ {
+  "id": 502,
+  "uuid": "e265c8c7-a886-11f0-b0d0-12eeaa0e8335",
+  "title": "Gestão Versões e Branchs | Supabase Avançado ",
+  "code": null,
+  "slug": "gestao-versoes-e-branchs-supabase-avancado-copia-2025-10-13-19-49-32"
+ },
+ {
+  "id": 501,
+  "uuid": "22c3a8c1-a884-11f0-b0d0-12eeaa0e8335",
+  "title": "Storage & Debug | Supabase Intermediário",
+  "code": null,
+  "slug": "storage-e-debug-supabase-intermediario"
+ },
+ {
+  "id": 500,
+  "uuid": "991202de-a880-11f0-b0d0-12eeaa0e8335",
+  "title": "Funções, Triggers e Edge Functions | Supabase Intermediário ",
+  "code": null,
+  "slug": "funcoes-triggers-e-edge-functions-supabase-intermediario"
+ },
+ {
+  "id": 499,
+  "uuid": "d307ffe8-a87e-11f0-b0d0-12eeaa0e8335",
+  "title": "APIs e RLS Segurança | Supabase Intermediário ",
+  "code": null,
+  "slug": "apis-e-rls-seguranca-supabase-intermediario"
+ },
+ {
+  "id": 498,
+  "uuid": "c1c2a120-a87b-11f0-b0d0-12eeaa0e8335",
+  "title": "Gestão de Usuários | Supabase Intermediário ",
+  "code": null,
+  "slug": "gestao-de-usuarios-supabase-intermediario"
+ },
+ {
+  "id": 497,
+  "uuid": "3a25ca5b-a2bf-11f0-b0d0-12eeaa0e8335",
+  "title": "Formação Vibe Coding & AI Coding",
+  "code": null,
+  "slug": "formacao-agentes-ia-copia-2025-10-06-11-17-44"
+ },
+ {
+  "id": 496,
+  "uuid": "ea175c47-9f97-11f0-b0d0-12eeaa0e8335",
+  "title": "Como projetos de automação impulsionaram +10 milhões em faturamento com Adriano Kelvio",
+  "code": null,
+  "slug": "como-projetos-de-automacao-impulsionaram-10-milhoes-em-faturamento"
+ },
+ {
+  "id": 495,
+  "uuid": "747e6e0d-9a25-11f0-b0d0-12eeaa0e8335",
+  "title": "Cases, Projetos e Desafios de uma Startup de IA com Guilherme Martins",
+  "code": null,
+  "slug": "cases-projetos-e-desafios-de-uma-startup-de-ia"
+ },
+ {
+  "id": 494,
+  "uuid": "bf53646c-9877-11f0-b0d0-12eeaa0e8335",
+  "title": "Formação Supabase | Trilha",
+  "code": null,
+  "slug": "formacao-supabase-trilha"
+ },
+ {
+  "id": 492,
+  "uuid": "a1091f49-9821-11f0-b0d0-12eeaa0e8335",
+  "title": "Agente IA para Marketing | Trilha Especialistas  ",
+  "code": null,
+  "slug": "agente-ia-para-marketing-trilha-especialistas"
+ },
+ {
+  "id": 491,
+  "uuid": "93838860-9820-11f0-b0d0-12eeaa0e8335",
+  "title": "Agente IA de Suporte | Trilha Especialistas ",
+  "code": null,
+  "slug": "agente-ia-suporte-trilha-especialistas"
+ },
+ {
+  "id": 490,
+  "uuid": "bb496572-981d-11f0-b0d0-12eeaa0e8335",
+  "title": "Agente IA Comerciais | Trilha Especialistas",
+  "code": null,
+  "slug": "agentes-ia-comerciais-trilha-especialistas"
+ },
+ {
+  "id": 489,
+  "uuid": "15e7ab54-981a-11f0-b0d0-12eeaa0e8335",
+  "title": "Gestão Avançada Banco de Dados | Supabase Avançado ",
+  "code": null,
+  "slug": "gestao-avancada-banco-de-dados-supabase-avancado"
+ },
+ {
+  "id": 488,
+  "uuid": "602e46ff-9818-11f0-b0d0-12eeaa0e8335",
+  "title": "Conclusão: Fechamento e Desafio Final | Formação Lovable ",
+  "code": null,
+  "slug": "conclusao-fechamento-e-desafio-final-formacao-lovable"
+ },
+ {
+  "id": 487,
+  "uuid": "8a7a8b71-9817-11f0-b0d0-12eeaa0e8335",
+  "title": "Desenvolvimento: Conectando Dados e Inteligência | Formação Lovable",
+  "code": null,
+  "slug": "criando-a-plataforma-por-completo-formacao-lovable"
+ },
+ {
+  "id": 486,
+  "uuid": "e3b0284a-9816-11f0-b0d0-12eeaa0e8335",
+  "title": "Design e UX: Criando a Interface da Plataforma | Formação Lovable",
+  "code": null,
+  "slug": "planejamento-do-projeto-framework-nocode-formacao-lovable"
+ },
+ {
+  "id": 485,
+  "uuid": "120e5b5e-9816-11f0-b0d0-12eeaa0e8335",
+  "title": "Introdução: Planejamento do Projeto da Formação Lovable",
+  "code": null,
+  "slug": "introducao-projeto-da-formacao-lovable"
+ },
+ {
+  "id": 484,
+  "uuid": "367e65b7-97f6-11f0-b0d0-12eeaa0e8335",
+  "title": "Agentes IA Conversacionais | Trilha Especialistas",
+  "code": null,
+  "slug": "agentes-ia-conversacionais-trilha-especialistas"
+ },
+ {
+  "id": 483,
+  "uuid": "b8a534c5-9564-11f0-b0d0-12eeaa0e8335",
+  "title": "Erros e Acertos na minha trajetória de faturamento com IA com Caio Gabriel Pereira",
+  "code": null,
+  "slug": "erros-e-acertos-na-minha-trajetoria-de-faturamento-com-ia-com-caio-gabriel-pereira"
+ },
+ {
+  "id": 482,
+  "uuid": "5da7f802-94fe-11f0-b0d0-12eeaa0e8335",
+  "title": "Conclusão: Fechamento e Desafio Final | Do Zero ao Agente de IA",
+  "code": null,
+  "slug": "desafio-final-e-conclusao-do-zero-ao-agente"
+ },
+ {
+  "id": 481,
+  "uuid": "f2d32ce4-94f9-11f0-b0d0-12eeaa0e8335",
+  "title": "Desenvolvendo o Agente Comercial Completo| Do Zero ao Agente de IA",
+  "code": null,
+  "slug": "desenvolvendo-agente-comercial-completo-do-zero-ao-agente"
+ },
+ {
+  "id": 480,
+  "uuid": "11b91e49-94f7-11f0-b0d0-12eeaa0e8335",
+  "title": "Planejamento do Projeto: Framework NoCodeStartup.AI | Do Zero ao Agente de IA",
+  "code": null,
+  "slug": "planejamento-framework-nocode-do-zero-ao-agente"
+ },
+ {
+  "id": 479,
+  "uuid": "1ff224cf-94f6-11f0-b0d0-12eeaa0e8335",
+  "title": "Introdução: Projeto Final da Formação | Do Zero ao Agente de IA",
+  "code": null,
+  "slug": "introducao-projeto-final-da-formacao-do-zero-ao-agente"
+ },
+ {
+  "id": 478,
+  "uuid": "b7393a53-94b3-11f0-b0d0-12eeaa0e8335",
+  "title": "Segurança e Otimizações | Supabase Intermediário",
+  "code": null,
+  "slug": "seguranca-e-otimizacoes-supabase-intermediario"
+ },
+ {
+  "id": 477,
+  "uuid": "e28c096c-9015-11f0-b0d0-12eeaa0e8335",
+  "title": "Como destravar o comercial e tirar sua agência de IA da inércia com Márcio Rodrigues",
+  "code": null,
+  "slug": "como-destravar-o-comercial-e-tirar-sua-agencia-de-ia-da-inercia"
+ },
+ {
+  "id": 476,
+  "uuid": "034c0b59-8fd1-11f0-b0d0-12eeaa0e8335",
+  "title": "Fundamentos Supabase: Banco de Dados e Modelagem | Agentes IA",
+  "code": null,
+  "slug": "fundamentos-supabase-banco-de-dados-e-modelagem-agentes"
+ },
+ {
+  "id": 475,
+  "uuid": "85de0a21-8eae-11f0-a1f1-0afffde6869d",
+  "title": "Fundamentos Lovable: Melhores Práticas para Desenvolver",
+  "code": null,
+  "slug": "fundamentos-lovable-melhores-praticas-para-desenvolver"
+ },
+ {
+  "id": 474,
+  "uuid": "2ef748c1-8ea0-11f0-a1f1-0afffde6869d",
+  "title": "Fundamentos Backend e Modelagem de Dados | Supabase Iniciante",
+  "code": null,
+  "slug": "fundamentos-e-backend-e-modelagem-de-dados-supabase-iniciante"
+ },
+ {
+  "id": 473,
+  "uuid": "e183d5f3-096f-4f5c-825e-6a61d51b14d5",
+  "title": "Como Conseguir Seu Primeiro Cliente com IA",
+  "code": null,
+  "slug": "como-conseguir-seu-primeiro-cliente-com-ia-1757528376375"
+ },
+ {
+  "id": 472,
+  "uuid": "f97e6836-89e8-11f0-a1f1-0afffde6869d",
+  "title": "Lovable na Prática: Como Criei o Marketplace \"Mercado da IA\" com Julian Fuiza",
+  "code": null,
+  "slug": "lovable-na-pratica-como-criei-o-marketplace-mercado-da-ia"
+ },
+ {
+  "id": 471,
+  "uuid": "6bab0393-8914-11f0-a1f1-0afffde6869d",
+  "title": "Evolution API no N8N com Davidson Gomes",
+  "code": null,
+  "slug": "evolution-api-no-n8n-com-davidson-gomes"
+ },
+ {
+  "id": 470,
+  "uuid": "a6e86982-81cc-11f0-a1f1-0afffde6869d",
+  "title": "Do 0 aos 400K: Como me posicionei digitalmente para faturar ",
+  "code": null,
+  "slug": "como-me-posicionei-digitalmente-para-faturar"
+ },
+ {
+  "id": 469,
+  "uuid": "ee1c81cc-81b6-11f0-a1f1-0afffde6869d",
+  "title": "Agente de IA que pausa na hora certa: Sua IA e atendente humano - com Rafael Machado ",
+  "code": null,
+  "slug": "masterclass-agente-ia-que-pausa-na-hora-certa-rafael-machado"
+ },
+ {
+  "id": 467,
+  "uuid": "d8d504f1-7ec0-11f0-a1f1-0afffde6869d",
+  "title": "Curso Gratuito N8N",
+  "code": null,
+  "slug": "curso-gratuito-n8n"
+ },
+ {
+  "id": 466,
+  "uuid": "91befa0b-0769-4839-bb04-6289cfce8f01",
+  "title": "Curso Gratuito Agentes IA",
+  "code": null,
+  "slug": "curso-gratuito-agentes-ia-"
+ },
+ {
+  "id": 464,
+  "uuid": "6d7b831b-7e0f-11f0-a1f1-0afffde6869d",
+  "title": "Seu Primeiro Projeto IA com Lovable em 30 minutos",
+  "code": null,
+  "slug": "primeiro-projeto-ia-com-lovable-em-30-minutos"
+ },
+ {
+  "id": 463,
+  "uuid": "fea02676-7e0e-11f0-a1f1-0afffde6869d",
+  "title": "Fundamentos Supabase: Banco de Dados e Modelagem | Lovable ",
+  "code": null,
+  "slug": "supabase-banco-de-dados-e-modelagem-lovable"
+ },
+ {
+  "id": 462,
+  "uuid": "0497399c-7e0c-11f0-a1f1-0afffde6869d",
+  "title": "Criando Plataformas com Integração API | Lovable",
+  "code": null,
+  "slug": "criando-plataformas-com-lovable-e-integracao-api"
+ },
+ {
+  "id": 461,
+  "uuid": "da50e339-7e0a-11f0-a1f1-0afffde6869d",
+  "title": "Framework NoCode StartUp.AI | Lovable",
+  "code": null,
+  "slug": "framework-nocode-startup-ai-lovavle"
+ },
+ {
+  "id": 460,
+  "uuid": "679defaa-7dea-11f0-a1f1-0afffde6869d",
+  "title": "Desenvolvendo Front-end e Interfaces | Lovable ",
+  "code": null,
+  "slug": "desenvolvendo-interfaces-frontend-lovable"
+ },
+ {
+  "id": 459,
+  "uuid": "ec9d351d-7d06-11f0-a1f1-0afffde6869d",
+  "title": "Fundamentos Essenciais de Desenvolvimento de Projetos | Lovable",
+  "code": null,
+  "slug": "fundamentos-essenciais-de-desenvolvimento-projetos-ia-lovable"
+ },
+ {
+  "id": 454,
+  "uuid": "b8b5f683-82a0-41a1-a2b1-1bd34f97f649",
+  "title": "Formação N8N | Trilha",
+  "code": null,
+  "slug": "curso-n8n-trilha"
+ },
+ {
+  "id": 453,
+  "uuid": "68a360aa-76eb-11f0-a1f1-0afffde6869d",
+  "title": "Giro de Notícias N8N, Atualizações e Resolução  de Problemas | com Jhonatan Gomes",
+  "code": null,
+  "slug": "giro-de-noticias-n8n-atualizacoes"
+ },
+ {
+  "id": 452,
+  "uuid": "fd40e8d1-76db-11f0-a1f1-0afffde6869d",
+  "title": "Multi Agente de Suporte com Dados Personalizados | Cases Práticos -Agente IA ",
+  "code": null,
+  "slug": "multiagentes-suporte-dados-personalizados"
+ },
+ {
+  "id": 451,
+  "uuid": "9820fa38-749f-11f0-a1f1-0afffde6869d",
+  "title": "Framework NoCode StartUp.AI",
+  "code": null,
+  "slug": "framework-nocode-startup-ai"
+ },
+ {
+  "id": 450,
+  "uuid": "07423361-7498-11f0-a1f1-0afffde6869d",
+  "title": "Fundamentos Essenciais de Desenvolvimento - Projetos IA",
+  "code": null,
+  "slug": "fundamento-essenciais-desenvolvimento-projetosia"
+ },
+ {
+  "id": 449,
+  "uuid": "03577cfb-6eef-11f0-a1f1-0afffde6869d",
+  "title": "Organização e Prospecção para Faturar com IA com Felipe Nomelin",
+  "code": null,
+  "slug": "organizacao-e-prospeccao-para-faturar-com-ia-com-felipe-nomelin"
+ },
+ {
+  "id": 447,
+  "uuid": "2cf1b3b2-6971-11f0-a1f1-0afffde6869d",
+  "title": "Como vender Agentes de IA com Guilherme Freitas",
+  "code": null,
+  "slug": "como-vender-agentes-de-ia-com-guilherme-freitas"
+ },
+ {
+  "id": 446,
+  "uuid": "b6ca5cdb-6623-11f0-a1f1-0afffde6869d",
+  "title": "Novas possibilidades com IA - Agentes de Relatórios com João Paulo Gonçalves",
+  "code": null,
+  "slug": "novas-possibilidades-com-ia-agentes-de-relatorios-com-joao-paulo-goncalves"
+ },
+ {
+  "id": 445,
+  "uuid": "02cd1737-61ab-11f0-a1f1-0afffde6869d",
+  "title": "Bônus - Evolution Cloud",
+  "code": null,
+  "slug": "bonus-mega-api-copia-2025-07-15-15-39-16"
+ },
+ {
+  "id": 443,
+  "uuid": "7f69983e-5818-11f0-a1f1-0afffde6869d",
+  "title": "WeWeb + IA - crie seu App em tempo recorde, sem abrir mão do controle",
+  "code": null,
+  "slug": "weweb-ia-crie-seu-app-em-tempo-recorde-sem-abrir-m-o-do-controle"
+ },
+ {
+  "id": 442,
+  "uuid": "0fbe42f5-51ae-11f0-a1f1-0afffde6869d",
+  "title": "Agente de Voz SDR | Cases Práticos -Agente IA ",
+  "code": null,
+  "slug": "agente-de-voz"
+ },
+ {
+  "id": 440,
+  "uuid": "5bff44a3-4849-11f0-a1f1-0afffde6869d",
+  "title": "Dicas para conseguir trabalhos com NoCode e IA no exterior com João Coelho",
+  "code": null,
+  "slug": "dicas-para-conseguir-trabalhos-com-nocode-e-ia-no-exterior"
+ },
+ {
+  "id": 439,
+  "uuid": "38c9b9bf-424c-11f0-a1f1-0afffde6869d",
+  "title": "MCP no n8n: Como usar de forma escalável com Junior- Script 7",
+  "code": null,
+  "slug": "mcp-no-n8n-como-usar-de-forma-escal-vel"
+ },
+ {
+  "id": 438,
+  "uuid": "c1368bce-3fbb-11f0-a1f1-0afffde6869d",
+  "title": "Validar e Monetizar suas ideias de Apps com Tiago Fonseca",
+  "code": null,
+  "slug": "validar-e-monetizar-suas-ideias-de-apps-com-tiago-fonseca"
+ },
+ {
+  "id": 437,
+  "uuid": "e14b384f-2d07-11f0-874c-12065094714b",
+  "title": "Como desenvolvi e vendi meu primeiro Agente de IA em poucos meses com Diego Silva",
+  "code": null,
+  "slug": "como-desenvolvi-e-vendi-meu-primeiro-agente-de-ia-em-poucos-meses"
+ },
+ {
+  "id": 436,
+  "uuid": "6d976290-2bfe-11f0-874c-12065094714b",
+  "title": " Qwize - Como Vender Mais Caro",
+  "code": null,
+  "slug": "como-vender-mais-caro"
+ },
+ {
+  "id": 435,
+  "uuid": "a5ca3289-46fd-48aa-a778-23b689926169",
+  "title": "Seu Primeiro Agente IA em 30 min 2.0",
+  "code": null,
+  "slug": "seu-primeiro-agente-ia-em-30-min-2"
+ },
+ {
+  "id": 434,
+  "uuid": "2aa674b8-2621-11f0-9c65-0affcc3858b1",
+  "title": "400K em 10 Meses: Como fechamos projetos sem investir em marketing com Bruno Gambeta",
+  "code": null,
+  "slug": "400k-em-10-meses-como-fechamos-projetos-sem-investir-em-marketing-com-bruno-gam"
+ },
+ {
+  "id": 433,
+  "uuid": "616b8fa2-25d1-11f0-9c65-0affcc3858b1",
+  "title": "Template Mestre para Agentes - Hacks Conversacionais",
+  "code": null,
+  "slug": "template-mestre-hacks-conversacionais"
+ },
+ {
+  "id": 432,
+  "uuid": "ccc8a477-25cf-11f0-9c65-0affcc3858b1",
+  "title": "Formação Open AI Assistants | Agentes IA",
+  "code": null,
+  "slug": "formacao-openai-assistants"
+ },
+ {
+  "id": 431,
+  "uuid": "78a6b176-25cf-11f0-9c65-0affcc3858b1",
+  "title": "Formação Dify | Agentes IA",
+  "code": null,
+  "slug": "formacao-dify"
+ },
+ {
+  "id": 430,
+  "uuid": "f98941fb-25cd-11f0-9c65-0affcc3858b1",
+  "title": "Subapase Completo - Modelagem de dados | Agente IA",
+  "code": null,
+  "slug": "curso-completo-subase"
+ },
+ {
+  "id": 429,
+  "uuid": "3f3221ad-252f-11f0-9c65-0affcc3858b1",
+  "title": "Banco Cache com Redis - Agentes IA",
+  "code": null,
+  "slug": "banco-cache-com-redis-agente-ia"
+ },
+ {
+  "id": 428,
+  "uuid": "729fa4eb-252d-11f0-9c65-0affcc3858b1",
+  "title": "Filas com Rabbit MQ - Agentes IA",
+  "code": null,
+  "slug": "filas-com-rabbitmq-agentes"
+ },
+ {
+  "id": 427,
+  "uuid": "a3a87b3d-252a-11f0-9c65-0affcc3858b1",
+  "title": "Infraestrutura Avançada: VPS na Hetzner",
+  "code": null,
+  "slug": "infraestrutura-avancada-vps-hetzner"
+ },
+ {
+  "id": 426,
+  "uuid": "e8e4f3f6-2529-11f0-9c65-0affcc3858b1",
+  "title": "Infraestrutura Simplificada: Serveless - Agente IA",
+  "code": null,
+  "slug": "infraestrutura-simplificada-para-servios-de-agenteia"
+ },
+ {
+  "id": 425,
+  "uuid": "6dc8705f-2528-11f0-9c65-0affcc3858b1",
+  "title": "Agente SDR com Follow up| Cases Práticos -Agente IA   ",
+  "code": null,
+  "slug": "agente-sdr-com-followup"
+ },
+ {
+  "id": 424,
+  "uuid": "118fb7f2-2527-11f0-9c65-0affcc3858b1",
+  "title": "Agente de Agendamentos | Cases Práticos -Agente IA  ",
+  "code": null,
+  "slug": "agente-de-agendamentos-com-google-calendar"
+ },
+ {
+  "id": 423,
+  "uuid": "56e283af-2526-11f0-9c65-0affcc3858b1",
+  "title": "Agente Vendedor de Produtos | Cases Práticos -Agente IA ",
+  "code": null,
+  "slug": "agente-vendedor-de-produtos"
+ },
+ {
+  "id": 422,
+  "uuid": "46a20e00-2524-11f0-9c65-0affcc3858b1",
+  "title": "Agente de Suporte com Dados Personalizados | Cases Práticos -Agente IA",
+  "code": null,
+  "slug": "agente-de-suporte-com-dados-personalizados"
+ },
+ {
+  "id": 421,
+  "uuid": "10774bdd-251b-11f0-9c65-0affcc3858b1",
+  "title": "API Instagram - Agente IA Direct e Comentários",
+  "code": null,
+  "slug": "api-instagram-agente-ia-direct-comentario"
+ },
+ {
+  "id": 420,
+  "uuid": "823ff7fa-251a-11f0-9c65-0affcc3858b1",
+  "title": "Agente IA Telegram ",
+  "code": null,
+  "slug": "telegram-agente-ia"
+ },
+ {
+  "id": 419,
+  "uuid": "2b0977b4-2519-11f0-9c65-0affcc3858b1",
+  "title": "API Oficial Meta - Agente IA Whatsapp ",
+  "code": null,
+  "slug": "api-oficial-meta-whatsapp"
+ },
+ {
+  "id": 418,
+  "uuid": "f25b94f3-2516-11f0-9c65-0affcc3858b1",
+  "title": "API Não Oficial - Agente IA Whatsapp",
+  "code": null,
+  "slug": "api-nao-oficial-whatsapp"
+ },
+ {
+  "id": 417,
+  "uuid": "e547135e-2511-11f0-9c65-0affcc3858b1",
+  "title": "Dominando o Node AI Agent - N8N",
+  "code": null,
+  "slug": "dominando-node-ia-agent-no-n8n"
+ },
+ {
+  "id": 416,
+  "uuid": "c56ef0c8-250a-11f0-9c65-0affcc3858b1",
+  "title": "Como produzir apps que ganhem desafios e prêmios ",
+  "code": null,
+  "slug": "como-produzir-apps-que-ganhem-desafios-e-pr-mios"
+ },
+ {
+  "id": 415,
+  "uuid": "ad6b3b5d-10b2-11f0-b9ae-16ffe32afd3d",
+  "title": "GenAI na Prática: Como construir, monitorar e escalar sua aplicação como plataforma ",
+  "code": null,
+  "slug": "genai-na-pratica-como-construir-monitorar-e-escalar-sua-aplicacao-como-plataform"
+ },
+ {
+  "id": 414,
+  "uuid": "6698e27c-fea5-11ef-91cb-12d1cd5304a1",
+  "title": "Multi Agentes | N8N Cases Essenciais",
+  "code": null,
+  "slug": "multiagentes"
+ },
+ {
+  "id": 413,
+  "uuid": "b12d88c7-1867-448c-b738-46e794e0da0a",
+  "title": "Plantão de dúvidas - Automações & IA",
+  "code": null,
+  "slug": "plantao-ia"
+ },
+ {
+  "id": 412,
+  "uuid": "fdc1304a-f397-48d3-85fa-7141cf2bc9d0",
+  "title": "Treinamentos Time",
+  "code": null,
+  "slug": "treinamentos-time-1741311732886"
+ },
+ {
+  "id": 411,
+  "uuid": "aa9f0f3b-f9e8-11ef-91cb-12d1cd5304a1",
+  "title": "Converse com Banco de Dados e APIs | Tools Agentes - N8N",
+  "code": null,
+  "slug": "tools-n8n"
+ },
+ {
+  "id": 410,
+  "uuid": "ebb21537-1a3b-4e52-80d5-8c014ad83ce5",
+  "title": "Converse com PDF, Planilha e Arquivos | RAG Agentes - N8N",
+  "code": null,
+  "slug": "rag-agentes-n8n"
+ },
+ {
+  "id": 409,
+  "uuid": "953de154-0e06-4503-a30e-c3385cecfb5a",
+  "title": "Ebooks PDF Aulas",
+  "code": null,
+  "slug": "ebooks-pdf-aulas"
+ },
+ {
+  "id": 408,
+  "uuid": "bd06db3b-ef9a-11ef-91cb-12d1cd5304a1",
+  "title": "Como construí uma Software House milionária com NoCode - Daniel Rigotti",
+  "code": null,
+  "slug": "como-construi-uma-software-house-milionaria-com-nocode"
+ },
+ {
+  "id": 406,
+  "uuid": "22827284-ed51-11ef-91cb-12d1cd5304a1",
+  "title": "Comece sua jornada por aqui -FF",
+  "code": null,
+  "slug": "comece-sua-jornada-por-aqui-copia-2025-02-17-14-03-39"
+ },
+ {
+  "id": 405,
+  "uuid": "684481af-e49a-11ef-91cb-12d1cd5304a1",
+  "title": "Empreendendo com IA: estratégias para uma agência de sucesso com Enio Macedo 05/02/25 ",
+  "code": null,
+  "slug": "empreendendo-com-ia-estrategias-para-uma-agencia-de-sucesso"
+ },
+ {
+  "id": 404,
+  "uuid": "727a0061-5c5f-455c-8687-0548a40a6a1a",
+  "title": "Seu Primeiro Agente IA em 30min",
+  "code": null,
+  "slug": "seu-primeiro-agente-ia-em-30min"
+ },
+ {
+  "id": 403,
+  "uuid": "308a4635-df29-11ef-91cb-12d1cd5304a1",
+  "title": "Trajetória para Apps de Sucesso com Pedro Karpinski",
+  "code": null,
+  "slug": "trajetoria-para-apps-de-sucesso-com-pedro-karpinski"
+ },
+ {
+  "id": 402,
+  "uuid": "9a7af014-d420-11ef-91cb-12d1cd5304a1",
+  "title": "Tira Dúvidas - Agentes IA ",
+  "code": null,
+  "slug": "live-tira-duvidas-agentes-de-ia"
+ },
+ {
+  "id": 401,
+  "uuid": "7b7b1d20-b8ae-11ef-9d1a-16fff3474ee9",
+  "title": "Live: Como faturar em dólar e aprimorar seu networking",
+  "code": null,
+  "slug": "como-faturar-em-dolar-e-aprimorar-seu-networking"
+ },
+ {
+  "id": 398,
+  "uuid": "f2c1b1c2-ae8c-11ef-9d1a-16fff3474ee9",
+  "title": "Segurança no Supabase",
+  "code": null,
+  "slug": "seguranca-supabase"
+ },
+ {
+  "id": 397,
+  "uuid": "f8b4c486-25cc-4bea-ad1a-bf12cb0873c5",
+  "title": "Como criar modelos IA que não alucinam",
+  "code": null,
+  "slug": "como-criar-modelos-ia-que-nao-alucinam"
+ },
+ {
+  "id": 396,
+  "uuid": "26625d29-8446-44a0-b7be-afa4b92d5aee",
+  "title": "Agentes de IA no Bubble",
+  "code": null,
+  "slug": "agentes-ia-bubble"
+ },
+ {
+  "id": 395,
+  "uuid": "08fe8b67-a5e8-11ef-9d1a-16fff3474ee9",
+  "title": "1 - Fundamentos Supabase + Curso SQL Agentes IA",
+  "code": null,
+  "slug": "1-fundamentos-supabase-curso-sql-agentes-ia"
+ },
+ {
+  "id": 394,
+  "uuid": "499f219d-a5e6-11ef-9d1a-16fff3474ee9",
+  "title": "Curso Modelagem de Dados para Iniciantes",
+  "code": null,
+  "slug": "modelagem-de-dados-sql-projetos-ia"
+ },
+ {
+  "id": 393,
+  "uuid": "ab741c24-fd96-402e-9854-9545f7cdb27a",
+  "title": "Bônus - Mega API",
+  "code": null,
+  "slug": "bonus-mega-api"
+ },
+ {
+  "id": 392,
+  "uuid": "7bb0faeb-f6cb-4baf-bdb7-1a0165366c63",
+  "title": "Bônus - 3 meses plano PRO Framer",
+  "code": null,
+  "slug": "bonus-3-meses-plano-pro-framer"
+ },
+ {
+  "id": 391,
+  "uuid": "bf9e3c59-ee9a-4713-a9fd-783bf8ceec42",
+  "title": "Bônus - Plano 2 meses PRO Flutterflow",
+  "code": null,
+  "slug": "bonus-plano-2-meses-pro-flutterflow"
+ },
+ {
+  "id": 387,
+  "uuid": "17b73daa-b5e7-4dca-a4e0-808ff5c7280a",
+  "title": "Técnicas de vendas para fechar os melhores contratos",
+  "code": null,
+  "slug": "tecnicas-de-vendas-para-fechar-os-melhores-contratos"
+ },
+ {
+  "id": 386,
+  "uuid": "f27c5bb7-3dbd-4b77-9638-0c867d402a6c",
+  "title": "Agentes IA do Zero com Chatvolt- com Alexander Co-Founder",
+  "code": null,
+  "slug": "criando-clones-de-ia-com-chatvolt"
+ },
+ {
+  "id": 385,
+  "uuid": "8b26412d-2cd6-42bd-81d0-d1609f3626be",
+  "title": "Multi Agentes Crew AI no Langflow",
+  "code": null,
+  "slug": "multi-agentes-crew-ai-no-langflow"
+ },
+ {
+  "id": 384,
+  "uuid": "211e4b0d-8007-11ef-9d39-16ffcfe3be8f",
+  "title": "Criando um Multiatendimento de IA com Flowise",
+  "code": null,
+  "slug": "master-flowise"
+ },
+ {
+  "id": 383,
+  "uuid": "c6dc3be2-8006-11ef-9d39-16ffcfe3be8f",
+  "title": "Criando Agentes de Atendimento e Vendas com Zaia",
+  "code": null,
+  "slug": "master-zaia"
+ },
+ {
+  "id": 382,
+  "uuid": "52d6b836-fb49-41b2-b565-c785c2a8e2f1",
+  "title": "Como hospedar seu próprio n8n",
+  "code": null,
+  "slug": "como-hospedar-seu-proprio-n8n"
+ },
+ {
+  "id": 381,
+  "uuid": "09d8c7fa-75ef-410e-86df-304b332c567f",
+  "title": "Do Zero a Um com Sua Agência IA",
+  "code": null,
+  "slug": "do-zero-a-um-com-sua-agencia-ia"
+ },
+ {
+  "id": 380,
+  "uuid": "504661f7-1f0e-4792-9a87-e2b94140097d",
+  "title": "Formação Gestor Agentes IA",
+  "code": null,
+  "slug": "formacao-agentes-ia-1727708991271"
+ },
+ {
+  "id": 379,
+  "uuid": "6900b5bf-afe8-4c41-973a-20cd009ce353",
+  "title": "Converse com Banco de Dados e APIs | Function Calling",
+  "code": null,
+  "slug": "converse-com-banco-de-dados-e-apis-function-calling"
+ },
+ {
+  "id": 378,
+  "uuid": "1c9c9312-1195-4fad-b283-d57c39faf29b",
+  "title": "Converse com um PDF, Planilhas e Arquivos | RAG ",
+  "code": null,
+  "slug": "converse-com-um-pdf-planilhas-e-arquivos-rag"
+ },
+ {
+  "id": 377,
+  "uuid": "327bbea3-ad47-4de5-ad2f-30477a77e66b",
+  "title": "Fundamentos  Assistants Open AI",
+  "code": null,
+  "slug": "fundamentos-assistants-open-ai"
+ },
+ {
+  "id": 376,
+  "uuid": "a80a630f-e3f8-422f-b05d-43703e4ac9e6",
+  "title": "Gerenciando Pagamentos - N8N",
+  "code": null,
+  "slug": "gerenciando-pagamentos-n8n"
+ },
+ {
+  "id": 375,
+  "uuid": "9759beb2-a585-48bf-9464-43084cf61021",
+  "title": "Hacks para Chats com IA - N8N",
+  "code": null,
+  "slug": "hacks-para-chats-com-ia-n8n"
+ },
+ {
+  "id": 374,
+  "uuid": "08f3762c-c5ee-42d1-b566-a780ecdd4e49",
+  "title": "Sua Primeira Automação - Agente IA no Whatsapp ",
+  "code": null,
+  "slug": "sua-primeira-automacao-agente-whatsapp"
+ },
+ {
+  "id": 373,
+  "uuid": "dda23c59-f60d-448b-a781-c16052b9831f",
+  "title": "Fundamentos N8N - Domine o 80/20",
+  "code": null,
+  "slug": "fundamentos-n8n"
+ },
+ {
+  "id": 372,
+  "uuid": "d89227f4-360b-487f-bad4-4c712eeebfc4",
+  "title": "Materiais Agentes IA",
+  "code": null,
+  "slug": "materiais-agentes-ia"
+ },
+ {
+  "id": 371,
+  "uuid": "de4e9ae1-9886-4350-a08a-7d2cd517f8c8",
+  "title": "Introdução Formação Agentes IA",
+  "code": null,
+  "slug": "introducao-formacao-agentes-ia"
+ },
+ {
+  "id": 370,
+  "uuid": "6c9d163a-cdc6-4681-959e-7a1aea737de7",
+  "title": "M4 - Agendamento Dify",
+  "code": null,
+  "slug": "agendamento-dify"
+ },
+ {
+  "id": 369,
+  "uuid": "491d3b39-7cda-11ef-9d39-16ffcfe3be8f",
+  "title": "Fundamentos Engenharia de Prompts",
+  "code": null,
+  "slug": "fundamentos-engenharia-prompts"
+ },
+ {
+  "id": 368,
+  "uuid": "d6d3cdb7-0839-4448-a472-fe65403b6ec1",
+  "title": "Fundamentos de Automações IA",
+  "code": null,
+  "slug": "fundamentos-automacoes-ia"
+ },
+ {
+  "id": 367,
+  "uuid": "31fc3937-de8f-4587-b9d1-7f9c5d8f4529",
+  "title": "Fundamentos de Agentes IA Nocode",
+  "code": null,
+  "slug": "fundamentos-agentes-ia-nocode"
+ },
+ {
+  "id": 366,
+  "uuid": "6eca6325-95ba-4b32-9cfc-7a3d162094fe",
+  "title": "M5 - Workflows Dify",
+  "code": null,
+  "slug": "m4-workflows-dify"
+ },
+ {
+  "id": 365,
+  "uuid": "7f54ac28-4afc-4030-a741-70dde418c54c",
+  "title": "M3- Converse com Banco de Dados e APIs | Ferramentas (tools)",
+  "code": null,
+  "slug": "m3-converse-com-banco-de-dados-e-apis-ferramentas-tools"
+ },
+ {
+  "id": 364,
+  "uuid": "3725927d-a433-46a7-965a-d450acd70003",
+  "title": "M2 - Converse com um PDF, Planilhas e Arquivos | RAG",
+  "code": null,
+  "slug": "m2-converse-com-um-pdf-planilhas-e-arquivos-rag"
+ },
+ {
+  "id": 363,
+  "uuid": "e99cdbc6-1edb-4d4e-8f4b-32cd3f79cd93",
+  "title": "Live - Assistentes de IA com FlutterFlow - Junior Script7",
+  "code": null,
+  "slug": "live-assistentes-de-ia-com-flutterflow-junior-script7"
+ },
+ {
+  "id": 362,
+  "uuid": "d9e491ca-04dc-4b17-9631-1e308f7d263a",
+  "title": "Live - contador direto - leticia - abrir empresa",
+  "code": null,
+  "slug": "live-contador-direto"
+ },
+ {
+  "id": 361,
+  "uuid": "48ee053d-bd0f-450d-b5a6-e7de37f951a5",
+  "title": "Live - Promovaweb - Luis Oliveira - infraestrutura",
+  "code": null,
+  "slug": "live-promovaweb"
+ },
+ {
+  "id": 360,
+  "uuid": "1c052458-5f70-484e-82db-979d1ee741f5",
+  "title": "Live - Sergio Camillo - Ado - fintech",
+  "code": null,
+  "slug": "live-sergio-camillo-ado-fintech"
+ },
+ {
+  "id": 359,
+  "uuid": "097dd63b-d22d-4e58-8ec6-a58007577946",
+  "title": "Live - Paulo Dantas - ChatADV",
+  "code": null,
+  "slug": "live-paulo-dantas-chatadv"
+ },
+ {
+  "id": 358,
+  "uuid": "9b271da2-62a8-4cff-aa1d-c6f6985ed347",
+  "title": "Bônus - Créditos Open AI",
+  "code": null,
+  "slug": "bonus-creditos-open-ai"
+ },
+ {
+  "id": 357,
+  "uuid": "46d7b3eb-c70c-4539-817d-e7550d8da9c2",
+  "title": "Bônus - 3 meses Conta Pro Make",
+  "code": null,
+  "slug": "bonus-conta-pro-make"
+ },
+ {
+  "id": 356,
+  "uuid": "1deefff6-d9d3-497c-b0e7-3859f33d8cc4",
+  "title": "Guia MicroSaas empreendedor",
+  "code": null,
+  "slug": "guia-saas"
+ },
+ {
+  "id": 355,
+  "uuid": "60713297-b12c-4519-b8cc-78b4cc03ab1b",
+  "title": "Guia Freelancer",
+  "code": null,
+  "slug": "guia-freelancer"
+ },
+ {
+  "id": 353,
+  "uuid": "b3a3c6ad-0b1f-474f-abf6-c37ece8a0a16",
+  "title": "Comece sua jornada por aqui",
+  "code": null,
+  "slug": "comece-sua-jornada-por-aqui"
+ },
+ {
+  "id": 351,
+  "uuid": "9ac27e0d-337d-47c4-8029-318ad90b738e",
+  "title": "M1 - Fundamentos Dify",
+  "code": null,
+  "slug": "m1-fundamentos-dify"
+ },
+ {
+  "id": 350,
+  "uuid": "2d9c3090-e444-46ff-b67a-8b44c09f66f1",
+  "title": "Materiais - BB",
+  "code": null,
+  "slug": "materiais-bb"
+ },
+ {
+  "id": 349,
+  "uuid": "d2467c68-b92d-44bf-b9d6-810852dfc821",
+  "title": "Materiais - IA",
+  "code": null,
+  "slug": "materiais-ia"
+ },
+ {
+  "id": 348,
+  "uuid": "673bd7f5-4ae5-447d-824a-d75c11763940",
+  "title": "Materiais - FF",
+  "code": null,
+  "slug": "materiais-ff"
+ },
+ {
+  "id": 347,
+  "uuid": "0051d842-5711-444f-9f40-e4efa80c35db",
+  "title": "Plano de Estudos - FF",
+  "code": null,
+  "slug": "plano-de-estudos-ff"
+ },
+ {
+  "id": 346,
+  "uuid": "10dadf78-67e9-45d2-8a39-254129e59e67",
+  "title": "Agendamento Bubble",
+  "code": null,
+  "slug": "agendamento-bubble"
+ },
+ {
+  "id": 345,
+  "uuid": "3c65d31c-bf63-4cd9-89cb-0944d9ec604a",
+  "title": "Agendamentos Flutterflow e Supabase",
+  "code": null,
+  "slug": "agendamentos-flutterflow-supabase"
+ },
+ {
+  "id": 344,
+  "uuid": "9b780391-0147-4efc-b83b-476784d42a50",
+  "title": "Gráficos Personalizados - Curso de Dart",
+  "code": null,
+  "slug": "graficos-personalizados-dart"
+ },
+ {
+  "id": 343,
+  "uuid": "63597bcb-2556-44c0-a62d-c37bf34bf6d8",
+  "title": "Bubble Email Hackers",
+  "code": null,
+  "slug": "bubble-email-hackers"
+ },
+ {
+  "id": 341,
+  "uuid": "4c675c0f-6560-4ce4-bcec-ae08ae8f2ce2",
+  "title": "Edge Functions- Do Zero ao PRO",
+  "code": null,
+  "slug": "edge-funtions-do-zero-ao-pro"
+ },
+ {
+  "id": 340,
+  "uuid": "89f282cd-bbe6-491d-8420-202d3b18bdac",
+  "title": "MasterClass Nocode IA - Como Criar Agentes de Ia com Zaia ",
+  "code": null,
+  "slug": "masterclass-nocode-ia-como-criar-agentes-de-ia-com-zaia"
+ },
+ {
+  "id": 338,
+  "uuid": "c3868772-34ae-11ef-9d13-16ffe10b816d",
+  "title": "Encontro - Análise de Aplicativo ",
+  "code": null,
+  "slug": "analise-aplicativos"
+ },
+ {
+  "id": 337,
+  "uuid": "f0ac48ba-34a9-11ef-9d13-16ffe10b816d",
+  "title": "Encontro - Vivendo de No Code",
+  "code": null,
+  "slug": "vivendo-nocode"
+ },
+ {
+  "id": 336,
+  "uuid": "16ee0efd-348f-11ef-9d13-16ffe10b816d",
+  "title": "Tira Dúvidas - Bubble",
+  "code": null,
+  "slug": "live-tira-duvidas"
+ },
+ {
+  "id": 334,
+  "uuid": "304c67c9-744e-4909-b56d-eeb4f5074b5f",
+  "title": "Flutterflow Integração com Whatsapp - Supabase",
+  "code": null,
+  "slug": "flutterflow-integracao-com-whatsapp-supabase"
+ },
+ {
+  "id": 333,
+  "uuid": "e2fd5454-d0c3-4e1c-8c4d-bd74fd1891b4",
+  "title": "Policies Avançadas no Supabase - RLS",
+  "code": null,
+  "slug": "rls-supabase"
+ },
+ {
+  "id": 332,
+  "uuid": "0f218099-e9c5-4f56-bf50-f446e75c781d",
+  "title": "Masterclasses - Comunidade",
+  "code": null,
+  "slug": "masterclass-comunidade"
+ },
+ {
+  "id": 331,
+  "uuid": "f8ba136a-0592-4154-ac72-045ccface5cd",
+  "title": "Pagamentos Supabase + Flutterflow - Intro",
+  "code": null,
+  "slug": "pagamentos-supabase-flutterflow-intro"
+ },
+ {
+  "id": 330,
+  "uuid": "c19c4b03-c4bb-4cb4-8924-fca1e641c71b",
+  "title": "Backend Workflows - Bubble",
+  "code": null,
+  "slug": "backend-workflows-bubble"
+ },
+ {
+  "id": 329,
+  "uuid": "2a60f1d7-923c-4d89-844e-1981125c8739",
+  "title": "Mentoria Xano Hackers",
+  "code": null,
+  "slug": "xano-avanado-masterclass-1716853637088"
+ },
+ {
+  "id": 326,
+  "uuid": "8e5e05fe-1c79-11ef-ab1f-12c8d3237b4f",
+  "title": "Zero ao App - Aplicativo de finanças",
+  "code": null,
+  "slug": "f5-2-do-zero-ao-app-financas"
+ },
+ {
+  "id": 325,
+  "uuid": "aefa3089-6d85-4916-9850-1bc2fc4317ad",
+  "title": "Push Notifications com Supabase e n8n",
+  "code": null,
+  "slug": "push-notifications-n8n"
+ },
+ {
+  "id": 324,
+  "uuid": "a32954a0-c2ca-4c1f-acfb-3eedf8a9d224",
+  "title": "Supabase Auth - Flutterflow",
+  "code": null,
+  "slug": "supabase-auth-flutterflow"
+ },
+ {
+  "id": 322,
+  "uuid": "e4ccdfca-ca6a-4194-bf3d-49f1e4fb0d01",
+  "title": "SQLite para Apps Offline",
+  "code": null,
+  "slug": "sqlite-para-apps-offline"
+ },
+ {
+  "id": 321,
+  "uuid": "a1922a5c-40d3-4ddb-8525-e5443ed14e5b",
+  "title": "Formação nocode SaaS IA",
+  "code": null,
+  "slug": "formaco-nocode-ia-capa"
+ },
+ {
+  "id": 320,
+  "uuid": "3b92c3e5-aa13-4ca6-a8cd-f99ec38a5612",
+  "title": "F2.5 - IA para geração de vídeo e avatar",
+  "code": null,
+  "slug": "ia-para-gerao-de-vdeo-e-avatar"
+ },
+ {
+  "id": 319,
+  "uuid": "b1ccbd35-fa40-4539-9c99-ff5df6ff08df",
+  "title": "F2.4 - IA para geração de áudio",
+  "code": null,
+  "slug": "ia-para-gerao-de-udio"
+ },
+ {
+  "id": 318,
+  "uuid": "bba0d9ee-e311-44b6-ac51-7c4f8bb3d62d",
+  "title": "F2.3 - IA para geração de imagem",
+  "code": null,
+  "slug": "ia-para-gerao-de-imagem"
+ },
+ {
+  "id": 317,
+  "uuid": "f7a03911-d440-463d-8966-ec841f3a5ea2",
+  "title": "F2.1 - Introdução a Trilha IA - MasterClass IA & Engenharia de Prompts",
+  "code": null,
+  "slug": "introduo-da-trilha-masterclass-ia-engenharia-de-prompt"
+ },
+ {
+  "id": 316,
+  "uuid": "f466a85d-fdc2-423b-9c4b-aea48d641f9f",
+  "title": "F2.2 - IAs para texto e agentes",
+  "code": null,
+  "slug": "ias-para-texto-e-agentes"
+ },
+ {
+  "id": 315,
+  "uuid": "07980990-d093-47b3-bae4-a4ef5afd3b1b",
+  "title": "F1.4 - Fundamentos Inteligência Artificial",
+  "code": null,
+  "slug": "fundamentos-de-inteligncia-artificial"
+ },
+ {
+  "id": 314,
+  "uuid": "7e43b1e2-ee97-4352-8de9-de3d6933fcb0",
+  "title": "F1.3 - Fundamentos Desenvolvimento de Software",
+  "code": null,
+  "slug": "fundamentos-desenvolvimento-softwares"
+ },
+ {
+  "id": 313,
+  "uuid": "4406349a-0940-4418-918a-5ef30846f84f",
+  "title": "MasterClass Nocode IA - MasterClass do Zero a Um com Micro-SaaS de IA",
+  "code": null,
+  "slug": "masterclass-nocode-ia-masterclass-do-zero-a-um-com-micro-saas-de-ia"
+ },
+ {
+  "id": 312,
+  "uuid": "0169e1c2-68ed-4e06-aa5c-f9fbc8a1f59e",
+  "title": "MasterClass Nocode IA - Dominando Assitentes OpenAI e Filas no N8N",
+  "code": null,
+  "slug": "masterclass-nocode-ia-dominando-assitentes-openai-e-filas-no-n8n"
+ },
+ {
+  "id": 311,
+  "uuid": "a8aab335-e818-4c95-9b0d-a6bff4e2696e",
+  "title": "MasterClass Flowise - Criando um Agentes IA Avançados com Flowise",
+  "code": null,
+  "slug": "masterclass-nocode-ia-criando-um-multiatendimento-de-ia-com-flowise"
+ },
+ {
+  "id": 310,
+  "uuid": "d9817e41-217c-4871-996c-cf85838c7483",
+  "title": "F5.6 - Gerindo Assinaturas do seu MicroSaaS",
+  "code": null,
+  "slug": "gerindo-assinaturas-do-seu-microsaas"
+ },
+ {
+  "id": 309,
+  "uuid": "b509eb98-e540-48f8-8826-d6a747b6c9a5",
+  "title": "F5.5 - Expandindo seu Assistente para o WhatsApp",
+  "code": null,
+  "slug": "expandindo-seu-assistente-para-o-whatsapp"
+ },
+ {
+  "id": 308,
+  "uuid": "38296799-3b5a-4798-95d5-1ee8e5972c2d",
+  "title": "F5.4 - Conectando Assistente de IA aos Dados do App",
+  "code": null,
+  "slug": "conectando-assistente-de-ia-aos-dados-do-app"
+ },
+ {
+  "id": 307,
+  "uuid": "36d7984f-973d-4093-a2d4-189ed1d935eb",
+  "title": "F5.1 - Planejando seu Micro-SaaS",
+  "code": null,
+  "slug": "planejando-seu-micro-saas"
+ },
+ {
+  "id": 306,
+  "uuid": "d1002623-bf8b-408b-825f-1a9f558c0b60",
+  "title": "F4.5 - Assistants na Prática | Criando seu Assistente para WhatsApp",
+  "code": null,
+  "slug": "assistants-na-pratica-criando-seu-assistente-para-whatsapp"
+ },
+ {
+  "id": 305,
+  "uuid": "8bb022ff-0883-4694-adb8-b556e6655bcd",
+  "title": "F4.4 - Function Calling | Construindo GPTs e Assistentes com Esteroides",
+  "code": null,
+  "slug": "function-calling-construindo-gpts-e-assistentes-com-esteroides"
+ },
+ {
+  "id": 304,
+  "uuid": "3df36d50-9ee9-445b-b293-8f302a1825c3",
+  "title": "F4.2 - APIs de IA | Seu primeiro MicroSaaS com GPT Vision",
+  "code": null,
+  "slug": "apis-de-ia-seu-primeiro-microsaas-com-gpt-vision"
+ },
+ {
+  "id": 303,
+  "uuid": "64d4ebf5-f8bb-4220-b6d1-72282df0e2ed",
+  "title": "F4.1 - Automações de IA | Turbinando qualquer produto em minutos",
+  "code": null,
+  "slug": "automaes-de-ia-turbinando-qualquer-produto-em-minutos"
+ },
+ {
+  "id": 301,
+  "uuid": "b30c5d8e-468e-420a-8c36-226beefc00b5",
+  "title": "F3.3 - Fundamentos  Automações NoCode",
+  "code": null,
+  "slug": "fundamentos-automaes-nocode"
+ },
+ {
+  "id": 300,
+  "uuid": "9268c0b9-450e-4a3d-932f-30b558512284",
+  "title": "F3.2 - Fundamentos MVPs NoCode",
+  "code": null,
+  "slug": "fundamentos-mvps-nocode"
+ },
+ {
+  "id": 291,
+  "uuid": "efadd2d7-ac8a-48ab-956f-4bb45a03a061",
+  "title": "F1.2 - Fundamentos Desenvolvimento de Produtos",
+  "code": null,
+  "slug": "fundamentos-desenvolvimento-de-produtos"
+ },
+ {
+  "id": 290,
+  "uuid": "a3977422-557d-4781-addc-5339c139326a",
+  "title": "F1.1 - Comece por aqui",
+  "code": null,
+  "slug": "o-poder-de-aplicativos-com-inteligncia-artificial"
+ },
+ {
+  "id": 289,
+  "uuid": "20e4a891-f742-11ee-ab1f-12c8d3237b4f",
+  "title": "F4.3 - Clonando o ChatGPT",
+  "code": null,
+  "slug": "projeto-api-2-app-open-ai-chatgpt"
+ },
+ {
+  "id": 288,
+  "uuid": "c6f80635-7b8f-45ad-b782-c37b5da75252",
+  "title": "F5.3 - Do Zero ao App 2 Inteligência e Backend",
+  "code": null,
+  "slug": "zero-ao-app-02-inteligencia-e-backend"
+ },
+ {
+  "id": 287,
+  "uuid": "5be7e392-e82f-41bb-9810-c1d6675f4edf",
+  "title": "F5.2 - Do Zero ao App 1 Mestre do Design Responsivo",
+  "code": null,
+  "slug": "zero-ao-app-01-mestre-do-design-responsivo"
+ },
+ {
+  "id": 285,
+  "uuid": "c031bfd9-d02e-42c2-a09d-5209f8ebcf3e",
+  "title": "F3.5 - Fundamentos SaaS NoCode",
+  "code": null,
+  "slug": "fundamentos-saas-e-apps-complexos"
+ },
+ {
+  "id": 284,
+  "uuid": "5d2c06c0-5105-43f0-8c90-956da11aec57",
+  "title": "F3.4 - Fundamentos Websites NoCode",
+  "code": null,
+  "slug": "fundamentos-websites"
+ },
+ {
+  "id": 283,
+  "uuid": "e3ba77e6-a201-4e83-bdd8-002987b3a38d",
+  "title": "F3.1 -Introdução da Trilha - MasterClass NoCode",
+  "code": null,
+  "slug": "introducao-a-trilha-masterclass-nocode"
+ },
+ {
+  "id": 282,
+  "uuid": "aebc16cc-b629-403b-ae9c-85e0cbc63e28",
+  "title": "Dominando o Whatsapp no Bubble",
+  "code": null,
+  "slug": "dominando-o-whatsapp-no-bubble"
+ },
+ {
+  "id": 281,
+  "uuid": "56193d13-792f-411a-96e5-9f2cd4b141c7",
+  "title": "Como testar seu App com VS Code",
+  "code": null,
+  "slug": "como-testar-seu-app-com-vs-code"
+ },
+ {
+  "id": 278,
+  "uuid": "bbb7abb9-a5e3-4b93-9876-edf570f58f89",
+  "title": "Depoimentos Formações NoCode StartUp",
+  "code": null,
+  "slug": "depoimentos-formao-flutterflow-1709475179386"
+ },
+ {
+  "id": 277,
+  "uuid": "ef3eb5d3-6359-42b1-9c75-184210a85419",
+  "title": "Projeto API 2 - App Open AI Chat GPT",
+  "code": null,
+  "slug": "projeto-api-2-app-open-ai-chat-gpt"
+ },
+ {
+  "id": 276,
+  "uuid": "98c6c741-59c8-44ce-bb3d-34aecb4e9df7",
+  "title": "1 - O Poder das APIs - Fundamentos Essenciais",
+  "code": null,
+  "slug": "o-poder-das-apis-fundamentos-essenciais"
+ },
+ {
+  "id": 275,
+  "uuid": "ddbcb7e1-4c2c-433a-94be-419bab655759",
+  "title": "Geração PDF e Pub dev no Flutterflow",
+  "code": null,
+  "slug": "pdf"
+ },
+ {
+  "id": 274,
+  "uuid": "fdedafd6-d42b-4e81-b43b-1200a7a79b8f",
+  "title": "App Delivery - Supabase",
+  "code": null,
+  "slug": "app-delivery-supabase"
+ },
+ {
+  "id": 273,
+  "uuid": "7aefef09-c87d-449c-ae27-8494fdbb316e",
+  "title": "Pagamentos Asaas Supabase - Flutterflow",
+  "code": null,
+  "slug": "pagamentos-asaas-supabase"
+ },
+ {
+  "id": 272,
+  "uuid": "c7160fa6-b771-49d1-a946-fe8628db5454",
+  "title": "Pagamentos Stripe Supabase - Flutterflow",
+  "code": null,
+  "slug": "pagamentos-stripe-supabase"
+ },
+ {
+  "id": 271,
+  "uuid": "2079cdbe-847d-4090-82bd-3f0b4fa9d0f6",
+  "title": "Aplicativo de Chat | Mensagens em Tempo Real",
+  "code": null,
+  "slug": "aplicativo-de-chat-mensagens-em-tempo-real"
+ },
+ {
+  "id": 270,
+  "uuid": "197ff17f-aeb8-46d9-ab5f-87487bc14915",
+  "title": "Guia NoCode",
+  "code": null,
+  "slug": "masterclass-nocode"
+ },
+ {
+  "id": 269,
+  "uuid": "f50d323e-02bc-49a0-a964-508c9a25cd05",
+  "title": "Buscas e Filtros | Plataforma de Produtos de Supermercado",
+  "code": null,
+  "slug": "buscas-e-filtros-plataforma-de-produtos-de-supermercado"
+ },
+ {
+  "id": 268,
+  "uuid": "17ce50dd-e439-4368-8756-405a2b6b6611",
+  "title": "2 - Weweb Primeiro Super App | Plataforma de Músicas",
+  "code": null,
+  "slug": "primeiro-super-app-plataforma-de-musicas"
+ },
+ {
+  "id": 267,
+  "uuid": "522d86a4-8e06-4fd5-801f-bc5154b9e98c",
+  "title": "1 - Weweb | Fundamentos Essenciais ",
+  "code": null,
+  "slug": "fundamentos-essenciais-weweb"
+ },
+ {
+  "id": 266,
+  "uuid": "0c5cdf2c-ab72-11ee-b421-12c8d3237b4f",
+  "title": "Curso WeWeb",
+  "code": null,
+  "slug": "curso-weweb"
+ },
+ {
+  "id": 265,
+  "uuid": "988acaf7-aab4-11ee-b421-12c8d3237b4f",
+  "title": "Make | Caso 3 - Instagram e Chatbase Inteligência Artificial",
+  "code": null,
+  "slug": "make-case3"
+ },
+ {
+  "id": 264,
+  "uuid": "9ac96c00-aab3-11ee-b421-12c8d3237b4f",
+  "title": "Make | Caso 2 - Elementor, WhatsApp e Pagamentos Stripe",
+  "code": null,
+  "slug": "make-case2"
+ },
+ {
+  "id": 263,
+  "uuid": "c86f74ac-aab2-11ee-b421-12c8d3237b4f",
+  "title": "Make | Sua Primeira Super Automação",
+  "code": null,
+  "slug": "make-case1"
+ },
+ {
+  "id": 262,
+  "uuid": "c1bb3602-aab1-11ee-b421-12c8d3237b4f",
+  "title": "Make | Fundamentos Automações com Make",
+  "code": null,
+  "slug": "make-fundamentos"
+ },
+ {
+  "id": 261,
+  "uuid": "b650479e-aaae-11ee-b421-12c8d3237b4f",
+  "title": "Xano Especialista | Pagamentos Mercado Pago",
+  "code": null,
+  "slug": "xano-mercadopago"
+ },
+ {
+  "id": 260,
+  "uuid": "6c644292-aaae-11ee-b421-12c8d3237b4f",
+  "title": "WeWeb | APIs",
+  "code": null,
+  "slug": "weweb-apis"
+ },
+ {
+  "id": 259,
+  "uuid": "f4d1bd91-aaad-11ee-b421-12c8d3237b4f",
+  "title": "3 - WeWeb | Design e Responsividade",
+  "code": null,
+  "slug": "weweb-responsividade"
+ },
+ {
+  "id": 256,
+  "uuid": "1598cca6-aaa8-11ee-b421-12c8d3237b4f",
+  "title": "Framer | Seu Próprio Site + Portifólio",
+  "code": null,
+  "slug": "framer-portifolio"
+ },
+ {
+  "id": 255,
+  "uuid": "4b226e11-aaa7-11ee-b421-12c8d3237b4f",
+  "title": "Framer - Meu Primeiro Projeto",
+  "code": null,
+  "slug": "linktree-framer"
+ },
+ {
+  "id": 254,
+  "uuid": "e444ca85-aaa4-11ee-b421-12c8d3237b4f",
+  "title": "Fundamentos Websites e LPs com Framer",
+  "code": null,
+  "slug": "fundamentos-framer"
+ },
+ {
+  "id": 253,
+  "uuid": "7cb55a2d-aaa4-11ee-b421-12c8d3237b4f",
+  "title": "Curso Make",
+  "code": null,
+  "slug": "curso-make"
+ },
+ {
+  "id": 252,
+  "uuid": "df38c5e1-aaa2-11ee-b421-12c8d3237b4f",
+  "title": "Curso Framer",
+  "code": null,
+  "slug": "curso-framer-nocode"
+ },
+ {
+  "id": 251,
+  "uuid": "72b3b6b1-c25d-4166-a442-71f8a2b1e5ba",
+  "title": "Trilha Supabase",
+  "code": null,
+  "slug": "trilha-supabase"
+ },
+ {
+  "id": 250,
+  "uuid": "2a911795-2437-46a3-8f8b-da9a028c14d1",
+  "title": "4 - Supabase e FlutterFlow | App de Cursos EAD 2.0",
+  "code": null,
+  "slug": "supabase-e-flutterflow-app-de-cursos-ead"
+ },
+ {
+  "id": 249,
+  "uuid": "d9329bc7-0efe-4a8d-bbba-5ca1cc1c12fa",
+  "title": "3 - Planejamento Backend Supabase",
+  "code": null,
+  "slug": "planejamento-backend-supabase"
+ },
+ {
+  "id": 248,
+  "uuid": "ed8f2aec-936f-4a04-99e9-00d381df54c2",
+  "title": "2 - APIs no Supabase",
+  "code": null,
+  "slug": "apis-no-supabase"
+ },
+ {
+  "id": 244,
+  "uuid": "d6388688-ede1-45bd-8077-50b213c05f89",
+  "title": "1.2 - Extra: Use IA como seu Super Funcionário",
+  "code": null,
+  "slug": "extra-use-ia-como-seu-super-funcionario"
+ },
+ {
+  "id": 243,
+  "uuid": "811897f6-6676-4da0-a43b-a7ec584556dc",
+  "title": "1 - Fundamentos Supabase + Curso SQL",
+  "code": null,
+  "slug": "fundamentos-supabase-curso-sql"
+ },
+ {
+  "id": 242,
+  "uuid": "d19fd9c4-9cfa-11ee-a480-169f154e14b3",
+  "title": "M4 - Segurança Multiusuários Xano Backend | App Filmes",
+  "code": null,
+  "slug": "seguranca-multiusuarios-xano"
+ },
+ {
+  "id": 241,
+  "uuid": "c6141674-2164-4d58-be51-f4c4d5bff8cd",
+  "title": "M3.1 - Integração Xano e Bubble | App de Filmes",
+  "code": null,
+  "slug": "integrao-xano-e-bubble-app-de-filmes"
+ },
+ {
+  "id": 240,
+  "uuid": "3d884d55-0be7-4acb-81d2-f3aa29e22fa9",
+  "title": "M2.2 Planejamento Projeto Backend Xano + Bubble",
+  "code": null,
+  "slug": "planejamento-projeto-backend-xano-bubble"
+ },
+ {
+  "id": 239,
+  "uuid": "f850cc77-a328-4d58-972a-3a1359ee68e8",
+  "title": "App de Agendamento - Operações com Datas",
+  "code": null,
+  "slug": "app-de-agendamento"
+ },
+ {
+  "id": 238,
+  "uuid": "6d5527b8-bcc0-4255-bc1d-16c71adc59c5",
+  "title": "App LinkTree | Como criar URLs personalizadas",
+  "code": null,
+  "slug": "app-linktree-como-criar-urls-personalizadas"
+ },
+ {
+  "id": 237,
+  "uuid": "a3c6d363-b849-4306-9000-de586bb7ddaa",
+  "title": "M3.2 - Integração Xano e Flutterflow | App de Filmes",
+  "code": null,
+  "slug": "integracao-xano-e-flutterflow-app-de-filmes"
+ },
+ {
+  "id": 236,
+  "uuid": "c6130c2a-cda8-40fd-937a-2aecfb60dd7a",
+  "title": "M2 - Planejamento Projeto de Backend Xano | FlutterFlow",
+  "code": null,
+  "slug": "planejamento-projeto-de-backend-xano-ff"
+ },
+ {
+  "id": 235,
+  "uuid": "a0e6fbc1-0bf1-45f3-ac6c-cb6c17f2575b",
+  "title": "M1 - Fundamentos Essenciais Xano",
+  "code": null,
+  "slug": "xano-fundamentos-essenciais"
+ },
+ {
+  "id": 234,
+  "uuid": "e4385aec-0bfa-413c-a8d2-a19a6cb9884c",
+  "title": "Pagamentos Asaas Bubble",
+  "code": null,
+  "slug": "pagamentos-asaas-bubble"
+ },
+ {
+  "id": 232,
+  "uuid": "44893947-7d1b-11ee-a986-169f154e14b3",
+  "title": "Trilha Mestre dos Pagamentos Bubble",
+  "code": null,
+  "slug": "trilha-mestre-dos-pagamentos-bubble"
+ },
+ {
+  "id": 231,
+  "uuid": "5b1655be-7d19-11ee-a986-169f154e14b3",
+  "title": "Pagamentos Stripe Bubble",
+  "code": null,
+  "slug": "curso-stripe-bubble"
+ },
+ {
+  "id": 230,
+  "uuid": "500fe215-07f2-4548-98e1-989f357c105a",
+  "title": "Ordens e Carrinho de Compra",
+  "code": null,
+  "slug": "ordens-e-carrinho-de-compra-bubble"
+ },
+ {
+  "id": 229,
+  "uuid": "853ba1dd-338d-403a-a309-a0974698f722",
+  "title": "Introdução aos Pagamentos - bubble",
+  "code": null,
+  "slug": "introduo-aos-pagamentos-bubble"
+ },
+ {
+  "id": 228,
+  "uuid": "89a04c66-5e61-4c8a-9efe-948b3e7b864b",
+  "title": "M4 - AppGyver com Firebase | App de Tarefas 2.0",
+  "code": null,
+  "slug": "appgyver-com-firebase-app-de-tarefas"
+ },
+ {
+  "id": 227,
+  "uuid": "4c2d9332-8bc5-4af7-8e97-55b00da8f686",
+  "title": "M3 - AppGyver com Xano | App de Academia",
+  "code": null,
+  "slug": "appgyver-com-xano-app-de-academia"
+ },
+ {
+  "id": 226,
+  "uuid": "745928c0-8321-4907-947e-8a8d52374f6c",
+  "title": "AppGyver M2 - Fundamentos APIs | App de Filmes",
+  "code": null,
+  "slug": "fundamentos-apis-app-de-filmes"
+ },
+ {
+  "id": 225,
+  "uuid": "2a99ec6c-7cab-4a1d-aeba-f35a4bcc963f",
+  "title": "AppGyver M1 - Meu Primeiro Super App | App de Tarefas",
+  "code": null,
+  "slug": "m1-meu-primeiro-super-app-app-de-tarefas"
+ },
+ {
+  "id": 224,
+  "uuid": "2ef5c49d-0a27-4e30-9acd-5a11e3d05f90",
+  "title": "App de Agendamento ",
+  "code": null,
+  "slug": "app-de-agendamento-1697911106222"
+ },
+ {
+  "id": 223,
+  "uuid": "d881dccb-1c17-4906-bcf5-f21e32b610f5",
+  "title": "2 - Meu Primeiro Super App | App dos Sonhos",
+  "code": null,
+  "slug": "meu-primeiro-super-app-app-dos-sonhos"
+ },
+ {
+  "id": 222,
+  "uuid": "002e0e9f-876a-4f8f-a673-b1ad60861f82",
+  "title": "1 - Fundamentos FlutterFlow - Design e Backend do Zero",
+  "code": null,
+  "slug": "fundamentos-flutterflow-design-e-backend"
+ },
+ {
+  "id": 221,
+  "uuid": "1c917c35-5292-4bf8-a121-b50d63ba252f",
+  "title": "Fundamentos Dart",
+  "code": null,
+  "slug": "fundamentos-dart"
+ },
+ {
+  "id": 220,
+  "uuid": "c0129210-ad46-4713-bb83-77e1b902eb75",
+  "title": "Introdução aos Pagamentos - flutterflow",
+  "code": null,
+  "slug": "introducao-aos-pagamentos"
+ },
+ {
+  "id": 219,
+  "uuid": "11bbdc83-1ef0-4037-9d5e-3cd0c1a8cf58",
+  "title": "Tira Dúvidas Flutterflow",
+  "code": null,
+  "slug": "flutterflow-trilha-duvidas"
+ },
+ {
+  "id": 218,
+  "uuid": "ff3e34fb-37ea-4d36-a310-1b621df3e46f",
+  "title": "4 - Publicação lojas oficiais: Apple Store e Google Play",
+  "code": null,
+  "slug": "publicacao-lojas-oficiais-flutterflow"
+ },
+ {
+  "id": 216,
+  "uuid": "484ee889-4760-11ee-b008-169f154e14b3",
+  "title": "Super Bônus | U$S100 Créditos Bubble",
+  "code": null,
+  "slug": "usd100-creditos-bubble"
+ },
+ {
+  "id": 215,
+  "uuid": "b64b7fa4-a323-4a73-ba9d-27fe6659cba3",
+  "title": "Supabase - App de Cursos EAD 2.0",
+  "code": null,
+  "slug": "supabase-app-de-cursos-ead-20-1692282612645"
+ },
+ {
+  "id": 214,
+  "uuid": "c2271681-3001-11ee-83eb-16ef8d2de5a1",
+  "title": "Xano | Backend No-Code | FBB",
+  "code": null,
+  "slug": "xano-backend-no-code-fbb"
+ },
+ {
+  "id": 212,
+  "uuid": "5381cdbf-0bcd-4eb6-a11c-16cf2c32a6f4",
+  "title": "Atomic Fusion | Bubble io",
+  "code": null,
+  "slug": "atomic-fusion-1690296401321"
+ },
+ {
+  "id": 211,
+  "uuid": "0c6d6f54-3648-42a3-9939-c66dc9a2e670",
+  "title": "Formação FlutterFlow",
+  "code": null,
+  "slug": "formao-flutterflow-1690295591849"
+ },
+ {
+  "id": 210,
+  "uuid": "a824b6b5-b1a8-4c14-88ea-8abcff90659b",
+  "title": "Comunidade Open No-Code | Bubble io",
+  "code": null,
+  "slug": "comunidade-open-no-code-bubble-io"
+ },
+ {
+  "id": 209,
+  "uuid": "e0bddcae-613c-4535-a931-375b5f50c730",
+  "title": "Trilha Especialista",
+  "code": null,
+  "slug": "trilha-especialista-1690293623293"
+ },
+ {
+  "id": 208,
+  "uuid": "aa80c498-9e68-4b6c-8b32-6016add81e97",
+  "title": "Trilha do Zero ao App Multi Empresas",
+  "code": null,
+  "slug": "trilha-do-zero-ao-app-multi-empresas-1690293554042"
+ },
+ {
+  "id": 207,
+  "uuid": "efa35457-f2c7-415f-94b6-ca3c5b1a5869",
+  "title": "Trilha Mago dos Dados",
+  "code": null,
+  "slug": "trilha-mago-dos-dados-1690293499236"
+ },
+ {
+  "id": 206,
+  "uuid": "3566c53c-9fc0-4e36-8c81-ea397038c57a",
+  "title": "Trilha Design e Responsividade",
+  "code": null,
+  "slug": "trilha-design-e-responsividade-1690293442094"
+ },
+ {
+  "id": 205,
+  "uuid": "29e76aff-2d6f-4bc2-9e0d-19a316e2a8ec",
+  "title": "Trilha Primeiros Passos",
+  "code": null,
+  "slug": "trilha-primeiros-passos-1690293390515"
+ },
+ {
+  "id": 203,
+  "uuid": "d59c3aac-bc8a-4468-b499-1461ec7b7089",
+  "title": "3 - Fundamentos Supabase | App de Cursos EAD 1.0",
+  "code": null,
+  "slug": "supabase-backend-sql"
+ },
+ {
+  "id": 202,
+  "uuid": "134539f9-cbb6-4b10-af95-6dcbefb785ca",
+  "title": "Trilha Desenvolvedor Especialista",
+  "code": null,
+  "slug": "trilha-desenvolvedor-especialista-1690221558007"
+ },
+ {
+  "id": 201,
+  "uuid": "c72958f7-20a7-4c72-ae56-bcf611c6ac1a",
+  "title": "Xano | Backend No-Code",
+  "code": null,
+  "slug": "xano-backend-no-code-1690221248203"
+ },
+ {
+  "id": 200,
+  "uuid": "0eae419c-98e4-43f1-8005-5f5f7f5d323f",
+  "title": "3 - Segurança e Publicação Web - Web App CRM 3.0",
+  "code": null,
+  "slug": "segurana-e-publicao-flutterflow"
+ },
+ {
+  "id": 199,
+  "uuid": "6e0a5608-57d5-4fe0-bd67-ab89cec51167",
+  "title": "Curso Xano",
+  "code": null,
+  "slug": "formao-xano-1689970300129"
+ },
+ {
+  "id": 198,
+  "uuid": "977a300d-97ce-4b50-903f-820969a78d2b",
+  "title": "Formação AppGyver ",
+  "code": null,
+  "slug": "formao-appgyver-1689970259632"
+ },
+ {
+  "id": 197,
+  "uuid": "765fcd9b-fb3b-420e-a9c5-a9a822cadf27",
+  "title": "Formação Bubble io",
+  "code": null,
+  "slug": "formacao-bubble-io-"
+ },
+ {
+  "id": 196,
+  "uuid": "fd1b68bd-1a58-4091-8603-11f186324c86",
+  "title": "Curso AppGyver",
+  "code": null,
+  "slug": "curso-appgyver-1689970150744"
+ },
+ {
+  "id": 195,
+  "uuid": "eea0b9ef-4af1-4b21-8fab-b5339bf9e0e6",
+  "title": "Curso Bubble Gratuito",
+  "code": null,
+  "slug": "curso-bubble-gratuito-1689970100308"
+ },
+ {
+  "id": 194,
+  "uuid": "48c0e256-9529-4222-bf14-1ca9a5d6b44d",
+  "title": "Curso FlutterFlow Gratuito",
+  "code": null,
+  "slug": "curso-flutterflow-gratuito-1689969872078"
+ },
+ {
+  "id": 193,
+  "uuid": "e2403b76-6a0d-4414-8750-9c6c4b37c451",
+  "title": "Asaas | Assinaturas",
+  "code": null,
+  "slug": "asaas-assinaturas"
+ },
+ {
+  "id": 192,
+  "uuid": "b95ef9fd-390b-4173-be0c-f110c84b3b6f",
+  "title": "Mercado Pago | Pagamentos via Pix",
+  "code": null,
+  "slug": "mercado-pago-pagamentos-via-pix"
+ },
+ {
+  "id": 191,
+  "uuid": "50ec8fd1-976e-48ae-9a2f-0b01960dd68c",
+  "title": "Stripe | Pagamentos Avulsos e Assinaturas",
+  "code": null,
+  "slug": "stripe-pagamentos-avulsos-e-assinaturas"
+ },
+ {
+  "id": 190,
+  "uuid": "e5485c25-f4c0-46b0-9c73-bd5e2649668a",
+  "title": "Trilha Mestre dos Pagamentos",
+  "code": null,
+  "slug": "trilha-mestre-dos-pagamentos-1689962516621"
+ },
+ {
+  "id": 189,
+  "uuid": "25aac500-767e-432f-9532-298abb379518",
+  "title": "Trilha do Zero ao App SaaS Multi Empresa",
+  "code": null,
+  "slug": "trilha-do-zero-ao-app-saas-multi-empresa-1689962449101"
+ },
+ {
+  "id": 188,
+  "uuid": "1e0e34ae-1170-4b5e-8d57-7d6762888142",
+  "title": "Trilha Mestre do Planejamento - UX e Dados",
+  "code": null,
+  "slug": "trilha-fundamentos-desenvolvimento-software-1689961763056"
+ },
+ {
+  "id": 187,
+  "uuid": "70caa6e6-14c6-49ba-865f-fd5b2fde6690",
+  "title": "Trilha Primeiros Passos",
+  "code": null,
+  "slug": "trilha-primeiros-passos"
+ },
+ {
+  "id": 186,
+  "uuid": "d7b98eb5-7d19-407c-b4b0-f095ee984a74",
+  "title": "Comunidade Open No-Code | FlutterFlow",
+  "code": null,
+  "slug": "comunidade-open-no-code-flutterflow"
+ },
+ {
+  "id": 185,
+  "uuid": "53b899c5-d3cc-4ac2-abcb-5ea794ee555a",
+  "title": "Comece Por Aqui",
+  "code": null,
+  "slug": "comece-por-aqui-flutterflow"
+ },
+ {
+  "id": 173,
+  "uuid": "3a8f1ddc-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Comece por aqui - Bubble",
+  "code": null,
+  "slug": "comece-por-aqui-bubbleio"
+ },
+ {
+  "id": 174,
+  "uuid": "3a8faf3b-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M1 - Meu Primeiro Super App | App de Livros",
+  "code": null,
+  "slug": "curso-bubble-meu-primeiro-super-app-app-de-livros"
+ },
+ {
+  "id": 175,
+  "uuid": "3a947e59-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M2 - Fundamentos e Multi Usuário | App de Redes Sociais",
+  "code": null,
+  "slug": "bubble-fundamentos-e-multi-usuario-app-de-redes-sociais"
+ },
+ {
+  "id": 176,
+  "uuid": "3a9b1bd1-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M3.1 - Conceitos Fundamentais de Design",
+  "code": null,
+  "slug": "conceitos-fundamentais-de-design-bubble"
+ },
+ {
+  "id": 177,
+  "uuid": "3a9c5554-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M3.2 - Mestre da Responsividade",
+  "code": null,
+  "slug": "mestre-da-responsividade-bubble"
+ },
+ {
+  "id": 178,
+  "uuid": "3a9e33e3-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M3.3 - Mão na Massa! Landing Page Responsiva",
+  "code": null,
+  "slug": "landing-page-responsiva-bubble"
+ },
+ {
+  "id": 179,
+  "uuid": "3aa208ad-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Modelagem de Dados SQL - FlutterFlow",
+  "code": null,
+  "slug": "modelagem-de-dados-sql-flutterflow"
+ },
+ {
+  "id": 180,
+  "uuid": "3aa36ae4-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M4 - Dominando o Planejamento de Aplicativos | SaaS Gestão de Projetos 1.0",
+  "code": null,
+  "slug": "dominando-o-planejamento-de-aplicativos-saas-gestao-de-projetos"
+ },
+ {
+  "id": 181,
+  "uuid": "3aa7104b-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M5 - Design Dashboard e Mestre da Navegação | SaaS Gestão de Projetos 2.0",
+  "code": null,
+  "slug": "design-dashboard-bubble-io"
+ },
+ {
+  "id": 182,
+  "uuid": "3aaa24a5-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M6 -  Estrutura Multi-Empresa e Segurança | SaaS Gestão de Projeto 3.1",
+  "code": null,
+  "slug": "estrutura-multi-empresa-e-seguranca-bubble"
+ },
+ {
+  "id": 183,
+  "uuid": "3aae0b56-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M6 -  Super Projetos | Drag & Drop, Calendário e Gráficos | SaaS Gestão de Projeto 3.2",
+  "code": null,
+  "slug": "super-projetos-drag-and-drop-calendario-e-graficos-bubble"
+ },
+ {
+  "id": 184,
+  "uuid": "3ab5a363-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M6 -  Deploy - Checklist do Lançamento | SaaS Gestão de Projeto 3.3",
+  "code": null,
+  "slug": "deploy-checklist-do-lancamento-bubble"
+ },
+ {
+  "id": 164,
+  "uuid": "382b8c74-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M1 - Meu Primeiro Super App | App de Viagens 1.0",
+  "code": null,
+  "slug": "meu-primeiro-super-app-app-de-viagens-flutterflow"
+ },
+ {
+  "id": 165,
+  "uuid": "38311bf1-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "M2 - Fundamentos e Multi Usuário | App de Viagens 2.0",
+  "code": null,
+  "slug": "fundamentos-e-multi-usuario-or-app-de-viagens-flutterflow"
+ },
+ {
+  "id": 166,
+  "uuid": "3832d095-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Projeto API 1 | Super Hero App",
+  "code": null,
+  "slug": "design-de-telas-e-mestre-das-apis-flutterflow"
+ },
+ {
+  "id": 167,
+  "uuid": "3834f464-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Carrinho, Checkout e Pagamento | App Delivery",
+  "code": null,
+  "slug": "carrinho-checkout-e-pagamento"
+ },
+ {
+  "id": 168,
+  "uuid": "383905e7-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "1 - Mestre do Design Responsivo - Web App CRM 1.0",
+  "code": null,
+  "slug": "mestre-do-design-responsivo-web-app-flutterflow"
+ },
+ {
+  "id": 169,
+  "uuid": "383d19cd-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "2 - Dados e Inteligência Multi Empresa - Web App CRM 2.0",
+  "code": null,
+  "slug": "dados-e-inteligencia-multi-empresa-web-app-crm"
+ },
+ {
+  "id": 170,
+  "uuid": "384316ff-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Modelagem de Dados SQL - Bubble io",
+  "code": null,
+  "slug": "modelagem-de-dados-sql-bubbleio"
+ },
+ {
+  "id": 171,
+  "uuid": "3844f721-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Modelagem de Dados NoSQL",
+  "code": null,
+  "slug": "modelagem-de-dados-nosql"
+ },
+ {
+  "id": 172,
+  "uuid": "3846383f-27cc-11ee-83eb-16ef8d2de5a1",
+  "title": "Conceitos Fundamentais de Design",
+  "code": null,
+  "slug": "conceitos-fundamentais-de-design-flutterflow"
+ }
+]

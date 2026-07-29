@@ -1,0 +1,12 @@
+﻿# O que aprendemos até aqui?
+
+- Curso: Asaas | Assinaturas
+- Trilha: (sem trilha)
+- Módulo: Pagamentos Avulsos no Asaas
+- Duração: 00:01:23
+- Aula: https://flix.nocodestartup.io/m/lessons/2351
+- Vídeo: 4f3f88e5-e9e0-40e4-a390-62a2a41a3dd5
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Estamos finalizando aqui o início do nosso módulo do Adidas, pessoal. Aqui a gente fez apenas o pagamento avulso com check-out padrão bem simples para as pessoas que não conheceram ainda como funciona o método de pagamento, se começarem a habituarem, mas a partir do próximo capítulo nós vamos estar trabalhando com informações de forma mais rápida, principalmente porque a assinatura vai utilizar webhooks e outras coisas de forma mais rápida e automática. Vamos fazer um resumo do que nós aprendemos até aqui. Primeiro a gente aprendeu como cadastrar um cliente para verificar a documentação e aí a verificação da chamada API. Eu consigo fazer uma atualização no meu banco de dados. Eu expliquei também sobre o modo sandbox, qual que é a diferença versus o modo padrão, que é o modo de produção, onde realmente vai estar realizando cobranças reais para o nosso cliente. Depois a gente fez uma verificação do status daquela compra. Então a partir do momento que o cliente criou a compra de verdade, como que é a verificação daquele status e mudar o banco de dados com aquela informação. E para finalizar, a gente fez as ações e também as condições de visibilidade serem compatíveis com as respostas que nós estávamos tendo da nossa documentação, da nossa API. Tudo bem? Então, isso tudo para fazer o aplicativo funcionar do jeito que ele deve funcionar. Então, espero que você tenha gostado. É apenas o início, mas é um início bem bacana aí. Então, muito obrigado e te beijo no próximo módulo.

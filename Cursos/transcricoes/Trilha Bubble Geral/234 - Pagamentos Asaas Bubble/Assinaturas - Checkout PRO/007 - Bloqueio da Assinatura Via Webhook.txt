@@ -1,0 +1,12 @@
+﻿# Bloqueio da Assinatura Via Webhook
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Assinaturas - Checkout PRO
+- Duração: 00:01:50
+- Aula: https://flix.nocodestartup.io/m/lessons/3018
+- Vídeo: f9f8db4a-a54f-45a0-a66c-241808fd430a
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Nessa aula eu vou estar mostrando para vocês a forma mais fácil de desativar a assinatura de um usuário específico, desde que ele esteja inspirado ou inativo pelo ASUS, ok? É muito simples, basta a gente vir no backend workflow e colocar um step a mais ali no nosso API workflow e tá tudo certo. Vou estar mostrando para vocês agora. Basta a gente vir aqui no nosso API workflow e copiar esse mesmo step aqui, o step 2, copia e adiciona na frente. A gente vai utilizar o mesmo certifórnio, não tem problema. No lugar do status, a gente pode colocar o status que você quiser, mas a gente vai colocar aqui o suspenso, porque já tinha uma assinatura, a gente só quer suspender essa assinatura. Vamos alterar aqui também a restrição, tá? No Rebirth Data, pagamento status, a gente vai colocar contain, aqui no caso vai ser inactivo, tá? Ele está inativo. Eu estou copiando, né? Eu copiei para ficar mais fácil, mas basicamente é só colocar o mesmo nome, maiúsculo, claro. E aqui a gente vai ter também o Request Data, Pagamento Status, Contém, Activo, a gente altera para Expired, tá? Está expirado. E é basicamente isso que a gente precisa. Ou seja, quando a assinatura for expirada, estiver inativa lá no Asas, ele vai mandar o Webhook para cá e ele vai alterar no banco de dados essas informações para a gente e suspender a assinatura. Esse foi mais um módulo do nosso curso Asas, no qual a gente aprendeu a realizar assinaturas com o checkout do próprio Asus. A gente vai ter mais um módulo indo para frente, que é o módulo de checkout transparente, onde a gente vai realizar assinaturas diretamente no app através do checkout transparente do Asus. Então, na próxima aula, eu vou estar mostrando para vocês toda a documentação de API para a gente poder prosseguir com esse processo do checkout transparente. Te vejo no próximo módulo. Muito obrigado.

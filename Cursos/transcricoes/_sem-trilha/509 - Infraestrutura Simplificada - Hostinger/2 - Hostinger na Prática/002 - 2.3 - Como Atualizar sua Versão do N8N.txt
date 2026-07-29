@@ -1,0 +1,12 @@
+﻿# 2.3 - Como Atualizar sua Versão do N8N
+
+- Curso: Infraestrutura Simplificada - Hostinger
+- Trilha: (sem trilha)
+- Módulo: 2 - Hostinger na Prática
+- Duração: 00:01:38
+- Aula: https://flix.nocodestartup.io/m/lessons/5312
+- Vídeo: a3627cde-1e41-4f40-9bde-edc23603cc92
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+E um ponto muito importante pra você que tá usando aí pra fazer automações e agentes é como atualizar o Neto N, tá? Sempre vão saindo novas versões e você tem que vir aqui e atualizar a versão porque você tá usando a versão aí hospedada, tá? E como é que funciona? Você vai vir aqui no seu painel e vai vir em Browse Terminal, tá? Então a gente vai clicar nesse botãozinho aqui. Quando a gente clicar nesse botão, vai aparecer aqui... uma tela preta, tá? Não fica aí preocupado que tem alguns códigos, a gente só vai colocar algumas instruções para atualizar o N2N, tá? Então, o que você vai escrever? Você vai vir aqui e vai escrever docker-compose-pool, tá? Que basicamente a gente vai conseguir atualizar com três instruções. Provavelmente aqui não vai acontecer nada de diferente porque já está na última versão, já que eu acabei de atualizar. Depois disso, que você escrever docker-compose-pull, você vai vir aqui e escrever docker-compose-down. Aqui, basicamente, a gente vai remover aquilo que a gente puxou ali, tá? E, por fim, a gente vai escrever docker-compose-up-d, tá? Tem que ser certinho, vou deixar na descrição desse vídeo pra gente fazer essa atualização, tá? Dessa forma, ele basicamente remove a versão antiga e atualiza para a versão nova. Então, desse jeito aqui, você já tem o seu N2N na última versão. E quando você vir, a gente consegue vir aqui embaixo, no What's New, e ver as versões que a gente está. No caso, já estava atualizado, beleza? Então, dessa forma, você consegue ter o seu N2N sempre na versão mais atualizada possível.

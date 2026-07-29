@@ -1,0 +1,12 @@
+﻿# Como Utilizar as Chamadas de API Criadas
+
+- Curso: Pagamentos Asaas Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Pagamento Avulso Asaas - CheckoutPRO
+- Duração: 00:01:22
+- Aula: https://flix.nocodestartup.io/m/lessons/3025
+- Vídeo: 7b6ab42a-c28b-432f-8531-7abfb4252824
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Agora eu vou estar mostrando para vocês como utilizar as chamadas que a gente criou lá no API Connector dentro dos nossos workflows. Aqui no API Connector, se você já criou as suas chamadas de forma correta, que é vir aqui na chamada, e se você colocou ela como action, se você quer criar uma chamada para ser utilizada no workflow, tem que ser como action. Se você quer utilizar uma chamada para ser utilizada em um repeat em grupo, ou em uma chamada única, aí você utiliza o tipo data, que você vai conseguir utilizar lá no front. Então, o tipo Action, né? Você configura toda a sua chamada aí que você precisa, coloca ela como Action. Então, a gente vem aqui no nosso workflow, em qualquer clique que você precisar, seja de um botão ou abrir a página, se a gente vir aqui no Click Here, pode ir em Action, né? Adicionar uma nova Action. A gente vai ter que vir aqui em Plugins, tá? E de acordo com o nome que você colocou lá no API Connector, você vai encontrar a sua chamada aqui na parte de Plugins, tá? Então, a gente pode ver que a gente já tem aqui alguns plugins que a gente tem instalado para utilizar no app. E a gente tem aqui asas assinatura, asas criar nova cobrança, asas criar novo cliente, asas obter QR Code Pix, tá? Então são chamadas que a gente criou lá no API Connector, tá? Beleza? Na próxima aula eu vou estar ensinando para vocês como criar o workflow com todas as chamadas que a gente já criou até o momento e criar cliente, criar cobrança, vou estar ensinando para vocês na próxima aula, tá bom?

@@ -1,0 +1,12 @@
+﻿# Conhecendo Dashboard do Stripe
+
+- Curso: Pagamentos Stripe Bubble
+- Trilha: Trilha Bubble Geral
+- Módulo: Introdução
+- Duração: 00:01:45
+- Aula: https://flix.nocodestartup.io/m/lessons/2475
+- Vídeo: 2016bffa-5728-4b91-85aa-02fb7d5d26d3
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Fala pessoal, sejam bem-vindos para mais uma aula. E agora como eu já fiz um resumo para vocês, como vai ser o curso e de como está funcionando o nosso app modelo, eu vou estar fazendo mais um resumo para vocês da Dashboard do Stripe e onde a gente vai estar coletando as credenciais. Aqui no Stripe é bem simples, você vai pesquisar por Stripe, vai criar sua conta certinho. Não precisa se preocupar com conta Sandbox agora, porque a gente tem esse acesso direto no painel. Você criou a sua conta, você vai entrar aí no Stripe. Essa é a tela que você vai estar visualizando. Aqui no menu esquerdo a gente tem algumas opções como... como página inicial, pagamentos, saldos, clientes, link, connect e entre outras opções. Mas o que interessa para a gente nesse momento vai ser página inicial, a gente vai vir aqui, ou qualquer outra dessas aqui não tem problema, a gente vai vir no cabeçalho e vai ativar modo teste. Tudo vai se passar de teste aqui agora. Então ele vai colocar esse aviso aqui, dados de teste, e vai vir em desenvolvedores. Aqui é o que a gente precisa nesse momento. A gente tem uma visão geral aqui de todos os logs da nossa API, mas não precisa... Dá uma olhada nisso aqui agora, não se preocupa com isso. Você pode olhar depois com mais calma, caso queira ver algo mais técnico. Só que aqui a gente tem algumas opções como chaves de API, que é onde a gente coleta as nossas credenciais. Você pode, tem as padrões já, mas você pode criar... novos conjuntos de chave, que é onde você vai estar conectando outros aplicativos, por exemplo. Então você tem dois aplicativos que você vai conectar na mesma conta. Você pode fazer isso e diferenciar cada chave para cada um deles. Tem o Webhooks também, eventos da API ali, do log, das nossas requisições, os eventos e os logs e aplicativos, que é um outro termo também que dá para a gente falar um pouco depois. Mas a gente não vai precisar desses aqui. O que a gente vai precisar mesmo é a chave de API e conectar lá no nosso plugin. Na próxima aula... a gente vai estar coletando essas chaves aqui, instalando o plugin e dando continuidade.

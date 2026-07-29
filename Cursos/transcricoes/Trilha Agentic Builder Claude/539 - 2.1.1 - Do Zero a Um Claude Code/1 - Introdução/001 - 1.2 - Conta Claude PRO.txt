@@ -1,0 +1,12 @@
+﻿# 1.2 - Conta Claude PRO
+
+- Curso: 2.1.1 - Do Zero a Um Claude Code
+- Trilha: Trilha Agentic Builder Claude
+- Módulo: 1 - Introdução
+- Duração: 00:01:24
+- Aula: https://flix.nocodestartup.io/m/lessons/5515
+- Vídeo: e3155e56-3db0-4629-879d-cc9979c61af8
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então estou aqui dentro do site do Cloud, tá? Aí eu cliquei aqui em Cloud Code pra gente conhecer um pouco mais. Aqui ele explica um pouco, né? Formas de usar, que depois a gente vai conversar, tá? Mas a gente consegue usar tanto no aplicativo desktop, mas conseguimos usar também direto no terminal ou ali direto numa IDE, tá? Todos os lugares a gente vai usar a mesma tecnologia do Cloud Code. E aqui, se a gente for para baixo, a gente consegue ver os preços, tá? Isso vai ser importante porque você consegue usar o Cloud Chat na parte gratuita. Mas para usar o Cloud Quark e o Cloud Code, vai ser necessário que você está nesse valor de 17 dólares por mês, tá? Pode ficar tranquilo, vai valer a pena, você vai conseguir criar automações e projetos que basicamente vão se pagar, tá? Então é necessário contratar esse plano próprio. Depois que você contratar, a gente consegue já criar os nossos projetos. Aqui esses próximos planos não é necessário no momento. Aqui só com esses 17 dólares a gente vai conseguir fazer os nossos projetos, estudar, criar projetos mais pontuais. E ao longo das aulas você vai entendendo como é que funciona o consumo de tokens. Então, a gente vai agora ir para a instalação do cloud, tá? Então, agora a gente vai ver como que vamos instalar no terminal e no desktop a parte aqui do nosso cloud code. Então, por enquanto, vai lá e cria a sua conta própria para a gente poder continuar as aulas. Bora lá!

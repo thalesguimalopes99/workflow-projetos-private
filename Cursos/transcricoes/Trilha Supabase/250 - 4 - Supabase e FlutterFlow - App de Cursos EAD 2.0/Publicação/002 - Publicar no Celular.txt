@@ -1,0 +1,12 @@
+﻿# Publicar no Celular
+
+- Curso: 4 - Supabase e FlutterFlow | App de Cursos EAD 2.0
+- Trilha: Trilha Supabase
+- Módulo: Publicação
+- Duração: 00:02:07
+- Aula: https://flix.nocodestartup.io/m/lessons/2683
+- Vídeo: 7a98fa44-cc20-485f-82de-3e08fcf3d250
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Eu já abri aqui a URL dentro do meu celular e eu consigo usar no celular por uma página da web. Aqui no caso eu estou usando Safari, consigo fazer meu cadastro, meu login. E também eu posso clicar nesse botão aqui do meio, aqui embaixo, para salvar um PWA lá dentro do meu app, tá? Ele vai ficar aparecendo como se fosse um aplicativo mesmo. Vou clicar aqui e aqui embaixo aparece adicionar a tela de início, tá? Se você estiver usando Android, é só colocar no Google como salvar um... uma página da web no seu celular e ele vai mostrar também, tá bom? É bem facinho, é só clicar nos três pontinhos ali, se não me engano, e adicionar na sua tela de início. Vou adicionar a tela de início. Então, ó, temos o nosso app aqui bem bonito. Eu vou nomear ele como NoCodeFlix. NoCodeFlix. E vou adicionar aqui o meu app. E agora ele já aparece aqui, ó. Junto com meus aplicativos. A NoCodePrix. Olha que bonito. E se eu clico. Ele vai carregar. Como se fosse um aplicativo aí. Com tela inteira. Não vai aparecer o browser, sabe? Não vai aparecer o browser. Então fica. A experiência de usuário fica bem legal. Pra gente utilizar. Vou vir aqui então. Login. E vou logar com a minha conta. Vou logar. No Castelo. E já logou aqui. Vou ver os meus cursos, né? Os cursos. Eu clico aqui no Drawber. Eu consigo também mudar de cor, né? Qual que você gosta mais? Essa cor aqui do Dark Mode ou do Light Mode. Legal, né? E eu consigo aqui também ver os detalhes, né? Da minha matrícula. Assistir as minhas aulas também, tá? Às vezes faltam alguns ajustes só para o design ficar bem legalzinho, né? Mas está aqui praticamente pronto. Posso fechar aqui. Posso ver os detalhes aqui também dos cursos para se matricular. Posso me matricular no celular. Quando eu me matriculo aparece aqui. E eu aqui, né, como eu sou professor, eu consigo adicionar aqui novos cursos, né? Posso vir pra adicionar um novo curso aqui direto pelo celular. Então fica aí algo bem prático pra gente usar, né? Cara, nosso app aí tá bonito demais. Eu curti muito. E aí, você gostou do resultado? Tá gostando? Vou deixar aqui, ó, até o upload de foto funciona pelo celular. Fui demais. A gente já pode prosseguir pra finalização agora que a gente tem até no seu aplicativo publicado. Então bora lá.

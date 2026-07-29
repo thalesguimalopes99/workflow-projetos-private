@@ -1,0 +1,12 @@
+﻿# Configurando Webhook no Make
+
+- Curso: Xano Especialista | Pagamentos Mercado Pago
+- Trilha: (sem trilha)
+- Módulo: Webhooks
+- Duração: 00:02:18
+- Aula: https://flix.nocodestartup.io/m/lessons/2904
+- Vídeo: aab20586-d0a4-4141-b170-421afd454611
+- Transcrição: faster-whisper large-v3-turbo (pt)
+
+---
+Então, para iniciar o projeto, é bem simples. Basta acessar make.com e fazer o seu cadastro no site. Cadastro é muito simples, como qualquer outro cadastro de plataformas na internet. E após você fazer o cadastro, basta você fazer o login ou efetuar o login com o próprio Google. E aqui é a nossa interface dentro do Make. Para esse cenário... A gente vai clicar em cenários e criar um novo cenário. Tudo dentro do make acontece dentro de cenário. Como só queremos criar agora um webhook, vamos clicar no botão adicionar módulo e digitar webhook. Vamos selecionar o webhook e vamos adicionar um custom webhook. Vamos clicar no botão adicionar webhook e vamos adicionar um webhook chamado mercado pago. E vamos clicar a partir daí no botão salvar. Vejam que já temos o nosso link e ele já está rodando para fazermos uma comunicação diretamente com ele. Então, para fazer essa validação, vamos agora para o Mercado Pago Developers. Vamos acessar suas integrações, selecionar a nossa aplicação e ir em Webhooks. Agora eu vou só apagar aqui e pode recomeçar daqui. Aqui em Webhooks, nós vamos selecionar... Quais são os eventos que nós queremos ser notificados. E vamos copiar aquele link do Make. E colar aqui no modo de teste para validar. Copy address to clipboard. Vamos colar o link no modo de teste. E vamos clicar no botão avaliar. Vejam que ele já deu um retorno positivo da comunicação. Resposta do Zendo. E se nós voltarmos ali no Make. o próprio meio que já deu ali e foi autorizado com sucesso Então vamos voltar rapidamente o ebrouco só para terminar de configurar e validar vamos selecionar aqui os eventos que vamos trabalhar vamos trabalhar aqui com pagamentos e planos e assinatura e vamos clicar no botão salvar pronto desse modo o nosso webhook já está configurado
