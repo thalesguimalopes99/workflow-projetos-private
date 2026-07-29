@@ -63,8 +63,9 @@ dedicado. Processo primeiro (superpowers/briefing), depois o especialista de dom
 3. **Especialista de domínio** → invoque o **chief** do squad (o chief roteia os
    agentes internos). Tabela abaixo. Pra **roteamento fino** (qual especialista
    DENTRO do squad + sequência multi-agent pronta), leia `ROUTING-MAP.md` na raiz —
-   índice lazy destilado de `squad-prompts/` (não despeje as personas pesadas no
-   contexto; invoque o agent nativo via `Skill` → `<squad-slug>:agents:<id>`).
+   índice lazy destilado das personas dos squads (`biblioteca/squads/<slug>/agents/`;
+   não despeje as personas pesadas no contexto — invoque o agent nativo via `Skill` →
+   `<squad-slug>:agents:<id>`).
 4. **Skill de execução** (design, site, slides, animação) conforme o entregável.
 5. **MCP** pra dados externos: `firecrawl` (web/research/mineração de refs),
    `context7` (docs de libs), Figma/Notion/Supabase/Slack conforme o caso.

@@ -2,14 +2,15 @@
 
 > **Pra quê:** camada de roteamento enxuta consumida por `/workflow` e `/briefing`. Diz
 > **qual squad**, **qual especialista DENTRO do squad** e **em que ordem** (sequências
-> multi-agent prontas). Destilado de `squad-prompts/` (23.5k linhas de personas) — aqui
-> só o gatilho, não a persona.
+> multi-agent prontas). Destilado das personas dos squads
+> (`biblioteca/squads/<slug>/agents/`, 23.5k linhas) — aqui só o gatilho, não a persona.
 >
 > **Disclosure progressivo (NÃO furar):**
 > 1. Este arquivo (≈1 tela) é o que o roteador lê pra DECIDIR. Leve.
 > 2. A **persona pesada** carrega sob demanda: invoque o agent nativo via `Skill`/`Agent`.
-> 3. `squad-prompts/*.md` = backup portátil (GPT/Gemini) + fonte da verdade. **Nunca**
->    despejar no contexto de roteamento — é 350k tokens de context-rot.
+> 3. `biblioteca/squads/<slug>/agents/*.md` = personas completas + fonte da verdade
+>    (também servem de backup portátil p/ GPT/Gemini). **Nunca** despejar no contexto de
+>    roteamento — é 350k tokens de context-rot.
 >
 > **Como invocar um agent nativo:** `Skill` → `<squad-slug>:agents:<id>`
 > (ex.: `brand-squad:agents:david-aaker`, `copy-master:agents:gary-halbert`).
@@ -317,9 +318,10 @@
 
 ---
 
-_Gerado de `squad-prompts/` (v2, ~56% cobertura). Ids reconciliados com os agents instalados
-(`~/.claude/agents` + `.claude/`). Quando um squad ganhar/perder agente, atualize aqui — este
-índice é a fonte de roteamento; as personas pesadas continuam em `squad-prompts/`._
+_Gerado das personas dos squads (v2, ~56% cobertura). Ids reconciliados com os agents
+instalados (`~/.claude/agents`). Quando um squad ganhar/perder agente, atualize aqui — este
+índice é a fonte de roteamento; as personas pesadas continuam em
+`biblioteca/squads/<slug>/agents/`._
 
 ---
 
