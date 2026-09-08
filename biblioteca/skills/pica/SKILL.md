@@ -1,6 +1,7 @@
 ---
 name: pica
-description: Use quando o Thales quer baixar coisas do YouTube ou de outro site de vídeo — vídeo, áudio, legenda/transcrição salva em texto (.txt), título/metadata, playlist. Roda em cima do yt-dlp. Triggers válidos: invocação explícita `/pica` (nome antigo: `/yt-dlp`); ou linguagem natural tipo "baixa esse vídeo", "pega a transcrição/legenda desse vídeo", "salva o áudio", "extrai o texto desse vídeo". Também é o fallback quando o NotebookLM falha ao processar fonte do YouTube (a skill notebooklm referencia esta).
+description: >-
+  Use quando o Thales quer baixar coisas do YouTube ou de outro site de vídeo — vídeo, áudio, legenda/transcrição salva em texto (.txt), título/metadata, playlist. Roda em cima do yt-dlp. Triggers válidos: invocação explícita `/pica` (nome antigo: `/yt-dlp`); ou linguagem natural tipo "baixa esse vídeo", "pega a transcrição/legenda desse vídeo", "salva o áudio", "extrai o texto desse vídeo". Também é o fallback quando o NotebookLM falha ao processar fonte do YouTube (a skill notebooklm referencia esta).
 ---
 
 # pica — download de vídeo/áudio/legenda (yt-dlp)

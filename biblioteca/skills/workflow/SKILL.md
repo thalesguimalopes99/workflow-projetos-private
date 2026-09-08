@@ -1,6 +1,7 @@
 ---
 name: workflow
-description: PORTA DE ENTRADA da biblioteca — use SEMPRE que o Thales quiser COMEÇAR um entregável e trouxe um pedido raso/minimalista, sem dizer ainda o tipo exato ou o nível de qualidade. Dispara com "/workflow", "quero começar um projeto", "vamos criar/construir algo", "preciso de um [site/logo/marca/landing/copy/ad/apresentação]" sem escopo fechado, ou qualquer pedido criativo vago. O que faz: (1) pergunta QUAL entregável (site, landing, brand book, logo, rebranding, manual de marca, copy, oferta, tráfego, apresentação, naming...), (2) destrincha via briefing, (3) pergunta o NÍVEL de qualidade/escopo do entregável, (4) roteia pro squad/skill/processo certo e dá o handoff. Não entrega genérico — traz sempre o especialista.
+description: >-
+  PORTA DE ENTRADA da biblioteca — use SEMPRE que o Thales quiser COMEÇAR um entregável e trouxe um pedido raso/minimalista, sem dizer ainda o tipo exato ou o nível de qualidade. Dispara com "/workflow", "quero começar um projeto", "vamos criar/construir algo", "preciso de um [site/logo/marca/landing/copy/ad/apresentação]" sem escopo fechado, ou qualquer pedido criativo vago. O que faz: (1) pergunta QUAL entregável (site, landing, brand book, logo, rebranding, manual de marca, copy, oferta, tráfego, apresentação, naming...), (2) destrincha via briefing, (3) pergunta o NÍVEL de qualidade/escopo do entregável, (4) roteia pro squad/skill/processo certo e dá o handoff. Não entrega genérico — traz sempre o especialista.
 ---
 
 # Workflow — porta de entrada e roteamento de entregáveis

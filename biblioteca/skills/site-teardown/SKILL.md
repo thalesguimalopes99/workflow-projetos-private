@@ -1,6 +1,7 @@
 ---
 name: site-teardown
-description: Use SEMPRE que for minerar uma referência de site/landing/componente para APRENDER e TEMPLAR — não só descrever ou tirar print. Dispara quando a pessoa manda um link de referência (awwwards, dribbble, 21st.dev, pinterest, concorrente do nicho) e quer entender COMO o site é feito, replicar um efeito/animação/layout, ou "clonar pra aprender". Também ative dentro do fluxo de criar-site-premium na fase de mineração, sempre que uma referência merecer desconstrução profunda. A regra de ouro: screenshot trava no "vibe gap" (~50%) — pegue o CÓDIGO real (HTML + CSS + JS) pra ver o como, não só o quê.
+description: >-
+  Use SEMPRE que for minerar uma referência de site/landing/componente para APRENDER e TEMPLAR — não só descrever ou tirar print. Dispara quando a pessoa manda um link de referência (awwwards, dribbble, 21st.dev, pinterest, concorrente do nicho) e quer entender COMO o site é feito, replicar um efeito/animação/layout, ou "clonar pra aprender". Também ative dentro do fluxo de criar-site-premium na fase de mineração, sempre que uma referência merecer desconstrução profunda. A regra de ouro: screenshot trava no "vibe gap" (~50%) — pegue o CÓDIGO real (HTML + CSS + JS) pra ver o como, não só o quê.
 ---
 
 # Site Teardown — desconstruir referência pra aprender e templar

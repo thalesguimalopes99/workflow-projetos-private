@@ -1,6 +1,7 @@
 ---
 name: ranquear
-description: Use quando o Thales quer ranquear/ser encontrado — site no Google (SEO), ser citado por IA (GEO/AEO — ChatGPT, Perplexity, Google AI Overviews, Claude), ou crescer/ser descoberto no Instagram. Triggers: "como ranqueio meu site", "aparecer no ChatGPT/Perplexity/AI Overviews", "otimizar pra SEO/GEO", "ser citado pela IA", "quero crescer no Instagram", "meu site não aparece no Google", "vale a pena essa tática de SEO?", "isso que o [fulano] falou funciona?". Também é o filtro cético: avaliar se uma tática/promessa de SEO/GEO faz sentido antes de aplicar.
+description: >-
+  Use quando o Thales quer ranquear/ser encontrado — site no Google (SEO), ser citado por IA (GEO/AEO — ChatGPT, Perplexity, Google AI Overviews, Claude), ou crescer/ser descoberto no Instagram. Triggers: "como ranqueio meu site", "aparecer no ChatGPT/Perplexity/AI Overviews", "otimizar pra SEO/GEO", "ser citado pela IA", "quero crescer no Instagram", "meu site não aparece no Google", "vale a pena essa tática de SEO?", "isso que o [fulano] falou funciona?". Também é o filtro cético: avaliar se uma tática/promessa de SEO/GEO faz sentido antes de aplicar.
 ---
 
 # ranquear

@@ -1,6 +1,7 @@
 ---
 name: curso-ripper
-description: Use quando o Thales quer baixar em lote as aulas (vídeo ou áudio) de um curso ou comunidade online protegido por login — enumerar todas as aulas de uma trilha/módulo e baixar de uma vez, não só 1 vídeo avulso. Plataformas já mapeadas: GoHighLevel/ClientClub/LeadConnector, Curseduca/nocodestartup. Players: Panda Video, Vimeo, HLS/m3u8, MP4 direto. Triggers: "baixa esse curso", "ripa essa trilha", "pega todas as aulas", "extrai os vídeos/áudios dessa plataforma", ou quando o yt-dlp sozinho não resolve porque as aulas estão atrás de login e precisam ser enumeradas.
+description: >-
+  Use quando o Thales quer baixar em lote as aulas (vídeo ou áudio) de um curso ou comunidade online protegido por login — enumerar todas as aulas de uma trilha/módulo e baixar de uma vez, não só 1 vídeo avulso. Plataformas já mapeadas: GoHighLevel/ClientClub/LeadConnector, Curseduca/nocodestartup. Players: Panda Video, Vimeo, HLS/m3u8, MP4 direto. Triggers: "baixa esse curso", "ripa essa trilha", "pega todas as aulas", "extrai os vídeos/áudios dessa plataforma", ou quando o yt-dlp sozinho não resolve porque as aulas estão atrás de login e precisam ser enumeradas.
 ---
 
 # curso-ripper
