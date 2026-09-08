@@ -23,7 +23,7 @@ trap 'rm -f /tmp/inv_global.txt /tmp/inv_bib.txt' EXIT
 # --- contagens ---
 n_global=$(ls -1 "$GLOBAL_SKILLS" 2>/dev/null | wc -l | tr -d ' ')
 n_bib=$(ls -1 "$BIB_SKILLS" 2>/dev/null | wc -l | tr -d ' ')
-# so DIRETORIOS contam como squad — $GLOBAL_CMDS tem arquivo solto (greet.md) e o dir synapse, ambos do aios-core
+# so DIRETORIOS contam como squad — $GLOBAL_CMDS tem arquivo solto (greet.md) e o dir synapse, ambos do aiox-core
 n_squads=$(find "$GLOBAL_CMDS" -maxdepth 1 -mindepth 1 -type d 2>/dev/null | wc -l | tr -d ' ')
 n_agents=$(ls -1 "$GLOBAL_AGENTS" 2>/dev/null | grep -c '\.md$' || true)
 n_gsd=$(ls "$GLOBAL_SKILLS" | grep -c '^gsd-' || true)

@@ -5,7 +5,7 @@ Este projeto é a **biblioteca central** de skills, squads e agents do Thales.
 - **Skills e agents** carregam do **global** (`~/.claude/`): 165 skills instaladas (67 GSD) · 44 agents.
 - **Squads** carregam do **local** (`.claude/commands/`): 14.
 - **Fonte da verdade versionada** = `biblioteca/`: 145 skills · 34 agents · 14 squads.
-  A diferença global↔biblioteca é majoritariamente `aios-core` (repo próprio) + wrappers de squad.
+  A diferença global↔biblioteca é majoritariamente `aiox-core` (repo próprio) + wrappers de squad.
 
 Índice exaustivo: INVENTARIO.md (**gerado** por `scripts/gerar-inventario.sh` — não editar à mão).
 

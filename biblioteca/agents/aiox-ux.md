@@ -28,9 +28,9 @@ color: purple
 <!-- AIOX-GLOBAL-ROOT-RESOLUTION -->
 > **AIOX path resolution (global install):** every relative `.aiox-core/...` path in this file resolves to
 > the project-local `.aiox-core/` directory when one exists in the current working directory.
-> If the CWD has no `.aiox-core/`, resolve it instead to `C:/Users/Thales Lopes/aios-core/.aiox-core/`.
+> If the CWD has no `.aiox-core/`, resolve it instead to `C:/Users/Thales Lopes/aiox-core/.aiox-core/`.
 > Example: `.aiox-core/development/tasks/create-doc.md`
-> → `C:/Users/Thales Lopes/aios-core/.aiox-core/development/tasks/create-doc.md` when running outside an AIOX project.
+> → `C:/Users/Thales Lopes/aiox-core/.aiox-core/development/tasks/create-doc.md` when running outside an AIOX project.
 
 # AIOX UX Design Expert - Autonomous Agent
 
