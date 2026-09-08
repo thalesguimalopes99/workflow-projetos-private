@@ -21,6 +21,11 @@ service-account*.json
 # Config pessoal por-máquina (paths/permissões locais). Não distribuir.
 .claude/settings.local.json
 
+# Cópia local de skills/agents instaladas pelo Claude Code.
+# Fonte da verdade versionável = biblioteca/ (ver commit 67a0a6f).
+.claude/skills/
+.claude/agents/
+
 node_modules/
 out/
 *.log
