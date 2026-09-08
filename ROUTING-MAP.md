@@ -3,7 +3,7 @@
 > **Pra quê:** camada de roteamento enxuta consumida por `/workflow` e `/briefing`. Diz
 > **qual squad**, **qual especialista DENTRO do squad** e **em que ordem** (sequências
 > multi-agent prontas). Destilado das personas dos squads
-> (`biblioteca/squads/<slug>/agents/`, 23.5k linhas) — aqui só o gatilho, não a persona.
+> (`biblioteca/squads/<slug>/agents/`, 46k linhas) — aqui só o gatilho, não a persona.
 >
 > **Disclosure progressivo (NÃO furar):**
 > 1. Este arquivo (≈1 tela) é o que o roteador lê pra DECIDIR. Leve.
@@ -343,3 +343,33 @@ Não é squad; é ciclo. Regra de desempate com AIOX: GSD = ciclo disciplinado c
 8. **Track leve `gsd-ns-*`** — `ns-context`, `ns-ideate`, `ns-project`, `ns-review`, `ns-manage`, `ns-workflow`
 
 > Lista sempre atual: `INVENTARIO.md` (gerado). Prefixo `gsd-` = 67; `gsd-ns-` = track leve.
+
+---
+
+## IA aplicada — construir sistema com LLM (RAG · tools/MCP · eval)
+
+Não é squad; é stack de decisão. Regra completa em `CLAUDE.md` §"Roteamento IA aplicada".
+Aqui só o gatilho.
+
+**Escada de custo (não pule degrau):** prompt → tools/MCP → RAG → fine-tuning.
+Conhecimento que muda → RAG. Ação no mundo → tools/MCP. Comportamento/formato → prompt.
+Estilo que prompt não segura, com eval provando → fine-tuning.
+
+| Gatilho | Recurso |
+|---|---|
+| "vou construir uma feature/produto com IA", fase de produto que usa LLM | skill `gsd-ai-integration-phase` → `AI-SPEC.md` |
+| "qual framework de IA uso?" (LangChain x SDK cru x Agents SDK…) | agent `gsd-framework-selector` (matriz interativa pontuada) |
+| "como avalio se meu agente/RAG está bom?" | agent `gsd-eval-planner` (antes) · skill `gsd-eval-review` → agent `gsd-eval-auditor` (depois) |
+| "quero expor minha API/serviço como tool pro modelo" | skill `mcp-builder` |
+| "app direto na API da Anthropic", prompt caching, tool use, Managed Agents | skill `claude-api` |
+| "RAG em produção", pgvector, embeddings, índice vetorial, RLS | skills `supabase` + `supabase-postgres-best-practices` |
+| "IA que entende a minha codebase" | skill `graphify` (`query`/`path`/`explain`) |
+| App de IA na Vercel (AI SDK, gateway, agentes, workflow durável) | `vercel:ai-sdk` · `vercel:ai-gateway` · `vercel:build-agents` · `vercel:workflow` · agent `vercel:ai-architect` |
+| Estratégia de IA, pipeline ML, IA responsável (executivo, não implementação) | `c-level-squad:agents:caio-architect` |
+
+**Sequência pronta (feature de IA do zero):**
+`gsd-ai-integration-phase` (AI-SPEC + framework + eval plan) → `gsd-plan-phase` →
+`gsd-execute-phase` → `gsd-eval-review` (auditoria de cobertura de eval) → `gsd-ship`.
+
+> Teoria de fundamentos (LLM, embeddings, RAG x fine-tuning, function calling) já está
+> transcrita em `Cursos/CONHECIMENTO.md` §2 e §4 — consulte antes de pesquisar fora.

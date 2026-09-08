@@ -1,8 +1,13 @@
 # CLAUDE.md — Roteamento de recursos (Workflow Projetos)
 
-Este projeto é a **biblioteca central** de skills, squads e agents do Thales. Tudo
-está instalado **global** (`~/.claude/`) E **local** (`.claude/` deste projeto):
-135 skills (das quais 67 GSD) · 14 squads · 33 agents. Índice exaustivo: INVENTARIO.md (gerado).
+Este projeto é a **biblioteca central** de skills, squads e agents do Thales.
+
+- **Skills e agents** carregam do **global** (`~/.claude/`): 165 skills instaladas (67 GSD) · 44 agents.
+- **Squads** carregam do **local** (`.claude/commands/`): 14.
+- **Fonte da verdade versionada** = `biblioteca/`: 139 skills · 34 agents · 14 squads.
+  A diferença global↔biblioteca é majoritariamente `aios-core` (repo próprio) + wrappers de squad.
+
+Índice exaustivo: INVENTARIO.md (**gerado** por `scripts/gerar-inventario.sh` — não editar à mão).
 
 ## ⛔ REGRA CRÍTICA — arquivos vão na pasta do PROJETO ATIVO, nunca nesta biblioteca
 
@@ -90,6 +95,7 @@ dedicado. Processo primeiro (superpowers/briefing), depois o especialista de dom
 | Config do Claude Code, hooks, MCP, agentes, otimizar setup | squad **claude-code-mastery** (`claude-mastery-chief`) |
 | Desenvolvimento de software (analyst→architect→dev→qa→devops) | squad **AIOX** (`aiox-master`) |
 | Projeto de software multi-fase / autônomo (ciclo com artefatos `.planning/`) | framework **GSD** (skills `/gsd-*`) — ver desempate GSD↔AIOX abaixo |
+| Construir feature/produto com LLM (RAG, agente, tools/MCP, avaliação) | **Ver roteamento IA aplicada abaixo** ⬇️ |
 | Site/landing premium nível awwwards | skill `criar-site-premium` (+ `firecrawl` p/ minerar refs; usa canvas Stitch 2.0 na direção) |
 | Clonar/desconstruir ref de site p/ aprender (pegar HTML+CSS+JS, não screenshot) | skill `site-teardown` (+ `firecrawl` rawHtml) |
 | SEO/GEO: rankear no Google + ser citado por IA | **Ver roteamento SEO abaixo** ⬇️ |
@@ -122,6 +128,47 @@ Ambos cobrem software. Regra de desempate:
 - **Ciclo de projeto multi-fase, autônomo, com artefatos** (`.planning/`, PLAN/RESEARCH/VERIFICATION), commits atômicos e checkpoints → framework **GSD**. Skills `gsd-*`, invocadas via `/gsd-new-project` → `/gsd-plan-phase` → `/gsd-execute-phase` → `/gsd-verify-work` → `/gsd-code-review` → `/gsd-ship`. Track leve: `gsd-ns-*`.
 - **Personas de time sob demanda** (analyst/architect/dev/qa/devops) pra consultar/decidir, sem o overhead do ciclo → squad **AIOX** (`aiox-master`), que roteia os agentes internos.
 - **Correção:** GSD é instalado como **skills** (`gsd-*`), não command namespace `/gsd:`. Invocação: `/gsd-new-project` (hífen).
+
+## Roteamento IA aplicada — construir sistema com LLM (evita sobreposição)
+
+Esta biblioteca **é** uma operação de LLM, mas os recursos de *construir* sistema de IA
+estavam órfãos do roteamento. Regra de desempate, do mais barato pro mais caro —
+**não pule pro caro sem esgotar o anterior**:
+
+1. **Prompt / contexto** — o comportamento cabe na instrução? Resolve em skill/agent
+   versionado. É o default desta casa (139 skills versionadas). Custo ~zero. Skill `skill-creator`.
+2. **Tools / function calling / MCP** — o modelo precisa *agir* ou ler dado vivo (API,
+   banco, arquivo)? Não é RAG, é ferramenta. Skill `mcp-builder` (servidor próprio,
+   Python FastMCP ou TS SDK). Custo baixo.
+3. **RAG / retrieval** — conhecimento grande demais pro contexto e que muda? Recupera,
+   não treina. Local sobre código/docs → `graphify`. Produção → `supabase` + pgvector
+   (+ `supabase-postgres-best-practices` pra índice e RLS). Custo médio.
+4. **Fine-tuning** — só quando falta *forma/estilo/formato consistente*, não conhecimento,
+   e prompt+RAG já falharam **com dataset de avaliação provando a falha**. Custo alto,
+   trava versão de modelo. Sem recurso local: é decisão de arquitetura, passa por
+   `gsd-ai-integration-phase`.
+
+**Regra curta:** conhecimento que muda → RAG. Ação no mundo → tools/MCP. Comportamento e
+formato → prompt. Estilo que prompt não segura, com eval provando → fine-tuning.
+
+| Se a tarefa é... | Use |
+|---|---|
+| Projetar fase de produto que usa IA (contrato `AI-SPEC.md`) | skill `gsd-ai-integration-phase` → agents `gsd-framework-selector` (matriz de framework), `gsd-domain-researcher` (critério do domínio), `gsd-ai-researcher` (docs do framework), `gsd-eval-planner` (rubrica + guardrails) |
+| Auditar se o sistema de IA já construído tem avaliação de verdade | skill `gsd-eval-review` (agent `gsd-eval-auditor` → `EVAL-REVIEW.md`, COVERED/PARTIAL/MISSING) |
+| Servidor MCP próprio (expor API/serviço como tool) | skill `mcp-builder` |
+| App direto na API da Anthropic (SDK, prompt caching, tool use, Managed Agents) | skill `claude-api` |
+| Store vetorial / pgvector / RLS pra RAG em produção | skills `supabase` + `supabase-postgres-best-practices` |
+| RAG local sobre a própria codebase/docs | skill `graphify` (`query` / `path` / `explain`) |
+| App de IA no ecossistema Vercel (AI SDK, gateway, agentes, workflow durável) | plugin `vercel` (`vercel:ai-sdk`, `vercel:ai-gateway`, `vercel:build-agents`, `vercel:workflow`) + agent `vercel:ai-architect` |
+| Estratégia de IA / pipeline ML / IA responsável (nível executivo) | squad **c-level-squad** → agent `caio-architect` |
+
+**Avaliação não é opcional.** Sistema de IA sem eval é chute versionado: `gsd-eval-planner`
+entra no design (antes), `gsd-eval-review` audita (depois). Mesma lei do CREATIVE-OS —
+mire o teto, não o "funciona no happy path".
+
+**Fundamentos já transcritos** (não reescreva teoria): `Cursos/CONHECIMENTO.md` §2
+"Fundamentos de IA, LLM, RAG e agentes" e §4 "Conectar a IA aos seus dados (RAG e
+function calling)".
 
 ## Plugins ativos
 
