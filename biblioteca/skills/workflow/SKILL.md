@@ -97,7 +97,7 @@ Com tipo + brief + nível, invoque o **chief do squad** ou a **skill de execuç�
 Não são entregáveis de marca, mas o intake deve lembrar delas:
 
 - **Docs/Office:** `docx`, `pdf`, `pptx`, `xlsx`, `doc-coauthoring`, `internal-comms`
-- **Mídia:** `video-extract`, `yt-dlp`, `slack-gif-creator`, `curso-ripper`
+- **Mídia:** `video-extract`, `pica` (download YouTube/yt-dlp), `slack-gif-creator`, `curso-ripper`
 - **Dev-infra:** `claude-api`, `mcp-builder`, `supabase`, `supabase-postgres-best-practices`, `webapp-testing`, `web-artifacts-builder`, `remotion-best-practices`, `distinctive-frontend`
 - **Criativo extra:** `algorithmic-art`, `canvas-design`, `theme-factory`, `criativo-cliente`, `instagram-creative-director`, `brand-guidelines`
 - **Growth:** `ranquear` (rankear no Google + citação por IA + crescer no Instagram — filtro cético de táticas SEO/GEO)

@@ -41,6 +41,7 @@ Esta máquina tem o **playwright MCP** (o chrome-devtools MCP NÃO está instala
 
 - **Ferramenta:** sempre a que lê **corpos de resposta na rede** (playwright aqui). O claude-in-chrome trava montando o player — não usar.
 - **Áudio ou vídeo?** Conteúdo falado (office hours, calls, podcast) → **áudio** `.m4a` (leve). Tutorial de tela (código, dashboard) → **vídeo** `.mp4` 1080p — só áudio perde o essencial. Na dúvida, perguntar ao Thales.
+- **Quer o TEXTO das aulas?** Cheque legenda primeiro (`yt-dlp --list-subs`): se a plataforma servir `.vtt`, é de graça. **Panda não serve** → ASR local. Com GPU, `faster-whisper large-v3-turbo` + `BatchedInferencePipeline(batch_size=16)` = **165x realtime** (458 h viram ~3-5 h com download em paralelo). Receita completa + armadilha das DLLs CUDA: `platforms.md`.
 
 ## Fonte de vídeo → receita
 
@@ -48,9 +49,10 @@ Esta máquina tem o **playwright MCP** (o chrome-devtools MCP NÃO está instala
 |---|---|---|---|
 | **Panda Video** | `*.tv.pandavideo.com.br/.../playlist.m3u8` | `yt-dlp --add-header "Referer:https://player-<lib>.tv.pandavideo.com.br/"` (HLS aberto, segmentos sem token) | ✅ testado |
 | **MP4 direto** (Google Storage etc.) | URL `.mp4` pública; `curl -r 0-1` → 206 | `ffmpeg -i <url> -c copy out.mp4`, ou áudio `-vn -c:a copy` | ✅ testado |
+| **Greenn Club** (api.greenn.club) | `source` embed Panda no `/watch` | Panda HLS 1080p + `.vtt` pt-BR de graça | ✅ testado |
 | **HLS genérico** `.m3u8` | `application/vnd.apple.mpegurl` | `yt-dlp <m3u8>`; pode pedir `Referer`/`Origin`/cookies | ~ padrão |
 | **Vimeo privado** | iframe `player.vimeo.com` | `yt-dlp --referer <página> <url>` | ~ padrão |
-| **YouTube** priv/unlisted | iframe `youtube.com/embed` | → skill **`yt-dlp`** | ~ padrão |
+| **YouTube** priv/unlisted | iframe `youtube.com/embed` | → skill **`pica`** | ~ padrão |
 
 Auth + endpoints de enumeração de cada plataforma: ver **`platforms.md`**.
 
