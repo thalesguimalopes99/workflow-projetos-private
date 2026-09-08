@@ -53,5 +53,9 @@ coverage/
 /aiox/
 /ai-website-cloner/
 
+# Grafo de codebase (gerado por `graphify update .`, custo zero de API).
+# Regenerar em vez de versionar — 30+ MB de artefato derivado.
+graphify-out/
+
 # Temporários de verificação
 .tmp/
