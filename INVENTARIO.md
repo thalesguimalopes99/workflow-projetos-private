@@ -7,12 +7,12 @@
 
 | Bloco | Global (~/.claude) | Biblioteca (versionada) |
 |---|---|---|
-| skills | 165 | 145 |
+| skills | 164 | 145 |
 | squads (commands) | 15 | - |
 | agents (.md) | 44 | - |
 | das quais GSD | 67 | - |
 
-> ⚠️ DRIFT: 28 skill(s) do global fora da biblioteca. Rode o resync (rsync).
+> ⚠️ DRIFT: 27 skill(s) do global fora da biblioteca. Rode o resync (rsync).
 > - advisory-board
 > - AIOX
 > - aiox-commit
@@ -32,7 +32,6 @@
 > - develop-story
 > - full-sdc
 > - hormozi-squad
-> - instagram-creative-director-workspace
 > - movement
 > - review-story
 > - storytelling
@@ -111,7 +110,6 @@ gsd-ns-context, gsd-ns-ideate, gsd-ns-manage, gsd-ns-project, gsd-ns-review, gsd
 - `humanizer` [biblio]
 - `hyperframes` [biblio]
 - `instagram-creative-director` [biblio]
-- `instagram-creative-director-workspace` [global-only]
 - `internal-comms` [biblio]
 - `internal-linking-optimizer` [biblio]
 - `marketing-psychology` [biblio]
