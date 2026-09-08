@@ -173,8 +173,8 @@ cross_cutting:
     description: "ALL agents understand AIOS-core architecture"
     context_files:
       - ".claude/CLAUDE.md"
-      - ".aios-core/core-config.yaml"
-      - ".aios-core/data/entity-registry.yaml"
+      - ".aiox-core/core-config.yaml"
+      - ".aiox-core/data/entity-registry.yaml"
 
   update_knowledge:
     description: "Command to refresh from Claude Code changelog and roadmap"

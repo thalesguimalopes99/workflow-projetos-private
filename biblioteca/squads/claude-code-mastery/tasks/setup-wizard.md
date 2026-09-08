@@ -63,7 +63,7 @@ Analyze the project to determine its type:
    - `pyproject.toml` / `setup.py` -> Python project
    - `Cargo.toml` -> Rust project
    - `go.mod` -> Go project
-   - `.aios-core/` -> AIOS-managed project
+   - `.aiox-core/` -> AIOS-managed project
 2. Detect project structure:
    - `src/app/` or `app/` -> App Router (Next.js)
    - `src/pages/` -> Pages Router
@@ -83,7 +83,7 @@ Analyze the project to determine its type:
 | library | main/module in package.json | askAlways |
 | cli | bin/ field in package.json | askAlways |
 | python | pyproject.toml, src/ | acceptEdits |
-| aios | .aios-core/ directory | acceptEdits |
+| aios | .aiox-core/ directory | acceptEdits |
 
 ### Phase 2: Generate CLAUDE.md
 

@@ -9,9 +9,9 @@ CRITICAL: Read the full YAML BLOCK that FOLLOWS IN THIS FILE to understand your 
 ```yaml
 IDE-FILE-RESOLUTION:
   - FOR LATER USE ONLY - NOT FOR ACTIVATION, when executing commands that reference dependencies
-  - Dependencies map to .aios-core/development/{type}/{name}
+  - Dependencies map to .aiox-core/development/{type}/{name}
   - type=folder (tasks|templates|checklists|data|utils|etc...), name=file-name
-  - Example: create-skill.md -> .aios-core/development/tasks/create-skill.md
+  - Example: create-skill.md -> .aiox-core/development/tasks/create-skill.md
   - IMPORTANT: Only load these files when user requests specific command execution
 REQUEST-RESOLUTION: Match user requests to your commands/dependencies flexibly (e.g., "make a skill"->*create-skill, "audit my skills"->*audit-skills, "build a plugin"->*create-plugin, "optimize my context"->*context-strategy), ALWAYS ask for clarification if no clear match.
 activation-instructions:
@@ -32,18 +32,18 @@ activation-instructions:
       4. Show: "**Available Commands:**" -- list commands from the 'commands' section that have 'key' in their visibility array
       5. Show: "Type `*guide` for comprehensive usage instructions."
       5.5. Check `.aios/handoffs/` for most recent unconsumed handoff artifact (YAML with consumed != true).
-           If found: read `from_agent` and `last_command` from artifact, look up position in `.aios-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "Suggested: `*{next_command} {args}`"
+           If found: read `from_agent` and `last_command` from artifact, look up position in `.aiox-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "Suggested: `*{next_command} {args}`"
            If chain has multiple valid next steps, also show: "Also: `*{alt1}`, `*{alt2}`"
            If no artifact or no match found: skip this step silently.
            After STEP 4 displays successfully, mark artifact as consumed: true.
       6. Show: "{persona_profile.communication.signature_closing}"
-      # FALLBACK: If native greeting fails, run: node .aios-core/development/scripts/unified-activation-pipeline.js skill-craftsman
+      # FALLBACK: If native greeting fails, run: node .aiox-core/development/scripts/unified-activation-pipeline.js skill-craftsman
   - STEP 4: Display the greeting assembled in STEP 3
   - STEP 5: HALT and await user input
   - IMPORTANT: Do NOT improvise or add explanatory text beyond what is specified in greeting_levels and Quick Commands section
   - DO NOT: Load any other agent files during activation
   - ONLY load dependency files when user selects them for execution via command or request of a task
-  - EXCEPTION: STEP 5.5 may read `.aios/handoffs/` and `.aios-core/data/workflow-chains.yaml` during activation
+  - EXCEPTION: STEP 5.5 may read `.aios/handoffs/` and `.aiox-core/data/workflow-chains.yaml` during activation
   - The agent.customization field ALWAYS takes precedence over any conflicting instructions
   - CRITICAL WORKFLOW RULE: When executing tasks from dependencies, follow task instructions exactly as written - they are executable workflows, not reference material
   - MANDATORY INTERACTION RULE: Tasks with elicit=true require user interaction using exact specified format - never skip elicitation for efficiency
@@ -497,7 +497,7 @@ dependencies:
         - Project-Context.md: Persistent context file for technology stack, conventions, patterns
 
       aios_mapping: |
-        AIOS tasks (.aios-core/development/tasks/) map to Claude Code skills (.claude/skills/)
+        AIOS tasks (.aiox-core/development/tasks/) map to Claude Code skills (.claude/skills/)
         AIOS agents (.claude/commands/AIOS/agents/) map to Claude Code subagents (.claude/agents/)
         AIOS workflows map to Claude Code command sequences
         AIOS checklists map to skill validation steps
@@ -816,11 +816,11 @@ command_blueprints:
       - step: 1
         action: "Scan AIOS structure"
         scan:
-          - ".aios-core/development/tasks/*.md"
-          - ".aios-core/development/agents/*.md"
-          - ".aios-core/development/templates/"
-          - ".aios-core/development/checklists/"
-          - ".aios-core/development/workflows/"
+          - ".aiox-core/development/tasks/*.md"
+          - ".aiox-core/development/agents/*.md"
+          - ".aiox-core/development/templates/"
+          - ".aiox-core/development/checklists/"
+          - ".aiox-core/development/workflows/"
       - step: 2
         action: "Generate mapping table"
         output: |
@@ -836,7 +836,7 @@ command_blueprints:
     description: "Convert an AIOS task to a Claude Code skill"
     steps:
       - step: 1
-        action: "Read AIOS task from .aios-core/development/tasks/{task-name}"
+        action: "Read AIOS task from .aiox-core/development/tasks/{task-name}"
       - step: 2
         action: "Extract task metadata, steps, elicitation points, dependencies"
       - step: 3
@@ -1142,7 +1142,7 @@ Type `*help` to see all commands, or `*guide` for detailed usage.
 
 1. Claude Code installed and authenticated (version 1.0.33+ for plugins)
 2. Project with `.claude/` directory initialized
-3. For AIOS integration: `.aios-core/` directory present
+3. For AIOS integration: `.aiox-core/` directory present
 4. For plugin publishing: GitHub authentication configured
 
 ### Core Concepts
@@ -1166,7 +1166,7 @@ Type `*help` to see all commands, or `*guide` for detailed usage.
 
 | AIOS Concept | Claude Code Equivalent |
 |-------------|----------------------|
-| Task (`.aios-core/development/tasks/`) | Skill (`.claude/skills/`) |
+| Task (`.aiox-core/development/tasks/`) | Skill (`.claude/skills/`) |
 | Agent (`.claude/commands/AIOS/agents/`) | Subagent (`.claude/agents/`) |
 | Workflow | Command sequence / Skill chain |
 | Checklist | Skill validation steps |

@@ -9,9 +9,9 @@ CRITICAL: Read the full YAML BLOCK that FOLLOWS IN THIS FILE to understand your 
 ```yaml
 IDE-FILE-RESOLUTION:
   - FOR LATER USE ONLY - NOT FOR ACTIVATION, when executing commands that reference dependencies
-  - Dependencies map to .aios-core/development/{type}/{name}
+  - Dependencies map to .aiox-core/development/{type}/{name}
   - type=folder (tasks|templates|checklists|data|utils|etc...), name=file-name
-  - Example: mcp-workflow.md -> .aios-core/development/tasks/mcp-workflow.md
+  - Example: mcp-workflow.md -> .aiox-core/development/tasks/mcp-workflow.md
   - IMPORTANT: Only load these files when user requests specific command execution
 REQUEST-RESOLUTION: Match user requests to your commands/dependencies flexibly (e.g., "add a server"->*add-server, "what mcps do I have"->*audit-mcp, "find tools"->*discover-servers), ALWAYS ask for clarification if no clear match.
 activation-instructions:
@@ -32,12 +32,12 @@ activation-instructions:
       4. Show: "**Available Commands:**" -- list commands from the 'commands' section that have 'key' in their visibility array
       5. Show: "Type `*guide` for comprehensive usage instructions."
       5.5. Check `.aios/handoffs/` for most recent unconsumed handoff artifact (YAML with consumed != true).
-           If found: read `from_agent` and `last_command` from artifact, look up position in `.aios-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "Suggested: `*{next_command} {args}`"
+           If found: read `from_agent` and `last_command` from artifact, look up position in `.aiox-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "Suggested: `*{next_command} {args}`"
            If chain has multiple valid next steps, also show: "Also: `*{alt1}`, `*{alt2}`"
            If no artifact or no match found: skip this step silently.
            After STEP 4 displays successfully, mark artifact as consumed: true.
       6. Show: "{persona_profile.communication.signature_closing}"
-      # FALLBACK: If native greeting fails, run: node .aios-core/development/scripts/unified-activation-pipeline.js mcp-integrator
+      # FALLBACK: If native greeting fails, run: node .aiox-core/development/scripts/unified-activation-pipeline.js mcp-integrator
   - STEP 4: Display the greeting assembled in STEP 3
   - STEP 5: HALT and await user input
   - IMPORTANT: Do NOT improvise or add explanatory text beyond what is specified in greeting_levels and Quick Commands section
@@ -131,7 +131,7 @@ persona:
       - Docker-based MCP gateway configuration
       - Tool Search strategy for deferred/on-demand loading
       - Context window audit and optimization
-      - AIOS-core MCP system management (.aios-core/core/mcp/, .aios-core/infrastructure/tools/mcp/)
+      - AIOS-core MCP system management (.aiox-core/core/mcp/, .aiox-core/infrastructure/tools/mcp/)
       - Plugin MCP server integration
 
     mcp_server_types:
@@ -301,14 +301,14 @@ persona:
       access_pattern: "mcp__docker-gateway__<tool-name>"
 
     aios_mcp_system:
-      core_module: ".aios-core/core/mcp/"
+      core_module: ".aiox-core/core/mcp/"
       files:
         - "index.js -- MCP module entry point and API"
         - "global-config-manager.js -- Manages global MCP configuration"
         - "os-detector.js -- Detects OS for platform-specific paths"
         - "symlink-manager.js -- Manages MCP server symlinks"
         - "config-migrator.js -- Migrates between config formats"
-      infrastructure: ".aios-core/infrastructure/tools/mcp/"
+      infrastructure: ".aiox-core/infrastructure/tools/mcp/"
       server_definitions:
         - "21st-dev-magic.yaml"
         - "browser.yaml"
@@ -403,8 +403,8 @@ dependencies:
     - docker-gateway # Docker MCP Toolkit gateway for container-based servers
 
   aios_mcp_modules:
-    core: ".aios-core/core/mcp/"
-    infrastructure: ".aios-core/infrastructure/tools/mcp/"
+    core: ".aiox-core/core/mcp/"
+    infrastructure: ".aiox-core/infrastructure/tools/mcp/"
     note: "Read these modules when executing *audit-mcp or *migrate-config"
 
 voice_dna:
@@ -692,8 +692,8 @@ Type `*help` to see all commands.
 
 **I consume:**
 
-- **AIOS MCP System:** `.aios-core/core/mcp/` for configuration management
-- **Server Definitions:** `.aios-core/infrastructure/tools/mcp/*.yaml` for server specs
+- **AIOS MCP System:** `.aiox-core/core/mcp/` for configuration management
+- **Server Definitions:** `.aiox-core/infrastructure/tools/mcp/*.yaml` for server specs
 - **Plugin Registry:** Plugin manifests that bundle MCP servers
 
 **When to use others:**

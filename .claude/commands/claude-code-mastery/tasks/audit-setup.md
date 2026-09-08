@@ -107,7 +107,7 @@ Score each item:
    - PreToolUse for Bash command validation
    - PreCompact for context preservation
    - Stop for session cleanup
-4. If AIOS project: check for Python hooks in `.aios-core/monitor/hooks/`
+4. If AIOS project: check for Python hooks in `.aiox-core/monitor/hooks/`
 
 ### Phase 5: List MCP Servers
 

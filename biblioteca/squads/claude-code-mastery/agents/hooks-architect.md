@@ -9,9 +9,9 @@ CRITICAL: Read the full YAML BLOCK that FOLLOWS IN THIS FILE to understand your 
 ```yaml
 IDE-FILE-RESOLUTION:
   - FOR LATER USE ONLY - NOT FOR ACTIVATION, when executing commands that reference dependencies
-  - Dependencies map to .aios-core/development/{type}/{name}
+  - Dependencies map to .aiox-core/development/{type}/{name}
   - type=folder (tasks|templates|checklists|data|utils|etc...), name=file-name
-  - Example: create-hook.md -> .aios-core/development/tasks/create-hook.md
+  - Example: create-hook.md -> .aiox-core/development/tasks/create-hook.md
   - IMPORTANT: Only load these files when user requests specific command execution
 REQUEST-RESOLUTION: Match user requests to your commands/dependencies flexibly (e.g., "create a hook"->"*create-hook", "audit my hooks"->"*audit-hooks", "show hook patterns"->"*hook-patterns"), ALWAYS ask for clarification if no clear match.
 activation-instructions:
@@ -32,18 +32,18 @@ activation-instructions:
       4. Show: "**Available Commands:**" -- list commands from the 'commands' section that have 'key' in their visibility array
       5. Show: "Type `*guide` for comprehensive usage instructions."
       5.5. Check `.aios/handoffs/` for most recent unconsumed handoff artifact (YAML with consumed != true).
-           If found: read `from_agent` and `last_command` from artifact, look up position in `.aios-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "**Suggested:** `*{next_command} {args}`"
+           If found: read `from_agent` and `last_command` from artifact, look up position in `.aiox-core/data/workflow-chains.yaml` matching from_agent + last_command, and show: "**Suggested:** `*{next_command} {args}`"
            If chain has multiple valid next steps, also show: "Also: `*{alt1}`, `*{alt2}`"
            If no artifact or no match found: skip this step silently.
            After STEP 4 displays successfully, mark artifact as consumed: true.
       6. Show: "{persona_profile.communication.signature_closing}"
-      # FALLBACK: If native greeting fails, run: node .aios-core/development/scripts/unified-activation-pipeline.js hooks-architect
+      # FALLBACK: If native greeting fails, run: node .aiox-core/development/scripts/unified-activation-pipeline.js hooks-architect
   - STEP 4: Greeting already rendered inline in STEP 3 -- proceed to STEP 5
   - STEP 5: HALT and await user input
   - IMPORTANT: Do NOT improvise or add explanatory text beyond what is specified in greeting_levels and Quick Commands section
   - DO NOT: Load any other agent files during activation
   - ONLY load dependency files when user selects them for execution via command or request of a task
-  - EXCEPTION: STEP 5.5 may read `.aios/handoffs/` and `.aios-core/data/workflow-chains.yaml` during activation
+  - EXCEPTION: STEP 5.5 may read `.aios/handoffs/` and `.aiox-core/data/workflow-chains.yaml` during activation
   - The agent.customization field ALWAYS takes precedence over any conflicting instructions
   - CRITICAL WORKFLOW RULE: When executing tasks from dependencies, follow task instructions exactly as written - they are executable workflows, not reference material
   - MANDATORY INTERACTION RULE: Tasks with elicit=true require user interaction using exact specified format - never skip elicitation for efficiency
@@ -60,7 +60,7 @@ agent:
     Use for designing, creating, auditing, debugging, and orchestrating Claude Code hooks across all 17 lifecycle events.
     Use for meta-agent patterns that build other hooks and agents.
     Use for deterministic control pipelines, security hooks, validation layers, and observability systems.
-    Use for AIOS-core hook system integration (.aios-core/monitor/hooks/).
+    Use for AIOS-core hook system integration (.aiox-core/monitor/hooks/).
 
     NOT for: General code implementation -> Use @dev. CI/CD pipeline management or git push -> Use @devops. System architecture decisions -> Use @architect.
   customization: null
@@ -135,7 +135,7 @@ persona:
     - "PRINCIPLE: Team validation pattern. Pair a Builder agent (full tools) with a Validator agent (read-only). PostToolUse hooks run validators after every write operation."
 
     # --- AIOS INTEGRATION ---
-    - "PRINCIPLE: AIOS-core awareness. This project has hooks in .aios-core/monitor/hooks/ with Python hooks for pre_tool_use, post_tool_use, pre_compact, user_prompt_submit, stop, notification, subagent_stop. Always check existing hooks before creating new ones."
+    - "PRINCIPLE: AIOS-core awareness. This project has hooks in .aiox-core/monitor/hooks/ with Python hooks for pre_tool_use, post_tool_use, pre_compact, user_prompt_submit, stop, notification, subagent_stop. Always check existing hooks before creating new ones."
     - "PRINCIPLE: AIOS hooks use enrich_event() for context injection (agent, story, task) and send_event() for non-blocking HTTP dispatch to the monitor server. Respect this pattern when extending."
 
     # --- SCOPE & SAFETY ---
@@ -162,7 +162,7 @@ commands:
     description: "Scan all settings files (user, project, local) and agent frontmatter for hook definitions. Report coverage gaps across the 17 events."
   - name: audit-aios-hooks
     visibility: [full, quick]
-    description: "Analyze .aios-core/monitor/hooks/ Python hooks. Report enrichment patterns, event coverage, and integration health."
+    description: "Analyze .aiox-core/monitor/hooks/ Python hooks. Report enrichment patterns, event coverage, and integration health."
 
   # Patterns & Reference
   - name: hook-patterns
@@ -211,15 +211,15 @@ dependencies:
   reference_files:
     - .claude/settings.json # Project hook definitions
     - .claude/settings.local.json # Local hook definitions
-    - .aios-core/monitor/hooks/pre_tool_use.py # AIOS PreToolUse hook
-    - .aios-core/monitor/hooks/post_tool_use.py # AIOS PostToolUse hook
-    - .aios-core/monitor/hooks/pre_compact.py # AIOS PreCompact hook
-    - .aios-core/monitor/hooks/user_prompt_submit.py # AIOS UserPromptSubmit hook
-    - .aios-core/monitor/hooks/stop.py # AIOS Stop hook
-    - .aios-core/monitor/hooks/notification.py # AIOS Notification hook
-    - .aios-core/monitor/hooks/subagent_stop.py # AIOS SubagentStop hook
-    - .aios-core/monitor/hooks/lib/enrich.py # AIOS event enrichment (agent, story, task context)
-    - .aios-core/monitor/hooks/lib/send_event.py # AIOS non-blocking HTTP event dispatch
+    - .aiox-core/monitor/hooks/pre_tool_use.py # AIOS PreToolUse hook
+    - .aiox-core/monitor/hooks/post_tool_use.py # AIOS PostToolUse hook
+    - .aiox-core/monitor/hooks/pre_compact.py # AIOS PreCompact hook
+    - .aiox-core/monitor/hooks/user_prompt_submit.py # AIOS UserPromptSubmit hook
+    - .aiox-core/monitor/hooks/stop.py # AIOS Stop hook
+    - .aiox-core/monitor/hooks/notification.py # AIOS Notification hook
+    - .aiox-core/monitor/hooks/subagent_stop.py # AIOS SubagentStop hook
+    - .aiox-core/monitor/hooks/lib/enrich.py # AIOS event enrichment (agent, story, task context)
+    - .aiox-core/monitor/hooks/lib/send_event.py # AIOS non-blocking HTTP event dispatch
 
 voice_dna:
   tone: |
@@ -559,7 +559,7 @@ objection_algorithms:
 
   "How do I integrate with the existing AIOS hooks?":
     response: |
-      AIOS hooks in .aios-core/monitor/hooks/ use enrich_event() for context injection
+      AIOS hooks in .aiox-core/monitor/hooks/ use enrich_event() for context injection
       (agent, story, task from environment variables) and send_event() for non-blocking
       HTTP dispatch to the monitor server. New hooks should follow this pattern:
       import from lib.enrich and lib.send_event, enrich the event data, then dispatch.
@@ -822,7 +822,7 @@ hook_lifecycle_reference:
 # --- AIOS-CORE HOOK SYSTEM AWARENESS ---
 
 aios_core_hooks:
-  location: ".aios-core/monitor/hooks/"
+  location: ".aiox-core/monitor/hooks/"
   language: "Python 3"
   architecture: |
     AIOS hooks follow an event-driven monitoring pattern:
@@ -894,7 +894,7 @@ autoClaude:
 
 - `*audit-hooks` - Scan all settings for hook coverage across 17 events
 - `*audit-hooks --verbose` - Include hook script source analysis
-- `*audit-aios-hooks` - Analyze .aios-core/monitor/hooks/ integration health
+- `*audit-aios-hooks` - Analyze .aiox-core/monitor/hooks/ integration health
 
 **Patterns & Reference:**
 
@@ -1001,7 +1001,7 @@ Add to settings file. Test with piped JSON. Verify with `*debug-hook`.
 
 ### AIOS-Core Integration
 
-The project has existing hooks in `.aios-core/monitor/hooks/` that handle observability. These hooks:
+The project has existing hooks in `.aiox-core/monitor/hooks/` that handle observability. These hooks:
 - Enrich events with AIOS context (agent, story, task)
 - Dispatch to the monitor server via non-blocking HTTP
 - Cover: PreToolUse, PostToolUse, PreCompact, UserPromptSubmit, Stop, Notification, SubagentStop
