@@ -15,6 +15,14 @@
 > **Como invocar um agent nativo:** `Skill` → `<squad-slug>:agents:<id>`
 > (ex.: `brand-squad:agents:david-aaker`, `copy-master:agents:gary-halbert`).
 > O **chief** roteia internamente; chame o chief quando não souber o especialista exato.
+>
+> **⚠️ Pré-requisito de instalação:** isso só funciona se os agents estiverem registrados em
+> `~/.claude/skills/<squad-slug>/agents/<id>/SKILL.md`. Os squads vivem aqui em formato AIOS
+> (`squad.yaml` + `agents/*.md`), que o Claude Code **não** enxerga sozinho. Rode
+> `scripts/instalar-squads.sh` para gerar/atualizar os SKILL.md (177 agents, os 13 chiefs
+> inclusos) e **reinicie a sessão** — a lista de skills é carregada só no boot.
+> Rode de novo sempre que editar uma persona na biblioteca: a biblioteca é a fonte da verdade,
+> o SKILL.md é a cópia registrada. Sessão sem instalar = carregue a persona por arquivo.
 
 ## Tabela rápida — problema → squad (chief)
 

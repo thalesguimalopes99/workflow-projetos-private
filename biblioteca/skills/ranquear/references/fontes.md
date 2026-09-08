@@ -45,4 +45,4 @@ UM criador ("SEO local com Claude"), tom de venda. Núcleo legítimo = local SEO
 
 ## Como expandir a base
 
-Novos vídeos: baixar transcrição com a skill `yt-dlp` (busca via `py -m yt_dlp "ytsearchN:query" --flat-playlist`), converter, e re-destilar. Instagram foi incluído na v1; social/TikTok mais fundo, e-commerce SEO, e link building avançado são candidatos a v2. Registre novas fontes aqui.
+Novos vídeos: baixar transcrição com a skill `pica` (busca via `py -m yt_dlp "ytsearchN:query" --flat-playlist`), converter, e re-destilar. Instagram foi incluído na v1; social/TikTok mais fundo, e-commerce SEO, e link building avançado são candidatos a v2. Registre novas fontes aqui.

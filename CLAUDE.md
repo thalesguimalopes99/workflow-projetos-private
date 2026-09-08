@@ -193,9 +193,11 @@ function calling)".
   regressão visual via accessibility tree.
 - **sequential-thinking** — raciocínio estruturado multi-passo. Complementa GSD/plans.
 - **firecrawl** (local) — search, scrape, crawl, extract. Research web e mineração de
-  referências de design. ⚠️ Depende de FIRECRAWL_API_KEY válida no ~/.claude.json.
-- **claude.ai connectors** — Context7 (docs de libs/frameworks), Figma, Notion,
-  Supabase, Slack, n8n, Google Drive, Miro, exa, Vercel. Schemas via ToolSearch.
+  referências de design. FIRECRAWL_API_KEY configurada e validada em 08/09/2026.
+- **context7** (remoto HTTP, escopo user) — docs atualizadas de libs/frameworks.
+  `resolve-library-id` → `get-library-docs`. API key opcional (rate limit maior).
+- **claude.ai connectors** — Figma, Notion, Supabase, Slack, n8n, Google Drive,
+  Miro, exa, Vercel. Schemas via ToolSearch.
 
 > "Context7 + GitHub + Playwright cobrem ~80% dos workflows de dev" — agora os 3 estão presentes.
 
