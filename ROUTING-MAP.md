@@ -33,6 +33,7 @@
 | Conselho de mentores (decisão difícil, sparring) | `advisory-board` | board-chair |
 | Pentest, auditoria de segurança, recon, incidente | `cybersecurity` | cyber-chief |
 | Config do Claude Code, hooks, MCP, agents, skills, setup | `claude-code-mastery` | claude-mastery-chief |
+| Software sob demanda: PRD, arquitetura, código, QA, deploy (sem ciclo GSD) | `AIOX` | aiox-master |
 
 ---
 
@@ -315,6 +316,26 @@
   - team-orchestration: swarm-orchestrator→skill-craftsman→project-integrator
   - full-integration: project-integrator→config-engineer→hooks-architect→skill-craftsman
   - adoption-strategy: roadmap-sentinel→skill-craftsman→project-integrator
+
+## AIOX
+- **chief:** aiox-master
+- **use when:** consultar/decidir com uma persona de time de software (PM, arquiteto, dev, QA, DBA...) pontualmente, sob demanda, sem o overhead de um ciclo; **desempate com GSD:** GSD é o ciclo disciplinado multi-fase com artefatos versionados (`.planning/`) pra projeto autônomo — use AIOX quando é consulta/decisão/produção pontual de artefato (um PRD, uma revisão de arquitetura, um gate de QA) sem precisar rodar o ciclo completo
+- **specialists:**
+  - analyst — market research, competitive analysis, user research, brainstorming/ideação estruturada, feasibility study, discovery/documentação brownfield
+  - pm — PRD (greenfield e brownfield), criação e gestão de epic, estratégia/visão de produto, priorização MoSCoW/RICE, roadmap, business case, go/no-go
+  - architect — arquitetura de sistema fullstack/backend/frontend/infra, seleção de stack, design de API (REST/GraphQL/tRPC/WebSocket), arquitetura de segurança, performance, estratégia de deploy
+  - data-engineer — design de schema/modelagem de dado, config Supabase, políticas RLS, migration, otimização de query, operação e monitoramento de banco
+  - ux-design-expert — pesquisa de usuário, wireframe, design system, extração de token, construção de componente via Atomic Design, QA visual
+  - po — backlog management, refinamento de story, acceptance criteria, sprint planning, guardião de integridade e coesão dos artefatos
+  - sm — cria user story a partir do epic/PRD, valida completude e critério de aceite, sprint planning, backlog grooming, retro, branch local (create/switch/list/delete, merge local)
+  - dev — implementação de código a partir da story, debug, refactor; só atualiza a seção Dev Agent Record da story, não carrega PRD/arquitetura salvo indicação explícita
+  - qa — revisão de arquitetura de teste, decisão de quality gate, requirements traceability, risk assessment (probabilidade×impacto), validação de NFR; advisory, não bloqueia
+  - devops — operação de repositório, versionamento, CI/CD, quality gate pré-push, criação de PR, release; único agente autorizado a dar push remoto
+  - squad-creator — criar, validar, publicar e gerenciar squads (meta-agente do framework AIOX, não dev de produto)
+- **sequences:**
+  - feature-from-scratch: analyst→pm→architect→sm→dev→qa→devops
+  - production-bug: dev→qa→devops
+  - risky-refactor: architect→dev→qa→devops
 
 ---
 

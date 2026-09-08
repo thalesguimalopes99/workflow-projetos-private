@@ -1,6 +1,6 @@
 # Workflow Projetos — Biblioteca de Skills, Squads e Agents do Claude Code
 
-Kit pronto pro [Claude Code](https://claude.com/claude-code): **139 skills · 14 squads · 34 agents**.
+Kit pronto pro [Claude Code](https://claude.com/claude-code): **145 skills · 14 squads · 34 agents**.
 Clona, instala os recursos no perfil global, abre o Claude Code na pasta e roda `/workflow`.
 Funciona em **Windows, macOS e Linux** — sem symlink, sem caminho fixo de máquina.
 
@@ -42,7 +42,7 @@ foram removidas de propósito, e o `.gitignore` impede que voltem):
 | Recurso | Origem | Carrega sozinho ao clonar? |
 |---|---|---|
 | **14 squads** | `.claude/commands/` (versionado no repo) | ✅ sim, nível de projeto |
-| **139 skills** | `~/.claude/skills/` (perfil global) | ❌ não — precisa do passo de instalação acima |
+| **145 skills** | `~/.claude/skills/` (perfil global) | ❌ não — precisa do passo de instalação acima |
 | **34 agents** | `~/.claude/agents/` (perfil global) | ❌ não — precisa do passo de instalação acima |
 
 A fonte da verdade versionada de skills e agents é **`biblioteca/`**, não `.claude/`. Editou um
@@ -55,7 +55,7 @@ recurso no global? Sincronize de volta pra `biblioteca/` — é ela que vai pro 
 
 ```
 biblioteca/            FONTE DA VERDADE versionada — é daqui que você instala
-  skills/              139 skills (workflow, briefing, GSD, design/marketing, SEO/GEO, motion, etc.)
+  skills/              145 skills (workflow, briefing, GSD, design/marketing, SEO/GEO, motion, etc.)
   agents/              34 agents (33 GSD + executor)
   squads/              14 squads (backup limpo; cada um com agents/, tasks/, checklists/)
 .claude/

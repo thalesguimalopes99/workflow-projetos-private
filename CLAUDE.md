@@ -4,7 +4,7 @@ Este projeto é a **biblioteca central** de skills, squads e agents do Thales.
 
 - **Skills e agents** carregam do **global** (`~/.claude/`): 165 skills instaladas (67 GSD) · 44 agents.
 - **Squads** carregam do **local** (`.claude/commands/`): 14.
-- **Fonte da verdade versionada** = `biblioteca/`: 139 skills · 34 agents · 14 squads.
+- **Fonte da verdade versionada** = `biblioteca/`: 145 skills · 34 agents · 14 squads.
   A diferença global↔biblioteca é majoritariamente `aios-core` (repo próprio) + wrappers de squad.
 
 Índice exaustivo: INVENTARIO.md (**gerado** por `scripts/gerar-inventario.sh` — não editar à mão).
@@ -47,6 +47,15 @@ Operacionalmente: skill `criar-site-premium` (processo) + `site-teardown` (miner
 Criatividade·Conteúdo) · FWA (tech de ponta/3D/WebGL/imersivo) · Behance (processo UX→UI).**
 Sempre minere os 3 antes de construir e meça o resultado contra eles.
 
+Toda entrega de **marca/identidade** (logo, rebranding, sistema visual, paleta,
+tipografia, identidade verbal, brand book/MIV) segue o
+**[CLAUDE-BRANDING-OS.md](CLAUDE-BRANDING-OS.md)** — mesma régua $1M, lente de agência
+de branding (Brand Strategist + Creative Director + Art Director + Identity Designer +
+Typography Specialist + Verbal Identity Strategist). Traz princípios de logo, identidade
+visual, cor, tipografia e verbal; estrutura de MIV/brand book; territórios criativos;
+e três portões antes de fechar: **SELF-CRITIQUE**, **AI DETECTION CHECK** e
+**PREMIUM BRAND CHECK**. É o par do CREATIVE-OS: web → CREATIVE-OS, marca → BRANDING-OS.
+
 ## Regra de ouro
 
 **SEMPRE traga o recurso certo para a melhor entrega.** Antes de produzir qualquer
@@ -80,8 +89,8 @@ dedicado. Processo primeiro (superpowers/briefing), depois o especialista de dom
 | Se a tarefa é... | Use |
 |---|---|
 | Começar um entregável (pedido raso, não sei o tipo/nível ainda) | skill `workflow` (porta de entrada: pergunta tipo → briefing → nível → roteia) |
-| Marca, identidade, posicionamento, naming, arquétipo, brand book | squad **brand-squad** (`brand-chief`) + skill `brand` |
-| Logo / rebranding (brief) | skill `briefing` (lente brand, trilho logo/rebranding) → `brand-squad` |
+| Marca, identidade, posicionamento, naming, arquétipo, brand book | squad **brand-squad** (`brand-chief`) + skill `brand` — sob a lei do **CLAUDE-BRANDING-OS.md** |
+| Logo / rebranding (brief) | skill `briefing` (lente brand, trilho logo/rebranding) → `brand-squad` — gate final = SELF-CRITIQUE + AI DETECTION + PREMIUM BRAND CHECK do **CLAUDE-BRANDING-OS.md** |
 | Copy: sales letter, VSL, e-mail, headline, bullets, landing | squad **copy-master** (`copy-master-chief`) ou **copy-squad** (`copy-chief`) |
 | Oferta, pricing, leads, geração de demanda, escalar negócio | squad **hormozi-squad** (`hormozi-chief`) |
 | Tráfego pago, ads, campanhas, pixel, criativo de ad | squad **traffic-masters** (`traffic-chief`) |
@@ -136,7 +145,7 @@ estavam órfãos do roteamento. Regra de desempate, do mais barato pro mais caro
 **não pule pro caro sem esgotar o anterior**:
 
 1. **Prompt / contexto** — o comportamento cabe na instrução? Resolve em skill/agent
-   versionado. É o default desta casa (139 skills versionadas). Custo ~zero. Skill `skill-creator`.
+   versionado. É o default desta casa (145 skills versionadas). Custo ~zero. Skill `skill-creator`.
 2. **Tools / function calling / MCP** — o modelo precisa *agir* ou ler dado vivo (API,
    banco, arquivo)? Não é RAG, é ferramenta. Skill `mcp-builder` (servidor próprio,
    Python FastMCP ou TS SDK). Custo baixo.
